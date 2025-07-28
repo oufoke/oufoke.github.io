@@ -44,15 +44,9 @@ skills:
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  summary: "Write most of the programs as dockerized container."
   categories: ["container"]
   url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
@@ -65,7 +59,17 @@ skills:
   categories: ["basic"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "skills in using Python to handle data and use it to answer common analysis questions. Data management, data analysis, and data visualization."
+  categories: ["basic", "language"]
+
+- name: R
+  logo: /images/sections/skills/r.png
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  categories: ["basic", "language"]
+
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "knowledge, skills, and abilities to successfully use SQL for data analysis. The competency domains assessed included, but were not limited to: Data management, Exploratory data analysis and Data modeling."
   categories: ["basic", "language"]

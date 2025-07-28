@@ -11,63 +11,61 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: France Travail 
+    url: "https://dataemploi.francetravail.fr/emploi/accueil"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-dataemploi-ft.svg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: France Travail is the public employment service in France. Its primary mission is to facilitate job seekers' return to work and to support companies with their recruitment efforts.
+  
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Senior Data Manager
+    start: Jun 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+    #end: Jun 2020
+     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Design and implement procedures and techniques to ensure data quality.
+    - Create, validate, monitor, and control predictive models.
+    - Evaluate and improve the performance of machine learning models.
+    - Document functional developments and define indicator production processes.
+    - Design and implement procedures and techniques to ensure data quality.
+    - Prepare and validate acceptance testing phases.
+    - Carry out technical solution developments.
+    - Participate in the management and operational development of the information system in conjunction with the IT department (formalize requirements, define management rules and/or functional specifications, acceptance testing, and support users). 
+    - Create, validate, monitor, and control predictive models to support decision-making (anticipated territorial dynamism).
+    - Evaluate and improve the performance of machine learning models.
+    - Document functional developments and define indicator production processes.
+    - Development of optimized programs for calculating indicators in a production environment.
+    - Preparation and validation of acceptance testing phases.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+  - designation: Junior Data Manager
+    start: Feb 2020
+    end: October 2023
+    #end: Oct 2019
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Production, validation, and provision of statistical indicators for the Job Network.
+    - Development of optimized programs for calculating indicators in a production environment.
+    - Providing an in-depth and up-to-date understanding of the labor market at the territorial level through the dissemination of key indicators (Data Emploi website) and raw data (via API).
+    - Monitoring user change management actions to ensure consistent implementation of developments.
+    - Coordination of service providers/stakeholders throughout all phases to facilitate cooperation between the various stakeholders.
+    - Production, validation, and provision of statistical indicators for the Job Network.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
+    name: BAYARD MEDIA DEVELOPPEMENT
+    url: "https://www.bayardmediadeveloppement.com"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-BMD-web.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    overview: Bayard Media Development is the advertising agency of the Bayard Group. It positions itself as an integrated consulting firm, supporting its clients (advertisers, media and advertising agencies) in their communication strategies.
   positions:
   - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+    start: Jun 2018
+    end: OCT 2018
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - ETL, customer data analysis via SAS/SQL.
+    - Creation of dashboards describing traffic on the group's websites.
+    - Monitoring the performance of Mapp Digital and GA digital marketing campaigns.
