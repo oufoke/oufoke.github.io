@@ -1,0 +1,150 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Université Paris Cité
+  icon: fa-graduation-cap
+  timeframe: 2016-2018
+  institution:
+    name: Ingéniérie Statistique et Informatique de la Finance, de l'Assurance et du Risque (ISIFAR)
+    url: "#"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
+  #grade: #(optional)
+    #scale: CGPA
+    #achieved: 3.6
+    #outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Mathématiques de l'Assurance
+    - name: Programmation en Python
+    - name: Mathématiques financières
+    - name: Apprentissage statistique
+    - name: Produits dérivés 
+    - name: Modélisation et implémentation
+    - name: Programmation C#
+    - name: Gestion d'actifs
+    - name: data mining
+    - name: Projet data science
+
+- name: Université Paris Cité
+  icon: fa-graduation-cap
+  timeframe: 2015-2016
+  institution:
+    name: Master 1 Paris descartes 
+    url: "#"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Définition de l’espérance conditionnelle générale
+    - name: Tribus
+    - name: temps d’arrêt
+    - name: Martingales à temps discret
+    - name: Inégalités (maximale, Doob,…).
+    - name: Convergence presque sûre des martingales
+    - name: Convergence dans L^p
+    - name: Modèle statistique, identifiabilité 
+    - name: Estimation de paramètre et comparaison d’estimateurs 
+    - name: Lois empiriques et quantiles 
+    - name: Construction d’estimateurs par des méthodes de substitution (moments, quantiles) et par maximum de vraisemblance 
+    - name: Modèles réguliers et information de Fisher, efficacité 
+    - name: Intervalles de confiance 
+    - name: Régression linéaire multivariée 
+    - name: Réduction des données, exhaustivité, complétude, familles exponentielles 
+    - name: Tests paramétriques
+    - name: hypothèses simples et complexes
+    - name: Lemme de Neyman- name Pearson
+    - name: tests gaussiens.
+    - name: Chaînes de Markov (MT2BM020)
+    - name: Séries temporelles (MT2BM030)
+    - name: Méthodes variationnelles et EDP (MT2BM040)
+    - name: Distributions et théorie de l’échantillonnage (MT2BM050)
+    - name: Optimisation sous contrainte (MT2BM060)
+    - name: Bases pour le traitement d’image (MT2BM070)
+    - name: UE Projet
+
+
+- name: Sup Galilée
+  icon: fa-university
+  timeframe: 2012-2015
+  institution:
+    name: MATHÉMATIQUES APPLIQUÉES ET CALCUL SCIENTIFIQUE
+    url: "#"
+    logo: /images/sections/education/LOGO1.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/science_college.png
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Compétences théoriques
+    - name: Maîtriser les mathématiques de base nécessaires en modélisation (analyse, analyse numérique, probabilités et statistiques)
+    - name: onnaître et utiliser les outils informatiques de base (Informatique)
+    - name: Maîtriser les principales méthodes numériques (Numérique)
+    - name: Compétences en modélisation et écriture de codes
+    - name: Savoir modéliser le problème, savoir identifier les problèmes théoriques liés à un code ou à une méthode numérique, identifier les problèmes numériques liés à un code et savoir concevoir un code industriel
+    - name: Maîtriser les applications du domaine déterministe (mécanique, physique, modèles industriels)
+    - name: Maîtriser les applications du domaine probabiliste (finance, incertitudes, banque et assurances)
+    - name: Compétences en culture d'ingénieur
+    - name: Compétences non scientifiques (finance de marché, art de l'ingénieur, littérature et pratique de l'anglais, présentation et projets)
+
+- name: Classes préparatoires Lycée Général et Technologique Pierre d'Ailly
+  icon: fa-school
+  timeframe: 2010-2012
+  institution:
+    name: JK School of Science
+    logo: /images/sections/education/logoLPASciences.png
+
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Mathématiques
+      achieved: 3.75
+      outOf: 4
+    - name: Physique 
+      achieved: 3.80
+      outOf: 4
+    - name: Chimie 
+      achieved: 3.5
+      outOf: 4
+- name: Classes préparatoires Lycée Jacques Decour
+  icon: fa-school
+  timeframe: 2009-2010
+  institution:
+    name: JK School of Science
+    logo: /images/sections/education/logo-JDecour.jpg
+
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Mathématiques
+      achieved: 3.75
+      outOf: 4
+    - name: Physique 
+      achieved: 3.80
+      outOf: 4
+    - name: Chimie 
+      achieved: 3.5
+      outOf: 4

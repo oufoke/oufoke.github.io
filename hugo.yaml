@@ -1,7 +1,7 @@
 baseURL: https://oufoke.github.io
 
-languageCode: en-us
-title: "Oumar's Blog"
+languageCode: en-fr
+title: "Oumar's Portofolio"
 
 # Use Hugo modules to add theme
 
@@ -26,7 +26,7 @@ languages:
     weight: 1
   fr:
     languageName: Français
-    weight: 2
+    weight: 2 # You can set the language order with this value
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -55,7 +55,7 @@ enableEmoji: true
 # Site parameters
 params:
   # GitHub repo URL of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://oufoke.github.io
 
   features:
     # Enable portfolio section
@@ -64,7 +64,7 @@ params:
 
     # Enable blog posts
     blog:
-      enable: true
+      enable: false
 
     # Enable Table of contents in reading page
     toc:

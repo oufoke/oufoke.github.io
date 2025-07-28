@@ -1,0 +1,71 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: France Travail 
+    url: "https://dataemploi.francetravail.fr/emploi/accueil"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-dataemploi-ft.svg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: France Travail is the public employment service in France. Its primary mission is to facilitate job seekers' return to work and to support companies with their recruitment efforts.
+  
+  positions:
+  - designation: Senior Data Manager
+    start: Jun 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    #end: Jun 2020
+     # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design and implement procedures and techniques to ensure data quality.
+    - Create, validate, monitor, and control predictive models.
+    - Evaluate and improve the performance of machine learning models.
+    - Document functional developments and define indicator production processes.
+    - Design and implement procedures and techniques to ensure data quality.
+    - Prepare and validate acceptance testing phases.
+    - Carry out technical solution developments.
+    - Participate in the management and operational development of the information system in conjunction with the IT department (formalize requirements, define management rules and/or functional specifications, acceptance testing, and support users). 
+    - Create, validate, monitor, and control predictive models to support decision-making (anticipated territorial dynamism).
+    - Evaluate and improve the performance of machine learning models.
+    - Document functional developments and define indicator production processes.
+    - Development of optimized programs for calculating indicators in a production environment.
+    - Preparation and validation of acceptance testing phases.
+
+  - designation: Junior Data Manager
+    start: Feb 2020
+    end: October 2023
+    #end: Oct 2019
+    responsibilities:
+    - Production, validation, and provision of statistical indicators for the Job Network.
+    - Development of optimized programs for calculating indicators in a production environment.
+    - Providing an in-depth and up-to-date understanding of the labor market at the territorial level through the dissemination of key indicators (Data Emploi website) and raw data (via API).
+    - Monitoring user change management actions to ensure consistent implementation of developments.
+    - Coordination of service providers/stakeholders throughout all phases to facilitate cooperation between the various stakeholders.
+    - Production, validation, and provision of statistical indicators for the Job Network.
+
+- company:
+    name: BAYARD MEDIA DEVELOPPEMENT
+    url: "https://www.bayardmediadeveloppement.com"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-BMD-web.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: Bayard Media Development is the advertising agency of the Bayard Group. It positions itself as an integrated consulting firm, supporting its clients (advertisers, media and advertising agencies) in their communication strategies.
+  positions:
+  - designation: Intern
+    start: Jun 2018
+    end: OCT 2018
+    responsibilities:
+    - ETL, customer data analysis via SAS/SQL.
+    - Creation of dashboards describing traffic on the group's websites.
+    - Monitoring the performance of Mapp Digital and GA digital marketing campaigns.

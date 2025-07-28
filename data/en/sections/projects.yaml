@@ -14,52 +14,98 @@ buttons:
   filter: "all"
 - name: Artificial Intelligence
   filter: "Artificial Intelligence"
-- name: Data visualization
-  filter: "Data visualization"
-- name: Data Ingineering
-  filter: "Data Ingineering"
+- name: Machine Learning
+  filter: "Machine Learning"
+- name: Data Product Management
+  filter: "Data Product Management"
 
 # your projects
 projects:
-- name: Kubernetes
+- name: Analyzing Car Reviews with LLMs
   logo: /images/sections/projects/kubernetes.png
   role: Contributor
   timeline: "March 2018 - Present"
   repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Production-Grade Container Scheduling and Management.
-  tags: ["Data Ingineering", "Data Ingineering", "cloud"]
+  tags: ["Artificial Intelligence"]
 
-- name: Tensorflow
+- name: Detect Traffic Signs with Deep Learning
   logo: /images/sections/projects/tensorflow.png
   role: Developer
   timeline: "Jun 2018 - Present"
   repo: https://github.com/tensorflow/tensorflow
   #url: ""
   summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["Artificial Intelligence", "Artificial Intelligence"]
+  tags: ["Artificial Intelligence"]
 
-- name: A sample academic paper
+- name: Stock Trading Simulation with Gymnasium
   role: Team Lead
   timeline: "Jan 2017 - Nov 2017"
   url: "https://www.example.com"
   summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["Artificial Intelligence","iot"]
+  tags: ["Artificial Intelligence"]
 
-- name: Nocode
+- name: Classifying X-Ray Images using PyTorch
   logo: /images/sections/projects/no-code.png
   role: Nothing
   timeline: "Oct 2019 - Dec 2019"
   repo: https://github.com/kelseyhightower/nocode
   #url: ""
   summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["Personal", "fun"]
+  tags: ["Artificial Intelligence"]
 
-- name: Toha
+- name: Monitoring A Financial Fraud Detection Model
   logo: /images/sections/projects/toha.png
   image: /images/sections/projects/toha_website.png
   role: Owner
   timeline: "Jun 2019 - Present"
   repo: https://github.com/hossainemruz/toha
   summary: A Hugo theme for personal portfolio.
-  tags: ["Data visualization","hugo","theme","professional"] 
+  tags: ["Machine Learning"] 
+
+- name: Assessing the Effectiveness of Medical Treatments
+  logo: /images/sections/projects/toha.png
+  image: /images/sections/projects/toha_website.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["Machine Learning"] 
+
+
+- name: Building a Demand Forecasting Model
+  logo: /images/sections/projects/toha.png
+  image: /images/sections/projects/toha_website.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["Machine Learning"] 
+
+- name: Analyzing Customer Support Calls
+  logo: /images/sections/projects/toha.png
+  image: /images/sections/projects/toha_website.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["Machine Learning"] 
+
+- name: Basketball Analytics -Clustering Players by Performance Metrics
+  logo: /images/sections/projects/toha.png
+  image: /images/sections/projects/toha_website.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["Machine Learning"] 
+
+- name: Better public bike services 
+  logo: /images/sections/projects/toha.png
+  image: /images/sections/projects/toha_website.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["Data Product Management"] 

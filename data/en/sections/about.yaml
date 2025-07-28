@@ -58,6 +58,11 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
+  name: AI Engineer for Data Scientists Associate
+  url: "https://www.datacamp.com/certificate/AEDS0013592331030"
+  badge: "files/certification-ai-engineer-for-data-scientist-associate-badge.png"
+
+- type: certification
   name: Data Product Manager
   url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
   badge: "files/datascientestLogo.png"
@@ -81,11 +86,6 @@ badges:
   name: SQL Associate certificate
   url: "https://www.datacamp.com/certificate/SQA0014457748707"
   badge: "files/SQL Associate - badge.png"
-
-- type: certification
-  name: Data Engineer
-  url: "https://www.datacamp.com/certificate/DE0019334068921"
-  badge: "files/DE - badge.png"
 
 - type: soft-skill-indicator
   name: Leadership
