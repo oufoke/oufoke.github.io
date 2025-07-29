@@ -22,90 +22,48 @@ buttons:
 # your projects
 projects:
 - name: Analyzing Car Reviews with LLMs
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  logo: /images/sections/projects/hf-logo.svg
+  image: /images/sections/projects/cars.png
+  role: Developer
+  timeline: "May 2025 - Present"
+  repo: https://github.com/oufoke/Analyzing_Car_reviews # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
+  summary: Développement d'un Chatbot pour le service client.
   tags: ["Artificial Intelligence"]
 
 - name: Detect Traffic Signs with Deep Learning
-  logo: /images/sections/projects/tensorflow.png
+  logo: /images/sections/projects/TensKeras.png
+  image: /images/sections/projects/feux.png
   role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
+  timeline: "June 2025 - Present"
+  repo: https://github.com/oufoke/Detect-Traffic-Signs
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
+  summary: Entrainement de modèles de détection de panneaux de signalisation.
   tags: ["Artificial Intelligence"]
-
-- name: Stock Trading Simulation with Gymnasium
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["Artificial Intelligence"]
-
-- name: Classifying X-Ray Images using PyTorch
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["Artificial Intelligence"]
-
-- name: Monitoring A Financial Fraud Detection Model
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["Machine Learning"] 
 
 - name: Assessing the Effectiveness of Medical Treatments
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
+  logo: /images/sections/projects/r.png
+  image: /images/sections/projects/lab_86.png
   role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["Machine Learning"] 
-
-
-- name: Building a Demand Forecasting Model
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["Machine Learning"] 
-
-- name: Analyzing Customer Support Calls
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
+  timeline: "Jun 2025- Present"
+  repo: https://github.com/oufoke/Assessing-the-Effectiveness-of-Medical-Treatments
+  summary: Évaluation de l'efficacité des traitements médicaux.
   tags: ["Machine Learning"] 
 
 - name: Basketball Analytics -Clustering Players by Performance Metrics
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
+  logo: /images/sections/projects/basket.png
+  image: /images/sections/projects/basket.png
   role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
+  timeline: "Jun 2025 - Present"
+  repo: https://github.com/oufoke/Clustering-Players-by-Performance-Metrics
+  summary: Classer les basketteurs par leurs performances.
   tags: ["Machine Learning"] 
 
 - name: Better public bike services 
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
+  logo: /images/sections/projects/no-code.png
+  image: /images/sections/projects/smovengo.png
   role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
+  timeline: "Feb 2025- Present"
+  repo: https://www.canva.com/design/DAGePV2S-8o/FiEUDKz9B8faclyFI25xDg/view?utm_content=DAGePV2S-8o&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1f8a72b6ec
+  summary: Améliorer la qualité du service velib grâce à la Data chez Smovengo, le gestionnaire du service velib à paris.
   tags: ["Data Product Management"] 
