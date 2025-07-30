@@ -23,10 +23,10 @@ module:
 languages:
   en:
     languageName: English
-    weight: 1
+    weight: 2
   fr:
     languageName: Français
-    weight: 2 # You can set the language order with this value
+    weight: 1 # You can set the language order with this value
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn

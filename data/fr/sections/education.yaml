@@ -97,7 +97,7 @@ degrees:
     courses:
     - name: Compétences théoriques
     - name: Maîtriser les mathématiques de base nécessaires en modélisation (analyse, analyse numérique, probabilités et statistiques)
-    - name: onnaître et utiliser les outils informatiques de base (Informatique)
+    - name: Connaître et utiliser les outils informatiques de base (Informatique)
     - name: Maîtriser les principales méthodes numériques (Numérique)
     - name: Compétences en modélisation et écriture de codes
     - name: Savoir modéliser le problème, savoir identifier les problèmes théoriques liés à un code ou à une méthode numérique, identifier les problèmes numériques liés à un code et savoir concevoir un code industriel

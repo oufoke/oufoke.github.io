@@ -20,18 +20,10 @@ company:
 
 # a summary about you
 summary: |
-  'I am passionate about data and AI, with 6 years of professional experience.
-  I have worked as a data manager and developer on a large-scale project at France Travail (Data Emploi), a data platform aiming to be the reference in the job market.
-  My certifications in data science, data engineering, and data product management have equipped me to contribute across the entire data value chain.
-  Projects I have worked on include:
-    - Analyzing Car Reviews with LLMs
-    - Service Desk Ticket Classification with Deep Learning
-    - Detecting Traffic Signs with Deep Learning
-    - Stock Trading Simulation with Gymnasium
-    - Classifying X-Ray Images using PyTorch
-    - Reward Modeling for RLHF
-    - Cleaning Data with Generative AI
-    - Building RAG Chatbots for Technical Documentation'
+  'Passionné par les données et l'IA, je possède 6 ans d'expérience professionnelle.
+  J'ai eu le privilège de travailler comme data manager et développeur, dans une position à l'intersection de la DSI et du métier sur un projet d'envergure chez France Travail (Data Emploi),
+  une plateforme data qui va devenir la référence sur le marché du travail.
+  Mes certifications en science des données, en ingénierie des données et en gestion de produits de données me permettent d'intervenir sur l'ensemble de la chaîne de valeur des données.'
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:

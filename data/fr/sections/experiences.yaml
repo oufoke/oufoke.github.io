@@ -18,8 +18,7 @@ experiences:
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: France Travail is the public employment service in France. Its primary mission is to facilitate job seekers' return to work and to support companies with their recruitment efforts.
-  
+    overview: France Travail est le service public de l'emploi en France. Sa mission principale est de faciliter le retour à l'emploi des demandeurs d'emploi et d'accompagner les entreprises dans leurs démarches de recrutement.
   positions:
   - designation: Senior Data Manager
     start: Jun 2023
@@ -27,31 +26,31 @@ experiences:
     #end: Jun 2020
      # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and implement procedures and techniques to ensure data quality.
-    - Create, validate, monitor, and control predictive models.
-    - Evaluate and improve the performance of machine learning models.
-    - Document functional developments and define indicator production processes.
-    - Design and implement procedures and techniques to ensure data quality.
-    - Prepare and validate acceptance testing phases.
-    - Carry out technical solution developments.
-    - Participate in the management and operational development of the information system in conjunction with the IT department (formalize requirements, define management rules and/or functional specifications, acceptance testing, and support users). 
-    - Create, validate, monitor, and control predictive models to support decision-making (anticipated territorial dynamism).
-    - Evaluate and improve the performance of machine learning models.
-    - Document functional developments and define indicator production processes.
-    - Development of optimized programs for calculating indicators in a production environment.
-    - Preparation and validation of acceptance testing phases.
+    - Concevoir et mettre en œuvre des procédures et des techniques pour garantir la qualité des données.
+    - Créer, valider, suivre et contrôler des modèles prédictifs.
+    - Évaluer et améliorer les performances des modèles de machine learning.
+    - Documenter les développements fonctionnels et définir les processus de production d'indicateurs.
+    - Concevoir et mettre en œuvre des procédures et des techniques pour garantir la qualité des données.
+    - Préparer et valider les phases de recette.
+    - Réaliser les développements de solutions techniques.
+    - Participer au pilotage et au développement opérationnel du système d'information en collaboration avec la DSI (formalisation des exigences, définition des règles de gestion et/ou des spécifications fonctionnelles, recette et accompagnement des utilisateurs).
+    - Créer, valider, suivre et contrôler des modèles prédictifs pour l'aide à la décision (dynamisation territoriale anticipée).
+    - Évaluer et améliorer les performances des modèles de machine learning.
+    - Documenter les développements fonctionnels et définir les processus de production d'indicateurs.
+    - Développement de programmes optimisés pour le calcul d'indicateurs en environnement de production.
+    - Préparation et validation des phases de recette.
 
   - designation: Junior Data Manager
     start: Feb 2020
     end: October 2023
     #end: Oct 2019
     responsibilities:
-    - Production, validation, and provision of statistical indicators for the Job Network.
-    - Development of optimized programs for calculating indicators in a production environment.
-    - Providing an in-depth and up-to-date understanding of the labor market at the territorial level through the dissemination of key indicators (Data Emploi website) and raw data (via API).
-    - Monitoring user change management actions to ensure consistent implementation of developments.
-    - Coordination of service providers/stakeholders throughout all phases to facilitate cooperation between the various stakeholders.
-    - Production, validation, and provision of statistical indicators for the Job Network.
+    - Production, validation et mise à disposition d'indicateurs statistiques pour le Réseau Emploi.
+    - Développement de programmes optimisés pour le calcul d'indicateurs en environnement de production.
+    - Fourniture d'une compréhension approfondie et actualisée du marché du travail à l'échelle territoriale grâce à la diffusion d'indicateurs clés (site web Data Emploi) et de données brutes (via API).
+    - Suivi des actions de gestion du changement des utilisateurs pour garantir la cohérence des évolutions.
+    - Coordination des prestataires/intervenants tout au long des phases afin de faciliter la coopération entre les différents acteurs.
+    - Production, validation et mise à disposition d'indicateurs statistiques pour le Réseau Emploi.
 
 - company:
     name: BAYARD MEDIA DEVELOPPEMENT
@@ -60,12 +59,12 @@ experiences:
     logo: /images/sections/experiences/logo-BMD-web.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Bayard Media Development is the advertising agency of the Bayard Group. It positions itself as an integrated consulting firm, supporting its clients (advertisers, media and advertising agencies) in their communication strategies.
+    overview: Bayard Media Development est l'agence de publicité du Groupe Bayard. Elle se positionne comme un cabinet de conseil intégré, accompagnant ses clients (annonceurs, médias et agences de publicité) dans leurs stratégies de communication.
   positions:
   - designation: Intern
     start: Jun 2018
     end: OCT 2018
     responsibilities:
-    - ETL, customer data analysis via SAS/SQL.
-    - Creation of dashboards describing traffic on the group's websites.
-    - Monitoring the performance of Mapp Digital and GA digital marketing campaigns.
+    - ETL, analyse des données clients via SAS/SQL.
+    - Création de tableaux de bord décrivant le trafic sur les sites web du groupe.
+    - Suivi des performances des campagnes de marketing digital de Mapp Digital et GA.
