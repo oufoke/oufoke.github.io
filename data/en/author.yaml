@@ -2,7 +2,7 @@
 name: "Oumar KEBE"
 nickname: "Oumar"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hello! Je suis"
+greeting: "Hello! I am"
 image: "images/author/oumar_pro.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -13,8 +13,7 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - Je suis Data manager.
-  - Je suis Data/I.A. Product Manager.
-  - Je suis pour une I.A. éthique et responsable.
-  - Je travaille sur des projets open-source.
-  - J'aide à mettre en place des solutions Data/I.A. pour les entreprises.
+  - I'm a Data Manager.
+  - I'm a Data/AI Product Manager.
+  - I'm in favor of ethical and responsible AI.
+  - I work on open-source projects.
