@@ -1,14 +1,14 @@
 ---
-title: "Markdown Samples"
-date: 2020-06-08T08:06:25+06:00
+title: "Markdown Oumar"
+date: 2025-08-08T08:06:25+06:00
 description: Markdown rendering samples
 menu:
   sidebar:
-    name: Markdown Sample
+    name: Markdown Oumar
     identifier: markdown
     weight: 30
 author:
-  name: Jessica Jonas
+  name: Oumar
   image: /images/author/oumar_pro.png
 math: true
 ---

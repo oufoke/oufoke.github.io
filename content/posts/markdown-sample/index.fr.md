@@ -1,15 +1,15 @@
 ---
-title: "Markdown এর নমুনা"
-date: 2020-06-08T08:06:25+06:00
+title: "Markdown Oumar"
+date: 2025-08-08T08:06:25+06:00
 description: Markdown rendering samples
 menu:
   sidebar:
-    name: Markdown এর নমুনা
-    identifier: markdown
+    name: Markdown Oumar
+    identifier: markdown1
     weight: 30
 author:
-  name: Jessica Jonas
-  image: /images/author/jessica.png
+  name: Oumar
+  image: /images/author/oumar_pro.png
 math: true
 ---
 
