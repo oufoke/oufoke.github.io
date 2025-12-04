@@ -1,0 +1,51 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: France Travail
+    url: "https://dataemploi.francetravail.fr/emploi/accueil"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-dataemploi-ft.svg
+    overview: France Travail is the French national employment service, operating one of the largest labor market data ecosystems in Europe.
+
+  positions:
+  - designation: Senior Data Product Manager
+    start: Jun 2023
+    responsibilities:
+    - Drove the evolution of Data Emploi, a national labor market data platform, ensuring alignment between business needs, data teams, and IT stakeholders.
+    - Defined product requirements, functional specifications, and success criteria for new data products and indicators.
+    - Structured data quality processes and production workflows to guarantee reliability, consistency, and user trust.
+    - Coordinated cross-functional teams to deliver platform improvements and expand data services for institutions, researchers, and enterprises.
+    - Led acceptance testing, documentation, and delivery phases to ensure smooth rollout and adoption of new functionalities.
+
+  - designation: Data Product Manager (Early Career)
+    start: Feb 2020
+    end: Oct 2023
+    responsibilities:
+    - Managed the lifecycle of labor market indicators from conception to industrialization and publication.
+    - Prioritized user needs (internal teams, regional managers, public stakeholders) to design clear and actionable data products.
+    - Contributed to the release of open data and APIs on the Data Emploi platform, improving accessibility and user experience.
+    - Collaborated with IT, analysts, and business experts to ensure timely, accurate, and scalable data delivery.
+    - Supported change management and stakeholder coordination to secure proper adoption of new data products.
+
+- company:
+    name: BAYARD MEDIA DEVELOPPEMENT
+    url: "https://www.bayardmediadeveloppement.com"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-BMD-web.png
+    overview: Bayard Media Development is the advertising agency of the Bayard Group, specializing in digital analytics and data-driven communication strategies.
+
+  positions:
+  - designation: Data Analyst Intern
+    start: Jun 2018
+    end: Oct 2018
+    responsibilities:
+    - Analyzed user and customer data to support product and marketing decisions.
+    - Created dashboards to monitor website audience metrics and engagement patterns.
+    - Evaluated digital campaign performance (Mapp Digital, Google Analytics) to optimize targeting and conversion.

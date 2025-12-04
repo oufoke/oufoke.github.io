@@ -1,0 +1,100 @@
+# section information
+section:
+  name: Projets
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+# filtres
+buttons:
+- name: Tous
+  filter: "all"
+- name: Intelligence Artificielle
+  filter: "Artificial Intelligence"
+- name: Machine Learning
+  filter: "Machine Learning"
+- name: Data Product Management
+  filter: "Data Product Management"
+
+# projets
+projects:
+
+##########################################
+# INTELLIGENCE ARTIFICIELLE
+##########################################
+
+- name: "Analyse Automatisée des Avis Clients avec LLM"
+  difficulty: "★★★★ Avancé"
+  impact: "🚀 Impact Élevé"
+  logo: /images/sections/projects/hf-logo.svg
+  image: /images/sections/projects/cars.png
+  role: Développeur
+  timeline: "Mai 2025 - Présent"
+  repo: https://github.com/oufoke/Analyzing_Car_reviews
+  summary: >
+    Conception d’un système de traitement automatique des avis clients basé sur des LLM.
+    Extraction d’insights structurés, classification automatique des problèmes et analyse de sentiment.
+    Objectif : réduire le temps d’analyse manuelle et améliorer la satisfaction client.
+  tags: ["Intelligence Artificielle"]
+
+- name: "Vision par Ordinateur : Détection de Panneaux de Signalisation"
+  difficulty: "★★★ Difficile"
+  impact: "📈 Impact Modéré"
+  logo: /images/sections/projects/TensKeras.png
+  image: /images/sections/projects/feux.png
+  role: Développeur
+  timeline: "Juin 2025 - Présent"
+  repo: https://github.com/oufoke/Detect-Traffic-Signs
+  summary: >
+    Développement et entraînement de modèles de deep learning pour la détection automatique
+    de panneaux routiers, afin d’améliorer la sécurité et la performance des systèmes d’aide à la conduite.
+  tags: ["Intelligence Artificielle"]
+
+##########################################
+# MACHINE LEARNING
+##########################################
+
+- name: "Évaluation de l’Efficacité des Traitements Médicaux (Causal ML)"
+  difficulty: "★★★ Difficile"
+  impact: "📈 Impact Modéré"
+  logo: /images/sections/projects/r.png
+  image: /images/sections/projects/lab_86.png
+  role: Propriétaire
+  timeline: "Juin 2025 - Présent"
+  repo: https://github.com/oufoke/Assessing-the-Effectiveness-of-Medical-Treatments
+  summary: >
+    Mise en place d’une approche de causal inference pour mesurer l’efficacité réelle de traitements médicaux.
+    Identification des facteurs influençant les résultats et estimation de l’effet causal sur les patients.
+  tags: ["Machine Learning"]
+
+- name: "Segmentation des Joueurs de Basket par Performance (Clustering)"
+  difficulty: "★★ Intermédiaire"
+  impact: "📊 Impact Faible"
+  logo: /images/sections/projects/r.png
+  image: /images/sections/projects/basket.png
+  role: Propriétaire
+  timeline: "Juin 2025 - Présent"
+  repo: https://github.com/oufoke/Clustering-Players-by-Performance-Metrics
+  summary: >
+    Utilisation de méthodes de clustering pour regrouper les joueurs selon leurs statistiques.
+    Outil d’aide à la décision pour le scouting, le recrutement ou les stratégies d’équipe.
+  tags: ["Machine Learning"]
+
+##########################################
+# DATA PRODUCT MANAGEMENT
+##########################################
+
+- name: "Optimisation du Service Vélib grâce à la Donnée"
+  difficulty: "★★ Intermédiaire"
+  impact: "🏆 Impact Stratégique"
+  logo: /images/sections/projects/no-code.png
+  image: /images/sections/projects/smovengo.png
+  role: Product Owner
+  timeline: "Fév. 2025 - Présent"
+  repo: https://www.canva.com/design/DAGePV2S-8o/FiEUDKz9B8faclyFI25xDg/view
+  summary: >
+    Analyse des données opérationnelles pour améliorer la qualité du service Vélib.
+    Identification des zones sous-desservies, proposition d’optimisations logistiques
+    et recommandations produits pour augmenter la disponibilité des vélos.
+  tags: ["Data Product Management"]

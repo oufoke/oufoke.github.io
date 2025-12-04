@@ -1,0 +1,101 @@
+# section information
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: France Travail
+    url: "https://dataemploi.francetravail.fr/emploi/accueil"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-dataemploi-ft.svg
+    overview: |
+      France Travail est le service public de l’emploi en France et opère l’un des plus importants écosystèmes de données sur le marché du travail.
+
+  positions:
+  - designation: Senior Data Product Manager
+    start: Jun 2023
+    responsibilities:
+    # section information
+    section:
+      name: Expériences
+      id: experiences
+      enable: true
+      weight: 3
+      showOnNavbar: true
+
+    experiences:
+      - company:
+          name: France Travail
+          url: "https://dataemploi.francetravail.fr/emploi/accueil"
+          location: "Paris, France"
+          logo: /images/sections/experiences/logo-dataemploi-ft.svg
+          overview: |
+            France Travail est le service public de l’emploi en France et opère l’un des plus importants écosystèmes de données sur le marché du travail.
+        positions:
+          - designation: Senior Data Product Manager
+            start: Jun 2023
+            responsibilities:
+              - Pilotage de l’évolution de Data Emploi, plateforme nationale de données sur le marché du travail, en assurant l’alignement entre besoins métiers, équipes data et DSI.
+              - Définition des besoins, spécifications fonctionnelles et critères de succès pour de nouveaux produits data et indicateurs.
+              - Structuration et supervision des processus de qualité et de production de données afin de garantir fiabilité, cohérence et confiance utilisateur.
+              - Coordination des équipes pluridisciplinaires pour livrer des améliorations de la plateforme et enrichir les services data destinés aux institutions, chercheurs et entreprises.
+              - Conduite des phases de recette, documentation et déploiement pour assurer l’adoption fluide des nouvelles fonctionnalités.
+
+          - designation: Data Product Manager (Début de carrière)
+            start: Feb 2020
+            end: Oct 2023
+            responsibilities:
+              - Gestion du cycle de vie des indicateurs du marché du travail : conception, industrialisation, publication et maintenance.
+              - Priorisation des besoins utilisateurs (équipes internes, directions territoriales, acteurs publics) pour concevoir des produits data clairs, actionnables et utiles.
+              - Contribution au développement et à la mise à disposition des données ouvertes et API sur la plateforme Data Emploi, en améliorant l’accessibilité et l’expérience utilisateur.
+              - Collaboration étroite avec la DSI, les analystes et experts métier afin d’assurer la disponibilité, l’exactitude et la robustesse des données.
+              - Appui à la conduite du changement et coordination des parties prenantes pour garantir l’adoption des nouveaux produits data.
+
+      - company:
+          name: BAYARD MEDIA DEVELOPPEMENT
+          url: "https://www.bayardmediadeveloppement.com"
+          location: "Paris, France"
+          logo: /images/sections/experiences/logo-BMD-web.png
+          overview: Bayard Media Développement est la régie publicitaire du groupe Bayard, spécialisée dans l’analyse digitale et les stratégies de communication data-driven.
+        positions:
+          - designation: Stagiaire Data Analyst
+            start: Jun 2018
+            end: Oct 2018
+            responsibilities:
+              - Analyse des données clients et audiences pour éclairer les décisions produit et marketing.
+              - Création de tableaux de bord pour suivre le trafic et les usages des sites du groupe.
+              - Suivi et analyse des performances des campagnes digitales (Mapp Digital, Google Analytics) afin d’optimiser ciblage et conversion.
+              - Définition des besoins, spécifications fonctionnelles et critères de succès pour de nouveaux produits data et indicateurs.
+              - Structuration et supervision des processus de qualité et de production de données afin de garantir fiabilité, cohérence et confiance utilisateur.
+              - Coordination des équipes pluridisciplinaires pour livrer des améliorations de la plateforme et enrichir les services data destinés aux institutions, chercheurs et entreprises.
+              - Conduite des phases de recette, documentation et déploiement pour assurer l’adoption fluide des nouvelles fonctionnalités.
+
+  - designation: Data Product Manager (Début de carrière)
+    start: Feb 2020
+    end: Oct 2023
+    responsibilities:
+    - Gestion du cycle de vie des indicateurs du marché du travail ( conception, industrialisation, publication et maintenance).
+    - Priorisation des besoins utilisateurs (équipes internes, directions territoriales, acteurs publics) pour concevoir des produits data clairs, actionnables et utiles.
+    - Contribution au développement et à la mise à disposition des données ouvertes et API sur la plateforme Data Emploi, en améliorant l’accessibilité et l’expérience utilisateur.
+    - Collaboration étroite avec la DSI, les analystes et experts métier afin d’assurer la disponibilité, l’exactitude et la robustesse des données.
+    - Appui à la conduite du changement et coordination des parties prenantes pour garantir l’adoption des nouveaux produits data.
+
+- company:
+    name: BAYARD MEDIA DEVELOPPEMENT
+    url: "https://www.bayardmediadeveloppement.com"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-BMD-web.png
+    overview: Bayard Media Développement est la régie publicitaire du groupe Bayard, spécialisée dans l’analyse digitale et les stratégies de communication data-driven.
+
+  positions:
+  - designation: Stagiaire Data Analyst
+    start: Jun 2018
+    end: Oct 2018
+    responsibilities:
+    - Analyse des données clients et audiences pour éclairer les décisions produit et marketing.
+    - Création de tableaux de bord pour suivre le trafic et les usages des sites du groupe.
+    - Suivi et analyse des performances des campagnes digitales (Mapp Digital, Google Analytics) afin d’optimiser ciblage et conversion.
