@@ -1,8 +1,8 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
-baseURL: https://hugo-themes.github.io/toha-example-site/
+baseURL: https://oufoke.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en-fr
+title: "Oumar's Portofolio"
 
 # Use Hugo modules to add theme
 module:
@@ -22,17 +22,15 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageCode: en
+    contentDir: content/en
     languageName: English
-    title: "John's Blog"
-    weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
     weight: 2
+  fr:
+    contentDir: content/fr
+    languageName: Français
+    weight: 1
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: fr
 
 
 # Allow raw html in markdown file
@@ -59,20 +57,20 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/background_ok.png
   # Background image of the landing page for dark theme
-  #darkBackground: /images/site/background.jpg
+  darkBackground: /images/site/backgroung_dark_ofk.png
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/Logo_oumar.png
+    inverted: /images/site/inverted_logo_oumar.png
+    favicon: /images/site/favicon_o.png
 
-  # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
-  # Default branch of your Git repo
+# GitHub repo of your site
+  gitRepo: https://github.com/oufoke/oufoke.github.io
+  # Default branch of your Git repo (Gardez "main" car c'est votre branche de production)
   gitBranch: main
 
   # Configure the number of section title visible in the top navbar
@@ -105,11 +103,7 @@ params:
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
-        facebook: true
-        twitter: true
         linkedin: true
-        reddit: true
-        whatsapp: true
         email: true
         # tumblr: true
         # pocket: true
@@ -158,19 +152,11 @@ params:
     analytics:
       enable: true
       services:
-        # Google Analytics
-        google:
-          id: G-H4LBG7NDFZ
-        # # CounterDev
-        # counterDev:
-        #   id: <your counterdev id>
-        # # GoatCounter
-        # goatCounter:
-        #   code: <your goat counter code>
-        # # Matomo / Piwik
-        # matomo:
-        #   instance: matomo.example.com
-        #   siteId: 1 # Or any other number
+        # GoatCounter
+        goatCounter:
+          code: <your GoatCounter code>  # Not self-hosted
+          instance: https://oumarfodekebe.goatcounter.com/  # For self-hosted you should use only one of the two methods
+
 
     # Enable Support
     support:
