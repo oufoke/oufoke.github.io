@@ -1,48 +1,74 @@
 # section information
 section:
-  name: Éducation
+  name: Formation
   id: education
   template: sections/education.html
   enable: true
   weight: 4
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
 degrees:
-- name: Doctorat (Ph.D.) en Cryptographie Quantique
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: Université Technologique ABC
-    url: "#"
-    logo: /images/sections/education/tech_college.png
-  grade:
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4.0
-  publications:
-  - title: "Analyse des systèmes de distribution de clés quantiques."
-    url: "#"
-  - title: "Impact de la décohérence sur les protocoles de sécurité."
-    url: "#"
-  - title: "Vers une infrastructure réseau résistante au post-quantique."
-    url: "#"
-- name: Licence (B.Sc.) en Informatique et Ingénierie
+- name: Master 2 - Ingénierie Statistique et Data Science (ISIFAR)
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2016-2018
   institution:
-    name: Université XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
-  grade:
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4.0
+    name: Université Paris Cité
+    url: "https://u-paris.fr/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
   takenCourses:
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
+    showGrades: False
+    collapseAfter: 4
+    courses:
+    - name: Machine Learning & Data Mining
+    - name: Programmation Python & C#
+    - name: Projet Data Science
+    - name: Modélisation Statistique
+    - name: Mathématiques Financières
+    - name: Gestion des Risques
+
+- name: Master 1 - Mathématiques Appliquées
+  icon: fa-graduation-cap
+  timeframe: 2015-2016
+  institution:
+    name: Université Paris Descartes
+    url: "https://u-paris.fr/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+  takenCourses:
+    showGrades: False
     collapseAfter: 3
     courses:
-    - name: Structures de données et algorithmes
-      achieved: 3.75
+    - name: Séries Temporelles (Time Series)
+    - name: Optimisation sous contrainte
+    - name: Modélisation statistique & Estimation
+    - name: Chaînes de Markov
+    - name: Bases de données
+
+- name: Cycle Ingénieur - Mathématiques Appliquées
+  icon: fa-university
+  timeframe: 2012-2015
+  institution:
+    name: Sup Galilée
+    url: "https://sup-galilee.univ-paris13.fr/"
+    logo: /images/sections/education/LOGO1.png
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Algorithmique & Programmation
+    - name: Probabilités & Statistiques
+    - name: Analyse Numérique
+    - name: Modélisation de problèmes industriels
+
+# Pour un profil senior, les prépas peuvent être regroupées ou simplifiées sans lister les cours.
+# Cela montre la sélection/rigueur sans encombrer le CV.
+- name: Classes Préparatoires aux Grandes Écoles (CPGE)
+  icon: fa-school
+  timeframe: 2009-2012
+  institution:
+    name: Lycées Pierre d'Ailly & Jacques Decour
+    # Tu peux garder un logo générique ou celui d'un des lycées
+    logo: /images/sections/education/logoLPASciences.png
+  takenCourses:
+    showGrades: False
+    collapseAfter: 0 # On cache les détails, le titre "CPGE" se suffit à lui-même
+    courses: []

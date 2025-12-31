@@ -5,41 +5,59 @@ section:
   enable: true
   weight: 2
   showOnNavbar: true
-  template: sections/skills.html
-  # Can optionally hide the title in sections
-  # hideTitle: true
+  filter: true
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
+buttons:
+- name: Tout
+  filter: "all"
+- name: Gestion Produit
+  filter: "product"
+- name: Data & IA
+  filter: "data"
+- name: Tech Stack
+  filter: "tech"
+
 skills:
-- name: Kubernetes
-  logo: "/images/sections/skills/kubernetes.png"
-  summary: "Je suis capable de gérer des applications sur Kubernetes. J'ai de l'expérience dans l'écriture de contrôleurs pour les CRD Kubernetes."
-  url: "https://kubernetes.io/"
+- name: Product Management
+  # J'utilise git.png car je sais que tu l'as déjà
+  logo: /images/sections/skills/git.png
+  summary: "Définition de la vision produit, roadmap et KPIs. Expertise en méthodes Agiles (Scrum), User Story mapping et alignement business/tech."
+  categories: ["product"]
 
-- name: Développement Go
-  logo: "/images/sections/skills/go.png"
-  summary: "J'utilise Go comme langage principal de développement. Je suis capable d'écrire du code testable et maintenable."
-  url: "https://golang.org/"
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Utilisé pour le prototypage rapide, l'analyse de données (Pandas) et l'audit de code. Langage commun avec les Data Scientists."
+  categories: ["data", "tech"]
 
-- name: Cloud Computing
-  logo: "/images/sections/skills/cloud.png"
-  summary: "J'ai de l'expérience de travail avec la plupart des grands fournisseurs de cloud tels que GCP, AWS et Azure."
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "Maîtrise avancée pour explorer les données en toute autonomie, extraire des KPIs précis et valider la qualité des données."
+  categories: ["data"]
+
+- name: Data Visualization
+  # J'utilise python.png temporairement
+  logo: /images/sections/skills/python.png
+  summary: "Transformation de données complexes en insights clairs. Conception de tableaux de bord de pilotage."
+  categories: ["data", "product"]
+
+- name: AI & Machine Learning
+  # J'utilise python.png temporairement
+  logo: /images/sections/skills/python.png
+  summary: "Cycle de vie ML, LLMs et architectures RAG. Évaluation de la faisabilité technique et valeur business."
+  categories: ["data"]
 
 - name: Docker
-  logo: "/images/sections/skills/docker.svg"
-  summary: "Je crée des conteneurs Docker pour la majorité de mes programmes. J'ai de l'expérience avec les builds multi-étapes (multi-stage) et multi-architectures."
-  url: "https://www.docker.com/"
+  logo: /images/sections/skills/docker.svg
+  summary: "Compréhension des principes de conteneurisation, scalabilité et coûts d'infrastructure cloud."
+  categories: ["tech"]
 
-- name: Prometheus
-  logo: "/images/sections/skills/prometheus.png"
-  summary: "Capacité à configurer les métriques Prometheus. Expérience avec PromQL et AlertManager, ainsi qu'avec l'écriture d'exportateurs de métriques (exporters)."
-  url: "https://prometheus.io/"
+- name: Git & GitHub
+  logo: /images/sections/skills/git.png
+  summary: "Familiarité avec le versioning. Gestion des Pull Requests et documentation technique."
+  categories: ["tech"]
 
-- name: Linux
-  logo: "/images/sections/skills/linux.png"
-  summary: "Utilisé comme système d'exploitation principal. Capacité à écrire des scripts Bash/Shell."
-
-- name: Git
-  logo: "/images/sections/skills/git.png"
-  summary:
+- name: R
+  # J'utilise python.png car je ne suis pas sûr que r.png existe chez toi
+  logo: /images/sections/skills/python.png
+  summary: "Expertise en analyse statistique et modélisation pour valider des hypothèses complexes."
+  categories: ["data"]

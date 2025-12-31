@@ -1,21 +1,26 @@
 # some information about you
-name: "John Doe"
-nickname: "John"
-# greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+name: "Oumar KEBE"
+nickname: "Oumar"
+
+# greeting message before your name.
+greeting: "Hello! I am"
+
+# make sure the image is in static/images/author/oumar_pro.png
 image: "images/author/oumar_pro.png"
-# give your some contact information. they will be used in the footer
+
+# give your some contact information.
 contactInfo:
-  email: "johndoe@example.com"
-  phone: "+0123456789"
-  github: johndoe
-  linkedin: johndoe
-  researchgate: john-doe
+  email: "oumarfodek@gmail.com"
+  phone: "+33 699 853 118"
+  github: oufoke
+  linkedin: oumarfodek
 
 # some summary about what you do
+# Optimized for impact
 summary:
-  - I am a Developer
-  - I am a Devops
-  - I love servers
-  - I work on open-source projects
-  - I love to work with some fun projects
+  - Data Product Manager.
+  - Data & AI Strategy Expert.
+  - I convert data into business value.
+  - Building Ethical & Responsible AI.
+  - Bridging the gap between Tech & Business.
+  - Open-source Contributor.

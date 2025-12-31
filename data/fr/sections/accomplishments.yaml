@@ -1,44 +1,49 @@
 # section information
 section:
-  name: Accomplissements
+  name: Certifications & Accomplissements
   id: accomplishments
   enable: true
   weight: 7
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
-
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "Mars 2018 - Mars 2019"
+- name: Certification Data Product Manager
+  timeline: "2023 - 2024"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: "Ce cours aide à comprendre les concepts fondamentaux tels que la mise en réseau, le stockage, la sécurité, la maintenance, la journalisation et la surveillance, le cycle de vie des applications, le dépannage, les objets API de base, etc. Il aide à renforcer les compétences nécessaires pour établir des cas d'utilisation de base pour les utilisateurs finaux."
-  certificateURL: "https://example.com"
+    name: DataScientest (Accrédité Sorbonne)
+    url: https://datascientest.com/
+  courseOverview: "Formation d'excellence certifiée par La Sorbonne. Maîtrise complète du cycle de vie d'un produit Data : du 'Product Discovery' à l'industrialisation. Compétences clés acquises : définition de la vision produit, priorisation de backlog (RICE, MoSCoW), gestion des parties prenantes, et alignement des KPIs business avec les métriques techniques."
+  certificateURL: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
 
-- name: Machine Learning
-  timeline: "Juin 2020 - Janv 2021"
+- name: AI Engineer & Generative AI
+  timeline: "2024"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "Ce cours offre une introduction complète au machine learning, au data mining et à la reconnaissance de formes statistiques. Les sujets incluent : (i) Apprentissage supervisé (algorithmes paramétriques/non paramétriques, machines à vecteurs de support, noyaux, réseaux de neurones). (ii) Apprentissage non supervisé (clustering, réduction de dimensionnalité, systèmes de recommandation, deep learning). (iii) Bonnes pratiques en machine learning (théorie biais/variance, processus d'innovation en machine learning et IA)."
-  certificateURL: "https://example.com"
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: "Spécialisation avancée sur l'IA Générative et le MLOps. Capacité à concevoir des architectures RAG (Retrieval-Augmented Generation) et à évaluer la faisabilité technique des fonctionnalités IA. Cette certification me permet de discuter d'égal à égal avec les Data Scientists et d'anticiper les coûts d'infrastructure liés aux modèles de langage (LLMs)."
+  certificateURL: "https://www.datacamp.com/certificate/AEDS0013592331030"
 
-- name: Grokking the System Design Interview
-  timeline: "Janv 2018 - Sept 2018"
+- name: Data Scientist Professional
+  timeline: "2022 - 2023"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: "Ce cours est un guide complet pour réussir les entretiens de conception de systèmes (SDI). Il a été conçu par des responsables du recrutement ayant travaillé chez Google, Facebook, Microsoft et Amazon. Nous avons soigneusement sélectionné un ensemble de cas qui non seulement reviennent fréquemment dans les grandes entreprises, mais offrent également une expérience détaillée pour gérer tout problème de conception de système."
-  certificateURL: "https://example.com"
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: "Validation d'une expertise technique approfondie en Machine Learning et statistiques. En tant que PM, cette compétence me permet d'être autonome dans l'exploration de données (Data Analysis) pour valider des hypothèses produits sans dépendre systématiquement des équipes techniques, accélérant ainsi la prise de décision."
+  certificateURL: "https://www.datacamp.com/certificate/DS0027579108829"
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mars 2018"
+- name: Data Engineer Associate
+  timeline: "2023"
   organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: "Découvrez comment créer des logiciels réactifs et performants. Développez des programmes avec Go qui sont hautement concurrents et parallèles. Améliorez vos compétences en programmation Go avec des sujets avancés sur le multithreading."
-  certificateURL: "https://example.com"
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: "Compréhension des enjeux d'infrastructure : pipelines ETL/ELT, Cloud Computing et modélisation de bases de données. Essentiel pour concevoir des produits 'scalables' et robustes, et pour prioriser efficacement les tâches de maintenance technique (Technical Debt) dans la roadmap."
+  certificateURL: "https://www.datacamp.com/certificate/DE0019334068921"
+
+- name: Certifications Techniques (SQL & Python)
+  timeline: "En continu"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: "Double certification (SQL Associate & Python Data Associate). Maîtrise opérationnelle permettant d'auditer le code, d'effectuer des requêtes complexes pour le suivi des KPIs produits et de faciliter la communication technique avec les développeurs."
+  certificateURL: "https://www.datacamp.com/portfolio/oumarfodekbe"

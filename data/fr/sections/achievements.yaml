@@ -2,7 +2,7 @@
 section:
   name: Distinctions
   id: achievements
-  enable: true
+  enable: false
   weight: 8
   showOnNavbar: true
   template: sections/achievements.html

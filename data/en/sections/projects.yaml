@@ -1,97 +1,66 @@
 # section information
 section:
-  name: Projects
+  name: Personal Projects
   id: projects
   enable: true
   weight: 5
   showOnNavbar: true
 
+# Filter buttons
 buttons:
 - name: All
   filter: "all"
-- name: Artificial Intelligence
-  filter: "Artificial Intelligence"
-- name: Machine Learning
-  filter: "Machine Learning"
-- name: Data Product Management
-  filter: "Data Product Management"
+- name: Product Strategy
+  filter: "product"
+- name: AI & GenAI
+  filter: "ai"
+- name: Data Science
+  filter: "ds"
 
+# Your projects
 projects:
-
-##########################################
-# ARTIFICIAL INTELLIGENCE
-##########################################
-
-- name: "LLM-Powered Customer Review Insights"
-  difficulty: "★★★★ Advanced"
-  impact: "🚀 High"
+- name: "Analyzing Car Reviews with LLMs"
   logo: /images/sections/projects/hf-logo.svg
   image: /images/sections/projects/cars.png
-  role: Developer
-  timeline: "May 2025 - Present"
+  role: AI Product Engineer
+  timeline: "Jan 2024 - Present"
   repo: https://github.com/oufoke/Analyzing_Car_reviews
-  summary: >
-    Built an LLM-based system that extracts structured insights from car reviews.
-    Improved customer support efficiency by automating classification, sentiment analysis,
-    and summarization of user issues.
-  tags: ["Artificial Intelligence"]
+  summary: "Automating customer feedback analysis using Large Language Models to extract actionable insights at scale."
+  tags: ["ai"]
 
-- name: "Deep Learning Vision System for Road Safety"
-  difficulty: "★★★ Hard"
-  impact: "📈 Moderate"
-  logo: /images/sections/projects/TensKeras.png
-  image: /images/sections/projects/feux.png
-  role: Developer
-  timeline: "June 2025 - Present"
-  repo: https://github.com/oufoke/Detect-Traffic-Signs
-  summary: >
-    Trained and evaluated neural networks for the detection of traffic signs.
-    Aimed at enhancing autonomous driving safety by improving recognition accuracy.
-  tags: ["Artificial Intelligence"]
-
-##########################################
-# MACHINE LEARNING
-##########################################
-
-- name: "Measuring Medical Treatment Effectiveness with Causal ML"
-  difficulty: "★★★ Hard"
-  impact: "📈 Moderate"
-  logo: /images/sections/projects/r.png
-  image: /images/sections/projects/lab_86.png
-  role: Owner
-  timeline: "Jun 2025 - Present"
-  repo: https://github.com/oufoke/Assessing-the-Effectiveness-of-Medical-Treatments
-  summary: >
-    Built a causal inference pipeline to assess treatment outcomes using real-world data.
-    Identified key drivers of patient improvement and quantified treatment effect variance.
-  tags: ["Machine Learning"]
-
-- name: "Player Performance Clustering for Draft Strategy"
-  difficulty: "★★ Medium"
-  impact: "📊 Low impact"
-  logo: /images/sections/projects/r.png
-  image: /images/sections/projects/basket.png
-  role: Owner
-  timeline: "Jun 2025 - Present"
-  repo: https://github.com/oufoke/Clustering-Players-by-Performance-Metrics
-  summary: >
-    Implemented unsupervised learning to cluster basketball players by performance metrics.
-    Supports decision-making for scouting, recruitment, and game strategy.
-  tags: ["Machine Learning"]
-
-##########################################
-# DATA PRODUCT MANAGEMENT
-##########################################
-
-- name: "Improving Public Bike Service Quality with Data"
-  difficulty: "★★ Medium"
-  impact: "🏆 Strategic"
+- name: "Smovengo: Better Bike Services"
   logo: /images/sections/projects/no-code.png
   image: /images/sections/projects/smovengo.png
-  role: Product Owner
-  timeline: "Feb 2025 - Present"
-  repo: https://www.canva.com/design/DAGePV2S-8o/FiEUDKz9B8faclyFI25xDg/view
-  summary: >
-    Designed data-informed product recommendations to enhance Velib service reliability.
-    Identified operational bottlenecks, optimized bike availability, and improved customer experience.
-  tags: ["Data Product Management"]
+  role: Data Product Manager
+  timeline: "Feb 2024 - Apr 2024"
+  # Using 'url' because it is a Canva link, not a code repo
+  url: "https://www.canva.com/design/DAGePV2S-8o/FiEUDKz9B8faclyFI25xDg/view"
+  summary: "Product Case Study: Leveraging data to reduce churn and improve bike availability for Paris's public bike system (Velib')."
+  tags: ["product"]
+
+- name: "Traffic Sign Detection (CV)"
+  logo: /images/sections/projects/TensKeras.png
+  image: /images/sections/projects/feux.png
+  role: Deep Learning Engineer
+  timeline: "June 2023 - Dec 2023"
+  repo: https://github.com/oufoke/Detect-Traffic-Signs
+  summary: "Building a CNN-based computer vision model for autonomous driving safety, capable of real-time traffic sign recognition."
+  tags: ["ai"]
+
+- name: "Medical Treatment Effectiveness"
+  logo: /images/sections/projects/r.png
+  image: /images/sections/projects/lab_86.png
+  role: Data Scientist
+  timeline: "Jan 2023 - Mar 2023"
+  repo: https://github.com/oufoke/Assessing-the-Effectiveness-of-Medical-Treatments
+  summary: "Rigorous statistical analysis of clinical trials to determine treatment efficacy and minimize patient risks."
+  tags: ["ds"]
+
+- name: "Basketball Analytics & Clustering"
+  logo: /images/sections/projects/r.png
+  image: /images/sections/projects/basket.png
+  role: Data Analyst
+  timeline: "Nov 2022 - Jan 2023"
+  repo: https://github.com/oufoke/Clustering-Players-by-Performance-Metrics
+  summary: "Unsupervised machine learning project to identify player archetypes and optimize team composition based on performance metrics."
+  tags: ["ds"]

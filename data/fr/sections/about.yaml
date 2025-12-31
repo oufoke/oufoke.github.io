@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: À Propos
   id: about2
   enable: true
   weight: 1
@@ -8,29 +8,29 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Data Manager, Data Product Manager
+designation: Data Product Manager
 # your company information
 company:
   name: France Travail
   url: "https://www.francetravail.fr"
 
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
+# your resume.
+resourceLinks:
+- title: "Mon CV"
+  url: "static/files/Oumar_F__KEBE.pdf"
 
 # a summary about you
 summary: |
-  'Data Product Manager avec 6 ans d'expérience dans la transformation de données complexes en produits à forte valeur business.<br><br>
-  J'ai joué un rôle clé dans le développement de Data Emploi chez France Travail, une plateforme data de référence sur le marché du travail.<br><br>
-  Je conçois des solutions data & IA simples, utiles et orientées impact métier.<br><br>
-  Mon objectif : transformer un besoin en produit data clair, évolutif et opérationnel.'
+  Data Product Manager avec 6 ans d'expérience, je fais le pont entre la complexité technique et les enjeux business.<br><br>
+  Actuellement chez France Travail, j'ai piloté le développement de **Data Emploi**, une plateforme de référence transformant des millions de données en outil décisionnel simple et impactant.<br><br>
+  Fort d'un solide background technique (Certifié Data Scientist & Engineer), je parle le même langage que les développeurs tout en garantissant une roadmap alignée sur la valeur utilisateur.<br><br>
+  Mon focus : Product Discovery, qualité de la donnée et scalabilité.
 
 # your social links
-# give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "oumarfodek@gmail.com"
+  url: "mailto:oumarfodek@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
@@ -40,59 +40,47 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/oumarfodek/"
 
-# You can put custom buttons to link your relevant resources.
-# For example, you can put link for your resume.
-resourceLinks:
-- title: "My Resume"
-  url: "static/files/Oumar_F__KEBE.pdf"
-
 # Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: certification
-  name: AI Engineer for Data Scientists Associate
-  url: "https://www.datacamp.com/certificate/AEDS0013592331030"
-  badge: "files/certification-ai-engineer-for-data-scientist-associate-badge.png"
-
 - type: certification
   name: Data Product Manager
   url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
   badge: "files/datascientestLogo.png"
 
 - type: certification
-  name: Data Scientist
+  name: AI Engineer Associate
+  url: "https://www.datacamp.com/certificate/AEDS0013592331030"
+  badge: "files/certification-ai-engineer-for-data-scientist-associate-badge.png"
+
+- type: certification
+  name: Data Scientist Professional
   url: "https://www.datacamp.com/certificate/DS0027579108829"
   badge: "files/data_scientist_professional_badge.png"
 
 - type: certification
-  name: Data Engineer
+  name: Data Engineer Associate
   url: "https://www.datacamp.com/certificate/DE0019334068921"
   badge: "files/DE - badge.png"
+
+- type: certification
+  name: SQL Associate
+  url: "https://www.datacamp.com/certificate/SQA0014457748707"
+  badge: "files/SQL Associate - badge.png"
 
 - type: certification
   name: Python Data Associate
   url: "https://www.datacamp.com/certificate/PDA0017548522208"
   badge: "files/Python Data Associate - Badge with outline.png"
 
-- type: certification
-  name: SQL Associate certificate
-  url: "https://www.datacamp.com/certificate/SQA0014457748707"
-  badge: "files/SQL Associate - badge.png"
-
+# Compétences traduites en Français
 - type: soft-skill-indicator
   name: Stratégie Produit
-  percentage: 80
+  percentage: 85
   color: blue
 
 - type: soft-skill-indicator
-  name: Travail d'Équipe
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Gestion des Parties Prenantes
-  percentage: 100
+  name: Gestion Parties Prenantes
+  percentage: 95
   color: orange
 
 - type: soft-skill-indicator
@@ -100,8 +88,7 @@ badges:
   percentage: 100
   color: green
 
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+- type: soft-skill-indicator
+  name: Product Discovery & UX
+  percentage: 90
+  color: yellow

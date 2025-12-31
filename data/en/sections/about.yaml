@@ -8,97 +8,84 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Data Product Manager
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: France Travail
+  url: "https://www.francetravail.fr"
 
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
+# your resume.
+resourceLinks:
+- title: "My Resume / CV"
+  url: "files/Oumar_F__KEBE.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: |
+  Data Product Manager with 6 years of experience, I bridge the gap between technical complexity and business challenges.<br><br>
+  Currently at France Travail, I led the development of **Data Emploi**, a leading platform transforming millions of data points into a simple, high-impact decision-making tool.<br><br>
+  With a strong technical background (Certified Data Scientist & Engineer), I speak the same language as developers while ensuring the roadmap remains aligned with user value.<br><br>
+  My focus: Product Discovery, Data Quality, and Scalability.
 
 # your social links
-# give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "mailto:oumarfodek@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://www.github.com/oufoke"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
-
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
-
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
-
-# You can put custom buttons to link your relevant resources.
-# For example, you can put link for your resume.
-resourceLinks:
-- title: "My Resume"
-  url: "files/resume.pdf"
+  url: "https://www.linkedin.com/in/oumarfodek/"
 
 # Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  name: Data Product Manager
+  url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
+  badge: "images/sections/about/datascientestLogo.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+  name: AI Engineer Associate
+  url: "https://www.datacamp.com/certificate/AEDS0013592331030"
+  badge: "images/sections/about/certification-ai-engineer-for-data-scientist-associate-badge.png"
 
 - type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  name: Data Scientist Professional
+  url: "https://www.datacamp.com/certificate/DS0027579108829"
+  badge: "images/sections/about/data_scientist_professional_badge.png"
 
-- type: soft-skill-indicator
-  name: Leadership
+- type: certification
+  name: Data Engineer Associate
+  url: "https://www.datacamp.com/certificate/DE0019334068921"
+  badge: "images/sections/about/DE - badge.png"
+
+- type: certification
+  name: SQL Associate
+  url: "https://www.datacamp.com/certificate/SQA0014457748707"
+  badge: "images/sections/about/SQL Associate - badge.png"
+
+- type: certification
+  name: Python Data Associate
+  url: "https://www.datacamp.com/certificate/PDA0017548522208"
+  badge: "images/sections/about/Python Data Associate - Badge with outline.png"
+
+# Soft Skills
+softSkills:
+- name: Product Strategy & Roadmap
   percentage: 85
   color: blue
 
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
+- name: Stakeholder Management
+  percentage: 95
   color: orange
 
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+- name: Data-Driven Decision
+  percentage: 100
+  color: green
+
+- name: Product Discovery & UX
+  percentage: 90
+  color: yellow

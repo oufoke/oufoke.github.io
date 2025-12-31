@@ -6,66 +6,61 @@ section:
   weight: 2
   showOnNavbar: true
   filter: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# filter buttons
+# Filter buttons
+# Renamed to fit a hybrid Data & Product profile
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Product Mgmt
+  filter: "product"
+- name: Data & AI
+  filter: "data"
+- name: Tech Stack
+  filter: "tech"
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
+# Your Skills
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Product Management
+  # PLACEHOLDER IMAGE: Using git.png to prevent crash. Change to product.png later.
+  logo: /images/sections/skills/git.png
+  summary: "Defining product vision, roadmap, and KPIs. Expertise in Agile methodologies (Scrum), User Story mapping, and bridging the gap between business needs and tech teams."
+  categories: ["product"]
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Used for rapid prototyping, data analysis (Pandas), and code auditing. Allows me to speak the same language as Data Scientists and assess technical complexity."
+  categories: ["data", "tech"]
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "Advanced proficiency for independent data exploration, KPI extraction, and validating data quality without solely relying on engineers."
+  categories: ["data"]
+
+- name: Data Visualization
+  # PLACEHOLDER IMAGE: Using python.png to prevent crash. Change to tableau.png later.
+  logo: /images/sections/skills/python.png
+  summary: "Transforming complex datasets into actionable insights. Designing dashboards to monitor product performance and user adoption."
+  categories: ["data", "product"]
+
+- name: AI & Machine Learning
+  # PLACEHOLDER IMAGE: Using python.png to prevent crash. Change to ai.png later.
+  logo: /images/sections/skills/python.png
+  summary: "Strong understanding of ML lifecycles, LLMs, and RAG architectures. Capable of assessing technical feasibility, bias, and business value of AI models."
+  categories: ["data"]
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+  summary: "Understanding containerization principles to better grasp deployment constraints, scalability, and cloud infrastructure costs."
+  categories: ["tech"]
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
-
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
-
-- name: Git
+- name: Git & GitHub
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  summary: "Familiarity with version control. Used for reviewing PRs (Pull Requests) and managing technical documentation."
+  categories: ["tech"]
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: R
+  # PLACEHOLDER IMAGE: Using python.png to prevent crash. Change to r.png later.
+  logo: /images/sections/skills/python.png
+  summary: "Expertise in statistical analysis and modeling. Used to validate complex statistical hypotheses before industrialization."
+  categories: ["data"]

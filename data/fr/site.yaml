@@ -1,24 +1,26 @@
 # Copyright Notice
-copyright: © 2020 Copyright.
+# Mise à jour avec votre nom et l'année courante
+copyright: © 2025 Oumar KEBE. Tous droits réservés.
 
-# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
-disclaimer: "Ce thème est sous licence MIT. Par conséquent, vous pouvez l'utiliser à des fins non commerciales, commerciales ou personnelles. 
-Vous pouvez modifier ou distribuer le thème sans aucune autorisation de l'auteur. 
-Toutefois, l'auteur du thème ne fournit aucune garantie et n'assume aucune responsabilité pour tout problème lié au thème."
+# A disclaimer notice for the footer.
+# OPTIMISATION : Un disclaimer professionnel standard pour les employés
+disclaimer: "Les opinions exprimées sur ce site sont strictement personnelles et ne reflètent pas nécessairement celles de mon employeur. Le contenu est partagé à titre informatif et éducatif."
 
 # Meta description for your site. This will help the search engines to find your site.
-description: Portfolio personnel et blog de John Doe.
+# OPTIMISATION SEO : Mots-clés "Data Product Manager", "IA", "Stratégie"
+description: "Portfolio et Blog de Oumar KEBE - Data Product Manager & Expert en Stratégie IA. Découvrez mes projets, certifications et articles sur la Data Science."
 
 # specify the list of custom menus that you want to show in the top navbar.
-# they will be separated by a divider from the main menus.
-customMenus:
-- name: Documentation
-  url: https://toha-docs.hugo-themes.com/posts/
+# J'ai commenté cette partie. Si vous n'avez pas de lien externe critique (comme un Medium ou un Substack), mieux vaut ne rien mettre pour garder le menu épuré.
+# customMenus:
+# - name: Blog Externe
+#   url: https://medium.com/@votre-profil
 
-# Specify OpenGraph Headers
+# Specify OpenGraph Headers (C'est ce qui s'affiche quand on partage votre lien sur LinkedIn/Twitter)
 openGraph:
-  title: Le blog de John
+  title: "Oumar KEBE - Data Product Manager"
   type: website
-  description: Portfolio personnel et blog de John Doe.
-  image: images/author/john.png
-  url: https://toha-preview.hugo-themes.com
+  description: "Je convertis la donnée en impact business. Découvrez mon parcours et mes projets Data & IA."
+  image: images/author/oumar_pro.png
+  # Remplacez par la vraie URL de votre site quand il sera en ligne (ex: https://oumarkebe.fr)
+  url: https://oufoke.github.io/

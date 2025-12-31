@@ -1,9 +1,14 @@
 # some information about you
 name: "Oumar KEBE"
 nickname: "Oumar"
-# greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hello! Je suis"
+
+# greeting message before your name.
+# "Hello !" donne une touche moderne/tech tout en restant pro.
+greeting: "Hello ! Je suis"
+
+# assure-toi que l'image est bien dans static/images/author/oumar_pro.png
 image: "images/author/oumar_pro.png"
+
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "oumarfodek@gmail.com"
@@ -12,9 +17,11 @@ contactInfo:
   linkedin: oumarfodek
 
 # some summary about what you do
+# Effet "Machine à écrire" sur le site
 summary:
-  - Je suis Data manager.
-  - Je suis Data/I.A. Product Manager.
-  - Je suis pour une I.A. éthique et responsable.
-  - Je travaille sur des projets open-source.
-  - J'aide à mettre en place des solutions Data/I.A. pour les entreprises.
+  - Data Product Manager.
+  - Expert en Stratégie Data & IA.
+  - Je convertis la donnée en valeur business.
+  - Je conçois une I.A. éthique et responsable.
+  - Le pont entre la Tech et le Métier.
+  - Contributeur Open-source.

@@ -1,62 +1,65 @@
 # section information
 section:
-  name: Projets
+  name: Projets Personnels
   id: projects
   enable: true
-  weight: 4
+  weight: 5
   showOnNavbar: true
-  template: sections/projects.html
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# filter buttons
+# Filter buttons
 buttons:
-- name: Tous
+- name: Tout
   filter: "all"
-- name: Professionnel
-  filter: "professional"
-- name: Académique
-  filter: "academic"
-- name: Loisirs
-  filter: "hobby"
+- name: Stratégie Produit
+  filter: "product"
+- name: IA & GenAI
+  filter: "ai"
+- name: Data Science
+  filter: "ds"
 
-# your projects
+# Your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributeur
-  timeline: "Mars 2018 - Présent"
-  repo: https://github.com/kubernetes/kubernetes
-  summary: Orchestration et gestion de conteneurs de niveau production.
-  tags: ["professional", "kubernetes", "cloud"]
+- name: "Analyse de Sentiments par LLM"
+  logo: /images/sections/projects/hf-logo.svg
+  image: /images/sections/projects/cars.png
+  role: AI Product Engineer
+  timeline: "Jan 2024 - Présent"
+  repo: https://github.com/oufoke/Analyzing_Car_reviews
+  summary: "Automatisation de l'analyse des retours clients (Customer Feedback) via des LLMs pour extraire des insights actionnables à grande échelle."
+  tags: ["ai"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Développeur
-  timeline: "Juin 2018 - Présent"
-  repo: https://github.com/tensorflow/tensorflow
-  summary: Une plateforme open source de machine learning pour tous.
-  tags: ["professional", "machine-learning"]
-
-- name: Article académique d'exemple
-  role: Chef d'équipe
-  timeline: "Janv 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Étude approfondie sur l'Internet des Objets (IoT) et ses applications dans les systèmes intelligents.
-  tags: ["academic","iot"]
-
-- name: Nocode
+- name: "Smovengo : Optimisation Vélib'" # CORRECTION ICI (Guillemets ajoutés)
   logo: /images/sections/projects/no-code.png
-  role: Aucun
-  timeline: "Oct 2019 - Déc 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  summary: La meilleure façon d'écrire des applications sécurisées et fiables. N'écrivez rien, ne déployez nulle part.
-  tags: ["hobby", "fun"]
+  image: /images/sections/projects/smovengo.png
+  role: Data Product Manager
+  timeline: "Fév 2024 - Avr 2024"
+  url: "https://www.canva.com/design/DAGePV2S-8o/FiEUDKz9B8faclyFI25xDg/view"
+  summary: "Étude de cas Produit : Utilisation de la data pour réduire le churn et améliorer la disponibilité des vélos à Paris."
+  tags: ["product"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Propriétaire
-  timeline: "Juin 2019 - Présent"
-  repo: https://github.com/hossainemruz/toha
-  summary: Un thème Hugo pour portfolio personnel.
-  tags: ["hobby","hugo","theme","professional"]
+- name: "Vision par Ordinateur (Traffic)"
+  logo: /images/sections/projects/TensKeras.png
+  image: /images/sections/projects/feux.png
+  role: Deep Learning Engineer
+  timeline: "Juin 2023 - Déc 2023"
+  repo: https://github.com/oufoke/Detect-Traffic-Signs
+  summary: "Conception d'un modèle de reconnaissance de panneaux pour la sécurité des véhicules autonomes (Deep Learning / CNN)."
+  tags: ["ai"]
+
+- name: "Efficacité des Traitements"
+  logo: /images/sections/projects/r.png
+  image: /images/sections/projects/lab_86.png
+  role: Data Scientist
+  timeline: "Jan 2023 - Mar 2023"
+  repo: https://github.com/oufoke/Assessing-the-Effectiveness-of-Medical-Treatments
+  summary: "Analyse statistique rigoureuse d'essais cliniques pour éclairer la prise de décision médicale et minimiser les risques patients."
+  tags: ["ds"]
+
+- name: "Analytics Sportif & Clustering"
+  logo: /images/sections/projects/r.png
+  image: /images/sections/projects/basket.png
+  role: Data Analyst
+  timeline: "Nov 2022 - Jan 2023"
+  repo: https://github.com/oufoke/Clustering-Players-by-Performance-Metrics
+  summary: "Projet de Machine Learning (Non-supervisé) pour segmenter les profils de joueurs de basket et optimiser la composition d'équipe."
+  tags: ["ds"]
