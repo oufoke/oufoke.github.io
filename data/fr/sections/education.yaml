@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Éducation
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Doctorat (Ph.D.) en Cryptographie Quantique
+  icon: fa-microscope
+  timeframe: 2016-2020
+  institution:
+    name: Université Technologique ABC
+    url: "#"
+    logo: /images/sections/education/tech_college.png
+  grade:
+    scale: CGPA
+    achieved: 3.6
+    outOf: 4.0
+  publications:
+  - title: "Analyse des systèmes de distribution de clés quantiques."
+    url: "#"
+  - title: "Impact de la décohérence sur les protocoles de sécurité."
+    url: "#"
+  - title: "Vers une infrastructure réseau résistante au post-quantique."
+    url: "#"
+- name: Licence (B.Sc.) en Informatique et Ingénierie
+  icon: fa-graduation-cap
+  timeframe: 2012-2016
+  institution:
+    name: Université XYZ
+    url: "#"
+    logo: /images/sections/education/university.jpg
+  grade:
+    scale: CGPA
+    achieved: 3.5
+    outOf: 4.0
+  takenCourses:
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Structures de données et algorithmes
+      achieved: 3.75

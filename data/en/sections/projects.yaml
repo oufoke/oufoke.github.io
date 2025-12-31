@@ -5,61 +5,93 @@ section:
   enable: true
   weight: 5
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# filter buttons
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: Artificial Intelligence
+  filter: "Artificial Intelligence"
+- name: Machine Learning
+  filter: "Machine Learning"
+- name: Data Product Management
+  filter: "Data Product Management"
 
-# your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
+##########################################
+# ARTIFICIAL INTELLIGENCE
+##########################################
+
+- name: "LLM-Powered Customer Review Insights"
+  difficulty: "★★★★ Advanced"
+  impact: "🚀 High"
+  logo: /images/sections/projects/hf-logo.svg
+  image: /images/sections/projects/cars.png
   role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  timeline: "May 2025 - Present"
+  repo: https://github.com/oufoke/Analyzing_Car_reviews
+  summary: >
+    Built an LLM-based system that extracts structured insights from car reviews.
+    Improved customer support efficiency by automating classification, sentiment analysis,
+    and summarization of user issues.
+  tags: ["Artificial Intelligence"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: "Deep Learning Vision System for Road Safety"
+  difficulty: "★★★ Hard"
+  impact: "📈 Moderate"
+  logo: /images/sections/projects/TensKeras.png
+  image: /images/sections/projects/feux.png
+  role: Developer
+  timeline: "June 2025 - Present"
+  repo: https://github.com/oufoke/Detect-Traffic-Signs
+  summary: >
+    Trained and evaluated neural networks for the detection of traffic signs.
+    Aimed at enhancing autonomous driving safety by improving recognition accuracy.
+  tags: ["Artificial Intelligence"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+##########################################
+# MACHINE LEARNING
+##########################################
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
+- name: "Measuring Medical Treatment Effectiveness with Causal ML"
+  difficulty: "★★★ Hard"
+  impact: "📈 Moderate"
+  logo: /images/sections/projects/r.png
+  image: /images/sections/projects/lab_86.png
   role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+  timeline: "Jun 2025 - Present"
+  repo: https://github.com/oufoke/Assessing-the-Effectiveness-of-Medical-Treatments
+  summary: >
+    Built a causal inference pipeline to assess treatment outcomes using real-world data.
+    Identified key drivers of patient improvement and quantified treatment effect variance.
+  tags: ["Machine Learning"]
+
+- name: "Player Performance Clustering for Draft Strategy"
+  difficulty: "★★ Medium"
+  impact: "📊 Low impact"
+  logo: /images/sections/projects/r.png
+  image: /images/sections/projects/basket.png
+  role: Owner
+  timeline: "Jun 2025 - Present"
+  repo: https://github.com/oufoke/Clustering-Players-by-Performance-Metrics
+  summary: >
+    Implemented unsupervised learning to cluster basketball players by performance metrics.
+    Supports decision-making for scouting, recruitment, and game strategy.
+  tags: ["Machine Learning"]
+
+##########################################
+# DATA PRODUCT MANAGEMENT
+##########################################
+
+- name: "Improving Public Bike Service Quality with Data"
+  difficulty: "★★ Medium"
+  impact: "🏆 Strategic"
+  logo: /images/sections/projects/no-code.png
+  image: /images/sections/projects/smovengo.png
+  role: Product Owner
+  timeline: "Feb 2025 - Present"
+  repo: https://www.canva.com/design/DAGePV2S-8o/FiEUDKz9B8faclyFI25xDg/view
+  summary: >
+    Designed data-informed product recommendations to enhance Velib service reliability.
+    Identified operational bottlenecks, optimized bike availability, and improved customer experience.
+  tags: ["Data Product Management"]

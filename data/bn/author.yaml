@@ -1,16 +1,20 @@
 # some information about you
-name: "জন ডো"
-nickname: "জন"
+name: "Oumar KEBE"
+nickname: "Oumar"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "হ্যালো, আমি হলাম"
-image: "images/author/john.png"
+greeting: "Hello! Je suis"
+image: "images/author/oumar_pro.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  ইমেইল: "johndoe@example.com"
-  ফোন: "+0123456789"
+  email: "oumarfodek@gmail.com"
+  phone: "+33 699 853 118"
+  github: oufoke
+  linkedin: oumarfodek
 
 # some summary about what you do
 summary:
-  - আমি একজন ডেভেলপার
-  - আমি ওপেন সোর্স প্রোজেক্ট এ কাজ করতে পছন্দ করি
-  - আমি মজার কিছু প্রোজেক্ট এ কাজ করতে ভালবাসি
+  - Je suis Data manager.
+  - Je suis Data/I.A. Product Manager.
+  - Je suis pour une I.A. éthique et responsable.
+  - Je travaille sur des projets open-source.
+  - J'aide à mettre en place des solutions Data/I.A. pour les entreprises.

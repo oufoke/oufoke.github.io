@@ -1,0 +1,24 @@
+# Copyright Notice
+copyright: © 2020 Copyright.
+
+# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
+disclaimer: "Ce thème est sous licence MIT. Par conséquent, vous pouvez l'utiliser à des fins non commerciales, commerciales ou personnelles. 
+Vous pouvez modifier ou distribuer le thème sans aucune autorisation de l'auteur. 
+Toutefois, l'auteur du thème ne fournit aucune garantie et n'assume aucune responsabilité pour tout problème lié au thème."
+
+# Meta description for your site. This will help the search engines to find your site.
+description: Portfolio personnel et blog de John Doe.
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus:
+- name: Documentation
+  url: https://toha-docs.hugo-themes.com/posts/
+
+# Specify OpenGraph Headers
+openGraph:
+  title: Le blog de John
+  type: website
+  description: Portfolio personnel et blog de John Doe.
+  image: images/author/john.png
+  url: https://toha-preview.hugo-themes.com

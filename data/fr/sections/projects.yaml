@@ -1,0 +1,62 @@
+# section information
+section:
+  name: Projets
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  template: sections/projects.html
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Tous
+  filter: "all"
+- name: Professionnel
+  filter: "professional"
+- name: Académique
+  filter: "academic"
+- name: Loisirs
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Kubernetes
+  logo: /images/sections/projects/kubernetes.png
+  role: Contributeur
+  timeline: "Mars 2018 - Présent"
+  repo: https://github.com/kubernetes/kubernetes
+  summary: Orchestration et gestion de conteneurs de niveau production.
+  tags: ["professional", "kubernetes", "cloud"]
+
+- name: Tensorflow
+  logo: /images/sections/projects/tensorflow.png
+  role: Développeur
+  timeline: "Juin 2018 - Présent"
+  repo: https://github.com/tensorflow/tensorflow
+  summary: Une plateforme open source de machine learning pour tous.
+  tags: ["professional", "machine-learning"]
+
+- name: Article académique d'exemple
+  role: Chef d'équipe
+  timeline: "Janv 2017 - Nov 2017"
+  url: "https://www.example.com"
+  summary: Étude approfondie sur l'Internet des Objets (IoT) et ses applications dans les systèmes intelligents.
+  tags: ["academic","iot"]
+
+- name: Nocode
+  logo: /images/sections/projects/no-code.png
+  role: Aucun
+  timeline: "Oct 2019 - Déc 2019"
+  repo: https://github.com/kelseyhightower/nocode
+  summary: La meilleure façon d'écrire des applications sécurisées et fiables. N'écrivez rien, ne déployez nulle part.
+  tags: ["hobby", "fun"]
+
+- name: Toha
+  logo: /images/sections/projects/toha.png
+  role: Propriétaire
+  timeline: "Juin 2019 - Présent"
+  repo: https://github.com/hossainemruz/toha
+  summary: Un thème Hugo pour portfolio personnel.
+  tags: ["hobby","hugo","theme","professional"]

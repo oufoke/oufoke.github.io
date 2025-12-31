@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Accomplissements
+  id: accomplishments
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: Linux Foundation System Administrator
+  timeline: "Mars 2018 - Mars 2019"
+  organization:
+    name: Linux Foundation
+    url: https://www.linuxfoundation.org
+  courseOverview: "Ce cours aide à comprendre les concepts fondamentaux tels que la mise en réseau, le stockage, la sécurité, la maintenance, la journalisation et la surveillance, le cycle de vie des applications, le dépannage, les objets API de base, etc. Il aide à renforcer les compétences nécessaires pour établir des cas d'utilisation de base pour les utilisateurs finaux."
+  certificateURL: "https://example.com"
+
+- name: Machine Learning
+  timeline: "Juin 2020 - Janv 2021"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Ce cours offre une introduction complète au machine learning, au data mining et à la reconnaissance de formes statistiques. Les sujets incluent : (i) Apprentissage supervisé (algorithmes paramétriques/non paramétriques, machines à vecteurs de support, noyaux, réseaux de neurones). (ii) Apprentissage non supervisé (clustering, réduction de dimensionnalité, systèmes de recommandation, deep learning). (iii) Bonnes pratiques en machine learning (théorie biais/variance, processus d'innovation en machine learning et IA)."
+  certificateURL: "https://example.com"
+
+- name: Grokking the System Design Interview
+  timeline: "Janv 2018 - Sept 2018"
+  organization:
+    name: educative
+    url: https://www.educative.io
+  courseOverview: "Ce cours est un guide complet pour réussir les entretiens de conception de systèmes (SDI). Il a été conçu par des responsables du recrutement ayant travaillé chez Google, Facebook, Microsoft et Amazon. Nous avons soigneusement sélectionné un ensemble de cas qui non seulement reviennent fréquemment dans les grandes entreprises, mais offrent également une expérience détaillée pour gérer tout problème de conception de système."
+  certificateURL: "https://example.com"
+
+- name: Mastering Multithreading Programming with Go (Golang)
+  timeline: "Nov 2017 - Mars 2018"
+  organization:
+    name: Udemy
+    url: https://www.udemy.com
+  courseOverview: "Découvrez comment créer des logiciels réactifs et performants. Développez des programmes avec Go qui sont hautement concurrents et parallèles. Améliorez vos compétences en programmation Go avec des sujets avancés sur le multithreading."
+  certificateURL: "https://example.com"

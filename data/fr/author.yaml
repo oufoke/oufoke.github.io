@@ -1,0 +1,20 @@
+# some information about you
+name: "Oumar KEBE"
+nickname: "Oumar"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hello! Je suis"
+image: "images/author/oumar_pro.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "oumarfodek@gmail.com"
+  phone: "+33 699 853 118"
+  github: oufoke
+  linkedin: oumarfodek
+
+# some summary about what you do
+summary:
+  - Je suis Data manager.
+  - Je suis Data/I.A. Product Manager.
+  - Je suis pour une I.A. éthique et responsable.
+  - Je travaille sur des projets open-source.
+  - J'aide à mettre en place des solutions Data/I.A. pour les entreprises.
