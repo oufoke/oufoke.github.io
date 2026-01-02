@@ -1,0 +1,74 @@
+# section information
+section:
+  name: Projets
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+# Filter buttons
+buttons:
+- name: Tout
+  filter: "all"
+- name: IA & GenAI
+  filter: "ai"
+- name: Product Management
+  filter: "product"
+- name: Data Science
+  filter: "ds"
+
+# Your projects
+projects:
+- name: "Smart B2B Lead Scoring"
+  logo: /images/sections/projects/xgboost.png # À ajouter ou supprimer si pas de logo
+  image: /images/sections/projects/lead-scoring.png
+  role: ML Engineer
+  timeline: "Jan 2025"
+  url: "https://lead-scoring-portofolio-ofk.streamlit.app/"
+  summary: "Scoring prédictif (XGBoost) et IA explicable pour prioriser les prospects et réduire le cycle de vente B2B."
+  tags: ["ds", "ai", "product"]
+
+- name: "Météo Trésorerie (Cash-Flow)"
+  logo: /images/sections/projects/prophet.png # À ajouter ou supprimer si pas de logo
+  image: /images/sections/projects/cash-flow.png
+  role: Data Product Manager
+  timeline: "Jan 2025"
+  url: "https://cash-flow-forecast-portfolio-ofk.streamlit.app/"
+  summary: "App de prévision financière (Prophet/Streamlit) pour anticiper les tensions de trésorerie PME à 90 jours."
+  tags: ["ds", "product"]
+
+- name: "Smart-Screener (Recrutement)"
+  logo: /images/sections/projects/openai.png # À ajouter ou supprimer si pas de logo
+  image: /images/sections/projects/smart-screener.png
+  role: AI Product Builder
+  timeline: "Déc 2024"
+  repo: "https://github.com/VOTRE-PSEUDO/smart-screener" # Mettez le lien de votre repo ici
+  summary: "Assistant RH GenAI (RAG) : Parsing de CVs et matching sémantique intelligent avec génération de questions d'entretien."
+  tags: ["ai", "product"]
+
+- name: "Smovengo : Optimisation Vélib'"
+  logo: /images/sections/projects/no-code.png
+  image: /images/sections/projects/smovengo.png
+  role: Data Product Manager
+  timeline: "Printemps 2024"
+  url: "https://www.canva.com/design/DAGePV2S-8o/FiEUDKz9B8faclyFI25xDg/view"
+  summary: "Étude de cas Product Management : Stratégie Data pour réduire le churn et optimiser la disponibilité des vélos."
+  tags: ["product"]
+
+- name: "Vision par Ordinateur (Traffic)"
+  logo: /images/sections/projects/TensKeras.png
+  image: /images/sections/projects/feux.png
+  role: Deep Learning Engineer
+  timeline: "Fin 2023"
+  repo: https://github.com/oufoke/Detect-Traffic-Signs
+  summary: "Modèle CNN de reconnaissance de panneaux de signalisation pour véhicule autonome (TensorFlow/Keras)."
+  tags: ["ai"]
+
+- name: "Analyse d'Avis Clients (LLM)"
+  logo: /images/sections/projects/hf-logo.svg
+  image: /images/sections/projects/cars.png
+  role: AI Product Engineer
+  timeline: "Début 2024"
+  repo: https://github.com/oufoke/Analyzing_Car_reviews
+  summary: "Pipeline NLP automatisé pour extraire des insights actionnables depuis des milliers d'avis clients."
+  tags: ["ai"]

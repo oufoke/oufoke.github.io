@@ -1,0 +1,54 @@
+# section information
+section:
+  name: "Compétences"
+  id: "skills"
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+
+buttons:
+- name: "Tout"
+  filter: "all"
+- name: "Gestion Produit"
+  filter: "product"
+- name: "Data & IA"
+  filter: "data"
+- name: "Tech Stack"
+  filter: "tech"
+
+skills:
+- name: "Product Management"
+  logo: "/images/sections/skills/git.png"
+  summary: "Définition de la vision produit et de la roadmap. Expertise en Product Discovery, rédaction de spécifications fonctionnelles et pilotage de la recette utilisateur (UAT)."
+  categories: ["product"]
+
+- name: "SQL & Analyse de Données"
+  logo: "/images/sections/skills/sql.png"
+  summary: "Maîtrise avancée pour l'extraction d'indicateurs stratégiques, la création de jeux de données et l'audit de la qualité des données en production."
+  categories: ["data"]
+
+- name: "Python & R"
+  logo: "/images/sections/skills/python.png"
+  summary: "Utilisation des bibliothèques NumPy et Pandas pour l'analyse statistique et l'automatisation des pipelines de données."
+  categories: ["data", "tech"]
+
+- name: "Gouvernance & Qualité"
+  logo: "/images/sections/skills/git.png"
+  summary: "Mise en œuvre de protocoles de Data Quality Management et de règles de gestion pour garantir la fiabilité des indicateurs diffusés."
+  categories: ["data"]
+
+- name: "Business Intelligence"
+  logo: "/images/sections/skills/python.png"
+  summary: "Conception de tableaux de bord et visualisation de données complexes via PowerBI et Google Analytics pour le pilotage de la performance."
+  categories: ["data", "product"]
+
+- name: "Agilité & Coordination"
+  logo: "/images/sections/skills/git.png"
+  summary: "Facilitation de la coopération entre les équipes techniques (DSI) et les directions métiers. Animation de prestataires dans un cadre Agile."
+  categories: ["product", "tech"]
+
+- name: "SAS"
+  logo: "/images/sections/skills/python.png"
+  summary: "Développement de programmes optimisés pour le calcul d'indicateurs statistiques volumineux en environnement de production."
+  categories: ["tech", "data"]

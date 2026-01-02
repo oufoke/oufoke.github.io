@@ -1,29 +1,23 @@
 # Copyright Notice
-copyright: © 2020 Copyright.
+copyright: © 2025 Oumar KEBE. All rights reserved.
 
-# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
-disclaimer: "This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses.
-You can modify or distribute the theme without requiring any permission from the theme author.
-However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
+# A disclaimer notice for the footer.
+# Standard professional disclaimer
+disclaimer: "The views and opinions expressed on this website are my own and do not necessarily reflect those of my employer. Content is for informational purposes only."
 
-# Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio and personal blog of John Doe.
+# Meta description for your site.
+# SEO Optimized for "Data Product Manager"
+description: "Portfolio of Oumar KEBE - Data Product Manager & AI Strategy Expert. Explore my projects, certifications, and insights on Data Science and Product Management."
 
-# specify the list of custom menus that you want to show in the top navbar.
-# they will be separated by a divider from the main menus.
-customMenus:
-- name: Docs
-  url: https://toha-docs.hugo-themes.com/posts/
-  # specify whether to hide the menu item from top navbar or not.
-  hideFromNavbar: false
-  # specify whether to show the menu item in footer or not.
-  # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
-  showOnFooter: false
+# specify the list of custom menus
+# customMenus:
+# - name: External Blog
+#   url: https://medium.com/@your-handle
 
-# Specify OpenGraph Headers
+# Specify OpenGraph Headers (For LinkedIn/Twitter previews)
 openGraph:
-  title: John's Blog
+  title: "Oumar KEBE - Data Product Manager"
   type: website
-  description: Portfolio and personal blog of John Doe.
-  image: images/author/john.png
-  url: https://toha-preview.hugo-themes.com
+  description: "Bridging the gap between Tech & Business. Discover my Data & AI projects."
+  image: images/author/oumar_pro.png
+  url: https://oufoke.github.io/

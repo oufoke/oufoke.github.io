@@ -1,71 +1,54 @@
 # section information
 section:
-  name: Skills
-  id: skills
+  name: "Skills"
+  id: "skills"
   enable: true
   weight: 2
   showOnNavbar: true
   filter: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# filter buttons
 buttons:
-- name: All
+- name: "All"
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: "Product Management"
+  filter: "product"
+- name: "Data & AI"
+  filter: "data"
+- name: "Tech Stack"
+  filter: "tech"
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: "Product Management"
+  logo: "/images/sections/skills/git.png"
+  summary: "Leading product vision and roadmaps. Expertise in Product Discovery, functional specification drafting, and User Acceptance Testing (UAT)."
+  categories: ["product"]
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: "SQL & Data Analysis"
+  logo: "/images/sections/skills/sql.png"
+  summary: "Advanced proficiency in extracting strategic indicators, creating datasets, and auditing production data quality."
+  categories: ["data"]
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: "Python & R"
+  logo: "/images/sections/skills/python.png"
+  summary: "Utilizing NumPy and Pandas libraries for statistical analysis and data pipeline automation."
+  categories: ["data", "tech"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+- name: "Data Governance & Quality"
+  logo: "/images/sections/skills/git.png"
+  summary: "Implementing Data Quality Management protocols and business logic to ensure the reliability of shared indicators."
+  categories: ["data"]
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: "Business Intelligence"
+  logo: "/images/sections/skills/python.png"
+  summary: "Designing dashboards and visualizing complex data via PowerBI and Google Analytics for performance tracking."
+  categories: ["data", "product"]
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+- name: "Agile & Coordination"
+  logo: "/images/sections/skills/git.png"
+  summary: "Facilitating cooperation between IT departments and business units. Managing external providers within an Agile framework."
+  categories: ["product", "tech"]
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
-
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: "SAS"
+  logo: "/images/sections/skills/python.png"
+  summary: "Developing optimized programs for large-scale statistical indicator calculations in production environments."
+  categories: ["tech", "data"]

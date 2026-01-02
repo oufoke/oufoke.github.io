@@ -1,73 +1,47 @@
 # section information
 section:
-  name: Experiences
-  id: experiences
+  name: "Experience"
+  id: "experiences"
   enable: true
   weight: 3
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true 
 
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: "France Travail"
+    url: "https://dataemploi.francetravail.fr/emploi/accueil"
+    location: "Paris, France"
+    logo: "/images/sections/experiences/logo-dataemploi-ft.svg"
+    overview: "French public employment service. France Travail connects millions of job seekers with companies and provides strategic labor market data."
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+  - designation: "Data Product Manager (Documentation & Methodology Project)"
+    start: "May 2025"
+    # end: Present (Automatic)
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - "**Documentation Modernization:** Steering the implementation of an 'As-Code' documentation site to centralize business processes within the DOSEEP MOA department."
+    - "**Governance & Versioning:** Implementing a workflow based on Markdown and GitLab Pages to ensure reliable, accessible, and easily updated technical documentation."
+    - "**Change Management:** Defining the MVP roadmap, creating contribution guides, and training MOA teams on new documentation tools."
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+  - designation: "Data Product Manager / Data Manager"
+    start: "February 2020"
+    end: "April 2025"
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - "**Smart Emploi Steering:** Coordinating operational IT evolutions with the IT department, including requirement formalization, management rules, functional specifications, and user acceptance testing."
+    - "**Statistical Production:** Producing and validating key indicators for the 'Reseau Pour l'Emploi,' distributed via the Data Emploi site and APIs (Data-as-a-Service)."
+    - "**Quality & Optimization:** Developing optimized programs (SQL, Python, SAS) for production indicator calculations and implementing Data Quality Management procedures."
+    - "**Cross-functional Coordination:** Managing providers and facilitating cooperation between technical teams and business departments."
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: "Bayard Media Developpement"
+    url: "https://www.bayardmediadeveloppement.com"
+    location: "Paris, France"
+    logo: "/images/sections/experiences/logo-BMD-web.png"
+    overview: "Advertising agency of the Bayard Group, supporting advertisers and agencies in their communication strategies."
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: "Data Analyst (Intern)"
+    start: "June 2018"
+    end: "October 2018"
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - "**BI & Visualization:** Creating dashboards to track web traffic and digital campaign performance via Google Analytics."
+    - "**Data Processing:** Setting up ETL flows and analyzing customer databases using SAS and SQL for marketing targeting."

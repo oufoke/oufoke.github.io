@@ -1,0 +1,47 @@
+# section information
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+# Your experiences
+experiences:
+- company:
+    name: France Travail
+    url: "https://dataemploi.francetravail.fr/emploi/accueil"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-dataemploi-ft.svg
+    overview: "Service public de l'emploi en France. France Travail connecte des millions de demandeurs d'emploi aux entreprises et fournit des données stratégiques sur le marché du travail."
+  positions:
+  - designation: Data Product Manager (Projet Documentation & Méthode)
+    start: Mai 2025
+    # end: Present (Automatique)
+    responsibilities:
+    - "**Modernisation de la Documentation :** Pilotage de la mise en place d'un site de documentation « As-Code » pour centraliser les processus métiersau sein de la MOA du DOSEEP."
+    - "**Gouvernance & Versionnage :** Implémentation d'un workflow basé sur Markdown et GitLab Pages pour garantir une documentation technique fiable, accessible et facilement mise à jour."
+    - "**Accompagnement au Changement :** Définition de la roadmap du MVP, création de guides de contribution et formation des équipes MOA aux nouveaux outils de documentation."
+
+  - designation: Data Product Manager / Data Manager
+    start: Février 2020
+    end: Avril 2025
+    responsibilities:
+    - "**Pilotage Smart Emploi :** Coordination des évolutions opérationnelles du SI en lien avec la DSI (formalisation des besoins, règles de gestion, spécifications fonctionnelles et recettes)."
+    - "**Production Statistique :** Production et validation des indicateurs clés pour le Réseau Pour l'Emploi, diffusés via le site Data Emploi et par API (Data-as-a-Service)."
+    - "**Qualité & Optimisation :** Développement de programmes optimisés (SQL, Python, SAS) pour le calcul des indicateurs en production et mise en œuvre de procédures de Data Quality Management."
+    - "**Coordination Transverse :** Animation des prestataires et facilitation de la coopération entre les équipes techniques (DSI) et les directions métiers."
+
+- company:
+    name: Bayard Media Développement
+    url: "https://www.bayardmediadeveloppement.com"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-BMD-web.png
+    overview: "Régie publicitaire du Groupe Bayard, accompagnant annonceurs et agences dans leurs stratégies de communication."
+  positions:
+  - designation: Data Analyst (Stage)
+    start: Juin 2018
+    end: Octobre 2018
+    responsibilities:
+    - "**BI & Visualisation :** Création de tableaux de bord de suivi du trafic web et de la performance des campagnes digitales via Google Analytics."
+    - "**Traitement de Données :** Mise en place de flux ETL et analyse des bases clients via SAS et SQL pour le ciblage marketing."

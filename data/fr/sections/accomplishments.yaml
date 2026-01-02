@@ -1,0 +1,49 @@
+# section information
+section:
+  name: Certifications & Accomplissements
+  id: accomplishments
+  enable: true
+  weight: 7
+  showOnNavbar: true
+
+# Your accomplishments
+accomplishments:
+- name: Certification Data Product Manager
+  timeline: "2023 - 2024"
+  organization:
+    name: DataScientest (Accrédité Sorbonne)
+    url: https://datascientest.com/
+  courseOverview: "Formation d'excellence certifiée par La Sorbonne. Maîtrise complète du cycle de vie d'un produit Data : du 'Product Discovery' à l'industrialisation. Compétences clés acquises : définition de la vision produit, priorisation de backlog (RICE, MoSCoW), gestion des parties prenantes, et alignement des KPIs business avec les métriques techniques."
+  certificateURL: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
+
+- name: AI Engineer & Generative AI
+  timeline: "2024"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: "Spécialisation avancée sur l'IA Générative et le MLOps. Capacité à concevoir des architectures RAG (Retrieval-Augmented Generation) et à évaluer la faisabilité technique des fonctionnalités IA. Cette certification me permet de discuter d'égal à égal avec les Data Scientists et d'anticiper les coûts d'infrastructure liés aux modèles de langage (LLMs)."
+  certificateURL: "https://www.datacamp.com/certificate/AEDS0013592331030"
+
+- name: Data Scientist Professional
+  timeline: "2022 - 2023"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: "Validation d'une expertise technique approfondie en Machine Learning et statistiques. En tant que PM, cette compétence me permet d'être autonome dans l'exploration de données (Data Analysis) pour valider des hypothèses produits sans dépendre systématiquement des équipes techniques, accélérant ainsi la prise de décision."
+  certificateURL: "https://www.datacamp.com/certificate/DS0027579108829"
+
+- name: Data Engineer Associate
+  timeline: "2023"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: "Compréhension des enjeux d'infrastructure : pipelines ETL/ELT, Cloud Computing et modélisation de bases de données. Essentiel pour concevoir des produits 'scalables' et robustes, et pour prioriser efficacement les tâches de maintenance technique (Technical Debt) dans la roadmap."
+  certificateURL: "https://www.datacamp.com/certificate/DE0019334068921"
+
+- name: Certifications Techniques (SQL & Python)
+  timeline: "En continu"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: "Double certification (SQL Associate & Python Data Associate). Maîtrise opérationnelle permettant d'auditer le code, d'effectuer des requêtes complexes pour le suivi des KPIs produits et de faciliter la communication technique avec les développeurs."
+  certificateURL: "https://www.datacamp.com/portfolio/oumarfodekbe"
