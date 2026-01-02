@@ -3,22 +3,30 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main  # Vérifiez que le nom de votre branche est bien 'main'
+      - main
 
 permissions:
-  contents: write  # Donne le droit d'écrire sur la branche gh-pages
+  contents: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
+
+      # ÉTAPE CLÉ : Installer Node.js et les dépendances
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
