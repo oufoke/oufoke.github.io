@@ -1,7 +1,7 @@
 # section information
 section:
-  name: Experiences
-  id: experiences
+  name: "Experience"
+  id: "experiences"
   enable: true
   weight: 3
   showOnNavbar: true
@@ -9,40 +9,39 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: France Travail
+    name: "France Travail"
     url: "https://dataemploi.francetravail.fr/emploi/accueil"
-    location: Paris, France
-    logo: /images/sections/experiences/logo-dataemploi-ft.svg
-    overview: "The French Public Employment Service. France Travail connects millions of job seekers with employers and provides strategic data on the labor market."
+    location: "Paris, France"
+    logo: "/images/sections/experiences/logo-dataemploi-ft.svg"
+    overview: "French public employment service. France Travail connects millions of job seekers with companies and provides strategic labor market data."
   positions:
-  - designation: Data Product Manager
-    start: Jun 2025
+  - designation: "Data Product Manager (Documentation & Methodology Project)"
+    start: "May 2025"
     # end: Present (Automatic)
     responsibilities:
-    - "**Product Strategy & Roadmap:** Leading the evolution of **Data Emploi**, a strategic decision-making platform for territorial analysis."
-    - "**Bridging Business & Tech:** Translating complex business requirements into clear functional specifications for the IT department (DSI), ensuring alignment with the product vision."
-    - "**Data Quality & Governance:** Implementing rigorous data quality procedures to ensure trust in the indicators served to millions of users."
-    - "**Acceptance Testing:** Orchestrating the UAT (User Acceptance Testing) phases to guarantee a bug-free production environment."
+    - "**Documentation Modernization:** Steering the implementation of an 'As-Code' documentation site to centralize business processes within the DOSEEP MOA department."
+    - "**Governance & Versioning:** Implementing a workflow based on Markdown and GitLab Pages to ensure reliable, accessible, and easily updated technical documentation."
+    - "**Change Management:** Defining the MVP roadmap, creating contribution guides, and training MOA teams on new documentation tools."
 
-  - designation: Data Product Owner / JData Manager
-    start: Feb 2020
-    end: May 2025
+  - designation: "Data Product Manager / Data Manager"
+    start: "February 2020"
+    end: "April 2025"
     responsibilities:
-    - "**Product Launch:** Successfully deployed labor market indicators via the **Data Emploi** website and APIs (Data-as-a-Service)."
-    - "**User Adoption:** Drove change management strategies to ensure internal and external users adopted the new data tools."
-    - "**Stakeholder Management:** Coordinated external vendors and internal teams to facilitate cooperation and timely delivery."
-    - "**Data Pipeline Optimization:** Collaborated with engineers to optimize the calculation of statistical indicators for the Employment Network."
+    - "**Smart Emploi Steering:** Coordinating operational IT evolutions with the IT department, including requirement formalization, management rules, functional specifications, and user acceptance testing."
+    - "**Statistical Production:** Producing and validating key indicators for the 'Reseau Pour l'Emploi,' distributed via the Data Emploi site and APIs (Data-as-a-Service)."
+    - "**Quality & Optimization:** Developing optimized programs (SQL, Python, SAS) for production indicator calculations and implementing Data Quality Management procedures."
+    - "**Cross-functional Coordination:** Managing providers and facilitating cooperation between technical teams and business departments."
 
 - company:
-    name: Bayard Media Developpement
+    name: "Bayard Media Developpement"
     url: "https://www.bayardmediadeveloppement.com"
-    location: Paris, France
-    logo: /images/sections/experiences/logo-BMD-web.png
-    overview: "The advertising agency of the Bayard Group, supporting advertisers and media agencies in their communication strategies."
+    location: "Paris, France"
+    logo: "/images/sections/experiences/logo-BMD-web.png"
+    overview: "Advertising agency of the Bayard Group, supporting advertisers and agencies in their communication strategies."
   positions:
-  - designation: Data Analyst Intern
-    start: Jun 2018
-    end: Oct 2018
+  - designation: "Data Analyst (Intern)"
+    start: "June 2018"
+    end: "October 2018"
     responsibilities:
-    - "**BI & Visualization:** Designed dashboards to monitor web traffic and digital marketing campaign performance (Google Analytics, Mapp Digital)."
-    - "**Data Processing:** Performed ETL operations and customer data analysis using SAS and SQL to support marketing decisions."
+    - "**BI & Visualization:** Creating dashboards to track web traffic and digital campaign performance via Google Analytics."
+    - "**Data Processing:** Setting up ETL flows and analyzing customer databases using SAS and SQL for marketing targeting."

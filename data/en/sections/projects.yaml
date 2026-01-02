@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Personal Projects
+  name: Projects
   id: projects
   enable: true
   weight: 5
@@ -10,57 +10,65 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Product Strategy
-  filter: "product"
 - name: AI & GenAI
   filter: "ai"
+- name: Product Management
+  filter: "product"
 - name: Data Science
   filter: "ds"
 
 # Your projects
 projects:
-- name: "Analyzing Car Reviews with LLMs"
-  logo: /images/sections/projects/hf-logo.svg
-  image: /images/sections/projects/cars.png
-  role: AI Product Engineer
-  timeline: "Jan 2024 - Present"
-  repo: https://github.com/oufoke/Analyzing_Car_reviews
-  summary: "Automating customer feedback analysis using Large Language Models to extract actionable insights at scale."
-  tags: ["ai"]
+- name: "Smart B2B Lead Scoring"
+  logo: /images/sections/projects/xgboost.png
+  image: /images/sections/projects/lead-scoring.png
+  role: ML Engineer
+  timeline: "Jan 2025"
+  url: "https://lead-scoring-portofolio-ofk.streamlit.app/"
+  summary: "Predictive scoring (XGBoost) with Explainable AI to prioritize leads and shorten B2B sales cycles."
+  tags: ["ds", "ai", "product"]
 
-- name: "Smovengo: Better Bike Services"
+- name: "Cash Flow Forecast"
+  logo: /images/sections/projects/prophet.png
+  image: /images/sections/projects/cash-flow.png
+  role: Data Product Manager
+  timeline: "Jan 2025"
+  url: "https://cash-flow-forecast-portfolio-ofk.streamlit.app/"
+  summary: "Financial forecasting app (Prophet/Streamlit) enabling SMEs to anticipate cash flow shortages 90 days in advance."
+  tags: ["ds", "product"]
+
+- name: "Smart-Screener (Recruitment)"
+  logo: /images/sections/projects/openai.png
+  image: /images/sections/projects/smart-screener.png
+  role: AI Product Builder
+  timeline: "Dec 2024"
+  repo: "https://github.com/VOTRE-PSEUDO/smart-screener"
+  summary: "GenAI HR Assistant (RAG): Resume parsing, intelligent semantic matching, and custom interview question generation."
+  tags: ["ai", "product"]
+
+- name: "Smovengo: Velib' Optimization"
   logo: /images/sections/projects/no-code.png
   image: /images/sections/projects/smovengo.png
   role: Data Product Manager
-  timeline: "Feb 2024 - Apr 2024"
-  # Using 'url' because it is a Canva link, not a code repo
+  timeline: "Spring 2024"
   url: "https://www.canva.com/design/DAGePV2S-8o/FiEUDKz9B8faclyFI25xDg/view"
-  summary: "Product Case Study: Leveraging data to reduce churn and improve bike availability for Paris's public bike system (Velib')."
+  summary: "Product Management Case Study: Data-driven strategy to reduce churn and optimize bike availability in Paris."
   tags: ["product"]
 
-- name: "Traffic Sign Detection (CV)"
+- name: "Computer Vision (Traffic)"
   logo: /images/sections/projects/TensKeras.png
   image: /images/sections/projects/feux.png
   role: Deep Learning Engineer
-  timeline: "June 2023 - Dec 2023"
+  timeline: "Late 2023"
   repo: https://github.com/oufoke/Detect-Traffic-Signs
-  summary: "Building a CNN-based computer vision model for autonomous driving safety, capable of real-time traffic sign recognition."
+  summary: "CNN model for traffic sign recognition designed for autonomous vehicle safety (TensorFlow/Keras)."
   tags: ["ai"]
 
-- name: "Medical Treatment Effectiveness"
-  logo: /images/sections/projects/r.png
-  image: /images/sections/projects/lab_86.png
-  role: Data Scientist
-  timeline: "Jan 2023 - Mar 2023"
-  repo: https://github.com/oufoke/Assessing-the-Effectiveness-of-Medical-Treatments
-  summary: "Rigorous statistical analysis of clinical trials to determine treatment efficacy and minimize patient risks."
-  tags: ["ds"]
-
-- name: "Basketball Analytics & Clustering"
-  logo: /images/sections/projects/r.png
-  image: /images/sections/projects/basket.png
-  role: Data Analyst
-  timeline: "Nov 2022 - Jan 2023"
-  repo: https://github.com/oufoke/Clustering-Players-by-Performance-Metrics
-  summary: "Unsupervised machine learning project to identify player archetypes and optimize team composition based on performance metrics."
-  tags: ["ds"]
+- name: "Customer Reviews Analysis (LLM)"
+  logo: /images/sections/projects/hf-logo.svg
+  image: /images/sections/projects/cars.png
+  role: AI Product Engineer
+  timeline: "Early 2024"
+  repo: https://github.com/oufoke/Analyzing_Car_reviews
+  summary: "Automated NLP pipeline extracting actionable insights from thousands of customer reviews at scale."
+  tags: ["ai"]

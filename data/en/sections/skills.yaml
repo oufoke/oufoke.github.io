@@ -1,66 +1,54 @@
 # section information
 section:
-  name: Skills
-  id: skills
+  name: "Skills"
+  id: "skills"
   enable: true
   weight: 2
   showOnNavbar: true
   filter: true
 
-# Filter buttons
-# Renamed to fit a hybrid Data & Product profile
 buttons:
-- name: All
+- name: "All"
   filter: "all"
-- name: Product Mgmt
+- name: "Product Management"
   filter: "product"
-- name: Data & AI
+- name: "Data & AI"
   filter: "data"
-- name: Tech Stack
+- name: "Tech Stack"
   filter: "tech"
 
-# Your Skills
 skills:
-- name: Product Management
-  # PLACEHOLDER IMAGE: Using git.png to prevent crash. Change to product.png later.
-  logo: /images/sections/skills/git.png
-  summary: "Defining product vision, roadmap, and KPIs. Expertise in Agile methodologies (Scrum), User Story mapping, and bridging the gap between business needs and tech teams."
+- name: "Product Management"
+  logo: "/images/sections/skills/git.png"
+  summary: "Leading product vision and roadmaps. Expertise in Product Discovery, functional specification drafting, and User Acceptance Testing (UAT)."
   categories: ["product"]
 
-- name: Python
-  logo: /images/sections/skills/python.png
-  summary: "Used for rapid prototyping, data analysis (Pandas), and code auditing. Allows me to speak the same language as Data Scientists and assess technical complexity."
+- name: "SQL & Data Analysis"
+  logo: "/images/sections/skills/sql.png"
+  summary: "Advanced proficiency in extracting strategic indicators, creating datasets, and auditing production data quality."
+  categories: ["data"]
+
+- name: "Python & R"
+  logo: "/images/sections/skills/python.png"
+  summary: "Utilizing NumPy and Pandas libraries for statistical analysis and data pipeline automation."
   categories: ["data", "tech"]
 
-- name: SQL
-  logo: /images/sections/skills/sql.png
-  summary: "Advanced proficiency for independent data exploration, KPI extraction, and validating data quality without solely relying on engineers."
+- name: "Data Governance & Quality"
+  logo: "/images/sections/skills/git.png"
+  summary: "Implementing Data Quality Management protocols and business logic to ensure the reliability of shared indicators."
   categories: ["data"]
 
-- name: Data Visualization
-  # PLACEHOLDER IMAGE: Using python.png to prevent crash. Change to tableau.png later.
-  logo: /images/sections/skills/python.png
-  summary: "Transforming complex datasets into actionable insights. Designing dashboards to monitor product performance and user adoption."
+- name: "Business Intelligence"
+  logo: "/images/sections/skills/python.png"
+  summary: "Designing dashboards and visualizing complex data via PowerBI and Google Analytics for performance tracking."
   categories: ["data", "product"]
 
-- name: AI & Machine Learning
-  # PLACEHOLDER IMAGE: Using python.png to prevent crash. Change to ai.png later.
-  logo: /images/sections/skills/python.png
-  summary: "Strong understanding of ML lifecycles, LLMs, and RAG architectures. Capable of assessing technical feasibility, bias, and business value of AI models."
-  categories: ["data"]
+- name: "Agile & Coordination"
+  logo: "/images/sections/skills/git.png"
+  summary: "Facilitating cooperation between IT departments and business units. Managing external providers within an Agile framework."
+  categories: ["product", "tech"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Understanding containerization principles to better grasp deployment constraints, scalability, and cloud infrastructure costs."
-  categories: ["tech"]
-
-- name: Git & GitHub
-  logo: /images/sections/skills/git.png
-  summary: "Familiarity with version control. Used for reviewing PRs (Pull Requests) and managing technical documentation."
-  categories: ["tech"]
-
-- name: R
-  # PLACEHOLDER IMAGE: Using python.png to prevent crash. Change to r.png later.
-  logo: /images/sections/skills/python.png
-  summary: "Expertise in statistical analysis and modeling. Used to validate complex statistical hypotheses before industrialization."
-  categories: ["data"]
+- name: "SAS"
+  logo: "/images/sections/skills/python.png"
+  summary: "Developing optimized programs for large-scale statistical indicator calculations in production environments."
+  categories: ["tech", "data"]

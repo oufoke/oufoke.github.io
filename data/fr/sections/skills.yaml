@@ -1,63 +1,54 @@
 # section information
 section:
-  name: Compétences
-  id: skills
+  name: "Compétences"
+  id: "skills"
   enable: true
   weight: 2
   showOnNavbar: true
   filter: true
 
 buttons:
-- name: Tout
+- name: "Tout"
   filter: "all"
-- name: Gestion Produit
+- name: "Gestion Produit"
   filter: "product"
-- name: Data & IA
+- name: "Data & IA"
   filter: "data"
-- name: Tech Stack
+- name: "Tech Stack"
   filter: "tech"
 
 skills:
-- name: Product Management
-  # J'utilise git.png car je sais que tu l'as déjà
-  logo: /images/sections/skills/git.png
-  summary: "Définition de la vision produit, roadmap et KPIs. Expertise en méthodes Agiles (Scrum), User Story mapping et alignement business/tech."
+- name: "Product Management"
+  logo: "/images/sections/skills/git.png"
+  summary: "Définition de la vision produit et de la roadmap. Expertise en Product Discovery, rédaction de spécifications fonctionnelles et pilotage de la recette utilisateur (UAT)."
   categories: ["product"]
 
-- name: Python
-  logo: /images/sections/skills/python.png
-  summary: "Utilisé pour le prototypage rapide, l'analyse de données (Pandas) et l'audit de code. Langage commun avec les Data Scientists."
+- name: "SQL & Analyse de Données"
+  logo: "/images/sections/skills/sql.png"
+  summary: "Maîtrise avancée pour l'extraction d'indicateurs stratégiques, la création de jeux de données et l'audit de la qualité des données en production."
+  categories: ["data"]
+
+- name: "Python & R"
+  logo: "/images/sections/skills/python.png"
+  summary: "Utilisation des bibliothèques NumPy et Pandas pour l'analyse statistique et l'automatisation des pipelines de données."
   categories: ["data", "tech"]
 
-- name: SQL
-  logo: /images/sections/skills/sql.png
-  summary: "Maîtrise avancée pour explorer les données en toute autonomie, extraire des KPIs précis et valider la qualité des données."
+- name: "Gouvernance & Qualité"
+  logo: "/images/sections/skills/git.png"
+  summary: "Mise en œuvre de protocoles de Data Quality Management et de règles de gestion pour garantir la fiabilité des indicateurs diffusés."
   categories: ["data"]
 
-- name: Data Visualization
-  # J'utilise python.png temporairement
-  logo: /images/sections/skills/python.png
-  summary: "Transformation de données complexes en insights clairs. Conception de tableaux de bord de pilotage."
+- name: "Business Intelligence"
+  logo: "/images/sections/skills/python.png"
+  summary: "Conception de tableaux de bord et visualisation de données complexes via PowerBI et Google Analytics pour le pilotage de la performance."
   categories: ["data", "product"]
 
-- name: AI & Machine Learning
-  # J'utilise python.png temporairement
-  logo: /images/sections/skills/python.png
-  summary: "Cycle de vie ML, LLMs et architectures RAG. Évaluation de la faisabilité technique et valeur business."
-  categories: ["data"]
+- name: "Agilité & Coordination"
+  logo: "/images/sections/skills/git.png"
+  summary: "Facilitation de la coopération entre les équipes techniques (DSI) et les directions métiers. Animation de prestataires dans un cadre Agile."
+  categories: ["product", "tech"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Compréhension des principes de conteneurisation, scalabilité et coûts d'infrastructure cloud."
-  categories: ["tech"]
-
-- name: Git & GitHub
-  logo: /images/sections/skills/git.png
-  summary: "Familiarité avec le versioning. Gestion des Pull Requests et documentation technique."
-  categories: ["tech"]
-
-- name: R
-  # J'utilise python.png car je ne suis pas sûr que r.png existe chez toi
-  logo: /images/sections/skills/python.png
-  summary: "Expertise en analyse statistique et modélisation pour valider des hypothèses complexes."
-  categories: ["data"]
+- name: "SAS"
+  logo: "/images/sections/skills/python.png"
+  summary: "Développement de programmes optimisés pour le calcul d'indicateurs statistiques volumineux en environnement de production."
+  categories: ["tech", "data"]

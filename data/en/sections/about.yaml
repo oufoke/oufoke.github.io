@@ -1,91 +1,94 @@
 # section information
 section:
-  name: About
-  id: about
+  name: "About Me"
+  id: "about2"
   enable: true
   weight: 1
   showOnNavbar: true
-  template: sections/about.html
+  template: "sections/about.html"
 
 # your designation
-designation: Data Product Manager
+designation: "Data Product Manager"
 # your company information
 company:
-  name: France Travail
+  name: "France Travail"
   url: "https://www.francetravail.fr"
 
 # your resume.
 resourceLinks:
-- title: "My Resume / CV"
-  url: "files/Oumar_F__KEBE.pdf"
+- title: "My CV"
+  url: "static/files/Oumar_F__KEBE.pdf"
 
 # a summary about you
 summary: |
-  Data Product Manager with 6 years of experience, I bridge the gap between technical complexity and business challenges.<br><br>
-  Currently at France Travail, I led the development of **Data Emploi**, a leading platform transforming millions of data points into a simple, high-impact decision-making tool.<br><br>
-  With a strong technical background (Certified Data Scientist & Engineer), I speak the same language as developers while ensuring the roadmap remains aligned with user value.<br><br>
-  My focus: Product Discovery, Data Quality, and Scalability.
+  Data Product Manager with 6 years of experience, I bridge the gap between technical complexity and business stakes.<br><br>
+  Currently at France Travail, I have steered the development of **Data Emploi**, a benchmark platform transforming millions of data points into a simple and impactful decision-making tool.<br><br>
+  With a strong technical background as a Certified Data Scientist & Engineer, I speak the same language as developers while ensuring a product roadmap aligned with user value.<br><br>
+  My focus: Product Discovery, data quality, and scalability.
 
 # your social links
 socialLinks:
-- name: Email
+- name: "Email"
   icon: "fas fa-envelope"
   url: "mailto:oumarfodek@gmail.com"
 
-- name: Github
+- name: "Github"
   icon: "fab fa-github"
   url: "https://www.github.com/oufoke"
 
-- name: LinkedIn
+- name: "LinkedIn"
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/oumarfodek/"
 
 # Show your badges
 badges:
-- type: certification
-  name: Data Product Manager
+- type: "certification"
+  name: "Data Product Manager"
   url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
-  badge: "images/sections/about/datascientestLogo.png"
+  badge: "files/datascientestLogo.png"
 
-- type: certification
-  name: AI Engineer Associate
+- type: "certification"
+  name: "AI Engineer Associate"
   url: "https://www.datacamp.com/certificate/AEDS0013592331030"
-  badge: "images/sections/about/certification-ai-engineer-for-data-scientist-associate-badge.png"
+  badge: "files/certification-ai-engineer-for-data-scientist-associate-badge.png"
 
-- type: certification
-  name: Data Scientist Professional
+- type: "certification"
+  name: "Data Scientist Professional"
   url: "https://www.datacamp.com/certificate/DS0027579108829"
-  badge: "images/sections/about/data_scientist_professional_badge.png"
+  badge: "files/data_scientist_professional_badge.png"
 
-- type: certification
-  name: Data Engineer Associate
+- type: "certification"
+  name: "Data Engineer Associate"
   url: "https://www.datacamp.com/certificate/DE0019334068921"
-  badge: "images/sections/about/DE - badge.png"
+  badge: "files/DE - badge.png"
 
-- type: certification
-  name: SQL Associate
+- type: "certification"
+  name: "SQL Associate"
   url: "https://www.datacamp.com/certificate/SQA0014457748707"
-  badge: "images/sections/about/SQL Associate - badge.png"
+  badge: "files/SQL Associate - badge.png"
 
-- type: certification
-  name: Python Data Associate
+- type: "certification"
+  name: "Python Data Associate"
   url: "https://www.datacamp.com/certificate/PDA0017548522208"
-  badge: "images/sections/about/Python Data Associate - Badge with outline.png"
+  badge: "files/Python Data Associate - Badge with outline.png"
 
-# Soft Skills
-softSkills:
-- name: Product Strategy & Roadmap
+# Translated Skills
+- type: "soft-skill-indicator"
+  name: "Product Strategy"
   percentage: 85
-  color: blue
+  color: "blue"
 
-- name: Stakeholder Management
+- type: "soft-skill-indicator"
+  name: "Stakeholder Management"
   percentage: 95
-  color: orange
+  color: "orange"
 
-- name: Data-Driven Decision
+- type: "soft-skill-indicator"
+  name: "Data-Driven Decisions"
   percentage: 100
-  color: green
+  color: "green"
 
-- name: Product Discovery & UX
+- type: "soft-skill-indicator"
+  name: "Product Discovery & UX"
   percentage: 90
-  color: yellow
+  color: "yellow"

@@ -1,17 +1,17 @@
 # section information
 section:
-  name: À Propos
-  id: about2
+  name: "À Propos"
+  id: "about2"
   enable: true
   weight: 1
   showOnNavbar: true
-  template: sections/about.html
+  template: "sections/about.html"
 
 # your designation
-designation: Data Product Manager
+designation: "Data Product Manager"
 # your company information
 company:
-  name: France Travail
+  name: "France Travail"
   url: "https://www.francetravail.fr"
 
 # your resume.
@@ -21,74 +21,74 @@ resourceLinks:
 
 # a summary about you
 summary: |
-  Data Product Manager avec 6 ans d'expérience, je fais le pont entre la complexité technique et les enjeux business.<br><br>
-  Actuellement chez France Travail, j'ai piloté le développement de **Data Emploi**, une plateforme de référence transformant des millions de données en outil décisionnel simple et impactant.<br><br>
-  Fort d'un solide background technique (Certifié Data Scientist & Engineer), je parle le même langage que les développeurs tout en garantissant une roadmap alignée sur la valeur utilisateur.<br><br>
-  Mon focus : Product Discovery, qualité de la donnée et scalabilité.
+  Data Product Manager avec plus de 5 ans d'expérience, je me situe à l'interface entre la DSI et les métiers. <br><br>
+  Actuellement chez France Travail, je pilote les évolutions opérationnelles du SI en lien avec la plateforme **Data Emploi**, transformant les besoins métiers en produits à fort impact. <br><br>
+  Fort d'un solide background technique, je suis certifié Data Scientist, Data Engineer et AI Engineer par DataCamp et DataScientest. <br><br>
+  Mon focus : la Product Discovery, la gouvernance des données et l'accompagnement au changement pour garantir la valeur utilisateur.
 
 # your social links
 socialLinks:
-- name: Email
+- name: "Email"
   icon: "fas fa-envelope"
   url: "mailto:oumarfodek@gmail.com"
 
-- name: Github
+- name: "Github"
   icon: "fab fa-github"
   url: "https://www.github.com/oufoke"
 
-- name: LinkedIn
+- name: "LinkedIn"
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/oumarfodek/"
 
 # Show your badges
 badges:
-- type: certification
-  name: Data Product Manager
+- type: "certification"
+  name: "Data Product Manager"
   url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
   badge: "files/datascientestLogo.png"
 
-- type: certification
-  name: AI Engineer Associate
+- type: "certification"
+  name: "AI Engineer Associate"
   url: "https://www.datacamp.com/certificate/AEDS0013592331030"
   badge: "files/certification-ai-engineer-for-data-scientist-associate-badge.png"
 
-- type: certification
-  name: Data Scientist Professional
+- type: "certification"
+  name: "Data Scientist Professional"
   url: "https://www.datacamp.com/certificate/DS0027579108829"
   badge: "files/data_scientist_professional_badge.png"
 
-- type: certification
-  name: Data Engineer Associate
+- type: "certification"
+  name: "Data Engineer Associate"
   url: "https://www.datacamp.com/certificate/DE0019334068921"
   badge: "files/DE - badge.png"
 
-- type: certification
-  name: SQL Associate
+- type: "certification"
+  name: "SQL Associate"
   url: "https://www.datacamp.com/certificate/SQA0014457748707"
   badge: "files/SQL Associate - badge.png"
 
-- type: certification
-  name: Python Data Associate
+- type: "certification"
+  name: "Python Data Associate"
   url: "https://www.datacamp.com/certificate/PDA0017548522208"
   badge: "files/Python Data Associate - Badge with outline.png"
 
-# Compétences traduites en Français
-- type: soft-skill-indicator
-  name: Stratégie Produit
+# Compétences
+- type: "soft-skill-indicator"
+  name: "Stratégie Produit"
   percentage: 85
-  color: blue
+  color: "blue"
 
-- type: soft-skill-indicator
-  name: Gestion Parties Prenantes
+- type: "soft-skill-indicator"
+  name: "Gestion Parties Prenantes"
   percentage: 95
-  color: orange
+  color: "orange"
 
-- type: soft-skill-indicator
-  name: Décisions Data-Driven
+- type: "soft-skill-indicator"
+  name: "Décisions Data-Driven"
   percentage: 100
-  color: green
+  color: "green"
 
-- type: soft-skill-indicator
-  name: Product Discovery & UX
+- type: "soft-skill-indicator"
+  name: "Product Discovery & UX"
   percentage: 90
-  color: yellow
+  color: "yellow"
