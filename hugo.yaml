@@ -1,5 +1,5 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>)
-baseURL: https://oufoke.github.io
+baseURL: "https://oufoke.github.io/portfolio-oumar/"
 
 languageCode: en-fr
 
