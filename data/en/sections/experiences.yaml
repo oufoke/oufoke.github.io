@@ -1,7 +1,7 @@
 # section information
 section:
-  name: "Experience"
-  id: "experiences"
+  name: Experiences
+  id: experiences
   enable: true
   weight: 3
   showOnNavbar: true
@@ -9,39 +9,24 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: "France Travail"
+    name: France Travail
     url: "https://dataemploi.francetravail.fr/emploi/accueil"
-    location: "Paris, France"
-    logo: "/images/sections/experiences/logo-dataemploi-ft.svg"
-    overview: "French public employment service. France Travail connects millions of job seekers with companies and provides strategic labor market data."
+    location: Paris, France
+    logo: /images/sections/experiences/logo-dataemploi-ft.svg
+    overview: "French public employment service. France Travail provides strategic labour market data through the Data Emploi platform."
   positions:
-  - designation: "Data Product Manager (Documentation & Methodology Project)"
-    start: "May 2025"
+  - designation: Data Product Manager (Documentation & Method Project)
+    start: May 2025
     # end: Present (Automatic)
     responsibilities:
-    - "**Documentation Modernization:** Steering the implementation of an 'As-Code' documentation site to centralize business processes within the DOSEEP MOA department."
-    - "**Governance & Versioning:** Implementing a workflow based on Markdown and GitLab Pages to ensure reliable, accessible, and easily updated technical documentation."
-    - "**Change Management:** Defining the MVP roadmap, creating contribution guides, and training MOA teams on new documentation tools."
+    - "**Product Strategy:** Leading the implementation of a 'Documentation-as-Code' site to centralize business processes within the Project Management Office (MOA)."
+    - "**Governance & Versioning:** Implementing a workflow based on Markdown and GitLab Pages to ensure reliable, accessible, and version-controlled technical documentation."
+    - "**Change Management:** Defining the MVP roadmap and training MOA teams on new documentation and contribution tools."
 
-  - designation: "Data Product Manager / Data Manager"
-    start: "February 2020"
-    end: "April 2025"
+  - designation: Data Product Manager / Data Manager
+    start: February 2020
+    end: April 2025
     responsibilities:
-    - "**Smart Emploi Steering:** Coordinating operational IT evolutions with the IT department, including requirement formalization, management rules, functional specifications, and user acceptance testing."
-    - "**Statistical Production:** Producing and validating key indicators for the 'Reseau Pour l'Emploi,' distributed via the Data Emploi site and APIs (Data-as-a-Service)."
-    - "**Quality & Optimization:** Developing optimized programs (SQL, Python, SAS) for production indicator calculations and implementing Data Quality Management procedures."
-    - "**Cross-functional Coordination:** Managing providers and facilitating cooperation between technical teams and business departments."
-
-- company:
-    name: "Bayard Media Developpement"
-    url: "https://www.bayardmediadeveloppement.com"
-    location: "Paris, France"
-    logo: "/images/sections/experiences/logo-BMD-web.png"
-    overview: "Advertising agency of the Bayard Group, supporting advertisers and agencies in their communication strategies."
-  positions:
-  - designation: "Data Analyst (Intern)"
-    start: "June 2018"
-    end: "October 2018"
-    responsibilities:
-    - "**BI & Visualization:** Creating dashboards to track web traffic and digital campaign performance via Google Analytics."
-    - "**Data Processing:** Setting up ETL flows and analyzing customer databases using SAS and SQL for marketing targeting."
+    - "**Product Discovery & Steering:** Coordinating functional evolutions for the 'Smart Emploi' Information System: requirement gathering, functional specifications, and User Acceptance Testing (UAT)."
+    - "**Data Quality Management:** Implementing data quality protocols and developing optimized programs (SQL, Python, SAS) for large-scale statistical production."
+    - "**Cross-functional Coordination:** Managing external providers and facilitating cooperation between IT departments and business units for data distribution via API."

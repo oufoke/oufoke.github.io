@@ -1,7 +1,7 @@
 # section information
 section:
-  name: "About Me"
-  id: "about2"
+  name: "About"
+  id: "about"
   enable: true
   weight: 1
   showOnNavbar: true
@@ -16,26 +16,23 @@ company:
 
 # your resume.
 resourceLinks:
-- title: "My CV"
+- title: "My CV (PDF)"
   url: "static/files/Oumar_F__KEBE.pdf"
 
 # a summary about you
 summary: |
-  Data Product Manager with 6 years of experience, I bridge the gap between technical complexity and business stakes.<br><br>
-  Currently at France Travail, I have steered the development of **Data Emploi**, a benchmark platform transforming millions of data points into a simple and impactful decision-making tool.<br><br>
-  With a strong technical background as a Certified Data Scientist & Engineer, I speak the same language as developers while ensuring a product roadmap aligned with user value.<br><br>
-  My focus: Product Discovery, data quality, and scalability.
+  As a Data Product Manager with **6 years of experience**, I operate at the strategic interface between IT departments and business units. <br><br>
+  Expert in transforming complex requirements into high-impact data products, I currently lead the evolution of the **Data Emploi** platform at **France Travail**. <br><br>
+  Certified as a Data Scientist, Data Engineer, and AI Engineer, I combine technical rigour (SQL, Python, SAS) with a user-centric product vision focusing on **Product Discovery**, **Data Governance**, and **Change Management**.
 
 # your social links
 socialLinks:
 - name: "Email"
   icon: "fas fa-envelope"
   url: "mailto:oumarfodek@gmail.com"
-
 - name: "Github"
   icon: "fab fa-github"
   url: "https://www.github.com/oufoke"
-
 - name: "LinkedIn"
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/oumarfodek/"
@@ -46,49 +43,29 @@ badges:
   name: "Data Product Manager"
   url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
   badge: "files/datascientestLogo.png"
-
 - type: "certification"
   name: "AI Engineer Associate"
   url: "https://www.datacamp.com/certificate/AEDS0013592331030"
   badge: "files/certification-ai-engineer-for-data-scientist-associate-badge.png"
-
 - type: "certification"
   name: "Data Scientist Professional"
   url: "https://www.datacamp.com/certificate/DS0027579108829"
   badge: "files/data_scientist_professional_badge.png"
 
-- type: "certification"
-  name: "Data Engineer Associate"
-  url: "https://www.datacamp.com/certificate/DE0019334068921"
-  badge: "files/DE - badge.png"
-
-- type: "certification"
-  name: "SQL Associate"
-  url: "https://www.datacamp.com/certificate/SQA0014457748707"
-  badge: "files/SQL Associate - badge.png"
-
-- type: "certification"
-  name: "Python Data Associate"
-  url: "https://www.datacamp.com/certificate/PDA0017548522208"
-  badge: "files/Python Data Associate - Badge with outline.png"
-
-# Translated Skills
-- type: "soft-skill-indicator"
-  name: "Product Strategy"
-  percentage: 85
-  color: "blue"
-
+# Skill indicators
 - type: "soft-skill-indicator"
   name: "Stakeholder Management"
   percentage: 95
   color: "orange"
-
 - type: "soft-skill-indicator"
   name: "Data-Driven Decisions"
   percentage: 100
   color: "green"
-
 - type: "soft-skill-indicator"
   name: "Product Discovery & UX"
   percentage: 90
   color: "yellow"
+- type: "soft-skill-indicator"
+  name: "Product Strategy"
+  percentage: 85
+  color: "blue"
