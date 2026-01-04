@@ -22,10 +22,10 @@ module:
 
 # Manage languages
 languages:
-  en:
-    contentDir: content/en
-    languageName: English
-    weight: 2
+  #en:
+    #contentDir: content/en
+    #languageName: English
+    #weight: 2
   fr:
     contentDir: content/fr
     languageName: Français
