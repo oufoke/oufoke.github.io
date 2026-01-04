@@ -72,6 +72,9 @@ params:
       enable: true
     flags:
       enable: true
+    newsletter:
+      enable: false
+
   
   footer:
     enable: true

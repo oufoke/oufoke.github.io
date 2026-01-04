@@ -1,0 +1,542 @@
+.
+├── arborescence.txt
+├── archetypes
+│   └── default.md
+├── assets
+│   ├── images
+│   │   ├── author
+│   │   │   ├── jessica.png
+│   │   │   ├── john.png
+│   │   │   └── oumar_pro.png
+│   │   ├── sections
+│   │   │   ├── about
+│   │   │   │   ├── certification-ai-engineer-for-data-scientist-associate-badge (Copy).png
+│   │   │   │   ├── certification-ai-engineer-for-data-scientist-associate-badge.png
+│   │   │   │   ├── datascientestLogo.png
+│   │   │   │   ├── data_scientist_professional_badge.png
+│   │   │   │   ├── datscientest.png
+│   │   │   │   ├── DE - badge.png
+│   │   │   │   ├── Oumar_DPM.pdf
+│   │   │   │   ├── Oumar_F__KEBE.pdf
+│   │   │   │   ├── Python Data Associate - Badge with outline.png
+│   │   │   │   └── SQL Associate - badge.png
+│   │   │   ├── achievements
+│   │   │   │   ├── graduation-cap.jpg
+│   │   │   │   ├── presenter.jpg
+│   │   │   │   ├── sport.jpg
+│   │   │   │   └── woman-winner.jpg
+│   │   │   ├── education
+│   │   │   │   ├── science_college.png
+│   │   │   │   ├── tech_college.png
+│   │   │   │   └── university.jpg
+│   │   │   ├── experiences
+│   │   │   │   ├── company1.jpg
+│   │   │   │   ├── company2.jpg
+│   │   │   │   └── company3.jpg
+│   │   │   ├── projects
+│   │   │   │   ├── basket.png
+│   │   │   │   ├── cars.png
+│   │   │   │   ├── cash-flow.png
+│   │   │   │   ├── feux.png
+│   │   │   │   ├── hf-logo.svg
+│   │   │   │   ├── kubernetes.png
+│   │   │   │   ├── lab_86.png
+│   │   │   │   ├── lead-scoring.png
+│   │   │   │   ├── no-code.png
+│   │   │   │   ├── openai.png
+│   │   │   │   ├── r.png
+│   │   │   │   ├── screens2.png
+│   │   │   │   ├── smovengo.png
+│   │   │   │   ├── TensKeras.png
+│   │   │   │   ├── tensorflow.png
+│   │   │   │   ├── toha.png
+│   │   │   │   └── toha_website.png
+│   │   │   └── skills
+│   │   │       ├── cloud.png
+│   │   │       ├── c++.png
+│   │   │       ├── docker.svg
+│   │   │       ├── git.png
+│   │   │       ├── go.png
+│   │   │       ├── image-60b136a3-7e3f-4fbd-82bf-87c965239289.png
+│   │   │       ├── kubernetes.png
+│   │   │       ├── linux.png
+│   │   │       ├── prometheus.png
+│   │   │       ├── python.png
+│   │   │       ├── r.png
+│   │   │       └── sql.png
+│   │   └── site
+│   │       ├── 1bckoke.jpg
+│   │       ├── 2bckoke.jpg
+│   │       ├── background.jpg
+│   │       ├── background_ofk1.png
+│   │       ├── background_ofk.jpeg
+│   │       ├── background_ok.png
+│   │       ├── backgroung_dark_ofk1.png
+│   │       ├── bck_ofk.jpg
+│   │       ├── bck_ofk_optimized.webp
+│   │       ├── favicon_o.png
+│   │       ├── favicon.png
+│   │       ├── inverted_logo_oumar.png
+│   │       ├── inverted-logo.png
+│   │       ├── Logo_oumar.png
+│   │       ├── main-logo.png
+│   │       ├── ok.jpeg
+│   │       └── ok.png
+│   └── jsconfig.json
+├── content
+│   ├── en
+│   │   ├── about
+│   │   │   └── index.md
+│   │   ├── accomplishments
+│   │   │   └── index.md
+│   │   ├── education
+│   │   │   └── index.md
+│   │   ├── experience
+│   │   │   └── index.md
+│   │   ├── _index.md
+│   │   ├── notes
+│   │   │   ├── bash
+│   │   │   │   ├── basic
+│   │   │   │   │   └── index.md
+│   │   │   │   └── _index.md
+│   │   │   ├── go
+│   │   │   │   ├── advanced
+│   │   │   │   │   ├── files
+│   │   │   │   │   │   └── index.md
+│   │   │   │   │   └── _index.md
+│   │   │   │   ├── basic
+│   │   │   │   │   ├── flow-control
+│   │   │   │   │   │   ├── indexbn.md
+│   │   │   │   │   │   └── index.md
+│   │   │   │   │   ├── _index.md
+│   │   │   │   │   ├── introduction
+│   │   │   │   │   │   └── index.md
+│   │   │   │   │   └── types
+│   │   │   │   │       └── index.md
+│   │   │   │   └── _index.md
+│   │   │   └── _index.md
+│   │   ├── posts
+│   │   │   ├── category
+│   │   │   │   ├── _index.md
+│   │   │   │   └── sub-category
+│   │   │   │       ├── _index.md
+│   │   │   │       └── rich-content
+│   │   │   │           ├── images
+│   │   │   │           │   ├── forest.jpg
+│   │   │   │           │   └── hero.svg
+│   │   │   │           └── index.md
+│   │   │   ├── _index.md
+│   │   │   ├── introduction
+│   │   │   │   ├── hero.svg
+│   │   │   │   └── index.md
+│   │   │   ├── markdown-sample
+│   │   │   │   ├── hero.svg
+│   │   │   │   └── index.md
+│   │   │   └── shortcodes
+│   │   │       ├── boat.jpg
+│   │   │       └── index.md
+│   │   ├── projects
+│   │   │   └── index.md
+│   │   ├── sections
+│   │   └── skills
+│   │       └── index.md
+│   └── fr
+│       ├── about
+│       │   └── index.md
+│       ├── accomplishments
+│       │   └── index.md
+│       ├── education
+│       │   └── index.md
+│       ├── experience
+│       │   └── index.md
+│       ├── _index.md
+│       ├── notes
+│       │   ├── bash
+│       │   │   ├── basic
+│       │   │   │   └── index.md
+│       │   │   └── _index.md
+│       │   ├── go
+│       │   │   ├── advanced
+│       │   │   │   ├── files
+│       │   │   │   │   └── index.md
+│       │   │   │   └── _index.md
+│       │   │   ├── basic
+│       │   │   │   ├── flow-control
+│       │   │   │   │   ├── indexbn.md
+│       │   │   │   │   └── index.md
+│       │   │   │   ├── _index.md
+│       │   │   │   ├── introduction
+│       │   │   │   │   └── index.md
+│       │   │   │   └── types
+│       │   │   │       └── index.md
+│       │   │   └── _index.md
+│       │   └── _index.md
+│       ├── posts
+│       │   ├── category
+│       │   │   ├── _index.md
+│       │   │   └── sub-category
+│       │   │       ├── _index.md
+│       │   │       └── rich-content
+│       │   │           ├── images
+│       │   │           │   ├── forest.jpg
+│       │   │           │   └── hero.svg
+│       │   │           └── index.md
+│       │   ├── _index.md
+│       │   ├── introduction
+│       │   │   ├── hero.svg
+│       │   │   └── index.md
+│       │   ├── markdown-sample
+│       │   │   ├── hero.svg
+│       │   │   └── index.md
+│       │   └── shortcodes
+│       │       ├── boat.jpg
+│       │       └── index.md
+│       ├── projects
+│       │   └── index.md
+│       ├── sections
+│       └── skills
+│           └── index.md
+├── data
+│   ├── en
+│   │   ├── author.yaml
+│   │   ├── sections
+│   │   │   ├── about.yaml
+│   │   │   ├── accomplishments.yaml
+│   │   │   ├── achievements.yaml
+│   │   │   ├── education.yaml
+│   │   │   ├── experiences.yaml
+│   │   │   ├── featured-posts.yaml
+│   │   │   ├── projects.yaml
+│   │   │   ├── publications.yaml
+│   │   │   ├── recent-posts.yaml
+│   │   │   └── skills.yaml
+│   │   └── site.yaml
+│   └── fr
+│       ├── author.yaml
+│       ├── sections
+│       │   ├── about.yaml
+│       │   ├── accomplishments.yaml
+│       │   ├── achievements.yaml
+│       │   ├── education.yaml
+│       │   ├── experiences.yaml
+│       │   ├── projects.yaml
+│       │   ├── recent-posts.yaml
+│       │   └── skills.yaml
+│       └── site.yaml
+├── hugo_extended_0.121.2_linux-amd64.deb
+├── hugo_extended_0.139.3_linux-amd64.deb
+├── hugo_extended_0.152.0_linux-amd64.deb
+├── hugo.yaml
+├── hugo.yaml.bak
+├── LICENSE
+├── mise.toml
+├── netlify.toml
+├── package.hugo.json
+├── package.json
+├── package-lock.json
+├── README.md
+├── static
+│   ├── files
+│   │   ├── certification-ai-engineer-for-data-scientist-associate-badge (Copy).png
+│   │   ├── certification-ai-engineer-for-data-scientist-associate-badge.png
+│   │   ├── datascientestLogo.png
+│   │   ├── data_scientist_professional_badge.png
+│   │   ├── datscientest.png
+│   │   ├── DE - badge.png
+│   │   ├── Oumar_Fode_KEBE.pdf
+│   │   ├── Python Data Associate - Badge with outline.png
+│   │   └── SQL Associate - badge.png
+│   └── videos
+│       └── sample.mp4
+└── themes
+    └── toha
+        ├── archetypes
+        │   └── default.md
+        ├── assets
+        │   ├── images
+        │   │   ├── 404.png
+        │   │   ├── 404.svg
+        │   │   ├── default-avatar.png
+        │   │   ├── default-background.jpg
+        │   │   ├── default-hero.jpg
+        │   │   ├── favicon.png
+        │   │   ├── hugo-logo.svg
+        │   │   ├── inverted-logo.png
+        │   │   ├── main-logo.png
+        │   │   └── theme-logo.png
+        │   ├── jsconfig.json
+        │   ├── scripts
+        │   │   ├── application.js
+        │   │   ├── core
+        │   │   │   ├── device.js
+        │   │   │   ├── index.js
+        │   │   │   ├── insertScript.js
+        │   │   │   └── theme-scheme.js
+        │   │   ├── features
+        │   │   │   ├── analytics
+        │   │   │   │   ├── index.js
+        │   │   │   │   ├── matomo.js
+        │   │   │   │   ├── posthog.js
+        │   │   │   │   └── statcounter.js
+        │   │   │   ├── copyCode
+        │   │   │   │   ├── copyCode.js
+        │   │   │   │   └── index.js
+        │   │   │   ├── darkmode
+        │   │   │   │   └── index.js
+        │   │   │   ├── embedpdf
+        │   │   │   │   └── index.js
+        │   │   │   ├── flowchart
+        │   │   │   │   ├── index.js
+        │   │   │   │   └── mermaid.js
+        │   │   │   ├── index.js
+        │   │   │   ├── math
+        │   │   │   │   ├── index.js
+        │   │   │   │   └── katex.js
+        │   │   │   ├── syntaxhighlight
+        │   │   │   │   ├── hljs.js
+        │   │   │   │   └── index.js
+        │   │   │   ├── theme
+        │   │   │   │   └── index.js
+        │   │   │   ├── toc
+        │   │   │   │   └── index.js
+        │   │   │   └── videoplayer
+        │   │   │       ├── index.js
+        │   │   │       └── plyr.js
+        │   │   ├── pages
+        │   │   │   ├── home.js
+        │   │   │   ├── index.js
+        │   │   │   ├── note.js
+        │   │   │   ├── search.js
+        │   │   │   └── single.js
+        │   │   ├── process-shim.js
+        │   │   └── sections
+        │   │       ├── achievements.js
+        │   │       ├── education.js
+        │   │       ├── index.js
+        │   │       ├── navbar.js
+        │   │       ├── projects.js
+        │   │       ├── publications.js
+        │   │       ├── sidebar.js
+        │   │       └── skills.js
+        │   └── styles
+        │       ├── application.template.scss
+        │       ├── components
+        │       │   ├── buttons.scss
+        │       │   ├── cards.scss
+        │       │   ├── images.scss
+        │       │   ├── links.scss
+        │       │   ├── misc.scss
+        │       │   ├── tables.scss
+        │       │   └── texts.scss
+        │       ├── layouts
+        │       │   ├── 404.scss
+        │       │   ├── list.scss
+        │       │   ├── main.scss
+        │       │   ├── notes.scss
+        │       │   └── single.scss
+        │       ├── mixins.scss
+        │       ├── navigators
+        │       │   ├── navbar.scss
+        │       │   └── sidebar.scss
+        │       ├── override.scss
+        │       ├── sections
+        │       │   ├── about.scss
+        │       │   ├── accomplishments.scss
+        │       │   ├── achievements.scss
+        │       │   ├── education.scss
+        │       │   ├── experiences.scss
+        │       │   ├── footer.scss
+        │       │   ├── home.scss
+        │       │   ├── pdf-viewer.scss
+        │       │   ├── projects.scss
+        │       │   ├── publications.scss
+        │       │   ├── recent-posts.scss
+        │       │   └── skills.scss
+        │       └── variables.scss
+        ├── content
+        │   ├── notes
+        │   │   ├── search.bn.md
+        │   │   ├── search.cn.md
+        │   │   ├── search.de.md
+        │   │   ├── search.es.md
+        │   │   ├── search.fr.md
+        │   │   ├── search.hi.md
+        │   │   ├── search.id.md
+        │   │   ├── search.it.md
+        │   │   ├── search.jp.md
+        │   │   ├── search.ko.md
+        │   │   ├── search.md
+        │   │   ├── search.ru.md
+        │   │   └── search.vn.md
+        │   ├── posts
+        │   │   └── _index.md
+        │   └── search
+        │       ├── search.bn.md
+        │       ├── search.cn.md
+        │       ├── search.de.md
+        │       ├── search.es.md
+        │       ├── search.fr.md
+        │       ├── search.hi.md
+        │       ├── search.id.md
+        │       ├── search.it.md
+        │       ├── search.jp.md
+        │       ├── search.ko.md
+        │       ├── search.md
+        │       ├── search.ru.md
+        │       └── search.vn.md
+        ├── data
+        │   └── toha
+        │       └── styles.yml
+        ├── exampleSite
+        │   ├── go.mod
+        │   ├── go.sum
+        │   ├── hugo.yaml
+        │   ├── package.hugo.json
+        │   ├── package.json
+        │   └── package-lock.json
+        ├── go.mod
+        ├── go.sum
+        ├── hugo.yaml
+        ├── i18n
+        │   ├── ad.toml
+        │   ├── ar.toml
+        │   ├── az.toml
+        │   ├── bn.toml
+        │   ├── de.toml
+        │   ├── en.toml
+        │   ├── es.toml
+        │   ├── fi.toml
+        │   ├── fr.toml
+        │   ├── he.toml
+        │   ├── hi.toml
+        │   ├── id.toml
+        │   ├── it.toml
+        │   ├── jp.toml
+        │   ├── ko.toml
+        │   ├── nl.toml
+        │   ├── pt-br.toml
+        │   ├── pt-pt.toml
+        │   ├── ru.toml
+        │   ├── tr.toml
+        │   ├── vn.toml
+        │   ├── zh-cn.toml
+        │   └── zh-tw.toml
+        ├── images
+        │   ├── about.png
+        │   ├── list.png
+        │   ├── screenshot.png
+        │   ├── single.png
+        │   ├── tn2.png
+        │   └── tn.png
+        ├── layouts
+        │   ├── 404.html
+        │   ├── categories
+        │   │   └── list.html
+        │   ├── _default
+        │   │   ├── baseof.html
+        │   │   ├── index.json
+        │   │   ├── list.html
+        │   │   ├── _markup
+        │   │   │   └── render-link.html
+        │   │   ├── rss.xml
+        │   │   ├── search.html
+        │   │   ├── single.html
+        │   │   └── sitemap.xml
+        │   ├── index.html
+        │   ├── notes
+        │   │   ├── list.html
+        │   │   └── single.html
+        │   ├── partials
+        │   │   ├── analytics.html
+        │   │   ├── cards
+        │   │   │   ├── accomplishments.html
+        │   │   │   ├── post.html
+        │   │   │   ├── project.html
+        │   │   │   ├── publication.html
+        │   │   │   └── skill.html
+        │   │   ├── comments
+        │   │   │   ├── commento.html
+        │   │   │   ├── disqus.html
+        │   │   │   ├── giscus.html
+        │   │   │   ├── utteranc.html
+        │   │   │   └── valine.html
+        │   │   ├── comments.html
+        │   │   ├── footer.html
+        │   │   ├── google_analytics.html
+        │   │   ├── header.html
+        │   │   ├── helpers
+        │   │   │   ├── add-navbar-separator.html
+        │   │   │   ├── country-code.html
+        │   │   │   ├── get-author-image.html
+        │   │   │   ├── get-author-name.html
+        │   │   │   ├── get-esbuild-options.html
+        │   │   │   ├── get-hero.html
+        │   │   │   ├── get-pages.html
+        │   │   │   ├── get-sass-options.html
+        │   │   │   ├── get-section-id.html
+        │   │   │   ├── get-section-url.html
+        │   │   │   ├── script-bundle.html
+        │   │   │   └── style-bundle.html
+        │   │   ├── misc
+        │   │   │   ├── badge.html
+        │   │   │   ├── soft-skills.html
+        │   │   │   ├── support.html
+        │   │   │   └── tags.html
+        │   │   ├── navigators
+        │   │   │   ├── lang-selector.html
+        │   │   │   ├── navbar.html
+        │   │   │   ├── next-prev-navigator.html
+        │   │   │   ├── sidebar.html
+        │   │   │   ├── taxonomies.html
+        │   │   │   └── theme-selector.html
+        │   │   ├── opengraph.html
+        │   │   ├── scripts.html
+        │   │   └── sections
+        │   │       ├── about.html
+        │   │       ├── accomplishments.html
+        │   │       ├── achievements
+        │   │       │   └── entry.html
+        │   │       ├── achievements.html
+        │   │       ├── education-alt.html
+        │   │       ├── education.html
+        │   │       ├── experiences
+        │   │       │   ├── horizontal-line.html
+        │   │       │   ├── positions.html
+        │   │       │   └── vertical-line.html
+        │   │       ├── experiences.html
+        │   │       ├── featured-posts.html
+        │   │       ├── home.html
+        │   │       ├── projects.html
+        │   │       ├── publications.html
+        │   │       ├── recent-posts.html
+        │   │       └── skills.html
+        │   ├── shortcodes
+        │   │   ├── alert.html
+        │   │   ├── embed-pdf.html
+        │   │   ├── gist.html
+        │   │   ├── img.html
+        │   │   ├── mastodon.html
+        │   │   ├── mermaid.html
+        │   │   ├── note.html
+        │   │   ├── rimg.html
+        │   │   ├── split.html
+        │   │   ├── video.html
+        │   │   └── vs.html
+        │   └── tags
+        │       └── list.html
+        ├── LICENSE
+        ├── mise.toml
+        ├── netlify.toml
+        ├── package.hugo.json
+        ├── package.json
+        ├── package-lock.json
+        ├── README.md
+        ├── static
+        │   ├── icons
+        │   │   ├── computer-svgrepo-com.svg
+        │   │   ├── moon-svgrepo-com.svg
+        │   │   └── sun-svgrepo-com.svg
+        │   └── sitemap.xml
+        └── theme.toml
+
+126 directories, 414 files
