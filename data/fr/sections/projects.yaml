@@ -3,7 +3,7 @@ section:
   name: Projets
   id: projects
   enable: true
-  weight: 5
+  weight: 8
   showOnNavbar: true
 
 # Filter buttons

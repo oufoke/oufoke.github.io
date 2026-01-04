@@ -3,7 +3,7 @@ section:
   name: Expériences
   id: experiences
   enable: true
-  weight: 3
+  weight: 7
   showOnNavbar: true
 
 # Your experiences

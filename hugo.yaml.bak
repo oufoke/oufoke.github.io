@@ -1,0 +1,119 @@
+baseURL: "https://oufoke.github.io/portofolio-oumar/"
+languageCode: fr-fr
+title: "Oumar KEBE | Data Product Manager"
+
+# --- THEME SETUP ---
+theme: "toha"
+
+# On définit les dépendances locales
+module:
+  mounts:
+  - source: static/files
+    target: static/files
+  - source: node_modules/flag-icons/flags
+    target: static/flags
+  - source: node_modules/@fontsource/mulish/files
+    target: static/files
+  - source: node_modules/katex/dist/fonts
+    target: static/fonts
+
+# Gestion des langues
+languages:
+  en:
+    contentDir: content/en
+    languageName: English
+    weight: 2
+  fr:
+    contentDir: content/fr
+    languageName: Français
+    weight: 1
+
+defaultContentLanguage: fr
+
+# Configuration du rendu Markdown
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+enableEmoji: true
+
+# --- PARAMETRES DU SITE ---
+params:
+  background: /images/site/2bckoke.jpg
+  darkBackground: /images/site/ok.png
+  logo:
+    main: /images/site/Logo_oumar.png
+    inverted: /images/site/inverted_logo_oumar.png
+    favicon: /images/site/favicon_o.png
+  gitRepo: https://github.com/oufoke/portofolio-oumar
+  gitBranch: main
+  
+  # Barre de navigation du haut
+  topNavbar:
+    maxVisibleSections: 5
+  
+  # Fonctionnalités activées
+  features:
+    theme:
+      enable: true
+      services:
+        default: system
+    portfolio:
+      enable: true
+    blog:
+      enable: false
+    toc:
+      enable: true
+    tags:
+      enable: true
+    flags:
+      enable: true
+  
+  # Pied de page
+  footer:
+    enable: true
+    template: footer.html
+
+# --- CONFIGURATION DU MENU (ORDRE D'AFFICHAGE) ---
+menu:
+  main:
+    - identifier: about
+      name: "À Propos"
+      url: "/#about"
+      weight: 10
+    
+    - identifier: skills
+      name: "Compétences"
+      url: "/#skills"
+      weight: 20
+    
+    - identifier: experience
+      name: "Expériences"
+      url: "/#experience"
+      weight: 30
+    
+    - identifier: projects
+      name: "Projets"
+      url: "/#projects"
+      weight: 40
+      
+    - identifier: accomplishments
+      name: "Engagements"
+      url: "/#accomplishments"
+      weight: 50
+
+    - identifier: education
+      name: "Formation"
+      url: "/#education"
+      weight: 60

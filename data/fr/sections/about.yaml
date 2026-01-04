@@ -3,7 +3,7 @@ section:
   name: "À Propos"
   id: "about"
   enable: true
-  weight: 1
+  weight: 10
   showOnNavbar: true
   template: "sections/about.html"
 
@@ -17,7 +17,7 @@ company:
 # your resume.
 resourceLinks:
 - title: "Mon CV (PDF)"
-  url: "static/files/Oumar_F__KEBE.pdf"
+  url: "files/Oumar_Fode_KEBE.pdf"
 
 # a summary about you
 summary: |
