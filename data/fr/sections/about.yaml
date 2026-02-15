@@ -1,71 +1,69 @@
-# section information
+# Section Information
 section:
   name: "À Propos"
   id: "about"
   enable: true
-  weight: 10
+  weight: 10 # LE PLUS IMPORTANT : Doit apparaître en premier
   showOnNavbar: true
   template: "sections/about.html"
 
-# your designation
-designation: "Data Product Manager"
-# your company information
+# Ton Titre Officiel
+designation: "Senior Data Product Manager"
+
+# Ta Preuve Sociale (L'entreprise qui te fait confiance)
 company:
-  name: "France Travail"
+  name: "France Travail (Siège)"
   url: "https://www.francetravail.fr"
 
-# your resume.
+# Call-to-Action : Ton CV
 resourceLinks:
-- title: "Mon CV (PDF)"
+- title: "Télécharger mon CV (PDF)"
   url: "files/Oumar_Fode_KEBE.pdf"
 
-# a summary about you
+# LE PITCH : C'est ici que tu gagnes l'entretien
+# J'utilise des balises HTML <br> et <b> pour la lisibilité et l'emphase.
 summary: |
-  Data Product Manager avec **6 ans d'expérience**, je me situe à l'interface stratégique entre la DSI et les directions métiers. <br><br>
-  Expert dans la transformation de besoins complexes en produits data à fort impact, je travaille actuellement chez **France Travail** sur l'évolution de plusieurs produits data. <br><br>
-  Certifié Data Scientist, Data Engineer et AI Engineer, j'allie une rigueur technique (SQL, Python, SAS) à une vision produit centrée sur l'utilisateur : **Product Discovery**, **Gouvernance des données** et **Accompagnement au changement**.
+  <b>Je ne me contente pas de livrer des features Data : je transforme la complexité technique en levier de croissance business.</b><br><br>
+  
+  Senior Data Product Manager avec <b>6 ans d'expérience</b>, j'opère à l'interface stratégique entre la DSI (Tech) et le Métier. Chez <b>France Travail</b>, je pilote l'industrialisation de produits Data critiques et la modernisation de la gouvernance (Doc-as-Code, Quality Gates).<br><br>
+  
+  <b>Ma valeur ajoutée ?</b> Une double compétence rare :
+  <ul>
+    <li><b>Vision Produit :</b> Discovery, Roadmap RICE, et alignement des parties prenantes (C-Level).</li>
+    <li><b>Ancrage Technique :</b> Capacité à auditer du code (Python, SQL), concevoir des architectures IA (RAG) et dialoguer d'égal à égal avec les développeurs.</li>
+  </ul>
+  
+  Mon objectif : Dérisquer vos projets data/I.A. et maximiser leur adoption utilisateur.
 
-# your social links
-socialLinks:
-- name: "Email"
-  icon: "fas fa-envelope"
-  url: "mailto:oumarfodek@gmail.com"
-- name: "Github"
-  icon: "fab fa-github"
-  url: "https://www.github.com/oufoke"
-- name: "LinkedIn"
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/oumarfodek/"
+# Soft Skills : On transforme des "qualités" en "compétences stratégiques"
+# Indicateurs de compétences (Soft-skill indicators)
 
-# Show your badges
+
+
+# Tes Badges : Preuves tangibles de ton expertise
 badges:
 - type: "certification"
-  name: "Data Product Manager"
+  name: "Data Product Manager (Sorbonne)"
   url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
-  badge: "files/datascientestLogo.png"
+  badge: "files/datascientestLogo.png" # Assure-toi d'avoir un logo ici
+
 - type: "certification"
   name: "AI Engineer Associate"
   url: "https://www.datacamp.com/certificate/AEDS0013592331030"
   badge: "files/certification-ai-engineer-for-data-scientist-associate-badge.png"
-- type: "certification"
-  name: "Data Scientist Professional"
-  url: "https://www.datacamp.com/certificate/DS0027579108829"
-  badge: "files/data_scientist_professional_badge.png"
 
-# Indicateurs de compétences (Soft-skill indicators)
-- type: "soft-skill-indicator"
-  name: "Gestion Parties Prenantes"
-  percentage: 95
-  color: "orange"
-- type: "soft-skill-indicator"
-  name: "Décisions Data-Driven"
-  percentage: 100
-  color: "green"
-- type: "soft-skill-indicator"
-  name: "Product Discovery & UX"
+# Correction des jauges (Echelle 0-100, divisible par 5)
+- type: soft-skill-indicator
+  name: "Stratégie Produit & Discovery"
+  percentage: 10
+  color: "#ff8c00" # Orange pro
+
+- type: soft-skill-indicator
+  name: "Leadership Transverse"
   percentage: 90
-  color: "yellow"
-- type: "soft-skill-indicator"
-  name: "Stratégie Produit"
-  percentage: 85
-  color: "blue"
+  color: "green"
+
+- type: soft-skill-indicator
+  name: "Architecture Data & IA"
+  percentage: 100
+  color: "#0891b2" # Ton Cyan néon

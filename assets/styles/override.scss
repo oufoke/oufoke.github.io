@@ -1,0 +1,13 @@
+.home { .background { filter: none !important; } }
+/* Inversion de la jauge pour corriger le bug du "Reste" */
+.soft-skill-indicator {
+    svg {
+        transform: rotate(-90deg) scaleY(-1); /* Retourne la jauge horizontalement */
+    }
+    
+    /* Si le thème utilise des segments CSS */
+    .percentage-bar {
+        /* On inverse la progression */
+        filter: hue-rotate(180deg); /* Optionnel : si les couleurs s'inversent aussi */
+    }
+}

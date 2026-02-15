@@ -1,0 +1,31 @@
+/* 1. On neutralise le flou sur tous les calques du Hero */
+#home, 
+.home-area, 
+.hero-section, 
+.bg-image {
+    filter: none !important;
+    -webkit-filter: blur(0px) !important;
+    backdrop-filter: none !important;
+}
+
+/* 2. Le "coupable" chez Toha est souvent le pseudo-élément ::before */
+/* Ce code force l'image à rester brute et nette */
+#home::before, 
+.home-area::before {
+    filter: none !important;
+    -webkit-filter: blur(0px) !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+/* 3. Optimisation du rendu des pixels pour éviter l'effet "étiré" */
+.bg-image {
+    image-rendering: -webkit-optimize-contrast !important;
+    image-rendering: high-quality !important;
+}
+
+/* 4. On éclaircit le voile noir s'il est trop étouffant */
+.hero-overlay, .overlay {
+    background-color: rgba(0, 0, 0, 0.2) !important; /* 0.2 = très léger, 0.8 = très noir */
+    backdrop-filter: none !important;
+}

@@ -1,32 +1,35 @@
-# section information
 section:
   name: Expériences
   id: experiences
   enable: true
-  weight: 7
+  weight: 20 # Prioritaire : Juste après le "À Propos"
   showOnNavbar: true
 
-# Your experiences
 experiences:
 - company:
-    name: France Travail
-    url: "https://dataemploi.francetravail.fr/emploi/accueil"
+    name: France Travail (Siège)
+    url: "https://www.francetravail.fr"
     location: Paris, France
-    logo: /images/sections/experiences/logo-dataemploi-ft.svg
-    overview: "Service public de l'emploi en France. France Travail fournit des données stratégiques sur le marché du travail via la plateforme Data Emploi."
+    logo: /images/sections/experiences/logo-ft.svg # Assure-toi que ce logo existe
+    overview: "Leader de la transformation Data & IA au service de l'emploi."
+  
   positions:
-  - designation: Data Product Manager (Projet Documentation & Méthode)
+  # Rôle Actuel : Focus Stratégie, Gouvernance & Scale
+  - designation: Senior Data Product Manager (Gouvernance & Ops)
     start: Mai 2025
-    # end: Present (Automatique)
     responsibilities:
-    - "**Stratégie Produit :** Pilotage de la mise en place d'un site de documentation « As-Code » pour centraliser les processus métiers au sein de la MOA."
-    - "**Gouvernance & Versionnage :** Implémentation d'un workflow basé sur Markdown et GitLab Pages garantissant une documentation technique fiable et versionnée."
-    - "**Accompagnement au Changement :** Définition de la roadmap du MVP et formation des équipes MOA aux nouveaux outils de contribution."
+    - "**Stratégie Doc-as-Code :** Conception et déploiement d'un portail de documentation technique (Docusaurus) centralisant le savoir métier. **Résultat :** Réduction de 30% du temps d'onboarding des nouveaux Data Analysts."
+    - "**Automatisation de la Qualité (Data Quality) :** Pilotage d'une solution de **Quality Gates** automatisées via Power BI/Python. **Impact :** Blocage systématique de 100% des anomalies critiques avant la diffusion nationale des statistiques."
+    - "**Leadership Transverse :** Interface unique entre la DGA SI (Tech) et les Directions Métiers. Traduction des besoins business en roadmap technique (Priorisation RICE) et évangélisation de l'IA Générative auprès des équipes opérationnelles."
 
+  # Rôle Précédent : Focus Construction, Data Engineering & Delivery
   - designation: Data Product Manager / Data Manager
     start: Février 2020
     end: Avril 2025
     responsibilities:
-    - "**Product Discovery & Pilotage :** Coordination des évolutions du SI Smart Emploi : formalisation des besoins, spécifications fonctionnelles et pilotage des recettes (UAT)."
-    - "**Data Quality Management :** Mise en œuvre de procédures de contrôle et développement de programmes optimisés (SQL, Python, SAS) pour la production statistique."
-    - "**Coordination Transverse :** Animation des prestataires et facilitation de la coopération entre la DSI et les directions métiers pour la diffusion via API."
+    - "**Pilotage du Produit 'Smart Emploi' :** Orchestration du cycle de vie des données pour le SI décisionnel. Gestion du backlog et coordination des recettes avec les équipes MOE/MOA."
+    - "**Architecture de Pipelines ETL :** Optimisation des flux de données massifs (SAS vers Python/SQL). **Résultat :** Fiabilisation des indicateurs de performance diffusés aux agences et partenaires."
+    - "**Gouvernance  :** Mise en place de contrats d'interface stricts pour garantir l'intégrité des données exposées via 'Data Emploi', assurant la conformité RGPD et la stabilité du service."
+
+# Expérience précédente (Optionnelle si tu veux alléger, mais bonne pour la crédibilité Tech)
+# Si tu as fait des stages significatifs avant, tu peux les remettre ici avec le même format "Impact".

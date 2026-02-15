@@ -1,54 +1,35 @@
-# section information
 section:
-  name: "Skills"
+  name: "Expertises Stratégiques"
   id: "skills"
   enable: true
-  weight: 2
+  weight: 40
   showOnNavbar: true
-  filter: true
-
-buttons:
-- name: "All"
-  filter: "all"
-- name: "Product Management"
-  filter: "product"
-- name: "Data & AI"
-  filter: "data"
-- name: "Tech Stack"
-  filter: "tech"
 
 skills:
-- name: "Product Management"
-  logo: "/images/sections/skills/git.png"
-  summary: "Leading product vision and roadmaps. Expertise in Product Discovery, functional specification drafting, and User Acceptance Testing (UAT)."
-  categories: ["product"]
+- name: "Product Strategy & Discovery"
+  logo: "images/sections/skills/product.png" 
+  summary: "Pilotage de la vision produit de bout en bout. Maîtrise des frameworks de priorisation (RICE, MoSCoW) et animation d'ateliers de Discovery."
 
-- name: "SQL & Data Analysis"
-  logo: "/images/sections/skills/sql.png"
-  summary: "Advanced proficiency in extracting strategic indicators, creating datasets, and auditing production data quality."
-  categories: ["data"]
+- name: "Gouvernance & Doc-as-Code"
+  logo: "images/sections/skills/governance.png"
+  summary: "Industrialisation de la documentation technique (Docusaurus) et mise en place de 'Quality Gates' automatisées."
 
-- name: "Python & R"
-  logo: "/images/sections/skills/python.png"
-  summary: "Utilizing NumPy and Pandas libraries for statistical analysis and data pipeline automation."
-  categories: ["data", "tech"]
+- name: "GenAI & Architecture RAG"
+  logo: "images/sections/skills/ai.png"
+  summary: "Conception de solutions d'IA Générative (OpenAI, LangChain). Capacité à prototyper des assistants RH (RAG)."
 
-- name: "Data Governance & Quality"
-  logo: "/images/sections/skills/git.png"
-  summary: "Implementing Data Quality Management protocols and business logic to ensure the reliability of shared indicators."
-  categories: ["data"]
+- name: "Python & Machine Learning"
+  logo: "images/sections/skills/python.png"
+  summary: "Expertise hands-on pour le traitement de données massives (Pipelines ETL, Pandas, SQL avancé)."
 
-- name: "Business Intelligence"
-  logo: "/images/sections/skills/python.png"
-  summary: "Designing dashboards and visualizing complex data via PowerBI and Google Analytics for performance tracking."
-  categories: ["data", "product"]
+- name: "Expertise SQL & Database"
+  logo: "images/sections/skills/database.png"
+  summary: "Optimisation de traitements sur volumes massifs et audit de qualité des données critiques."
 
-- name: "Agile & Coordination"
-  logo: "/images/sections/skills/git.png"
-  summary: "Facilitating cooperation between IT departments and business units. Managing external providers within an Agile framework."
-  categories: ["product", "tech"]
+- name: "Power BI (Expert DAX)"
+  logo: "images/sections/skills/powerbi.png"
+  summary: "Transformation de la donnée brute en outils d'aide à la décision et définition de KPIs produits."
 
-- name: "SAS"
-  logo: "/images/sections/skills/python.png"
-  summary: "Developing optimized programs for large-scale statistical indicator calculations in production environments."
-  categories: ["tech", "data"]
+- name: "Agilité & DevOps Culture"
+  logo: "images/sections/skills/agile.png"
+  summary: "Gestion de backlog sous Jira/Confluence. Promotion des bonnes pratiques logicielles (Git, CI/CD)."

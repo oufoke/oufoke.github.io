@@ -1,6 +1,7 @@
 baseURL: "https://oufoke.github.io/portofolio-oumar/"
 languageCode: fr-fr
-title: "Oumar KEBE | Data Product Manager"
+# SEO : Titre optimisé pour les algorithmes de recrutement Senior
+title: "Oumar F. KEBE | Senior Data Product Manager | Expert IA & Gouvernance"
 
 theme: "toha"
 
@@ -16,21 +17,24 @@ module:
     target: static/fonts
 
 languages:
-  en:
-    contentDir: content/en
-    languageName: English
-    weight: 2
   fr:
     contentDir: content/fr
     languageName: Français
     weight: 1
+  # SUPPRIME OU COMMENTE CES LIGNES :
+  # en:
+  #   contentDir: content/en
+  #   languageName: English
+  #   weight: 2
 
 defaultContentLanguage: fr
 
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      # Critique Mentor : Gardé à true pour permettre le rendu des sauts de ligne <br> 
+      # utilisés dans ton fichier about.yaml
+      unsafe: true 
   tableOfContents:
     startLevel: 2
     endLevel: 6
@@ -45,18 +49,24 @@ outputs:
 enableEmoji: true
 
 params:
-  background: /images/site/2bckoke.jpg
-  darkBackground: /images/site/ok.png
+  # UI & Branding personnalisé
+  background: /images/site/light_back.png
+  darkBackground: /images/site/dark_back.png
   logo:
-    main: /images/site/Logo_oumar.png
-    inverted: /images/site/inverted_logo_oumar.png
+    main: /images/site/Untitled.png
+    inverted: /images/site/logo_ok_dark.png
     favicon: /images/site/favicon_o.png
+  custom_css:
+    - scss/custom.scss
+  # GitHub Integration
   gitRepo: https://github.com/oufoke/portofolio-oumar
   gitBranch: main
   
+  # Navigation : On augmente le nombre de sections visibles pour montrer la séniorité
   topNavbar:
-    maxVisibleSections: 2
+    maxVisibleSections: 4
   
+  # Activation des modules clés
   features:
     theme:
       enable: true
@@ -65,7 +75,7 @@ params:
     portfolio:
       enable: true
     blog:
-      enable: false
+      enable: false # Désactivé pour focaliser sur le profil "Expert" (Landing Page)
     toc:
       enable: true
     tags:
@@ -75,43 +85,50 @@ params:
     newsletter:
       enable: false
 
-  
   footer:
     enable: true
     template: footer.html
+    customText: "Note : Les opinions exprimées ici sont personnelles et n'engagent pas mon employeur."
+  analytics:
+      enable: true
+      services:
+        goatCounter:
+          code: oumarfodekebe  # Remplace par ton code réel
 
-# --- C'EST ICI QUE L'ORDRE EST DÉFINI ---
+# --- STRATÉGIE DE NAVIGATION DPM (ENTONNOIR DE VENTE) ---
+# L'ordre définit l'histoire que tu racontes : Vision -> Expérience -> Projets -> Outils.
 menu:
   main:
     - identifier: about
       name: "À Propos"
       url: "/#about"
-      weight: 10
-    
-    - identifier: skills
-      name: "Compétences"
-      url: "/#skills"
-      weight: 9
-    
+      weight: 10 # 1. Qui je suis : Le positionnement stratégique
+
     - identifier: experience
       name: "Expériences"
       url: "/#experience"
-      weight: 8
-    
+      weight: 20 # 2. Ma preuve de séniorité (France Travail)
+
     - identifier: projects
       name: "Projets"
       url: "/#projects"
-      weight: 7
-      
-    - identifier: accomplishments
-      name: "Engagements"
-      url: "/#accomplishments"
-      weight: 0
+      weight: 30 # 3. Mes réalisations concrètes (Smart-Screener, etc.)
+
+    - identifier: skills
+      name: "Expertises"
+      url: "/#skills"
+      weight: 40 # 4. Mon socle technique (Python, SQL, GenAI)
 
     - identifier: education
       name: "Formation"
       url: "/#education"
-      weight: 5
-      
-      
+      weight: 50 # 5. Mon bagage académique (Sorbonne, ISIFAR)
 
+    - identifier: accomplishments
+      name: "Certifications"
+      url: "/#accomplishments"
+      weight: 60 # 6. La réassurance finale
+imaging:
+  resampleFilter: Lanczos
+  quality: 100
+  hint: picture
