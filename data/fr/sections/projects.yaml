@@ -3,7 +3,7 @@ section:
   name: "Projets Réalisés"
   id: "projects"
   enable: true
-  weight: 30 # Juste après les expériences, pour prouver tes dires.
+  weight: 60 # Juste après les expériences, pour prouver tes dires.
   showOnNavbar: true
 
 # Boutons de filtrage : On utilise des termes de marché (GenAI, Strategy)

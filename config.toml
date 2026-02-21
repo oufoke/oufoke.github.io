@@ -1,0 +1,114 @@
+baseURL: "https://oufoke.github.io/portofolio-oumar/"
+languageCode: fr-fr
+title: "Oumar F. KEBE | Senior Data Product Manager | Expert IA & Gouvernance"
+theme: "toha"
+
+module:
+  mounts:
+  - source: static/files
+    target: static/files
+  - source: node_modules/flag-icons/flags
+    target: static/flags
+  - source: node_modules/@fontsource/mulish/files
+    target: static/files
+  - source: node_modules/katex/dist/fonts
+    target: static/fonts
+
+languages:
+  fr:
+    contentDir: content/fr
+    languageName: Français
+    weight: 1
+
+defaultContentLanguage: fr
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true 
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+enableEmoji: true
+
+params:
+  background: /images/site/light_back.png
+  darkBackground: /images/site/dark_back.png
+  logo:
+    main: /images/site/Untitled.png
+    inverted: /images/site/logo_ok_dark.png
+    favicon: /images/site/favicon_o.png
+
+  gitRepo: https://github.com/oufoke/portofolio-oumar
+  gitBranch: main
+  
+  topNavbar:
+    maxVisibleSections: 4
+  
+  features:
+    theme:
+      enable: false        # Désactivé pour stabiliser le site ce soir
+      services:
+        default: light     # Force le mode clair
+    portfolio:
+      enable: true
+    blog:
+      enable: false 
+    toc:
+      enable: true
+    tags:
+      enable: true
+    flags:
+      enable: true
+    newsletter:
+      enable: false
+
+  footer:
+    enable: true
+    template: footer.html
+    customText: "Note : Les opinions exprimées ici sont personnelles et n'engagent pas mon employeur."
+  analytics:
+      enable: true
+      services:
+        goatCounter:
+          code: oumarfodekebe
+
+menu:
+  main:
+    - identifier: about
+      name: "À Propos"
+      url: "/#about"
+      weight: 10
+    - identifier: experience
+      name: "Expériences"
+      url: "/#experience"
+      weight: 20
+    - identifier: projects
+      name: "Projets"
+      url: "/#projects"
+      weight: 30
+    - identifier: skills
+      name: "Expertises"
+      url: "/#skills"
+      weight: 40
+    - identifier: education
+      name: "Formation"
+      url: "/#education"
+      weight: 50
+    - identifier: accomplishments
+      name: "Certifications"
+      url: "/#accomplishments"
+      weight: 60
+
+imaging:
+  resampleFilter: Lanczos
+  quality: 100
+  hint: picture

@@ -1,20 +1,42 @@
-/* --- TEST DIAGNOSTIC --- */
-body { border: 15px solid #2ecc71 !important; } /* Bordure verte */
+/* ========================================= */
+/* 1. TEST DIAGNOSTIC (Bordure verte)        */
+/* ========================================= */
+body { border: 15px solid #2ecc71 !important; } 
 
-/* --- STYLE POUR LE RÉSUMÉ (AUTHOR.YAML) --- */
-#home {
-    .home-subheading {
-        color: #000000 !important; /* Texte noir */
-        background-color: rgba(255, 255, 255, 0.85) !important; /* Fond blanc très lisible */
-        padding: 10px 15px !important;
-        border-radius: 8px !important;
-        font-weight: 700 !important;
-    }
-    
-    .home-heading {
-        color: #000000 !important;
-        background-color: rgba(255, 255, 255, 0.85) !important;
-        padding: 5px 15px !important;
-        border-radius: 8px !important;
-    }
+/* ========================================= */
+/* 2. STYLE POUR LE RÉSUMÉ ET LE TITRE       */
+/* ========================================= */
+#home .home-subheading {
+    color: #000000 !important; /* Texte noir */
+    background-color: rgba(255, 255, 255, 0.85) !important; /* Fond blanc très lisible */
+    padding: 10px 15px !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    display: inline-block !important; /* Pour que le fond épouse bien le texte */
+}
+
+#home .home-heading {
+    color: #000000 !important;
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    padding: 5px 15px !important;
+    border-radius: 8px !important;
+    display: inline-block !important; /* Pour que le fond épouse bien le texte */
+    margin-bottom: 10px !important;
+}
+
+/* ========================================= */
+/* 3. FIX : SUPPRIMER LE FLOU EN MODE SOMBRE */
+/* ========================================= */
+body.dark, 
+[data-theme="dark"] {
+    backdrop-filter: none !important;
+    filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+body.dark::before, 
+[data-theme="dark"]::before,
+.hero-background::before {
+    filter: none !important;
+    backdrop-filter: none !important;
 }

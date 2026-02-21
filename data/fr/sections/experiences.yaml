@@ -2,7 +2,7 @@ section:
   name: Expériences
   id: experiences
   enable: true
-  weight: 20 # Prioritaire : Juste après le "À Propos"
+  weight: 80 # Prioritaire : Juste après le "À Propos"
   showOnNavbar: true
 
 experiences:

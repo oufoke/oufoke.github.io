@@ -3,7 +3,7 @@ section:
   name: "À Propos"
   id: "about"
   enable: true
-  weight: 10 # LE PLUS IMPORTANT : Doit apparaître en premier
+  weight: 100 # LE PLUS IMPORTANT : Doit apparaître en premier
   showOnNavbar: true
   template: "sections/about.html"
 

@@ -1,13 +1,26 @@
-.home { .background { filter: none !important; } }
-/* Inversion de la jauge pour corriger le bug du "Reste" */
-.soft-skill-indicator {
-    svg {
-        transform: rotate(-90deg) scaleY(-1); /* Retourne la jauge horizontalement */
-    }
+/* --- LISIBILITÉ DU TEXTE --- */
+#home .home-heading, 
+#home .home-subheading {
+    color: #000000 !important;
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    padding: 10px 15px !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    display: inline-block !important;
+}
+
+/* --- NETTETÉ ABSOLUE DU FOND --- */
+#homePageBackgroundImageDivStyled {
+    filter: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
     
-    /* Si le thème utilise des segments CSS */
-    .percentage-bar {
-        /* On inverse la progression */
-        filter: hue-rotate(180deg); /* Optionnel : si les couleurs s'inversent aussi */
+    /* On ajoute un voile léger (25%) pour le contraste */
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-color: rgba(0, 0, 0, 0.25); 
+        display: block;
     }
 }
