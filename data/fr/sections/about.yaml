@@ -22,18 +22,7 @@ resourceLinks:
 
 # LE PITCH : C'est ici que tu gagnes l'entretien
 # J'utilise des balises HTML <br> et <b> pour la lisibilité et l'emphase.
-summary: |
-  <b>Je ne me contente pas de livrer des features Data : je transforme la complexité technique en levier de croissance business.</b><br><br>
-  
-  Senior Data Product Manager avec <b>6 ans d'expérience</b>, j'opère à l'interface stratégique entre la DSI (Tech) et le Métier. Chez <b>France Travail</b>, je pilote l'industrialisation de produits Data critiques et la modernisation de la gouvernance (Doc-as-Code, Quality Gates).<br><br>
-  
-  <b>Ma valeur ajoutée ?</b> Une double compétence rare :
-  <ul>
-    <li><b>Vision Produit :</b> Discovery, Roadmap RICE, et alignement des parties prenantes (C-Level).</li>
-    <li><b>Ancrage Technique :</b> Capacité à auditer du code (Python, SQL), concevoir des architectures IA (RAG) et dialoguer d'égal à égal avec les développeurs.</li>
-  </ul>
-  
-  Mon objectif : Dérisquer vos projets data/I.A. et maximiser leur adoption utilisateur.
+
 
 # Soft Skills : On transforme des "qualités" en "compétences stratégiques"
 # Indicateurs de compétences (Soft-skill indicators)
@@ -52,18 +41,16 @@ badges:
   url: "https://www.datacamp.com/certificate/AEDS0013592331030"
   badge: "files/certification-ai-engineer-for-data-scientist-associate-badge.png"
 
-# Correction des jauges (Echelle 0-100, divisible par 5)
-- type: soft-skill-indicator
-  name: "Stratégie Produit & Discovery"
-  percentage: 10
-  color: "#ff8c00" # Orange pro
+# Emplacement : data/fr/about.yaml
+softSkills:
+  - name: "Stratégie Produit & Discovery"
+    percentage: 10
+    color: "#ff8c00"
 
-- type: soft-skill-indicator
-  name: "Leadership Transverse"
-  percentage: 90
-  color: "green"
+  - name: "Leadership Transverse"
+    percentage: 90
+    color: "green"
 
-- type: soft-skill-indicator
-  name: "Architecture Data & IA"
-  percentage: 100
-  color: "#0891b2" # Ton Cyan néon
+  - name: "Architecture Data & IA"
+    percentage: 100
+    color: "#0891b2"

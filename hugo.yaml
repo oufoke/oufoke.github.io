@@ -56,8 +56,7 @@ params:
     main: /images/site/Untitled.png
     inverted: /images/site/logo_ok_dark.png
     favicon: /images/site/favicon_o.png
-  custom_css:
-    - scss/custom.scss
+
   # GitHub Integration
   gitRepo: https://github.com/oufoke/portofolio-oumar
   gitBranch: main

@@ -1,0 +1,20 @@
+/* --- TEST DIAGNOSTIC --- */
+body { border: 15px solid #2ecc71 !important; } /* Bordure verte */
+
+/* --- STYLE POUR LE RÉSUMÉ (AUTHOR.YAML) --- */
+#home {
+    .home-subheading {
+        color: #000000 !important; /* Texte noir */
+        background-color: rgba(255, 255, 255, 0.85) !important; /* Fond blanc très lisible */
+        padding: 10px 15px !important;
+        border-radius: 8px !important;
+        font-weight: 700 !important;
+    }
+    
+    .home-heading {
+        color: #000000 !important;
+        background-color: rgba(255, 255, 255, 0.85) !important;
+        padding: 5px 15px !important;
+        border-radius: 8px !important;
+    }
+}

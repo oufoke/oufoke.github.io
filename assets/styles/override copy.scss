@@ -1,0 +1,9 @@
+/* --- AMÉLIORATION VISIBILITÉ HERO --- */
+#home .home-subheading {
+    color: #000000 !important; /* Texte noir */
+    background-color: rgba(255, 255, 255, 0.8) !important; /* Fond blanc translucide */
+    padding: 10px 15px !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    display: inline-block !important;
+}

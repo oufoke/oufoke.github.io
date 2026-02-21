@@ -1,0 +1,12 @@
+/* --- TEST VISUEL RADICAL --- */
+body { border: 15px solid #ff0000 !important; } /* Bordure rouge géante */
+
+/* --- COULEUR DU RÉSUMÉ (AUTHOR.YAML) --- */
+.home-subheading {
+    color: #ffcc00 !important; /* Jaune vif pour le test */
+    background-color: rgba(0, 0, 0, 0.8) !important; /* Fond noir très sombre */
+    padding: 15px !important;
+    font-weight: 800 !important;
+    font-size: 1.4rem !important;
+    display: block !important;
+}
