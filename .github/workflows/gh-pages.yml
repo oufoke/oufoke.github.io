@@ -15,10 +15,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          # On a supprimé 'submodules: recursive' car le thème est désormais 
+          # intégré directement dans ton dépôt
           fetch-depth: 0
 
-      # ÉTAPE CLÉ : Installer Node.js et les dépendances
+      # ÉTAPE CLÉ : Installer Node.js et les dépendances (Essentiel pour Toha)
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
