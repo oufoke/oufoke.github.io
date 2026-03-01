@@ -2,3 +2,5 @@ resources/*
 node_modules/*
 public/*
 .vscode/
+mon_projet_existant.txt
+toha_context_for_claude.txt
