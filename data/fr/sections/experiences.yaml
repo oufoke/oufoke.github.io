@@ -2,19 +2,18 @@ section:
   name: Expériences
   id: experiences
   enable: true
-  weight: 80 # Prioritaire : Juste après le "À Propos"
-  showOnNavbar: true
+  weight: 20 
+  showOnNavbar: false
 
 experiences:
 - company:
     name: France Travail (Siège)
     url: "https://www.francetravail.fr"
     location: Paris, France
-    logo: /images/sections/experiences/logo-ft.svg # Assure-toi que ce logo existe
+    logo: /images/sections/experiences/logo-ft.svg 
     overview: "Leader de la transformation Data & IA au service de l'emploi."
   
   positions:
-  # Rôle Actuel : Focus Stratégie, Gouvernance & Scale
   - designation: Senior Data Product Manager (Gouvernance & Ops)
     start: Mai 2025
     responsibilities:
@@ -22,7 +21,6 @@ experiences:
     - "**Automatisation de la Qualité (Data Quality) :** Pilotage d'une solution de **Quality Gates** automatisées via Power BI/Python. **Impact :** Blocage systématique de 100% des anomalies critiques avant la diffusion nationale des statistiques."
     - "**Leadership Transverse :** Interface unique entre la DGA SI (Tech) et les Directions Métiers. Traduction des besoins business en roadmap technique (Priorisation RICE) et évangélisation de l'IA Générative auprès des équipes opérationnelles."
 
-  # Rôle Précédent : Focus Construction, Data Engineering & Delivery
   - designation: Data Product Manager / Data Manager
     start: Février 2020
     end: Avril 2025
@@ -30,6 +28,3 @@ experiences:
     - "**Pilotage du Produit 'Smart Emploi' :** Orchestration du cycle de vie des données pour le SI décisionnel. Gestion du backlog et coordination des recettes avec les équipes MOE/MOA."
     - "**Architecture de Pipelines ETL :** Optimisation des flux de données massifs (SAS vers Python/SQL). **Résultat :** Fiabilisation des indicateurs de performance diffusés aux agences et partenaires."
     - "**Gouvernance  :** Mise en place de contrats d'interface stricts pour garantir l'intégrité des données exposées via 'Data Emploi', assurant la conformité RGPD et la stabilité du service."
-
-# Expérience précédente (Optionnelle si tu veux alléger, mais bonne pour la crédibilité Tech)
-# Si tu as fait des stages significatifs avant, tu peux les remettre ici avec le même format "Impact".

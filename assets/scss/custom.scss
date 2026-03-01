@@ -30,3 +30,11 @@ body { border: 8px solid #2ecc71 !important; } /* Vert pour changer du rouge ! *
         text-shadow: 1px 1px 3px black !important;
     }
 }
+/* --- CORRECTIF JAUGES CIRCULAIRES --- */
+.circular-progress-left .circular-progress-bar {
+  animation-play-state: running !important;
+}
+
+.circular-progress-percentage-50-delay {
+  animation-delay: 1.8s !important;
+}

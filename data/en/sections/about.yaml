@@ -1,4 +1,3 @@
-# section information
 section:
   name: "About"
   id: "about"
@@ -7,24 +6,22 @@ section:
   showOnNavbar: true
   template: "sections/about.html"
 
-# your designation
 designation: "Data Product Manager"
-# your company information
+
 company:
   name: "France Travail"
   url: "https://www.francetravail.fr"
 
-# your resume.
 resourceLinks:
 - title: "My CV (PDF)"
-  url: "static/files/Oumar_F__KEBE.pdf"
+  url: "files/Oumar_F__KEBE.pdf"        # ← supprimé "static/"
 
-# a summary about you
 summary: |
   Data Product Manager with **6 years of experience**, I operate at the strategic interface between the IT department and business units. <br><br>
   Expert in transforming complex needs into high-impact data products, I am currently working at **France Travail** on the evolution of several data products. <br><br>
-  Certified Data Scientist, Data Engineer and AI Engineer, I combine technical rigor (SQL, Python, SAS) with a user-centric product vision: **Product Discovery**, **Data Governance** and **Change Management**.# your social links
-socialLinks:
+  Certified Data Scientist, Data Engineer and AI Engineer, I combine technical rigor (SQL, Python, SAS) with a user-centric product vision: **Product Discovery**, **Data Governance** and **Change Management**.
+
+socialLinks:                             # ← commentaire séparé du summary
 - name: "Email"
   icon: "fas fa-envelope"
   url: "mailto:oumarfodek@gmail.com"
@@ -35,35 +32,33 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/oumarfodek/"
 
-# Show your badges
 badges:
 - type: "certification"
-  name: "Data Product Manager"
+  name: "Data Product Manager (Sorbonne)"
   url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
-  badge: "files/datascientestLogo.png"
+  badge: "/files/datascientestLogo.png"
+
 - type: "certification"
   name: "AI Engineer Associate"
   url: "https://www.datacamp.com/certificate/AEDS0013592331030"
-  badge: "files/certification-ai-engineer-for-data-scientist-associate-badge.png"
+  badge: "/files/certification-ai-engineer-for-data-scientist-associate-badge.png"
+
 - type: "certification"
   name: "Data Scientist Professional"
   url: "https://www.datacamp.com/certificate/DS0027579108829"
-  badge: "files/data_scientist_professional_badge.png"
+  badge: "/files/data_scientist_professional_badge.png"
 
-# Skill indicators
 - type: "soft-skill-indicator"
-  name: "Stakeholder Management"
-  percentage: 95
-  color: "orange"
-- type: "soft-skill-indicator"
-  name: "Data-Driven Decisions"
-  percentage: 100
-  color: "green"
-- type: "soft-skill-indicator"
-  name: "Product Discovery & UX"
+  name: "Stratégie Produit & Discovery"
   percentage: 90
-  color: "yellow"
+  color: "orange"
+
 - type: "soft-skill-indicator"
-  name: "Product Strategy"
+  name: "Leadership Transverse"
   percentage: 85
+  color: "green"
+
+- type: "soft-skill-indicator"
+  name: "Architecture Data & IA"
+  percentage: 95
   color: "blue"

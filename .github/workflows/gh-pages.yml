@@ -15,11 +15,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # On a supprimé 'submodules: recursive' car le thème est désormais 
-          # intégré directement dans ton dépôt
           fetch-depth: 0
 
-      # ÉTAPE CLÉ : Installer Node.js et les dépendances (Essentiel pour Toha)
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -32,11 +29,18 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.152.0' # 🎯 ON ALIGNE SUR TON LOCAL
           extended: true
 
+      # ÉTAPE DE SÉCURITÉ : On s'assure que Hugo reconnaît le dossier comme un module
+      - name: Initialize Hugo Mod (if missing)
+        run: |
+          if [ ! -f go.mod ]; then
+            hugo mod init github.com/oufoke/portofolio-oumar
+          fi
+
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --gc --enableGitInfo # --gc nettoie les vieux fichiers
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4

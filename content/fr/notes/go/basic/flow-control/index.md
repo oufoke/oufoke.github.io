@@ -1,12 +1,6 @@
 ---
 title: Flow Control
 weight: 30
-menu:
-  notes:
-    name: Flow Control
-    identifier: notes-go-basics-flow-control
-    parent: notes-go-basics
-    weight: 30
 ---
 
 <!-- Condition -->

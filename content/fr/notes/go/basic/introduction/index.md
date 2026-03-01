@@ -1,12 +1,6 @@
 ---
 title: Introduction
 weight: 10
-menu:
-  notes:
-    name: Introduction
-    identifier: notes-go-basics-intro
-    parent: notes-go-basics
-    weight: 10
 ---
 <!-- A Sample Program -->
 {{< note title="Hello World">}}

@@ -2,12 +2,12 @@ section:
   name: "Expertises Stratégiques"
   id: "skills"
   enable: true
-  weight: 50
+  weight: 40
   showOnNavbar: true
 
 skills:
 - name: "Product Strategy & Discovery"
-  logo: "images/sections/skills/product.png" 
+  logo: "images/sections/skills/product.png"
   summary: "Pilotage de la vision produit de bout en bout. Maîtrise des frameworks de priorisation (RICE, MoSCoW) et animation d'ateliers de Discovery."
 
 - name: "Gouvernance & Doc-as-Code"

@@ -1,56 +1,51 @@
-# Section Information
 section:
   name: "À Propos"
   id: "about"
   enable: true
-  weight: 100 # LE PLUS IMPORTANT : Doit apparaître en premier
+  weight: 10
   showOnNavbar: true
   template: "sections/about.html"
 
-# Ton Titre Officiel
 designation: "Senior Data Product Manager"
 
-# Ta Preuve Sociale (L'entreprise qui te fait confiance)
 company:
   name: "France Travail (Siège)"
   url: "https://www.francetravail.fr"
 
-# Call-to-Action : Ton CV
 resourceLinks:
 - title: "Télécharger mon CV (PDF)"
   url: "files/Oumar_Fode_KEBE.pdf"
 
-# LE PITCH : C'est ici que tu gagnes l'entretien
-# J'utilise des balises HTML <br> et <b> pour la lisibilité et l'emphase.
+summary: |
+  Senior Data Product Manager avec **6 ans d'expérience**, j'opère à l'interface stratégique entre la DSI et les Directions Métiers.
 
-
-# Soft Skills : On transforme des "qualités" en "compétences stratégiques"
-# Indicateurs de compétences (Soft-skill indicators)
-
-
-
-# Tes Badges : Preuves tangibles de ton expertise
 badges:
 - type: "certification"
   name: "Data Product Manager (Sorbonne)"
   url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
-  badge: "files/datascientestLogo.png" # Assure-toi d'avoir un logo ici
+  badge: "/files/datascientestLogo.png"
 
 - type: "certification"
   name: "AI Engineer Associate"
   url: "https://www.datacamp.com/certificate/AEDS0013592331030"
-  badge: "files/certification-ai-engineer-for-data-scientist-associate-badge.png"
+  badge: "/files/certification-ai-engineer-for-data-scientist-associate-badge.png"
 
-# Emplacement : data/fr/about.yaml
-softSkills:
-  - name: "Stratégie Produit & Discovery"
-    percentage: 10
-    color: "#ff8c00"
+- type: "certification"
+  name: "Data Scientist Professional"
+  url: "https://www.datacamp.com/certificate/DS0027579108829"
+  badge: "/files/data_scientist_professional_badge.png"
 
-  - name: "Leadership Transverse"
-    percentage: 90
-    color: "green"
+- type: "soft-skill-indicator"
+  name: "Stratégie Produit & Discovery"
+  percentage: 90
+  color: "orange"
 
-  - name: "Architecture Data & IA"
-    percentage: 100
-    color: "#0891b2"
+- type: "soft-skill-indicator"
+  name: "Leadership Transverse"
+  percentage: 85
+  color: "green"
+
+- type: "soft-skill-indicator"
+  name: "Architecture Data & IA"
+  percentage: 50
+  color: "blue"

@@ -1,0 +1,1489 @@
+Voici le contexte complet de mon projet Hugo avec le thème Toha V4. 
+Mon objectif est de restaurer mon interface car actuellement :
+1. Ma photo de profil ne s'affiche pas (ou cause une erreur "nil pointer evaluating resource").
+2. Mes backgrounds (clair et sombre) ne s'affichent pas.
+3. Le bouton "Suite" (qui déroule les sections) a disparu.
+4. Les drapeaux des langues ne s'affichent pas.
+
+Analyse mon arborescence, la position de mes images, et le contenu de mes fichiers pour me donner la correction exacte.
+
+
+=== 📂 STRUCTURE DU PROJET ===
+.
+./.github
+./.github/.kodiak.toml
+./.github/dependabot.yml
+./.github/workflows
+./.github/workflows/gh-pages.yml
+./.github/workflows/merge-to-main.yml
+./.github/workflows/pull-request.yml
+./.github/workflows/theme-update.yml
+./.gitignore
+./.gitlab-ci.yml
+./.hugo_build.lock
+./LICENSE
+./README.md
+./arborescence.txt
+./archetypes
+./archetypes/default.md
+./assets
+./assets/images
+./assets/images/author
+./assets/images/author/jessica.png
+./assets/images/author/john.png
+./assets/images/author/oumar_pro.png
+./assets/images/sections
+./assets/images/sections/about
+./assets/images/sections/about/DE - badge.png
+./assets/images/sections/about/Oumar_DPM.pdf
+./assets/images/sections/about/Oumar_F__KEBE.pdf
+./assets/images/sections/about/Python Data Associate - Badge with outline.png
+./assets/images/sections/about/SQL Associate - badge.png
+./assets/images/sections/about/certification-ai-engineer-for-data-scientist-associate-badge (Copy).png
+./assets/images/sections/about/certification-ai-engineer-for-data-scientist-associate-badge.png
+./assets/images/sections/about/data_scientist_professional_badge.png
+./assets/images/sections/about/datascientestLogo.png
+./assets/images/sections/about/datscientest.png
+./assets/images/sections/achievements
+./assets/images/sections/achievements/graduation-cap.jpg
+./assets/images/sections/achievements/presenter.jpg
+./assets/images/sections/achievements/sport.jpg
+./assets/images/sections/achievements/woman-winner.jpg
+./assets/images/sections/education
+./assets/images/sections/education/science_college.png
+./assets/images/sections/education/tech_college.png
+./assets/images/sections/education/university.jpg
+./assets/images/sections/experiences
+./assets/images/sections/experiences/company1.jpg
+./assets/images/sections/experiences/company2.jpg
+./assets/images/sections/experiences/company3.jpg
+./assets/images/sections/projects
+./assets/images/sections/projects/TensKeras.png
+./assets/images/sections/projects/basket.png
+./assets/images/sections/projects/cars.png
+./assets/images/sections/projects/cash-flow.png
+./assets/images/sections/projects/feux.png
+./assets/images/sections/projects/hf-logo.svg
+./assets/images/sections/projects/kubernetes.png
+./assets/images/sections/projects/lab_86.png
+./assets/images/sections/projects/lead-scoring.png
+./assets/images/sections/projects/no-code.png
+./assets/images/sections/projects/openai.png
+./assets/images/sections/projects/prophet.png
+./assets/images/sections/projects/r.png
+./assets/images/sections/projects/screens2.png
+./assets/images/sections/projects/smart-screener.png
+./assets/images/sections/projects/smovengo.png
+./assets/images/sections/projects/tensorflow.png
+./assets/images/sections/projects/toha.png
+./assets/images/sections/projects/toha_website.png
+./assets/images/sections/projects/xgboost.png
+./assets/images/sections/skills
+./assets/images/sections/skills/agile.png
+./assets/images/sections/skills/ai.png
+./assets/images/sections/skills/database.png
+./assets/images/sections/skills/git.png
+./assets/images/sections/skills/governance.png
+./assets/images/sections/skills/image-60b136a3-7e3f-4fbd-82bf-87c965239289.png
+./assets/images/sections/skills/powerbi.png
+./assets/images/sections/skills/presentation-commerciale.png
+./assets/images/sections/skills/product.png
+./assets/images/sections/skills/python.png
+./assets/images/site
+./assets/images/site/Untitled.png
+./assets/images/site/dark_back.png
+./assets/images/site/favicon_o.png
+./assets/images/site/light_back.png
+./assets/images/site/logo.png
+./assets/images/site/logo_ok_dark.png
+./assets/images/site/logo_ok_ligh.png
+./assets/images/site/logo_ok_light.png
+./assets/jsconfig.json
+./assets/scss
+./assets/scss/custom.scss
+./assets/scss/override.scss
+./assets/styles
+./assets/styles/override copy.scss
+./assets/styles/override.scss
+./config.toml
+./content
+./content/en
+./content/en/_index.md
+./content/en/about
+./content/en/about/index.md
+./content/en/accomplishments
+./content/en/accomplishments/index.md
+./content/en/education
+./content/en/education/index.md
+./content/en/experience
+./content/en/experience/index.md
+./content/en/notes
+./content/en/notes/_index.md
+./content/en/notes/bash
+./content/en/notes/bash/_index.md
+./content/en/notes/bash/basic
+./content/en/notes/bash/basic/index.md
+./content/en/notes/go
+./content/en/notes/go/_index.md
+./content/en/notes/go/advanced
+./content/en/notes/go/advanced/_index.md
+./content/en/notes/go/advanced/files
+./content/en/notes/go/advanced/files/index.md
+./content/en/notes/go/basic
+./content/en/notes/go/basic/_index.md
+./content/en/notes/go/basic/flow-control
+./content/en/notes/go/basic/flow-control/index.md
+./content/en/notes/go/basic/flow-control/indexbn.md
+./content/en/notes/go/basic/introduction
+./content/en/notes/go/basic/introduction/index.md
+./content/en/notes/go/basic/types
+./content/en/notes/go/basic/types/index.md
+./content/en/projects
+./content/en/projects/index.md
+./content/en/sections
+./content/en/skills
+./content/en/skills/index.md
+./content/fr
+./content/fr/_index.md
+./content/fr/about
+./content/fr/about/index.md
+./content/fr/accomplishments
+./content/fr/accomplishments/index.md
+./content/fr/education
+./content/fr/education/index.md
+./content/fr/experience
+./content/fr/experience/index.md
+./content/fr/notes
+./content/fr/notes/_index.md
+./content/fr/notes/bash
+./content/fr/notes/bash/_index.md
+./content/fr/notes/bash/basic
+./content/fr/notes/bash/basic/index.md
+./content/fr/notes/go
+./content/fr/notes/go/_index.md
+./content/fr/notes/go/advanced
+./content/fr/notes/go/advanced/_index.md
+./content/fr/notes/go/advanced/files
+./content/fr/notes/go/advanced/files/index.md
+./content/fr/notes/go/basic
+./content/fr/notes/go/basic/_index.md
+./content/fr/notes/go/basic/flow-control
+./content/fr/notes/go/basic/flow-control/index.md
+./content/fr/notes/go/basic/flow-control/indexbn.md
+./content/fr/notes/go/basic/introduction
+./content/fr/notes/go/basic/introduction/index.md
+./content/fr/notes/go/basic/types
+./content/fr/notes/go/basic/types/index.md
+./content/fr/projects
+./content/fr/projects/index.md
+./content/fr/sections
+./content/fr/skills
+./content/fr/skills/index.md
+./data
+./data/en
+./data/en/author.yaml
+./data/en/sections
+./data/en/sections/about.yaml
+./data/en/sections/accomplishments.yaml
+./data/en/sections/achievements.yaml
+./data/en/sections/education.yaml
+./data/en/sections/experiences.yaml
+./data/en/sections/featured-posts.yaml
+./data/en/sections/projects.yaml
+./data/en/sections/publications.yaml
+./data/en/sections/recent-posts.yaml
+./data/en/sections/skills.yaml
+./data/en/site.yaml
+./data/fr
+./data/fr/author.yaml
+./data/fr/sections
+./data/fr/sections/about.yaml
+./data/fr/sections/accomplishments.yaml
+./data/fr/sections/achievements.yaml
+./data/fr/sections/education.yaml
+./data/fr/sections/experiences.yaml
+./data/fr/sections/projects.yaml
+./data/fr/sections/recent-posts.yaml
+./data/fr/sections/skills.yaml
+./data/fr/site.yaml
+./go.mod
+./go.sum
+./hugo.yaml
+./hugo.yaml.bak
+./hugo_extended_0.121.2_linux-amd64.deb
+./hugo_extended_0.139.3_linux-amd64.deb
+./hugo_extended_0.152.0_linux-amd64.deb
+./layouts
+./layouts/partials
+./layouts/partials/footer.html
+./layouts/partials/sections
+./mise.toml
+./mon_projet_existant.txt
+./netlify.toml
+./package-lock.json
+./package.hugo.json
+./package.json
+./static
+./static/files
+./static/files/DE - badge.png
+./static/files/Oumar_Fode_KEBE.pdf
+./static/files/Python Data Associate - Badge with outline.png
+./static/files/SQL Associate - badge.png
+./static/files/certification-ai-engineer-for-data-scientist-associate-badge (Copy).png
+./static/files/certification-ai-engineer-for-data-scientist-associate-badge.png
+./static/files/data_scientist_professional_badge.png
+./static/files/datascientestLogo.png
+./static/files/datscientest.png
+./static/videos
+./static/videos/sample.mp4
+./themes
+./themes/toha
+./themes/toha/.eslintignore
+./themes/toha/.eslintrc.yml
+./themes/toha/.github
+./themes/toha/.github/.kodiak.toml
+./themes/toha/.github/ISSUE_TEMPLATE
+./themes/toha/.github/ISSUE_TEMPLATE/bug.md
+./themes/toha/.github/ISSUE_TEMPLATE/feature_request.md
+./themes/toha/.github/ISSUE_TEMPLATE/question.md
+./themes/toha/.github/PULL_REQUEST_TEMPLATE.md
+./themes/toha/.github/dependabot.yml
+./themes/toha/.github/release-drafter.yml
+./themes/toha/.github/workflows
+./themes/toha/.github/workflows/autoprefixer.yml
+./themes/toha/.github/workflows/codeql-analysis.yml
+./themes/toha/.github/workflows/enforce-lablel.yml
+./themes/toha/.github/workflows/merge-to-main.yml
+./themes/toha/.github/workflows/pull-request.yml
+./themes/toha/.gitignore
+./themes/toha/.prettierrc.yml
+./themes/toha/.tool-versions
+./themes/toha/LICENSE
+./themes/toha/README.md
+./themes/toha/archetypes
+./themes/toha/archetypes/default.md
+./themes/toha/assets
+./themes/toha/assets/images
+./themes/toha/assets/images/404.png
+./themes/toha/assets/images/404.svg
+./themes/toha/assets/images/default-avatar.png
+./themes/toha/assets/images/default-background.jpg
+./themes/toha/assets/images/default-hero.jpg
+./themes/toha/assets/images/favicon.png
+./themes/toha/assets/images/hugo-logo.svg
+./themes/toha/assets/images/inverted-logo.png
+./themes/toha/assets/images/main-logo.png
+./themes/toha/assets/images/theme-logo.png
+./themes/toha/assets/jsconfig.json
+./themes/toha/assets/scripts
+./themes/toha/assets/scripts/application.js
+./themes/toha/assets/scripts/core
+./themes/toha/assets/scripts/core/device.js
+./themes/toha/assets/scripts/core/index.js
+./themes/toha/assets/scripts/core/insertScript.js
+./themes/toha/assets/scripts/core/theme-scheme.js
+./themes/toha/assets/scripts/features
+./themes/toha/assets/scripts/features/analytics
+./themes/toha/assets/scripts/features/analytics/index.js
+./themes/toha/assets/scripts/features/analytics/matomo.js
+./themes/toha/assets/scripts/features/analytics/posthog.js
+./themes/toha/assets/scripts/features/analytics/statcounter.js
+./themes/toha/assets/scripts/features/copyCode
+./themes/toha/assets/scripts/features/copyCode/copyCode.js
+./themes/toha/assets/scripts/features/copyCode/index.js
+./themes/toha/assets/scripts/features/darkmode
+./themes/toha/assets/scripts/features/darkmode/index.js
+./themes/toha/assets/scripts/features/embedpdf
+./themes/toha/assets/scripts/features/embedpdf/index.js
+./themes/toha/assets/scripts/features/flowchart
+./themes/toha/assets/scripts/features/flowchart/index.js
+./themes/toha/assets/scripts/features/flowchart/mermaid.js
+./themes/toha/assets/scripts/features/index.js
+./themes/toha/assets/scripts/features/math
+./themes/toha/assets/scripts/features/math/index.js
+./themes/toha/assets/scripts/features/math/katex.js
+./themes/toha/assets/scripts/features/syntaxhighlight
+./themes/toha/assets/scripts/features/syntaxhighlight/hljs.js
+./themes/toha/assets/scripts/features/syntaxhighlight/index.js
+./themes/toha/assets/scripts/features/theme
+./themes/toha/assets/scripts/features/theme/index.js
+./themes/toha/assets/scripts/features/toc
+./themes/toha/assets/scripts/features/toc/index.js
+./themes/toha/assets/scripts/features/videoplayer
+./themes/toha/assets/scripts/features/videoplayer/index.js
+./themes/toha/assets/scripts/features/videoplayer/plyr.js
+./themes/toha/assets/scripts/pages
+./themes/toha/assets/scripts/pages/home.js
+./themes/toha/assets/scripts/pages/index.js
+./themes/toha/assets/scripts/pages/note.js
+./themes/toha/assets/scripts/pages/search.js
+./themes/toha/assets/scripts/pages/single.js
+./themes/toha/assets/scripts/process-shim.js
+./themes/toha/assets/scripts/sections
+./themes/toha/assets/scripts/sections/achievements.js
+./themes/toha/assets/scripts/sections/education.js
+./themes/toha/assets/scripts/sections/index.js
+./themes/toha/assets/scripts/sections/navbar.js
+./themes/toha/assets/scripts/sections/projects.js
+./themes/toha/assets/scripts/sections/publications.js
+./themes/toha/assets/scripts/sections/sidebar.js
+./themes/toha/assets/scripts/sections/skills.js
+./themes/toha/assets/styles
+./themes/toha/assets/styles/application.template.scss
+./themes/toha/assets/styles/components
+./themes/toha/assets/styles/components/buttons.scss
+./themes/toha/assets/styles/components/cards.scss
+./themes/toha/assets/styles/components/images.scss
+./themes/toha/assets/styles/components/links.scss
+./themes/toha/assets/styles/components/misc.scss
+./themes/toha/assets/styles/components/tables.scss
+./themes/toha/assets/styles/components/texts.scss
+./themes/toha/assets/styles/layouts
+./themes/toha/assets/styles/layouts/404.scss
+./themes/toha/assets/styles/layouts/list.scss
+./themes/toha/assets/styles/layouts/main.scss
+./themes/toha/assets/styles/layouts/notes.scss
+./themes/toha/assets/styles/layouts/single.scss
+./themes/toha/assets/styles/mixins.scss
+./themes/toha/assets/styles/navigators
+./themes/toha/assets/styles/navigators/navbar.scss
+./themes/toha/assets/styles/navigators/sidebar.scss
+./themes/toha/assets/styles/override.scss
+./themes/toha/assets/styles/sections
+./themes/toha/assets/styles/sections/about.scss
+./themes/toha/assets/styles/sections/accomplishments.scss
+./themes/toha/assets/styles/sections/achievements.scss
+./themes/toha/assets/styles/sections/education.scss
+./themes/toha/assets/styles/sections/experiences.scss
+./themes/toha/assets/styles/sections/footer.scss
+./themes/toha/assets/styles/sections/home.scss
+./themes/toha/assets/styles/sections/pdf-viewer.scss
+./themes/toha/assets/styles/sections/projects.scss
+./themes/toha/assets/styles/sections/publications.scss
+./themes/toha/assets/styles/sections/recent-posts.scss
+./themes/toha/assets/styles/sections/skills.scss
+./themes/toha/assets/styles/variables.scss
+./themes/toha/content
+./themes/toha/content/notes
+./themes/toha/content/notes/search.bn.md
+./themes/toha/content/notes/search.cn.md
+./themes/toha/content/notes/search.de.md
+./themes/toha/content/notes/search.es.md
+./themes/toha/content/notes/search.fr.md
+./themes/toha/content/notes/search.hi.md
+./themes/toha/content/notes/search.id.md
+./themes/toha/content/notes/search.it.md
+./themes/toha/content/notes/search.jp.md
+./themes/toha/content/notes/search.ko.md
+./themes/toha/content/notes/search.md
+./themes/toha/content/notes/search.ru.md
+./themes/toha/content/notes/search.vn.md
+./themes/toha/content/posts
+./themes/toha/content/posts/_index.md
+./themes/toha/content/search
+./themes/toha/content/search/search.bn.md
+./themes/toha/content/search/search.cn.md
+./themes/toha/content/search/search.de.md
+./themes/toha/content/search/search.es.md
+./themes/toha/content/search/search.fr.md
+./themes/toha/content/search/search.hi.md
+./themes/toha/content/search/search.id.md
+./themes/toha/content/search/search.it.md
+./themes/toha/content/search/search.jp.md
+./themes/toha/content/search/search.ko.md
+./themes/toha/content/search/search.md
+./themes/toha/content/search/search.ru.md
+./themes/toha/content/search/search.vn.md
+./themes/toha/data
+./themes/toha/data/toha
+./themes/toha/data/toha/styles.yml
+./themes/toha/exampleSite
+./themes/toha/exampleSite/go.mod
+./themes/toha/exampleSite/go.sum
+./themes/toha/exampleSite/hugo.yaml
+./themes/toha/exampleSite/package-lock.json
+./themes/toha/exampleSite/package.hugo.json
+./themes/toha/exampleSite/package.json
+./themes/toha/go.mod
+./themes/toha/go.sum
+./themes/toha/hugo.yaml
+./themes/toha/i18n
+./themes/toha/i18n/ad.toml
+./themes/toha/i18n/ar.toml
+./themes/toha/i18n/az.toml
+./themes/toha/i18n/bn.toml
+./themes/toha/i18n/de.toml
+./themes/toha/i18n/en.toml
+./themes/toha/i18n/es.toml
+./themes/toha/i18n/fi.toml
+./themes/toha/i18n/fr.toml
+./themes/toha/i18n/he.toml
+./themes/toha/i18n/hi.toml
+./themes/toha/i18n/id.toml
+./themes/toha/i18n/it.toml
+./themes/toha/i18n/jp.toml
+./themes/toha/i18n/ko.toml
+./themes/toha/i18n/nl.toml
+./themes/toha/i18n/pt-br.toml
+./themes/toha/i18n/pt-pt.toml
+./themes/toha/i18n/ru.toml
+./themes/toha/i18n/tr.toml
+./themes/toha/i18n/vn.toml
+./themes/toha/i18n/zh-cn.toml
+./themes/toha/i18n/zh-tw.toml
+./themes/toha/images
+./themes/toha/images/about.png
+./themes/toha/images/list.png
+./themes/toha/images/screenshot.png
+./themes/toha/images/single.png
+./themes/toha/images/tn.png
+./themes/toha/images/tn2.png
+./themes/toha/layouts
+./themes/toha/layouts/404.html
+./themes/toha/layouts/_default
+./themes/toha/layouts/_default/_markup
+./themes/toha/layouts/_default/_markup/render-link.html
+./themes/toha/layouts/_default/baseof.html
+./themes/toha/layouts/_default/index.json
+./themes/toha/layouts/_default/list.html
+./themes/toha/layouts/_default/rss.xml
+./themes/toha/layouts/_default/search.html
+./themes/toha/layouts/_default/single.html
+./themes/toha/layouts/_default/sitemap.xml
+./themes/toha/layouts/categories
+./themes/toha/layouts/categories/list.html
+./themes/toha/layouts/index.html
+./themes/toha/layouts/notes
+./themes/toha/layouts/notes/list.html
+./themes/toha/layouts/notes/single.html
+./themes/toha/layouts/partials
+./themes/toha/layouts/partials/analytics.html
+./themes/toha/layouts/partials/cards
+./themes/toha/layouts/partials/cards/accomplishments.html
+./themes/toha/layouts/partials/cards/post.html
+./themes/toha/layouts/partials/cards/project.html
+./themes/toha/layouts/partials/cards/publication.html
+./themes/toha/layouts/partials/cards/skill.html
+./themes/toha/layouts/partials/comments
+./themes/toha/layouts/partials/comments.html
+./themes/toha/layouts/partials/comments/commento.html
+./themes/toha/layouts/partials/comments/disqus.html
+./themes/toha/layouts/partials/comments/giscus.html
+./themes/toha/layouts/partials/comments/utteranc.html
+./themes/toha/layouts/partials/comments/valine.html
+./themes/toha/layouts/partials/footer.html
+./themes/toha/layouts/partials/google_analytics.html
+./themes/toha/layouts/partials/header.html
+./themes/toha/layouts/partials/helpers
+./themes/toha/layouts/partials/helpers/add-navbar-separator.html
+./themes/toha/layouts/partials/helpers/country-code.html
+./themes/toha/layouts/partials/helpers/get-author-image.html
+./themes/toha/layouts/partials/helpers/get-author-name.html
+./themes/toha/layouts/partials/helpers/get-esbuild-options.html
+./themes/toha/layouts/partials/helpers/get-hero.html
+./themes/toha/layouts/partials/helpers/get-pages.html
+./themes/toha/layouts/partials/helpers/get-sass-options.html
+./themes/toha/layouts/partials/helpers/get-section-id.html
+./themes/toha/layouts/partials/helpers/get-section-url.html
+./themes/toha/layouts/partials/helpers/script-bundle.html
+./themes/toha/layouts/partials/helpers/style-bundle.html
+./themes/toha/layouts/partials/misc
+./themes/toha/layouts/partials/misc/badge.html
+./themes/toha/layouts/partials/misc/soft-skills.html
+./themes/toha/layouts/partials/misc/support.html
+./themes/toha/layouts/partials/misc/tags.html
+./themes/toha/layouts/partials/navigators
+./themes/toha/layouts/partials/navigators/lang-selector.html
+./themes/toha/layouts/partials/navigators/navbar.html
+./themes/toha/layouts/partials/navigators/next-prev-navigator.html
+./themes/toha/layouts/partials/navigators/sidebar.html
+./themes/toha/layouts/partials/navigators/taxonomies.html
+./themes/toha/layouts/partials/navigators/theme-selector.html
+./themes/toha/layouts/partials/opengraph.html
+./themes/toha/layouts/partials/scripts.html
+./themes/toha/layouts/partials/sections
+./themes/toha/layouts/partials/sections/about.html
+./themes/toha/layouts/partials/sections/accomplishments.html
+./themes/toha/layouts/partials/sections/achievements
+./themes/toha/layouts/partials/sections/achievements.html
+./themes/toha/layouts/partials/sections/achievements/entry.html
+./themes/toha/layouts/partials/sections/education-alt.html
+./themes/toha/layouts/partials/sections/education.html
+./themes/toha/layouts/partials/sections/experiences
+./themes/toha/layouts/partials/sections/experiences.html
+./themes/toha/layouts/partials/sections/experiences/horizontal-line.html
+./themes/toha/layouts/partials/sections/experiences/positions.html
+./themes/toha/layouts/partials/sections/experiences/vertical-line.html
+./themes/toha/layouts/partials/sections/featured-posts.html
+./themes/toha/layouts/partials/sections/home.html
+./themes/toha/layouts/partials/sections/projects.html
+./themes/toha/layouts/partials/sections/publications.html
+./themes/toha/layouts/partials/sections/recent-posts.html
+./themes/toha/layouts/partials/sections/skills.html
+./themes/toha/layouts/shortcodes
+./themes/toha/layouts/shortcodes/alert.html
+./themes/toha/layouts/shortcodes/embed-pdf.html
+./themes/toha/layouts/shortcodes/gist.html
+./themes/toha/layouts/shortcodes/img.html
+./themes/toha/layouts/shortcodes/mastodon.html
+./themes/toha/layouts/shortcodes/mermaid.html
+./themes/toha/layouts/shortcodes/note.html
+./themes/toha/layouts/shortcodes/rimg.html
+./themes/toha/layouts/shortcodes/split.html
+./themes/toha/layouts/shortcodes/video.html
+./themes/toha/layouts/shortcodes/vs.html
+./themes/toha/layouts/tags
+./themes/toha/layouts/tags/list.html
+./themes/toha/mise.toml
+./themes/toha/netlify.toml
+./themes/toha/package-lock.json
+./themes/toha/package.hugo.json
+./themes/toha/package.json
+./themes/toha/static
+./themes/toha/static/icons
+./themes/toha/static/icons/computer-svgrepo-com.svg
+./themes/toha/static/icons/moon-svgrepo-com.svg
+./themes/toha/static/icons/sun-svgrepo-com.svg
+./themes/toha/static/sitemap.xml
+./themes/toha/theme.toml
+./toha_context_for_claude.txt
+
+
+=== 🖼️ EMPLACEMENT DES IMAGES ===
+--- Dossier: static/images/site/ ---
+(Dossier inexistant ou vide)
+
+--- Dossier: assets/images/site/ ---
+
+
+=== 📄 FICHIERS DE CONFIGURATION ET STYLES ===
+
+--------------------------------------------------
+📜 FICHIER : hugo.yaml
+--------------------------------------------------
+baseURL: "https://oufoke.github.io/portofolio-oumar/"
+languageCode: fr-fr
+title: "Oumar F. KEBE | Senior Data Product Manager | Expert IA & Gouvernance"
+ignoreLogs:
+  - warning-goldmark-raw-html
+# --- CONFIGURATION MODULES V4 ---
+module:
+  imports:
+  - path: github.com/hugo-toha/toha/v4
+    mounts:
+    - source: assets
+      target: assets
+    - source: layouts
+      target: layouts
+    - source: data
+      target: data
+    - source: i18n
+      target: i18n
+    - source: archetypes
+      target: archetypes
+    - source: static
+      target: static
+  mounts:
+  # Répertoires Hugo standards (obligatoires si mounts custom)
+  - source: content
+    target: content
+  - source: assets
+    target: assets
+  - source: layouts
+    target: layouts
+  - source: static
+    target: static
+  - source: data
+    target: data
+  - source: i18n
+    target: i18n
+  # Packages npm
+  - source: node_modules/flag-icons/flags
+    target: static/flags
+  - source: node_modules/@fontsource/mulish/files
+    target: static/files
+  - source: node_modules/katex/dist/fonts
+    target: static/fonts
+
+
+=== 📊 FICHIERS DE DONNÉES TOHA (dossier data/) ===
+
+--------------------------------------------------
+📜 FICHIER : data/en/author.yaml
+--------------------------------------------------
+# some information about you
+name: "Oumar KEBE"
+nickname: "Oumar"
+
+# greeting message before your name.
+greeting: "Hello! I am"
+
+# make sure the image is in static/images/author/oumar_pro.png
+image: "images/author/oumar_pro.png"
+
+# give your some contact information.
+contactInfo:
+  email: "oumarfodek@gmail.com"
+  phone: "+33 699 853 118"
+  github: oufoke
+  linkedin: oumarfodek
+
+# some summary about what you do
+# Optimized for impact
+summary:
+  - Data Product Manager.
+  - Data & AI Strategy Expert.
+  - I convert data into business value.
+  - Building Ethical & Responsible AI.
+  - Bridging the gap between Tech & Business.
+  - Open-source Contributor.
+--------------------------------------------------
+📜 FICHIER : data/en/sections/about.yaml
+--------------------------------------------------
+# section information
+section:
+  name: "About"
+  id: "about"
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: "sections/about.html"
+
+# your designation
+designation: "Data Product Manager"
+# your company information
+company:
+  name: "France Travail"
+  url: "https://www.francetravail.fr"
+
+# your resume.
+resourceLinks:
+- title: "My CV (PDF)"
+  url: "static/files/Oumar_F__KEBE.pdf"
+
+# a summary about you
+summary: |
+  Data Product Manager with **6 years of experience**, I operate at the strategic interface between the IT department and business units. <br><br>
+  Expert in transforming complex needs into high-impact data products, I am currently working at **France Travail** on the evolution of several data products. <br><br>
+  Certified Data Scientist, Data Engineer and AI Engineer, I combine technical rigor (SQL, Python, SAS) with a user-centric product vision: **Product Discovery**, **Data Governance** and **Change Management**.# your social links
+socialLinks:
+- name: "Email"
+  icon: "fas fa-envelope"
+  url: "mailto:oumarfodek@gmail.com"
+- name: "Github"
+  icon: "fab fa-github"
+  url: "https://www.github.com/oufoke"
+- name: "LinkedIn"
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/oumarfodek/"
+
+# Show your badges
+badges:
+- type: "certification"
+  name: "Data Product Manager"
+  url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
+  badge: "files/datascientestLogo.png"
+- type: "certification"
+  name: "AI Engineer Associate"
+  url: "https://www.datacamp.com/certificate/AEDS0013592331030"
+  badge: "files/certification-ai-engineer-for-data-scientist-associate-badge.png"
+- type: "certification"
+  name: "Data Scientist Professional"
+  url: "https://www.datacamp.com/certificate/DS0027579108829"
+  badge: "files/data_scientist_professional_badge.png"
+
+# Skill indicators
+- type: "soft-skill-indicator"
+  name: "Stakeholder Management"
+  percentage: 95
+  color: "orange"
+- type: "soft-skill-indicator"
+  name: "Data-Driven Decisions"
+  percentage: 100
+  color: "green"
+- type: "soft-skill-indicator"
+  name: "Product Discovery & UX"
+  percentage: 90
+  color: "yellow"
+- type: "soft-skill-indicator"
+  name: "Product Strategy"
+  percentage: 85
+  color: "blue"
+--------------------------------------------------
+📜 FICHIER : data/en/sections/accomplishments.yaml
+--------------------------------------------------
+# section information
+section:
+  name: Certifications & Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 7
+  showOnNavbar: true
+
+# Your accomplishments
+accomplishments:
+- name: Data Product Manager Certification
+  timeline: "2023 - 2024"
+  organization:
+    name: DataScientest (Sorbonne Accredited)
+    url: https://datascientest.com/
+  courseOverview: "Top-tier training accredited by La Sorbonne University. Mastering the end-to-end Data Product lifecycle: from Product Discovery to industrialization. Key skills acquired: defining product vision, backlog prioritization (RICE, MoSCoW), stakeholder management, and aligning business KPIs with technical metrics."
+  certificateURL: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
+
+- name: AI Engineer & Generative AI
+  timeline: "2024"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: "Advanced specialization in Generative AI and MLOps. Ability to design RAG (Retrieval-Augmented Generation) architectures and assess the technical feasibility of AI features. This certification enables me to speak the same language as Data Scientists and accurately anticipate infrastructure costs related to Large Language Models (LLMs)."
+  certificateURL: "https://www.datacamp.com/certificate/AEDS0013592331030"
+
+- name: Data Scientist Professional
+  timeline: "2022 - 2023"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: "Validation of deep technical expertise in Machine Learning and statistics. As a PM, this skill allows me to be autonomous in Data Analysis to validate product hypotheses without systematically relying on technical teams, thereby accelerating decision-making."
+  certificateURL: "https://www.datacamp.com/certificate/DS0027579108829"
+
+- name: Data Engineer Associate
+  timeline: "2023"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: "Understanding of infrastructure challenges: ETL/ELT pipelines, Cloud Computing, and database modeling. Essential for designing scalable, robust products and for effectively prioritizing technical debt maintenance tasks within the roadmap."
+  certificateURL: "https://www.datacamp.com/certificate/DE0019334068921"
+
+- name: Technical Certifications (SQL & Python)
+  timeline: "Continuous"
+  organization:
+    name: DataCamp
+    url: https://www.datacamp.com
+  courseOverview: "Dual certification (SQL Associate & Python Data Associate). Operational mastery allowing for code auditing, executing complex queries for product KPI tracking, and facilitating technical communication with developers."
+  certificateURL: "https://www.datacamp.com/portfolio/oumarfodekbe"
+--------------------------------------------------
+📜 FICHIER : data/en/sections/achievements.yaml
+--------------------------------------------------
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: false
+  weight: 10
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Best Presenter
+  image: /images/sections/achievements/presenter.jpg
+  summary: Best presenter in the 2020 XYZ conference.
+- title: Champion
+  image: /images/sections/achievements/sport.jpg
+  summary: Champion in cycling inter-city cycling championship 2020.
+- title: Graduation
+  image: /images/sections/achievements/graduation-cap.jpg
+  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
+- title: Award Winner
+  image: /images/sections/achievements/woman-winner.jpg
+  summary: Wined best paper award at IEE Conference 2020.
+
+--------------------------------------------------
+📜 FICHIER : data/en/sections/education.yaml
+--------------------------------------------------
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: MSc in Statistical Engineering & Data Science (ISIFAR)
+  icon: fa-graduation-cap
+  timeframe: 2016-2018
+  institution:
+    name: Université Paris Cité
+    url: "https://u-paris.fr/en/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+  takenCourses:
+    showGrades: False
+    collapseAfter: 4
+    courses:
+    - name: Machine Learning & Data Mining
+    - name: Python & C# Programming
+    - name: Data Science Capstone Project
+    - name: Statistical Modeling
+    - name: Financial Mathematics
+    - name: Risk Management
+
+- name: Master's Degree in Applied Mathematics
+  icon: fa-graduation-cap
+  timeframe: 2015-2016
+  institution:
+    name: Université Paris Descartes
+    url: "https://u-paris.fr/en/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Time Series Analysis
+    - name: Constrained Optimization
+    - name: Statistical Estimation
+    - name: Markov Chains
+    - name: Database Management
+
+- name: Engineering Degree in Applied Mathematics
+  icon: fa-university
+  timeframe: 2012-2015
+  institution:
+    name: Sup Galilée (Engineering School)
+    url: "https://sup-galilee.univ-paris13.fr/"
+    logo: /images/sections/education/LOGO1.png
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Algorithms & Programming
+    - name: Probability & Statistics
+    - name: Numerical Analysis
+    - name: Industrial Modeling
+
+- name: CPGE - Intensive Program in Math & Physics
+  icon: fa-school
+  timeframe: 2009-2012
+  institution:
+    name: Lycées Pierre d'Ailly & Jacques Decour
+    logo: /images/sections/education/logoLPASciences.png
+  takenCourses:
+    showGrades: False
+    collapseAfter: 0 # Hidden details to keep the resume clean
+    courses: []
+--------------------------------------------------
+📜 FICHIER : data/en/sections/experiences.yaml
+--------------------------------------------------
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+# Your experiences
+experiences:
+- company:
+    name: France Travail
+    url: "https://dataemploi.francetravail.fr/emploi/accueil"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-dataemploi-ft.svg
+    overview: "French public employment service. France Travail provides strategic labour market data through the Data Emploi platform."
+  positions:
+  - designation: Data Product Manager (Documentation & Method Project)
+    start: May 2025
+    # end: Present (Automatic)
+    responsibilities:
+    - "**Product Strategy:** Leading the implementation of a 'Documentation-as-Code' site to centralize business processes within the Project Management Office (MOA)."
+    - "**Governance & Versioning:** Implementing a workflow based on Markdown and GitLab Pages to ensure reliable, accessible, and version-controlled technical documentation."
+    - "**Change Management:** Defining the MVP roadmap and training MOA teams on new documentation and contribution tools."
+
+  - designation: Data Product Manager / Data Manager
+    start: February 2020
+    end: April 2025
+    responsibilities:
+    - "**Product Discovery & Steering:** Coordinating functional evolutions for the 'Smart Emploi' Information System: requirement gathering, functional specifications, and User Acceptance Testing (UAT)."
+    - "**Data Quality Management:** Implementing data quality protocols and developing optimized programs (SQL, Python, SAS) for large-scale statistical production."
+    - "**Cross-functional Coordination:** Managing external providers and facilitating cooperation between IT departments and business units for data distribution via API."
+--------------------------------------------------
+📜 FICHIER : data/en/sections/featured-posts.yaml
+--------------------------------------------------
+section:
+  name: Featured Posts # Title of section (default: "")
+  id: featured-posts # url id/slug of section *Required*
+  enable: false # Boolean to determine if this section is enabled (default: false)
+  weight: 7 # Order to display section in (default: alphabetical followed by weight)
+  showOnNavbar: true # Boolean to determine if a link should be shown for this section on the navbar
+  hideTitle: false # Can optionally hide the title in sections (default: false)
+
+# posts to feature
+posts:
+  - markdown-sample
+  - shortcodes
+--------------------------------------------------
+📜 FICHIER : data/en/sections/projects.yaml
+--------------------------------------------------
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+# Filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: AI & GenAI
+  filter: "ai"
+- name: Product Management
+  filter: "product"
+- name: Data Science
+  filter: "ds"
+
+# Your projects
+projects:
+- name: "Smart B2B Lead Scoring"
+  logo: /images/sections/projects/xgboost.png
+  image: /images/sections/projects/lead-scoring.png
+  role: ML Engineer
+  timeline: "Jan 2025"
+  url: "https://lead-scoring-portofolio-ofk.streamlit.app/"
+  summary: "Predictive scoring (XGBoost) with Explainable AI to prioritize leads and shorten B2B sales cycles."
+  tags: ["ds", "ai", "product"]
+
+- name: "Cash Flow Forecast"
+  logo: /images/sections/projects/prophet.png
+  image: /images/sections/projects/cash-flow.png
+  role: Data Product Manager
+  timeline: "Jan 2025"
+  url: "https://cash-flow-forecast-portfolio-ofk.streamlit.app/"
+  summary: "Financial forecasting app (Prophet/Streamlit) enabling SMEs to anticipate cash flow shortages 90 days in advance."
+  tags: ["ds", "product"]
+
+- name: "Smart-Screener (Recruitment)"
+  logo: /images/sections/projects/openai.png
+  image: /images/sections/projects/smart-screener.png
+  role: AI Product Builder
+  timeline: "Dec 2024"
+  repo: "https://github.com/VOTRE-PSEUDO/smart-screener"
+  summary: "GenAI HR Assistant (RAG): Resume parsing, intelligent semantic matching, and custom interview question generation."
+  tags: ["ai", "product"]
+
+- name: "Smovengo: Velib' Optimization"
+  logo: /images/sections/projects/no-code.png
+  image: /images/sections/projects/smovengo.png
+  role: Data Product Manager
+  timeline: "Spring 2024"
+  url: "https://www.canva.com/design/DAGePV2S-8o/FiEUDKz9B8faclyFI25xDg/view"
+  summary: "Product Management Case Study: Data-driven strategy to reduce churn and optimize bike availability in Paris."
+  tags: ["product"]
+
+- name: "Computer Vision (Traffic)"
+  logo: /images/sections/projects/TensKeras.png
+  image: /images/sections/projects/feux.png
+  role: Deep Learning Engineer
+  timeline: "Late 2023"
+  repo: https://github.com/oufoke/Detect-Traffic-Signs
+  summary: "CNN model for traffic sign recognition designed for autonomous vehicle safety (TensorFlow/Keras)."
+  tags: ["ai"]
+
+- name: "Customer Reviews Analysis (LLM)"
+  logo: /images/sections/projects/hf-logo.svg
+  image: /images/sections/projects/cars.png
+  role: AI Product Engineer
+  timeline: "Early 2024"
+  repo: https://github.com/oufoke/Analyzing_Car_reviews
+  summary: "Automated NLP pipeline extracting actionable insights from thousands of customer reviews at scale."
+  tags: ["ai"]
+--------------------------------------------------
+📜 FICHIER : data/en/sections/publications.yaml
+--------------------------------------------------
+# section information
+section:
+  name: Publications
+  id: publications
+  enable: false
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: "Machine Learning"
+  filter: "machinelearning"
+- name: "Image Processing"
+  filter: "image-processing"
+- name: Security
+  filter: "security"
+
+# your publications
+publications:
+- title: An Example Paper on Machine Learning
+  publishedIn:
+    name: 2020 IEEE Region Symposium (TENSYMP)
+    date: 7 June 2020
+    url: https://example.com
+  authors:
+  - name: Dr. Madman
+    url: https://example.com
+  - name: Dr. Lessmad
+    url: https://example.com
+  - name: Dr. Moremad
+    url: https://example.com
+  - name: Dr. Goodman
+    url: https://example.com
+  paper:
+    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
+    url: https://example.com
+  categories: ["machinelearning","image-processing"]
+  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+
+- title: An Sample Paper on Image Processing
+  publishedIn:
+    name: 2020 IEEE Region Symposium (TENSYMP)
+    date: 7 June 2020
+    url: https://example.com
+  authors:
+  - name: Dr. Madman
+    url: https://example.com
+  - name: Dr. Lessmad
+    url: https://example.com
+  - name: Dr. Moremad
+    url: https://example.com
+  - name: Dr. Goodman
+    url: https://example.com
+  paper:
+    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
+    url: https://example.com
+  categories: ["image-processing"]
+  tags: ["Image Processing", "Computer Vision"]
+
+- title: An Example Paper on Security
+  publishedIn:
+    name: 2020 IEEE Region Symposium (TENSYMP)
+    date: 7 June 2020
+    url: https://example.com
+  authors:
+  - name: Dr. Madman
+    url: https://example.com
+  - name: Dr. Lessmad
+    url: https://example.com
+  - name: Dr. Moremad
+    url: https://example.com
+  - name: Dr. Goodman
+    url: https://example.com
+  paper:
+    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
+    url: https://example.com
+  categories: ["security"]
+  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+
+--------------------------------------------------
+📜 FICHIER : data/en/sections/recent-posts.yaml
+--------------------------------------------------
+# section information
+section:
+  name: Recent Posts
+  id: recent-posts
+  enable: false
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# no additional configuration is required
+
+--------------------------------------------------
+📜 FICHIER : data/en/sections/skills.yaml
+--------------------------------------------------
+section:
+  name: "Expertises Stratégiques"
+  id: "skills"
+  enable: true
+  weight: 40
+  showOnNavbar: true
+
+skills:
+- name: "Product Strategy & Discovery"
+  logo: "images/sections/skills/product.png" 
+  summary: "Pilotage de la vision produit de bout en bout. Maîtrise des frameworks de priorisation (RICE, MoSCoW) et animation d'ateliers de Discovery."
+
+- name: "Gouvernance & Doc-as-Code"
+  logo: "images/sections/skills/governance.png"
+  summary: "Industrialisation de la documentation technique (Docusaurus) et mise en place de 'Quality Gates' automatisées."
+
+- name: "GenAI & Architecture RAG"
+  logo: "images/sections/skills/ai.png"
+  summary: "Conception de solutions d'IA Générative (OpenAI, LangChain). Capacité à prototyper des assistants RH (RAG)."
+
+- name: "Python & Machine Learning"
+  logo: "images/sections/skills/python.png"
+  summary: "Expertise hands-on pour le traitement de données massives (Pipelines ETL, Pandas, SQL avancé)."
+
+- name: "Expertise SQL & Database"
+  logo: "images/sections/skills/database.png"
+  summary: "Optimisation de traitements sur volumes massifs et audit de qualité des données critiques."
+
+- name: "Power BI (Expert DAX)"
+  logo: "images/sections/skills/powerbi.png"
+  summary: "Transformation de la donnée brute en outils d'aide à la décision et définition de KPIs produits."
+
+- name: "Agilité & DevOps Culture"
+  logo: "images/sections/skills/agile.png"
+  summary: "Gestion de backlog sous Jira/Confluence. Promotion des bonnes pratiques logicielles (Git, CI/CD)."
+--------------------------------------------------
+📜 FICHIER : data/en/site.yaml
+--------------------------------------------------
+# Copyright Notice
+copyright: © 2025 Oumar KEBE. All rights reserved.
+
+# A disclaimer notice for the footer.
+# Standard professional disclaimer
+disclaimer: "The views and opinions expressed on this website are my own and do not necessarily reflect those of my employer. Content is for informational purposes only."
+
+# Meta description for your site.
+# SEO Optimized for "Data Product Manager"
+description: "Portfolio of Oumar KEBE - Data Product Manager & AI Strategy Expert. Explore my projects, certifications, and insights on Data Science and Product Management."
+
+# specify the list of custom menus
+# customMenus:
+# - name: External Blog
+#   url: https://medium.com/@your-handle
+
+# Specify OpenGraph Headers (For LinkedIn/Twitter previews)
+openGraph:
+  title: "Oumar KEBE - Data Product Manager"
+  type: website
+  description: "Bridging the gap between Tech & Business. Discover my Data & AI projects."
+  image: images/author/oumar_pro.png
+  url: https://oufoke.github.io/
+--------------------------------------------------
+📜 FICHIER : data/fr/author.yaml
+--------------------------------------------------
+# Informations d'identité et de contact
+name: "Oumar Fodé KEBE"
+nickname: "Oumar"
+greeting: "Hello ! Je suis"
+image: "images/author/oumar_pro.png"
+
+contactInfo:
+  email: "oumarfodek@gmail.com"
+  phone: "+33 6 99 85 31 18"
+  github: oufoke
+  linkedin: oumarfodek
+
+# Résumé court : Mots-clés SEO pour les recruteurs Senior
+summary:
+  - Senior Data Product Manager. # Positionnement de séniorité
+  - Expert Interface Stratégique DSI / Métiers. # Ta plus grande valeur ajoutée
+  - Spécialiste Gouvernance Data & IA Générative. # Expertise technique de pointe
+  - Architecte de solutions Doc-as-Code & Quality Gates. # Réalisations concrètes
+--------------------------------------------------
+📜 FICHIER : data/fr/sections/about.yaml
+--------------------------------------------------
+section:
+  name: "À Propos"
+  id: "about"
+  enable: true
+  weight: 10 
+  showOnNavbar: true
+  template: "sections/about.html"
+
+designation: "Senior Data Product Manager"
+
+company:
+  name: "France Travail (Siège)"
+  url: "https://www.francetravail.fr"
+
+resourceLinks:
+- title: "Télécharger mon CV (PDF)"
+  url: "files/Oumar_Fode_KEBE.pdf"
+
+badges:
+- type: "certification"
+  name: "Data Product Manager (Sorbonne)"
+  url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
+  badge: "files/datascientestLogo.png"
+
+- type: "certification"
+  name: "AI Engineer Associate"
+  url: "https://www.datacamp.com/certificate/AEDS0013592331030"
+  badge: "files/certification-ai-engineer-for-data-scientist-associate-badge.png"
+
+softSkills:
+  - name: "Stratégie Produit & Discovery"
+    percentage: 100
+    color: "#ff8c00"
+  - name: "Leadership Transverse"
+    percentage: 90
+    color: "green"
+  - name: "Architecture Data & IA"
+    percentage: 100
+    color: "#0891b2"
+--------------------------------------------------
+📜 FICHIER : data/fr/sections/accomplishments.yaml
+--------------------------------------------------
+section:
+  name: Certifications & Accomplissements
+  id: accomplishments
+  enable: true
+  weight: 50
+  showOnNavbar: false
+
+accomplishments:
+- name: Certification Data Product Manager
+  timeline: "2023 - 2024"
+  organization:
+    name: DataScientest (Accrédité Sorbonne)
+    url: https://datascientest.com/
+  courseOverview: "Maîtrise complète du cycle de vie d'un produit Data : du 'Product Discovery' à l'industrialisation. Alignement des KPIs business avec les métriques techniques."
+  certificateURL: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
+
+- name: AI Engineer & Generative AI
+  timeline: "2024"
+  organization:
+    name: DataCamp
+  courseOverview: "Spécialisation avancée sur l'IA Générative et le MLOps. Capacité à concevoir des architectures RAG et à évaluer la faisabilité technique des LLMs."
+  certificateURL: "https://www.datacamp.com/certificate/AEDS0013592331030"
+
+- name: Data Scientist Professional
+  timeline: "2022 - 2023"
+  organization:
+    name: DataCamp
+  courseOverview: "Expertise technique en Machine Learning permettant l'autonomie dans l'exploration de données pour valider des hypothèses produits."
+  certificateURL: "https://www.datacamp.com/certificate/DS0027579108829"
+--------------------------------------------------
+📜 FICHIER : data/fr/sections/achievements.yaml
+--------------------------------------------------
+# section information
+section:
+  name: Distinctions
+  id: achievements
+  enable: false
+  weight: 8
+  showOnNavbar: true
+  template: sections/achievements.html
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Meilleur Présentateur
+  image: /images/sections/achievements/presenter.jpg
+  summary: Élu meilleur présentateur lors de la conférence XYZ 2020.
+- title: Vainqueur
+  image: /images/sections/achievements/sport.jpg
+  summary: Vainqueur de la compétition inter-villes de cyclisme 2020.
+- title: Diplôme
+  image: /images/sections/achievements/graduation-cap.jpg
+  summary: Licence en informatique obtenue à l'Université XYZ.
+- title: Prix de Recherche
+  image: /images/sections/achievements/woman-winner.jpg
+  summary: Lauréat du prix du meilleur article de recherche à la conférence IEEE 2020.
+--------------------------------------------------
+📜 FICHIER : data/fr/sections/education.yaml
+--------------------------------------------------
+section:
+  name: Formation
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 60
+  showOnNavbar: true
+
+degrees:
+- name: Master 2 - Ingénierie Statistique et Data Science (ISIFAR)
+  icon: fa-graduation-cap
+  timeframe: 2016-2018
+  institution:
+    name: Université Paris Cité
+    url: "https://u-paris.fr/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+  takenCourses:
+    showGrades: False
+    collapseAfter: 4
+    courses:
+    - name: Machine Learning & Data Mining
+    - name: Programmation Python & C#
+    - name: Projet Data Science
+    - name: Modélisation Statistique
+
+- name: Master 1 - Mathématiques Appliquées
+  icon: fa-graduation-cap
+  timeframe: 2015-2016
+  institution:
+    name: Université Paris Descartes
+    url: "https://u-paris.fr/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+  takenCourses:
+    showGrades: False
+    courses:
+    - name: Séries Temporelles (Time Series)
+    - name: Optimisation sous contrainte
+    - name: Modélisation statistique & Estimation
+
+- name: Cycle Ingénieur - Mathématiques Appliquées
+  icon: fa-university
+  timeframe: 2012-2015
+  institution:
+    name: Sup Galilée
+    url: "https://sup-galilee.univ-paris13.fr/"
+    logo: /images/sections/education/LOGO1.png
+  takenCourses:
+    showGrades: False
+    courses:
+    - name: Algorithmique & Programmation
+    - name: Probabilités & Statistiques
+
+- name: Classes Préparatoires aux Grandes Écoles (CPGE)
+  icon: fa-school
+  timeframe: 2009-2012
+  institution:
+    name: Lycées Pierre d'Ailly & Jacques Decour
+    logo: /images/sections/education/logoLPASciences.png
+  takenCourses:
+    showGrades: False
+    collapseAfter: 0
+    courses: []
+--------------------------------------------------
+📜 FICHIER : data/fr/sections/experiences.yaml
+--------------------------------------------------
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 20 
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: France Travail (Siège)
+    url: "https://www.francetravail.fr"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-ft.svg 
+    overview: "Leader de la transformation Data & IA au service de l'emploi."
+  
+  positions:
+  - designation: Senior Data Product Manager (Gouvernance & Ops)
+    start: Mai 2025
+    responsibilities:
+    - "**Stratégie Doc-as-Code :** Conception et déploiement d'un portail de documentation technique (Docusaurus) centralisant le savoir métier. **Résultat :** Réduction de 30% du temps d'onboarding des nouveaux Data Analysts."
+    - "**Automatisation de la Qualité (Data Quality) :** Pilotage d'une solution de **Quality Gates** automatisées via Power BI/Python. **Impact :** Blocage systématique de 100% des anomalies critiques avant la diffusion nationale des statistiques."
+    - "**Leadership Transverse :** Interface unique entre la DGA SI (Tech) et les Directions Métiers. Traduction des besoins business en roadmap technique (Priorisation RICE) et évangélisation de l'IA Générative auprès des équipes opérationnelles."
+
+  - designation: Data Product Manager / Data Manager
+    start: Février 2020
+    end: Avril 2025
+    responsibilities:
+    - "**Pilotage du Produit 'Smart Emploi' :** Orchestration du cycle de vie des données pour le SI décisionnel. Gestion du backlog et coordination des recettes avec les équipes MOE/MOA."
+    - "**Architecture de Pipelines ETL :** Optimisation des flux de données massifs (SAS vers Python/SQL). **Résultat :** Fiabilisation des indicateurs de performance diffusés aux agences et partenaires."
+    - "**Gouvernance  :** Mise en place de contrats d'interface stricts pour garantir l'intégrité des données exposées via 'Data Emploi', assurant la conformité RGPD et la stabilité du service."
+--------------------------------------------------
+📜 FICHIER : data/fr/sections/projects.yaml
+--------------------------------------------------
+section:
+  name: "Projets Réalisés"
+  id: "projects"
+  enable: true
+  weight: 30 
+  showOnNavbar: true
+
+buttons:
+- name: "Tout voir"
+  filter: "all"
+- name: "GenAI & LLM"
+  filter: "genai"
+- name: "Product Strategy"
+  filter: "product"
+- name: "Data Science & ML"
+  filter: "ds"
+
+projects:
+- name: "Smart-Screener : Assistant RH"
+  logo: "/images/sections/projects/smart-screener.png" 
+  image: "/images/sections/projects/smart-screener.png" 
+  role: "AI Product Builder"
+  timeline: "2024"
+  url: "https://smart-screener-ofk-zpgy6gg8dn56wvapifnxxc.streamlit.app/"
+  summary: "Industrialisation d'un assistant de recrutement (RAG). Architecture LangChain/GPT-4o avec Quality Gates. Réduction estimée de 40% du temps de screening."
+  tags: ["genai", "product"]
+
+- name: "Météo Trésorerie (SaaS)"
+  logo: "/images/sections/projects/prophet.png"
+  image: "/images/sections/projects/prophet.png"
+  role: "Data Product Manager"
+  timeline: "Dec 2025"
+  url: "https://cash-flow-forecast-portfolio-ofk.streamlit.app/"
+  summary: "Outil d'aide à la décision pour PME via modèle de série temporelle (Prophet). Anticipation des tensions à 90 jours."
+  tags: ["ds", "product"]
+
+- name: "Smart B2B Lead Scoring"
+  logo: "/images/sections/projects/xgboost.png"
+  image: "/images/sections/projects/xgboost.png"
+  role: "ML Engineer"
+  timeline: "Dec 2025"
+  url: "https://lead-scoring-portofolio-ofk.streamlit.app/"
+  summary: "Scoring prédictif (XGBoost) et IA Explicable (SHAP) pour la priorisation automatique des prospects."
+  tags: ["ds", "ai"]
+--------------------------------------------------
+📜 FICHIER : data/fr/sections/recent-posts.yaml
+--------------------------------------------------
+# section information
+section:
+  name: Articles Récents
+  id: recent-posts
+  enable: false
+  weight: 5
+  showOnNavbar: true
+  template: sections/recent-posts.html
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# no additional configuration is required
+--------------------------------------------------
+📜 FICHIER : data/fr/sections/skills.yaml
+--------------------------------------------------
+section:
+  name: "Expertises Stratégiques"
+  id: "skills"
+  enable: true
+  weight: 40
+  showOnNavbar: true
+
+skills:
+- name: "Product Strategy & Discovery"
+  logo: "images/sections/skills/product.png"
+  summary: "Pilotage de la vision produit de bout en bout. Maîtrise des frameworks de priorisation (RICE, MoSCoW) et animation d'ateliers de Discovery."
+
+- name: "Gouvernance & Doc-as-Code"
+  logo: "images/sections/skills/governance.png"
+  summary: "Industrialisation de la documentation technique (Docusaurus) et mise en place de 'Quality Gates' automatisées."
+
+- name: "GenAI & Architecture RAG"
+  logo: "images/sections/skills/ai.png"
+  summary: "Conception de solutions d'IA Générative (OpenAI, LangChain). Capacité à prototyper des assistants RH (RAG)."
+
+- name: "Python & Machine Learning"
+  logo: "images/sections/skills/python.png"
+  summary: "Expertise hands-on pour le traitement de données massives (Pipelines ETL, Pandas, SQL avancé)."
+
+- name: "Expertise SQL & Database"
+  logo: "images/sections/skills/database.png"
+  summary: "Optimisation de traitements sur volumes massifs et audit de qualité des données critiques."
+
+- name: "Power BI (Expert DAX)"
+  logo: "images/sections/skills/powerbi.png"
+  summary: "Transformation de la donnée brute en outils d'aide à la décision et définition de KPIs produits."
+
+- name: "Agilité & DevOps Culture"
+  logo: "images/sections/skills/agile.png"
+  summary: "Gestion de backlog sous Jira/Confluence. Promotion des bonnes pratiques logicielles (Git, CI/CD)."
+--------------------------------------------------
+📜 FICHIER : data/fr/site.yaml
+--------------------------------------------------
+copyright: © 2026 Oumar Fodé KEBE.
+# Disclaimer stratégique : Te protège contre toute accusation de conflit d'intérêt
+disclaimer: "Les opinions et projets personnels présentés ici sont strictement privés et n'engagent pas mon employeur. Aucun accès aux données internes n'a été utilisé."
+description: "Portfolio de Oumar Fodé KEBE - Senior Data Product Manager & Expert IA."
+openGraph:
+  title: "Oumar Fodé KEBE - Senior Data Product Manager"
+  type: website
+  url: https://oufoke.github.io/

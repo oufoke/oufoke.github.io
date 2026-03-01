@@ -1,12 +1,6 @@
 ---
 title: Bash Variables
 weight: 210
-menu:
-  notes:
-    name: Variables
-    identifier: notes-bash-variables
-    parent: notes-bash
-    weight: 10
 ---
 
 <!-- Variable -->
