@@ -1,5 +1,5 @@
-module github.com/oufoke/portofolio-oumar
+module github.com/oufoke/oufoke.github.io
 
-go 1.24.4
+go 1.23
 
 require github.com/hugo-toha/toha/v4 v4.13.0 // indirect
