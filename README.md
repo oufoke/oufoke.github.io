@@ -1,4 +1,3 @@
-````markdown
 # Portfolio personnel — Oumar KEBE
 
 [![Déploiement GitHub Pages](https://github.com/oufoke/oufoke.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/oufoke/oufoke.github.io/actions)
@@ -11,51 +10,50 @@ Portfolio statique multilingue (FR/EN) généré avec **Hugo** et le thème **To
 
 ## 🛠 Prérequis techniques
 
-Pour faire tourner ce projet en local, l'environnement suivant est nécessaire :
+Pour faire tourner ce projet en local, l’environnement suivant est nécessaire :
+
 - **Hugo Extended** (v0.152.0 ou supérieure)
 - **Go** (v1.19+)
 - **Node.js** (v20 LTS recommandée pour la compatibilité avec le thème)
 
 ## 💻 Développement local
 
-1. **Cloner le dépôt :**
-   ```bash
-   git clone [https://github.com/oufoke/oufoke.github.io.git](https://github.com/oufoke/oufoke.github.io.git)
-   cd oufoke.github.io
-````
+### 1. Cloner le dépôt
 
-2.  **Installer les dépendances requises :**
-    Pour que les assets (comme les drapeaux SVG multilingues) soient correctement montés par le thème, les dépendances NPM doivent être installées localement.
+```bash
+git clone https://github.com/oufoke/oufoke.github.io.git
+cd oufoke.github.io
+```
 
-    ```bash
-    nvm use 20
-    npm install
-    ```
+### 2. Installer les dépendances requises
 
-3.  **Lancer le serveur de développement :**
-    ⚠️ **Règle d'or : Ne jamais utiliser `sudo hugo`.**
+Pour que les assets (comme les drapeaux SVG multilingues) soient correctement montés par le thème, les dépendances NPM doivent être installées localement.
 
-    Pour éviter les erreurs de cache et les URLs corrompues, il est recommandé d'utiliser cet alias de développement personnalisé :
+```bash
+nvm use 20
+npm install
+```
 
-    ```bash
-    # À ajouter dans votre ~/.bashrc
-    alias hugodev="sudo rm -rf public/ && hugo server --baseURL=http://localhost:1313/"
-    ```
+### 3. Lancer le serveur de développement
 
-    Lancez ensuite la commande :
+⚠️ **Éviter d’utiliser `sudo` avec Hugo.**
 
-    ```bash
-    hugodev
-    ```
+Si nécessaire, nettoyer le dossier `public/` avant de lancer le serveur :
 
-    Le site sera disponible sur `http://localhost:1313/`.
+```bash
+rm -rf public/
+hugo server --baseURL=http://localhost:1313/
+```
+
+Le site sera disponible sur `http://localhost:1313/`.
 
 ## 🚀 Déploiement
 
 Ce site est automatiquement hébergé et déployé via **GitHub Pages**.
-Tout `push` validé sur la branche `main` déclenche le workflow d'intégration continue `.github/workflows/gh-pages.yml`. Ce workflow compile le site et le publie automatiquement.
 
-**Commandes de mise à jour courantes :**
+Tout `push` validé sur la branche `main` déclenche le workflow d’intégration continue `.github/workflows/gh-pages.yml`. Ce workflow compile le site et le publie automatiquement.
+
+### Commandes de mise à jour courantes
 
 ```bash
 git add .
@@ -65,12 +63,5 @@ git push origin main
 
 ## 📝 Attributions
 
-  - Thème original : [Hugo Toha V4](https://github.com/hugo-toha/toha)
-  - \<a href='https://www.freepik.com/vectors/business'\>Business vector created by studiogstock - www.freepik.com\</a\>
-
-<!-- end list -->
-
-```
-
-Dès que ce fichier est enregistré et poussé sur ton dépôt, ton profil GitHub affichera une documentation claire et professionnelle. As-tu pu vérifier l'affichage des drapeaux sur ton site en ligne en parallèle ?
-```
+- Thème original : [Hugo Toha V4](https://github.com/hugo-toha/toha)
+- [Business vector created by studiogstock - www.freepik.com](https://www.freepik.com/vectors/business)
