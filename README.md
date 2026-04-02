@@ -1,12 +1,20 @@
-# Portfolio personnel — Oumar KEBE
+# 🌐 Mon Portfolio Personnel | Senior Data Product Manager
+[![Visiter le site](https://img.shields.io/badge/Live_Site-oufoke.github.io-blue?style=for-the-badge)](https://oufoke.github.io/)
 
-[![Déploiement GitHub Pages](https://github.com/oufoke/oufoke.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/oufoke/oufoke.github.io/actions)
+> *🇺🇸 Source code for my multilingual personal portfolio, showcasing my Data & AI Product Management case studies.*
+> *🇫🇷 Code source de mon portfolio personnel multilingue, présentant mes expertises en Data, IA et Stratégie Produit.*
 
-Portfolio statique multilingue (FR/EN) généré avec **Hugo** et le thème **Toha V4**.
-
-🔗 **Site en ligne :** [https://oufoke.github.io/](https://oufoke.github.io/)
+👉 **[Découvrir mon profil et mes projets en ligne](https://oufoke.github.io/)**
 
 ---
+
+### 🛠 Architecture & Déploiement (CI/CD)
+*Pour les plus curieux, voici comment ce site est construit et maintenu.*
+
+Portfolio statique multilingue (FR/EN) généré avec **Hugo** et le thème **Toha V4**, avec un pipeline de déploiement automatisé (GitHub Actions).
+
+#### Prérequis techniques
+[... Garde la suite de tes instructions techniques ici : Node.js, git clone, etc.]
 
 ## 🛠 Prérequis techniques
 
