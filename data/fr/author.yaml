@@ -1,18 +1,31 @@
-# Informations d'identité et de contact
 name: "Oumar Fodé KEBE"
 nickname: "Oumar"
-greeting: "Hello ! Je suis"
-image: "images/author/oumar_pro.png"
+greeting: "Salut, je suis"
 
 contactInfo:
-  email: "oumarfodek@gmail.com"
-  phone: "+33 6 99 85 31 18"
-  github: oufoke
-  linkedin: oumarfodek
+  email: "janedoe@example.com"
+  phone: "+0123456789"
+  stack-overflow:
+    icon: stack-overflow
+    url: "https://stackoverflow.com/users/1/exampleUser"
+    text: "ExampleUser"
 
-# Résumé court : Mots-clés SEO pour les recruteurs Senior
+image: "images/author/oumar_pro.png"
+designation: "Senior Data Product Manager"
+
+
+# Résumé court : Les punchlines qui s'affichent sous ton nom
 summary:
-  - Senior Data Product Manager. # Positionnement de séniorité
-  - Expert Interface Stratégique DSI / Métiers. # Ta plus grande valeur ajoutée
-  - Spécialiste Gouvernance Data & IA Générative. # Expertise technique de pointe
-  - Architecte de solutions Doc-as-Code & Quality Gates. # Réalisations concrètes
+  - "Expert en Transformation Data & IA Prédictive."
+  - "Pont stratégique entre la Tech et le pilotage Business."
+  - "Gouvernance, Business Intelligence & Modèles Prédictifs."
+  - "Domaines : PropTech, LegalTech, Supply Chain & Opérations."
+
+
+socialLinks:
+  - name: linkedin
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/oumarfodek/"
+  - name: github
+    icon: "fab fa-github"
+    url: "https://github.com/oufoke"

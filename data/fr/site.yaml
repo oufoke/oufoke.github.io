@@ -1,8 +1,16 @@
-copyright: © 2026 Oumar Fodé KEBE.
-# Disclaimer stratégique : Te protège contre toute accusation de conflit d'intérêt
-disclaimer: "Les opinions et projets personnels présentés ici sont strictement privés et n'engagent pas mon employeur. Aucun accès aux données internes n'a été utilisé."
-description: "Portfolio de Oumar Fodé KEBE - Senior Data Product Manager & Expert IA."
+# Copyright Notice
+copyright: "© 2026 Oumar Fodé KEBE. Tous droits réservés."
+
+# A disclaimer notice for the footer. (Le bouclier juridique)
+disclaimer: "Les vues, opinions et projets présentés sur ce site sont strictement personnels et ne sauraient engager la responsabilité de mes employeurs actuels ou passés. Les études de cas B2B sont rigoureusement anonymisées à des fins de confidentialité."
+
+# Meta description for your site (Optimisation SEO).
+description: "Portfolio de Oumar Fodé KEBE — Senior Data Product Manager & Expert en Stratégie Data et IA. Découvrez mes cas d'usage en Gouvernance, BI et Modélisation Prédictive."
+
+# Specify OpenGraph Headers (L'aperçu généré sur LinkedIn/Twitter)
 openGraph:
-  title: "Oumar Fodé KEBE - Senior Data Product Manager"
+  title: "Oumar Fodé KEBE | Senior Data Product Manager"
   type: website
-  url: https://oufoke.github.io/
+  description: "Je construis des ponts entre la complexité des données brutes et la clarté de la décision stratégique (C-Level). Découvrez mes projets."
+  image: "images/author/oumar_pro.png"
+  url: "https://oufoke.github.io/"

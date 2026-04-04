@@ -1,25 +1,19 @@
-# section information
 section:
-  name: Distinctions
+  name: Réalisations & Mindset
   id: achievements
-  enable: false
-  weight: 8
-  showOnNavbar: false
-  template: sections/achievements.html
-  # Can optionally hide the title in sections
-  # hideTitle: true
+  enable: true
+  weight: 40
+  showOnNavbar: true
 
-# Your achievements achievements
 achievements:
-- title: Meilleur Présentateur
-  image: /images/sections/achievements/presenter.jpg
-  summary: Élu meilleur présentateur lors de la conférence XYZ 2020.
-- title: Vainqueur
-  image: /images/sections/achievements/sport.jpg
-  summary: Vainqueur de la compétition inter-villes de cyclisme 2020.
-- title: Diplôme
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Licence en informatique obtenue à l'Université XYZ.
-- title: Prix de Recherche
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Lauréat du prix du meilleur article de recherche à la conférence IEEE 2020.
+- image: images/sections/achievements/ekiden.jpg # Remplace par ta photo
+  title: Ekiden de Paris 2025
+  summary: Marathon en relais 5km (30 min). Esprit d'équipe, stratégie de course et endurance physique.
+
+- image: images/sections/achievements/sinequanon.png # Remplace par ta photo
+  title: Sine Qua Non Run 2026
+  summary: Course engagée de 10km (58 min). Dépassement de soi et performance physique.
+
+- image: images/sections/achievements/piano-beatmaking.png # Remplace par ta photo
+  title: Piano & Beat Making
+  summary: Discipline de l'apprentissage (Piano, débutant solphège ) et créativité technique (Mixage, Assemblage, chansons .I.A.).

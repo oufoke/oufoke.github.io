@@ -1,71 +1,76 @@
-# section information
 section:
   name: Education
   id: education
   template: sections/education.html
   enable: true
-  weight: 4
+  weight: 50
   showOnNavbar: false
 
 degrees:
-- name: MSc in Statistical Engineering & Data Science (ISIFAR)
+- name: "Master's Degree - Statistical Engineering & Data Science (ISIFAR)"
   icon: fa-graduation-cap
-  timeframe: 2016-2018
+  timeframe: 2016 - 2018
   institution:
     name: Université Paris Cité
-    url: "https://u-paris.fr/en/"
+    url: "https://u-paris.fr/"
     logo: /images/sections/education/UniversiteParisCite.jpg
-  takenCourses:
-    showGrades: False
-    collapseAfter: 4
-    courses:
-    - name: Machine Learning & Data Mining
-    - name: Python & C# Programming
-    - name: Data Science Capstone Project
-    - name: Statistical Modeling
-    - name: Financial Mathematics
-    - name: Risk Management
-
-- name: Master's Degree in Applied Mathematics
-  icon: fa-graduation-cap
-  timeframe: 2015-2016
-  institution:
-    name: Université Paris Descartes
-    url: "https://u-paris.fr/en/"
-    logo: /images/sections/education/UniversiteParisCite.jpg
+  summary: "Engineering-focused program specializing in statistics and computer science applied to finance and risk management."
   takenCourses:
     showGrades: False
     collapseAfter: 3
     courses:
-    - name: Time Series Analysis
-    - name: Constrained Optimization
-    - name: Statistical Estimation
-    - name: Markov Chains
-    - name: Database Management
+    - name: Statistical Learning (Machine Learning)
+    - name: Python Programming & Intro to C#
+    - name: Data Science Project & Data Mining
+    - name: Insurance & Financial Mathematics
+    - name: Derivative Products- Modeling and Implementation
+    - name: Asset Management
 
-- name: Engineering Degree in Applied Mathematics
-  icon: fa-university
-  timeframe: 2012-2015
+- name: "Master 1 - Mathematics, Modeling, Learning"
+  icon: fa-graduation-cap
+  timeframe: 2015 - 2016
   institution:
-    name: Sup Galilée (Engineering School)
+    name: Université Paris Cité (Paris Descartes)
+    url: "https://u-paris.fr/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+  summary: "Specialization in advanced probability and statistical modeling. Graduated with honors (Mention Assez-Bien)."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Time Series & Markov Chains
+    - name: Parameter Estimation & Parametric Testing
+    - name: Multivariate Linear Regression
+    - name: Constrained Optimization
+    - name: Discrete-Time Martingales & Convergence
+    - name: Variational Methods and PDE
+
+- name: "Engineering Cycle - Applied Mathematics and Scientific Computing"
+  icon: fa-university
+  timeframe: 2012 - 2015
+  institution:
+    name: Sup Galilée
     url: "https://sup-galilee.univ-paris13.fr/"
     logo: /images/sections/education/LOGO1.png
+  summary: "Mastery of mathematical and computational tools for industrial and financial modeling."
   takenCourses:
     showGrades: False
     collapseAfter: 3
     courses:
-    - name: Algorithms & Programming
-    - name: Probability & Statistics
-    - name: Numerical Analysis
-    - name: Industrial Modeling
+    - name: Numerical Analysis & Probability-Statistics
+    - name: Algorithms & Industrial Code Design
+    - name: Probabilistic Modeling (Finance, Banking, Insurance)
+    - name: Deterministic Modeling (Mechanics, Physics)
+    - name: Market Finance & Engineering Culture
 
-- name: CPGE - Intensive Program in Math & Physics
+- name: "Classes Préparatoires aux Grandes Écoles (CPGE)"
   icon: fa-school
-  timeframe: 2009-2012
+  timeframe: 2009 - 2012
   institution:
     name: Lycées Pierre d'Ailly & Jacques Decour
     logo: /images/sections/education/logoLPASciences.png
+  summary: "PCSI / PC track (Physics, Chemistry, Mathematics)."
   takenCourses:
     showGrades: False
-    collapseAfter: 0 # Hidden details to keep the resume clean
+    collapseAfter: 0
     courses: []

@@ -1,26 +1,25 @@
-# some information about you
-name: "Oumar KEBE"
+name: "Oumar Fodé KEBE"
 nickname: "Oumar"
-
-# greeting message before your name.
-greeting: "Hello! I am"
-
-# make sure the image is in static/images/author/oumar_pro.png
+greeting: "Hi, I am"
 image: "images/author/oumar_pro.png"
+designation: "Senior Data Product Manager"
 
-# give your some contact information.
-contactInfo:
-  email: "oumarfodek@gmail.com"
-  phone: "+33 699 853 118"
-  github: oufoke
-  linkedin: oumarfodek
-
-# some summary about what you do
-# Optimized for impact
+# Résumé court : Les punchlines qui s'affichent sous ton nom
 summary:
-  - Data Product Manager.
-  - Data & AI Strategy Expert.
-  - I convert data into business value.
-  - Building Ethical & Responsible AI.
-  - Bridging the gap between Tech & Business.
-  - Open-source Contributor.
+  - "Data Transformation & Predictive AI Expert."
+  - "Strategic bridge between Tech and Business leadership."
+  - "Data Governance, Business Intelligence & Predictive Modeling."
+  - "Domains: PropTech, LegalTech, Supply Chain & Operations."
+
+contactInfo:
+  emails:
+    - oumarfodek@gmail.com
+  phone: "+33 6 99 85 31 18"
+  location: "Paris, France"
+socialLinks:
+  - name: linkedin
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/oumarfodek/"
+  - name: github
+    icon: "fab fa-github"
+    url: "https://github.com/oufoke"

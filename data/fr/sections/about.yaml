@@ -2,7 +2,7 @@ section:
   name: "À Propos"
   id: "about"
   enable: true
-  weight: 10
+  weight: 100
   showOnNavbar: true
   template: "sections/about.html"
 
@@ -17,8 +17,36 @@ resourceLinks:
   url: "files/Oumar_Fode_KEBE.pdf"
 
 summary: |
-  Senior Data Product Manager avec **6 ans d'expérience**, j'opère à l'interface stratégique entre la DSI et les Directions Métiers.
+ **Je construis des ponts entre la complexité des données brutes et la clarté de la décision stratégique.** 
 
+  ### 🎯 Ma Proposition de Valeur
+  Mon approche de Product Manager vise à résoudre des problématiques métiers coûteuses ou complexes via 3 piliers :
+  * **Gouvernance & DataOps :** Automatiser l'ingestion de données legacy (SAP, systèmes propriétaires), réduire la dette technique et garantir une *Data Quality* irréprochable.
+  * **Business Intelligence (BI) :** Concevoir des architectures décisionnelles claires qui séparent le suivi opérationnel du pilotage stratégique (tableaux de bord).
+  * **Forecasting & IA Appliquée :** Déployer des modèles prédictifs (Time Series, NLP) pour anticiper les budgets, optimiser les investissements et réduire les risques légaux/financiers.
+
+  ### 🏗️ Domaines d'Intervention & Expertises
+  * **Asset Management & Immobilier :** Modélisation budgétaire et anticipation des coûts sur des parcs à l'échelle nationale (1000+ sites).
+  * **Compliance & LegalTech :** Moteurs NLP pour l'audit sémantique massif (E-Discovery) et la gestion des risques.
+  * **Supply Chain & Opérations :** Prévision de la demande et automatisation ITSM.
+
+  ### 🛠️ Ma Stack
+  * **Product & Stratégie :** OKRs, PRD, MLOps Lifecycle, Design de solutions.
+  * **Data Science :** Python, SQL, Prophet, NLP (Topic Modeling).
+  * **Data Viz :** PowerBI, Digdash, Streamlit.
+  
+socialLinks:                             # ← commentaire séparé du summary
+- name: "Email"
+  icon: "fas fa-envelope"
+  url: "mailto:oumarfodek@gmail.com"
+- name: "Github"
+  icon: "fab fa-github"
+  url: "https://www.github.com/oufoke"
+- name: "LinkedIn"
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/oumarfodek/"
+
+  
 badges:
 - type: "certification"
   name: "Data Product Manager (Sorbonne)"
@@ -47,5 +75,5 @@ badges:
 
 - type: "soft-skill-indicator"
   name: "Architecture Data & IA"
-  percentage: 50
+  percentage: 95
   color: "blue"

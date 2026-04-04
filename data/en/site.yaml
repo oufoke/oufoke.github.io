@@ -1,23 +1,16 @@
 # Copyright Notice
-copyright: © 2025 Oumar KEBE. All rights reserved.
+copyright: "© 2026 Oumar Fodé KEBE. All rights reserved."
 
-# A disclaimer notice for the footer.
-# Standard professional disclaimer
-disclaimer: "The views and opinions expressed on this website are my own and do not necessarily reflect those of my employer. Content is for informational purposes only."
+# A disclaimer notice for the footer. (Legal Shield)
+disclaimer: "The views, opinions, and projects presented on this site are strictly personal and do not reflect the views of my current or former employers. B2B case studies are rigorously anonymized for confidentiality purposes."
 
-# Meta description for your site.
-# SEO Optimized for "Data Product Manager"
-description: "Portfolio of Oumar KEBE - Data Product Manager & AI Strategy Expert. Explore my projects, certifications, and insights on Data Science and Product Management."
+# Meta description for your site (SEO Optimization).
+description: "Portfolio of Oumar Fodé KEBE — Senior Data Product Manager & Data/AI Strategy Expert. Explore my use cases in Governance, BI, and Predictive Modeling."
 
-# specify the list of custom menus
-# customMenus:
-# - name: External Blog
-#   url: https://medium.com/@your-handle
-
-# Specify OpenGraph Headers (For LinkedIn/Twitter previews)
+# Specify OpenGraph Headers (LinkedIn/Twitter preview)
 openGraph:
-  title: "Oumar KEBE - Data Product Manager"
+  title: "Oumar Fodé KEBE | Senior Data Product Manager"
   type: website
-  description: "Bridging the gap between Tech & Business. Discover my Data & AI projects."
-  image: images/author/oumar_pro.png
-  url: https://oufoke.github.io/
+  description: "I build bridges between raw data complexity and strategic decision-making clarity (C-Level). Explore my projects."
+  image: "images/author/oumar_pro.png"
+  url: "https://oufoke.github.io/en/"

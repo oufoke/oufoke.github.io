@@ -1,74 +1,71 @@
-# section information
 section:
-  name: Projects
-  id: projects
+  name: "Products & Case Studies"
+  id: "projects"
   enable: true
-  weight: 5
-  showOnNavbar: true
+  weight: 60
+  showOnNavbar: false
 
-# Filter buttons
 buttons:
-- name: All
+- name: "View All"
   filter: "all"
-- name: AI & GenAI
+- name: "Artificial Intelligence (NLP/GenAI)"
   filter: "ai"
-- name: Product Management
-  filter: "product"
-- name: Data Science
-  filter: "ds"
+- name: "Governance & DataOps"
+  filter: "gov"
+- name: "Business Solutions (PropTech / LegalTech)"
+  filter: "biz"
 
-# Your projects
 projects:
-- name: "Smart B2B Lead Scoring"
-  logo: /images/sections/projects/xgboost.png
-  image: /images/sections/projects/lead-scoring.png
-  role: ML Engineer
-  timeline: "Jan 2025"
+- name: "Real Estate Data Control Tower"
+  logo: "/images/sections/projects/prophet.png"
+  image: "/images/sections/projects/prophet.png"
+  role: "Senior Data Product Manager"
+  timeline: "2026"
+  url: "https://github.com/oufoke/Real-Estate-Data-Control-Tower"
+  summary: "PropTech: Predictive control tower for real estate asset budget optimization. Capex/Opex forecasting via Time Series models."
+  tags: ["ai", "biz"]
+
+- name: "Juris Sensus AI"
+  logo: "/images/sections/projects/juris-sensus-showcase-logo.png" # Remember to add an image
+  image: "/images/sections/projects/juris-sensus-showcase.png"
+  role: "Product Builder / Edge Computing"
+  timeline: "2026"
+  url: "https://github.com/oufoke/juris-sensus-ai"
+  summary: "Forensic pipeline automating fraud and legal risk detection on massive datasets (Zero-Shot NLP). Investigation time reduced from 3 weeks to 4 hours."
+  tags: ["ai", "biz"]
+
+- name: "HR-Tech AI Screener"
+  logo: "/images/sections/projects/smart-screener.png" 
+  image: "/images/sections/projects/smart-screener.png" 
+  role: "AI Product Manager"
+  timeline: "2024 - 2025"
+  url: "https://smart-screener-ofk-zpgy6gg8dn56wvapifnxxc.streamlit.app/"
+  summary: "Intelligent recruiting assistant (RAG Architecture, LangChain/GPT-4o). Semantic resume analysis with Quality Gates and interview guide generation."
+  tags: ["ai"]
+
+- name: "B2B Predictive Lead Scoring"
+  logo: "/images/sections/projects/xgboost.png"
+  image: "/images/sections/projects/xgboost.png"
+  role: "ML Engineer / PM"
+  timeline: "Dec 2025"
   url: "https://lead-scoring-portofolio-ofk.streamlit.app/"
-  summary: "Predictive scoring (XGBoost) with Explainable AI to prioritize leads and shorten B2B sales cycles."
-  tags: ["ds", "ai", "product"]
+  summary: "Explainable AI scoring engine (XGBoost / SHAP) to prioritize customer acquisition, optimize the sales cycle, and reduce CAC."
+  tags: ["ai", "biz"]
 
-- name: "Cash Flow Forecast"
-  logo: /images/sections/projects/prophet.png
-  image: /images/sections/projects/cash-flow.png
-  role: Data Product Manager
-  timeline: "Jan 2025"
-  url: "https://cash-flow-forecast-portfolio-ofk.streamlit.app/"
-  summary: "Financial forecasting app (Prophet/Streamlit) enabling SMEs to anticipate cash flow shortages 90 days in advance."
-  tags: ["ds", "product"]
+- name: "QualiStat"
+  logo: "/images/sections/projects/QualiStat-logo.png" # Remember to add an image
+  image: "/images/sections/projects/qualistat.png"
+  role: "Data Governance Lead"
+  timeline: "2025 - 2026"
+  url: "https://github.com/oufoke/datatrust-audit-system"
+  summary: "Governance product enforcing strict Quality Gates (Power BI / DAX). Total security of public KPIs delivered to the IT department (Zero defects in production)."
+  tags: ["gov"]
 
-- name: "Smart-Screener (Recruitment)"
-  logo: /images/sections/projects/openai.png
-  image: /images/sections/projects/smart-screener.png
-  role: AI Product Builder
-  timeline: "Dec 2024"
-  repo: "https://github.com/VOTRE-PSEUDO/smart-screener"
-  summary: "GenAI HR Assistant (RAG): Resume parsing, intelligent semantic matching, and custom interview question generation."
-  tags: ["ai", "product"]
-
-- name: "Smovengo: Velib' Optimization"
-  logo: /images/sections/projects/no-code.png
-  image: /images/sections/projects/smovengo.png
-  role: Data Product Manager
-  timeline: "Spring 2024"
-  url: "https://www.canva.com/design/DAGePV2S-8o/FiEUDKz9B8faclyFI25xDg/view"
-  summary: "Product Management Case Study: Data-driven strategy to reduce churn and optimize bike availability in Paris."
-  tags: ["product"]
-
-- name: "Computer Vision (Traffic)"
-  logo: /images/sections/projects/TensKeras.png
-  image: /images/sections/projects/feux.png
-  role: Deep Learning Engineer
-  timeline: "Late 2023"
-  repo: https://github.com/oufoke/Detect-Traffic-Signs
-  summary: "CNN model for traffic sign recognition designed for autonomous vehicle safety (TensorFlow/Keras)."
-  tags: ["ai"]
-
-- name: "Customer Reviews Analysis (LLM)"
-  logo: /images/sections/projects/hf-logo.svg
-  image: /images/sections/projects/cars.png
-  role: AI Product Engineer
-  timeline: "Early 2024"
-  repo: https://github.com/oufoke/Analyzing_Car_reviews
-  summary: "Automated NLP pipeline extracting actionable insights from thousands of customer reviews at scale."
-  tags: ["ai"]
+- name: "Map/GPS MOA"
+  logo: "/images/sections/projects/dataops-logo.png" # Remember to add an image
+  image: "/images/sections/projects/Dataops.png"
+  role: "DataOps Architect"
+  timeline: "2025"
+  url: "https://github.com/oufoke/DataBridge-Ops"
+  summary: "DataOps foundation (Docs-as-Code) centralizing business rules. Ultra-secure CI/CD deployment to reduce technical debt and time-to-market."
+  tags: ["gov"]

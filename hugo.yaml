@@ -1,6 +1,6 @@
 baseURL: "https://oufoke.github.io/"
 languageCode: fr-fr
-title: "Oumar KEBE | Portfolio"
+title: "Oumar Fodé KEBE | Portfolio"
 ignoreLogs:
   - warning-goldmark-raw-html
 
