@@ -4,7 +4,7 @@ section:
   id: accomplishments
   enable: true
   weight: 70
-  showOnNavbar: false
+  showOnNavbar: true
 
 # Your accomplishments
 accomplishments:

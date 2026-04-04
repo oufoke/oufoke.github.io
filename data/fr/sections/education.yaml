@@ -4,7 +4,7 @@ section:
   template: sections/education.html
   enable: true
   weight: 50
-  showOnNavbar: false
+  showOnNavbar: true
 
 degrees:
 - name: "Master 2 - Ingénierie Statistique et Data Science (ISIFAR)"

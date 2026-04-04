@@ -1,8 +1,8 @@
 ---
-title: "Engagements & Activités"
-description: "Bénévolat, sport et vie associative."
-date: 2024-01-04
-draft: false
-weight: 50
+section:
+  name: "Accomplissements"
+  id: "accomplishments"
+  enable: true
+  weight: 60
+  showOnNavbar: false
 ---
-Ajoutez ici vos activités extra-professionnelles.
