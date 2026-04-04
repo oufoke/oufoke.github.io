@@ -1,32 +1,30 @@
-# section information
 section:
   name: Experiences
   id: experiences
   enable: true
-  weight: 3
+  weight: 90
   showOnNavbar: false
 
-# Your experiences
 experiences:
 - company:
-    name: France Travail
-    url: "https://dataemploi.francetravail.fr/emploi/accueil"
+    name: France Travail (Headquarters)
+    url: "https://www.francetravail.fr"
     location: Paris, France
-    logo: /images/sections/experiences/logo-dataemploi-ft.svg
-    overview: "French public employment service. France Travail provides strategic labour market data through the Data Emploi platform."
+    logo: /images/sections/experiences/logo-ft.svg 
+    overview: "Building bridges between raw data complexity and strategic decision-making clarity, while ensuring the absolute reliability and industrialization of data production processes."
+  
   positions:
-  - designation: Data Product Manager (Documentation & Method Project)
+  - designation: Senior Data Product Manager (Governance & Ops)
     start: May 2025
-    # end: Present (Automatic)
     responsibilities:
-    - "**Product Strategy:** Leading the implementation of a 'Documentation-as-Code' site to centralize business processes within the Project Management Office (MOA)."
-    - "**Governance & Versioning:** Implementing a workflow based on Markdown and GitLab Pages to ensure reliable, accessible, and version-controlled technical documentation."
-    - "**Change Management:** Defining the MVP roadmap and training MOA teams on new documentation and contribution tools."
+    - "**DataTrust Audit System:** Designed a governance product (Power BI / DAX) enforcing strict Quality Gates. Fully secured the delivery of public indicators to the IT department (zero defects in production)."
+    - "**Enterprise Knowledge Framework:** Deployed a DataOps foundation (Docusaurus) in a highly secure environment. Centralized business rules and drastically reduced time-to-market."
+    - "**Product Leadership:** Fostered strategic alignment between the Statistics Directorate and IT Engineering. Cultivated an agile and Docs-as-Code culture among business teams."
 
   - designation: Data Product Manager / Data Manager
     start: February 2020
     end: April 2025
     responsibilities:
-    - "**Product Discovery & Steering:** Coordinating functional evolutions for the 'Smart Emploi' Information System: requirement gathering, functional specifications, and User Acceptance Testing (UAT)."
-    - "**Data Quality Management:** Implementing data quality protocols and developing optimized programs (SQL, Python, SAS) for large-scale statistical production."
-    - "**Cross-functional Coordination:** Managing external providers and facilitating cooperation between IT departments and business units for data distribution via API."
+    - "**Production Steering (Data Emploi):** Orchestration, process implementation, and production planning for strategic indicators published on the national datemploi portal."
+    - "**Industrialization & Institutional Partnerships:** Design and implementation of complex SQL/SAS programs industrialized by the IT department for strategic partners (INSEE, DARES, etc.), securing large-scale data extractions."
+    - "**Performance & Mediation:** Optimization of complex pipelines on the National Claimant File and translation of business requirements into technical specifications, ensuring high development ROI."

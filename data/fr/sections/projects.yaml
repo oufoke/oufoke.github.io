@@ -1,44 +1,71 @@
 section:
-  name: "Projets Réalisés"
+  name: "Produits & Études de Cas"
   id: "projects"
   enable: true
-  weight: 30 
+  weight: 60
   showOnNavbar: false
 
 buttons:
 - name: "Tout voir"
   filter: "all"
-- name: "GenAI & LLM"
-  filter: "genai"
-- name: "Product Strategy"
-  filter: "product"
-- name: "Data Science & ML"
-  filter: "ds"
+- name: "Intelligence Artificielle (NLP/GenAI)"
+  filter: "ai"
+- name: "Gouvernance & DataOps"
+  filter: "gov"
+- name: "Solutions Métiers (PropTech / LegalTech)"
+  filter: "biz"
 
 projects:
-- name: "Smart-Screener : Assistant RH"
-  logo: "/images/sections/projects/smart-screener.png" 
-  image: "/images/sections/projects/smart-screener.png" 
-  role: "AI Product Builder"
-  timeline: "2024"
-  url: "https://smart-screener-ofk-zpgy6gg8dn56wvapifnxxc.streamlit.app/"
-  summary: "Industrialisation d'un assistant de recrutement (RAG). Architecture LangChain/GPT-4o avec Quality Gates. Réduction estimée de 40% du temps de screening."
-  tags: ["genai", "product"]
-
-- name: "Météo Trésorerie (SaaS)"
+- name: "Real Estate Data Control Tower"
   logo: "/images/sections/projects/prophet.png"
   image: "/images/sections/projects/prophet.png"
-  role: "Data Product Manager"
-  timeline: "Dec 2025"
-  url: "https://cash-flow-forecast-portfolio-ofk.streamlit.app/"
-  summary: "Outil d'aide à la décision pour PME via modèle de série temporelle (Prophet). Anticipation des tensions à 90 jours."
-  tags: ["ds", "product"]
+  role: "Senior Data Product Manager"
+  timeline: "2026"
+  url: "https://github.com/oufoke/Real-Estate-Data-Control-Tower"
+  summary: "PropTech : Tour de contrôle prédictive pour l'optimisation budgétaire des actifs immobiliers. Anticipation des Capex/Opex via modèles Time Series."
+  tags: ["ai", "biz"]
 
-- name: "Smart B2B Lead Scoring"
+- name: "Juris Sensus AI"
+  logo: "/images/sections/projects/juris-sensus-showcase-logo.png" # Pense à ajouter une image
+  image: "/images/sections/projects/juris-sensus-showcase.png"
+  role: "Product Builder / Edge Computing"
+  timeline: "2026"
+  url: "https://github.com/oufoke/juris-sensus-ai"
+  summary: "Pipeline forensique automatisant la détection de fraudes et risques légaux sur des corpus massifs (Zero-Shot NLP). Temps d'investigation réduit de 3 semaines à 4 heures."
+  tags: ["ai", "biz"]
+
+- name: "HR-Tech AI Screener"
+  logo: "/images/sections/projects/smart-screener.png" 
+  image: "/images/sections/projects/smart-screener.png" 
+  role: "AI Product Manager"
+  timeline: "2024 - 2025"
+  url: "https://smart-screener-ofk-zpgy6gg8dn56wvapifnxxc.streamlit.app/"
+  summary: "Assistant de recrutement intelligent (Architecture RAG, LangChain/GPT-4o). Analyse sémantique de CV avec Quality Gates et génération de guides d'entretien."
+  tags: ["ai"]
+
+- name: "B2B Predictive Lead Scoring"
   logo: "/images/sections/projects/xgboost.png"
   image: "/images/sections/projects/xgboost.png"
-  role: "ML Engineer"
+  role: "ML Engineer / PM"
   timeline: "Dec 2025"
   url: "https://lead-scoring-portofolio-ofk.streamlit.app/"
-  summary: "Scoring prédictif (XGBoost) et IA Explicable (SHAP) pour la priorisation automatique des prospects."
-  tags: ["ds", "ai"]
+  summary: "Moteur de scoring IA explicable (XGBoost / SHAP) pour prioriser l'acquisition client, optimiser le cycle de vente et réduire le CAC."
+  tags: ["ai", "biz"]
+
+- name: "QualiStat"
+  logo: "/images/sections/projects/QualiStat-logo.png" # Pense à ajouter une image
+  image: "/images/sections/projects/qualistat.png"
+  role: "Data Governance Lead"
+  timeline: "2025 - 2026"
+  url: "https://github.com/oufoke/datatrust-audit-system"
+  summary: "Produit de gouvernance imposant des Quality Gates stricts (Power BI / DAX). Sécurisation totale des indicateurs publics vers la DSI (Zéro défaut en production)."
+  tags: ["gov"]
+
+- name: "Map/GPS MOA"
+  logo: "/images/sections/projects/dataops-logo.png" # Pense à ajouter une image
+  image: "/images/sections/projects/Dataops.png"
+  role: "DataOps Architect"
+  timeline: "2025"
+  url: "https://github.com/oufoke/DataBridge-Ops"
+  summary: "Socle DataOps (Docs-as-Code) centralisant les règles de gestion métier. Déploiement CI/CD ultra-sécurisé pour réduire la dette technique et le time-to-market."
+  tags: ["gov"]

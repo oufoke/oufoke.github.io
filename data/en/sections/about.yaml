@@ -2,7 +2,7 @@ section:
   name: "About"
   id: "about"
   enable: true
-  weight: 1
+  weight: 100
   showOnNavbar: true
   template: "sections/about.html"
 
@@ -14,13 +14,27 @@ company:
 
 resourceLinks:
 - title: "My CV (PDF)"
-  url: "files/Oumar_F__KEBE.pdf"        # ← supprimé "static/"
+  url: "files/Oumar_Fode_KEBE.pdf"
 
 summary: |
-  Data Product Manager with **6 years of experience**, I operate at the strategic interface between the IT department and business units. <br><br>
-  Expert in transforming complex needs into high-impact data products, I am currently working at **France Travail** on the evolution of several data products. <br><br>
-  Certified Data Scientist, Data Engineer and AI Engineer, I combine technical rigor (SQL, Python, SAS) with a user-centric product vision: **Product Discovery**, **Data Governance** and **Change Management**.
+  **I build bridges between the complexity of raw data and the clarity of strategic decision-making (C-Level).** I help large organizations (currently at France Travail) urbanize their systems and transition from reactive management to proactive, AI-driven steering.
 
+  ### 🎯 My Value Proposition
+  My Product Management approach aims to solve costly or complex business challenges through 3 core pillars:
+  * **Governance & DataOps:** Automating legacy data ingestion (SAP, proprietary systems), reducing technical debt, and ensuring flawless *Data Quality*.
+  * **Business Intelligence (BI):** Designing clear decision-making architectures that separate operational tracking from strategic steering (C-Level dashboards).
+  * **Forecasting & Applied AI:** Deploying predictive models (Time Series, NLP) to anticipate multi-million euro budgets, optimize investments (CapEx/OpEx), and mitigate legal/financial risks.
+
+  ### 🏗️ Domains & Expertise
+  * **Asset Management & Real Estate:** Budget modeling and cost anticipation for national-scale portfolios (1000+ sites).
+  * **Compliance & LegalTech:** NLP engines for massive semantic auditing (E-Discovery) and risk management.
+  * **Supply Chain & Operations:** Demand forecasting and ITSM automation.
+
+  ### 🛠️ My Tech Stack
+  * **Product & Strategy:** OKRs, PRDs, MLOps Lifecycle, Solution Design.
+  * **Data Science:** Python, SQL, Prophet, NLP (Topic Modeling).
+  * **Data Viz:** Power BI, Digdash, Streamlit.
+  
 socialLinks:                             # ← commentaire séparé du summary
 - name: "Email"
   icon: "fas fa-envelope"

@@ -1,24 +1,19 @@
-# section information
 section:
-  name: Achievements
+  name: Achievements & Mindset
   id: achievements
-  enable: false
-  weight: 10
-  showOnNavbar: false
-  # Can optionally hide the title in sections
-  # hideTitle: true
+  enable: true
+  weight: 40
+  showOnNavbar: true
 
-# Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+- image: images/sections/achievements/ekiden.jpg # Remplacer par ta photo
+  title: Paris Ekiden 2025
+  summary: 5k Relay Marathon (30 min). Team spirit, racing strategy, and physical endurance.
+
+- image: images/sections/achievements/sinequanon.png # Remplacer par ta photo
+  title: Sine Qua Non Run 2026
+  summary: Purpose-driven 10k race (58 min). Pushing personal limits and physical performance.
+
+- image: images/sections/achievements/piano-beatmaking.png # Remplacer par ta photo
+  title: Piano & Beat Making
+  summary: Discipline of learning (Piano, beginner music theory) and technical creativity (Mixing, Assembly, AI songs).

@@ -2,7 +2,7 @@ section:
   name: Expériences
   id: experiences
   enable: true
-  weight: 20 
+  weight: 90 
   showOnNavbar: false
 
 experiences:
@@ -11,20 +11,20 @@ experiences:
     url: "https://www.francetravail.fr"
     location: Paris, France
     logo: /images/sections/experiences/logo-ft.svg 
-    overview: "Leader de la transformation Data & IA au service de l'emploi."
+    overview: "Je construis des ponts entre la complexité des données brutes et la clarté de la décision stratégique, tout en garantissant la fiabilisation et l'industrialisation des processus de production de données."
   
   positions:
   - designation: Senior Data Product Manager (Gouvernance & Ops)
     start: Mai 2025
     responsibilities:
-    - "**Stratégie Doc-as-Code :** Conception et déploiement d'un portail de documentation technique (Docusaurus) centralisant le savoir métier. **Résultat :** Réduction de 30% du temps d'onboarding des nouveaux Data Analysts."
-    - "**Automatisation de la Qualité (Data Quality) :** Pilotage d'une solution de **Quality Gates** automatisées via Power BI/Python. **Impact :** Blocage systématique de 100% des anomalies critiques avant la diffusion nationale des statistiques."
-    - "**Leadership Transverse :** Interface unique entre la DGA SI (Tech) et les Directions Métiers. Traduction des besoins business en roadmap technique (Priorisation RICE) et évangélisation de l'IA Générative auprès des équipes opérationnelles."
+    - "**DataTrust Audit System :** Conception d'un produit de gouvernance (Power BI / DAX) imposant des Quality Gates stricts. Sécurisation totale de la livraison des indicateurs publics vers la DSI (zéro défaut en production)."
+    - "**Enterprise Knowledge Framework :** Déploiement d'un socle DataOps (Docusaurus) en environnement ultra-sécurisé. Centralisation des règles métier et réduction drastique du time-to-market."
+    - "**Product Leadership :** Alignement stratégique entre la Direction des Statistiques et la DGA Tech. Acculturation des équipes de Maîtrise d'Ouvrage aux workflows agiles (Docs-as-Code)."
 
   - designation: Data Product Manager / Data Manager
     start: Février 2020
     end: Avril 2025
     responsibilities:
-    - "**Pilotage du Produit 'Smart Emploi' :** Orchestration du cycle de vie des données pour le SI décisionnel. Gestion du backlog et coordination des recettes avec les équipes MOE/MOA."
-    - "**Architecture de Pipelines ETL :** Optimisation des flux de données massifs (SAS vers Python/SQL). **Résultat :** Fiabilisation des indicateurs de performance diffusés aux agences et partenaires."
-    - "**Gouvernance  :** Mise en place de contrats d'interface stricts pour garantir l'intégrité des données exposées via 'Data Emploi', assurant la conformité RGPD et la stabilité du service."
+    - "**Pilotage de Production (Data Emploi) :** Orchestration, mise en place de processus et pilotage du planning de production des indicateurs stratégiques diffusés sur le portail national datemploi."
+    - "**Industrialisation & Partenariats Institutionnels :** Conception et mise en place de programmes complexes (SQL, SAS) industrialisés par la DSI pour les partenaires stratégiques (INSEE, DARES, etc.), sécurisant les extractions de données à grande échelle."
+    - "**Performance & Médiation :** Optimisation des pipelines complexes sur le Fichier National des Allocataires et traduction des enjeux métiers en spécifications techniques garantissant le ROI des développements."

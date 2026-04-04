@@ -1,49 +1,57 @@
 # section information
 section:
-  name: Certifications & Accomplishments
+  name: "Certifications & Accomplishments"
   id: accomplishments
   enable: true
-  weight: 7
+  weight: 70
   showOnNavbar: false
 
 # Your accomplishments
 accomplishments:
-- name: Data Product Manager Certification
-  timeline: "2023 - 2024"
+- name: "Data Product Manager"
+  timeline: "Nov. 2024"
   organization:
-    name: DataScientest (Sorbonne Accredited)
+    name: "DataScientest (Sorbonne Accredited)"
     url: https://datascientest.com/
-  courseOverview: "Top-tier training accredited by La Sorbonne University. Mastering the end-to-end Data Product lifecycle: from Product Discovery to industrialization. Key skills acquired: defining product vision, backlog prioritization (RICE, MoSCoW), stakeholder management, and aligning business KPIs with technical metrics."
+  courseOverview: "Mastering the end-to-end Data Product lifecycle: from Product Discovery to industrialization. Aligning business KPIs with technical metrics, backlog prioritization (RICE, MoSCoW), and fostering IT/Business relationships."
   certificateURL: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
 
-- name: AI Engineer & Generative AI
-  timeline: "2024"
+- name: "AI Engineer for Data Scientists Associate"
+  timeline: "July 2025"
   organization:
-    name: DataCamp
+    name: "DataCamp"
     url: https://www.datacamp.com
-  courseOverview: "Advanced specialization in Generative AI and MLOps. Ability to design RAG (Retrieval-Augmented Generation) architectures and assess the technical feasibility of AI features. This certification enables me to speak the same language as Data Scientists and accurately anticipate infrastructure costs related to Large Language Models (LLMs)."
+  courseOverview: "Advanced specialization in Generative AI. Ability to design RAG architectures, assess the technical feasibility of AI features, and master infrastructure costs related to LLMs. Ensures expert-level collaboration with Data Scientists."
   certificateURL: "https://www.datacamp.com/certificate/AEDS0013592331030"
 
-- name: Data Scientist Professional
-  timeline: "2022 - 2023"
+- name: "Governance: GDPR, AI Ethics & AI Act"
+  timeline: "2024"
   organization:
-    name: DataCamp
+    name: "DataScientest"
+    url: https://datascientest.com/
+  courseOverview: "Mastery of the European regulatory framework (AI Act, GDPR). A critical skill for legally securing AI products, designing audit engines (LegalTech), and ensuring the compliance of sensitive data flows."
+  certificateURL: "https://datascientest.com/"
+
+- name: "Data Quality & Architecture (PySpark, API)"
+  timeline: "Nov. 2024"
+  organization:
+    name: "DataScientest"
+    url: https://datascientest.com/
+  courseOverview: "Consolidation of expert certifications (Data Quality, ETL with PySpark, API Data Integration). Validates my expertise in implementing strict Quality Gates and securing massive data pipelines before business exposure."
+  certificateURL: "https://datascientest.com/"
+
+- name: "Data Scientist Professional"
+  timeline: "June 2023"
+  organization:
+    name: "DataCamp"
     url: https://www.datacamp.com
-  courseOverview: "Validation of deep technical expertise in Machine Learning and statistics. As a PM, this skill allows me to be autonomous in Data Analysis to validate product hypotheses without systematically relying on technical teams, thereby accelerating decision-making."
+  courseOverview: "Validation of deep technical expertise in Machine Learning and statistics. As a PM, this allows me to be autonomous in Exploratory Data Analysis (EDA) to validate product hypotheses without systematically relying on engineering teams."
   certificateURL: "https://www.datacamp.com/certificate/DS0027579108829"
 
-- name: Data Engineer Associate
-  timeline: "2023"
+- name: "Data Engineer & Core Tech Stack (SQL/Python)"
+  timeline: "2023 - 2024"
   organization:
-    name: DataCamp
+    name: "DataCamp / DataScientest"
     url: https://www.datacamp.com
-  courseOverview: "Understanding of infrastructure challenges: ETL/ELT pipelines, Cloud Computing, and database modeling. Essential for designing scalable, robust products and for effectively prioritizing technical debt maintenance tasks within the roadmap."
+  courseOverview: "Multiple technical certifications (Data Engineer Associate, SQL for Data Science, Python Data Associate). Deep understanding of infrastructure challenges (ETL/ELT) and execution of complex queries to audit product ROI."
   certificateURL: "https://www.datacamp.com/certificate/DE0019334068921"
-
-- name: Technical Certifications (SQL & Python)
-  timeline: "Continuous"
-  organization:
-    name: DataCamp
-    url: https://www.datacamp.com
-  courseOverview: "Dual certification (SQL Associate & Python Data Associate). Operational mastery allowing for code auditing, executing complex queries for product KPI tracking, and facilitating technical communication with developers."
-  certificateURL: "https://www.datacamp.com/portfolio/oumarfodekbe"

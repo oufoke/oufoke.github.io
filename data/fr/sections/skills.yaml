@@ -2,34 +2,34 @@ section:
   name: "Expertises Stratégiques"
   id: "skills"
   enable: true
-  weight: 40
+  weight: 80
   showOnNavbar: true
 
 skills:
-- name: "Product Strategy & Discovery"
+- name: "Stratégie Produit & Pilotage C-Level"
   logo: "images/sections/skills/product.png"
-  summary: "Pilotage de la vision produit de bout en bout. Maîtrise des frameworks de priorisation (RICE, MoSCoW) et animation d'ateliers de Discovery."
+  summary: "Alignement stratégique (DSI/Métiers) et pilotage de la vision par le ROI. Définition d'OKRs, gestion de PRD complexes et traduction des enjeux pour l'ingénierie."
 
-- name: "Gouvernance & Doc-as-Code"
+- name: "Gouvernance & DataOps"
   logo: "images/sections/skills/governance.png"
-  summary: "Industrialisation de la documentation technique (Docusaurus) et mise en place de 'Quality Gates' automatisées."
+  summary: "Industrialisation de la production (Docs-as-Code) et mise en place de Quality Gates. Réduction de la dette technique sur des SI nationaux (SAP, Legacy)."
 
-- name: "GenAI & Architecture RAG"
+- name: "Forecasting & IA Appliquée (NLP/GenAI)"
   logo: "images/sections/skills/ai.png"
-  summary: "Conception de solutions d'IA Générative (OpenAI, LangChain). Capacité à prototyper des assistants RH (RAG)."
+  summary: "Déploiement de modèles prédictifs (Time Series) et conception de moteurs NLP forensiques (LegalTech E-Discovery, Architectures RAG)."
 
-- name: "Python & Machine Learning"
+- name: "Data Science & Ingénierie (Python/ML)"
   logo: "images/sections/skills/python.png"
-  summary: "Expertise hands-on pour le traitement de données massives (Pipelines ETL, Pandas, SQL avancé)."
+  summary: "Expertise technique (Python, XGBoost, Prophet) pour prototyper et industrialiser des solutions de Lead Scoring et de prévisions budgétaires (PropTech)."
 
-- name: "Expertise SQL & Database"
+- name: "Architecture Data Institutionnelle (SQL/SAS)"
   logo: "images/sections/skills/database.png"
-  summary: "Optimisation de traitements sur volumes massifs et audit de qualité des données critiques."
+  summary: "Conception et optimisation de pipelines massifs sécurisés pour l'industrialisation DSI et les partenaires stratégiques de l'État (INSEE, DARES)."
 
-- name: "Power BI (Expert DAX)"
+- name: "Business Intelligence & Data Viz"
   logo: "images/sections/skills/powerbi.png"
-  summary: "Transformation de la donnée brute en outils d'aide à la décision et définition de KPIs produits."
+  summary: "Conception d'architectures décisionnelles (Power BI, DAX avancé, Streamlit) pour le pilotage stratégique (ComEx) et le suivi opérationnel."
 
-- name: "Agilité & DevOps Culture"
+- name: "Agilité & MLOps Lifecycle"
   logo: "images/sections/skills/agile.png"
-  summary: "Gestion de backlog sous Jira/Confluence. Promotion des bonnes pratiques logicielles (Git, CI/CD)."
+  summary: "Orchestration des cycles de production (GitOps, CI/CD). Animation de l'amélioration continue entre les équipes MOA et la DGA SI."
