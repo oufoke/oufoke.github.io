@@ -3,7 +3,7 @@ section:
   id: "projects"
   enable: true
   weight: 60
-  showOnNavbar: false
+  showOnNavbar: true
 
 buttons:
 - name: "View All"

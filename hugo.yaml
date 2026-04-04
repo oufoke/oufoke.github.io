@@ -13,12 +13,12 @@ languages:
     languageName: Français
     weight: 1
     params:
-      flag: "fr"          # Code ISO du fichier dans node_modules/flag-icons/flags/4x3/
+      flag: "fr"
   en:
     languageName: English
     weight: 2
     params:
-      flag: "gb"          # gb.svg et non uk.svg — attention !
+      flag: "gb"
 
 # ─── MODULES ET MONTAGES V4 ──────────────────────────
 module:
@@ -50,7 +50,6 @@ module:
     target: data
   - source: i18n
     target: i18n
-  # IMPORTANT : flag-icons (sans -css)
   - source: node_modules/flag-icons/flags
     target: static/flags
   - source: node_modules/@fontsource/mulish/files
@@ -58,24 +57,23 @@ module:
   - source: node_modules/katex/dist/fonts
     target: static/fonts
 
-# ─── PARAMÈTRES (UN SEUL BLOC PARAMS UNIQUE) ─────────
+# ─── PARAMÈTRES ──────────────────────────────────────
 params:
-  # Apparence et Backgrounds
   background: "images/site/light_back.png"
   darkBackground: "images/site/dark_back.png"
 
-  # Auteur (Fix pour l'erreur nil pointer)
   author:
     name: "Oumar KEBE"
     image: "images/author/oumar_pro.png"
 
-  # Fonctionnalités
   features:
     darkMode:
       enable: true
       defaultMode: "light"
     language:
-      enable: true        # Activation du sélecteur de langue
+      enable: true
+    flags:
+      enable: true
     footer:
       enable: true
       navigation:

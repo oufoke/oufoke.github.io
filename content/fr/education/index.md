@@ -1,8 +1,8 @@
 ---
-title: "Formation"
-description: "Mes diplômes"
-date: 2026-01-04
-draft: false
-weight: 60
+section:
+  name: "Formation"
+  id: "education"
+  enable: true
+  weight: 50
+  showOnNavbar: true
 ---
-Contenu pour la section Formation.

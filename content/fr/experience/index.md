@@ -1,8 +1,8 @@
 ---
-title: "Expériences"
-description: "Mon parcours professionnel"
-date: 2026-01-04
-draft: false
-weight: 30
+section:
+  name: "Expériences"
+  id: "experiences"
+  enable: true
+  weight: 30
+  showOnNavbar: true
 ---
-Contenu pour la section Expériences.

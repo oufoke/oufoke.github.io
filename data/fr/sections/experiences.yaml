@@ -3,7 +3,7 @@ section:
   id: experiences
   enable: true
   weight: 90 
-  showOnNavbar: false
+  showOnNavbar: true
 
 experiences:
 - company:

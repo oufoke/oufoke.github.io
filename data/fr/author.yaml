@@ -2,13 +2,6 @@ name: "Oumar Fodé KEBE"
 nickname: "Oumar"
 greeting: "Salut, je suis"
 
-contactInfo:
-  email: "janedoe@example.com"
-  phone: "+0123456789"
-  stack-overflow:
-    icon: stack-overflow
-    url: "https://stackoverflow.com/users/1/exampleUser"
-    text: "ExampleUser"
 
 image: "images/author/oumar_pro.png"
 designation: "Senior Data Product Manager"
