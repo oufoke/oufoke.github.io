@@ -80,3 +80,8 @@ params:
         enable: true
       contactMe:
         enable: true
+    analytics:
+      enable: true
+      services:
+        goatCounter:
+          code: oufoke
