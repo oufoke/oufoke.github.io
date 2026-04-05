@@ -24,3 +24,19 @@
         display: block;
     }
 }
+
+/* --- FIX JAUGES CIRCULAIRES --- */
+.about-section .circular-progress .circular-progress-left .circular-progress-bar {
+    animation-delay: 1.8s !important;
+}
+
+/* --- FIX PARTIE GAUCHE DES JAUGES --- */
+.about-section .circular-progress .circular-progress-left .circular-progress-bar {
+  transform-origin: center right !important;
+  border-top-right-radius: 80px !important;
+  border-bottom-right-radius: 80px !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-left: 0 !important;
+  left: 100% !important;
+}

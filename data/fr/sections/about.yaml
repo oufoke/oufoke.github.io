@@ -64,16 +64,16 @@ badges:
   badge: "/files/data_scientist_professional_badge.png"
 
 - type: "soft-skill-indicator"
-  name: "Stratégie Produit & Discovery"
-  percentage: 90
+  name: "Stratégie Produit & Discovery 80%"
+  percentage: 70
   color: "orange"
 
 - type: "soft-skill-indicator"
-  name: "Leadership Transverse"
-  percentage: 85
+  name: "Leadership Transverse 80%"
+  percentage: 70
   color: "green"
 
 - type: "soft-skill-indicator"
-  name: "Architecture Data & IA"
-  percentage: 95
+  name: "Architecture Data & IA 90%"
+  percentage: 60
   color: "blue"
