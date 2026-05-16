@@ -4,6 +4,7 @@ date: 2026-05-15
 type: posts
 draft: false
 language: en
+hero: "images/sections/posts/Articles_BI.jpeg"
 tags: ["Business Intelligence", "DataOps", "Data Product Management", "Digdash", "Power BI"]
 categories: ["Thought Leadership"]
 summary: "3,318 sessions analyzed, 279 reports inventoried, 126 active users. The verdict: 10 pages drove 76.7% of all traffic. The rest existed for nothing."

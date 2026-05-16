@@ -4,6 +4,7 @@ date: 2026-05-15
 type: posts
 draft: false
 language: fr
+hero: "images/sections/posts/Article_projets.png"
 tags: ["DataOps", "Gouvernance", "Data Product Management", "Conduite du changement"]
 categories: ["Thought Leadership"]
 summary: "Ce n'est presque jamais le code le problème. C'est l'organisation autour du code."

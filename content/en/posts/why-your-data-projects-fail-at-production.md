@@ -3,7 +3,8 @@ title: "Why your data projects fail at production"
 date: 2026-05-15
 type: posts
 draft: false
-language: en
+language: fr
+hero: "images/sections/posts/Article_projets.png"
 tags: ["DataOps", "Governance", "Data Product Management", "Change Management"]
 categories: ["Thought Leadership"]
 summary: "It's almost never the code. It's the organization around the code."
