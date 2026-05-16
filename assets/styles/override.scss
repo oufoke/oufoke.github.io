@@ -1,4 +1,4 @@
-/* --- LISIBILITÉ DU TEXTE --- */
+/* --- LISIBILITÉ DU TEXTE HOME --- */
 #home .home-heading, 
 #home .home-subheading {
     color: #000000 !important;
@@ -9,13 +9,12 @@
     display: inline-block !important;
 }
 
-/* --- NETTETÉ ABSOLUE DU FOND --- */
+/* --- NETTETÉ DU FOND HOME --- */
 #homePageBackgroundImageDivStyled {
     filter: none !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
-    
-    /* On ajoute un voile léger (25%) pour le contraste */
+
     &::after {
         content: "";
         position: absolute;
@@ -25,18 +24,7 @@
     }
 }
 
-/* --- FIX JAUGES CIRCULAIRES --- */
+/* --- JAUGES CIRCULAIRES — delay uniquement --- */
 .about-section .circular-progress .circular-progress-left .circular-progress-bar {
     animation-delay: 1.8s !important;
-}
-
-/* --- FIX PARTIE GAUCHE DES JAUGES --- */
-.about-section .circular-progress .circular-progress-left .circular-progress-bar {
-  transform-origin: center right !important;
-  border-top-right-radius: 80px !important;
-  border-bottom-right-radius: 80px !important;
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
-  border-left: 0 !important;
-  left: 100% !important;
 }

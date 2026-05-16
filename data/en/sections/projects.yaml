@@ -16,31 +16,41 @@ buttons:
   filter: "biz"
 
 projects:
+
+- name: "OptIMMO — Real Estate Strategic Control Tower"
+  logo: "/images/sections/projects/dataops-logo.png"
+  image: "/images/sections/projects/Dataops.png"
+  role: "Senior Data Product Manager"
+  timeline: "2026"
+  url: "https://github.com/oufoke"
+  summary: "1,000+ real estate sites managed with no SPSI vs actuals comparison tool. Full Digdash BI restructuring (279 reports · 42 sources), SAP → Digdash automation (−4h/month), C-Level SPSI steering module. Result: zero manual dependency on the monthly production cycle."
+  tags: ["gov", "biz"]
+
 - name: "Real Estate Data Control Tower"
   logo: "/images/sections/projects/prophet.png"
   image: "/images/sections/projects/prophet.png"
   role: "Senior Data Product Manager"
   timeline: "2026"
   url: "https://github.com/oufoke/Real-Estate-Data-Control-Tower"
-  summary: "PropTech: Predictive control tower for real estate asset budget optimization. Capex/Opex forecasting via Time Series models."
+  summary: "CAPEX/OPEX decisions made blind due to lack of 18-month visibility. Predictive control tower (Prophet · Power BI) simulating investment scenarios across multi-site portfolios. Budget uncertainty reduced by ±30%."
   tags: ["ai", "biz"]
 
 - name: "Juris Sensus AI"
-  logo: "/images/sections/projects/juris-sensus-showcase-logo.png" # Remember to add an image
+  logo: "/images/sections/projects/juris-sensus-showcase-logo.png"
   image: "/images/sections/projects/juris-sensus-showcase.png"
-  role: "Product Builder / Edge Computing"
+  role: "Product Builder / AI Engineer"
   timeline: "2026"
   url: "https://github.com/oufoke/juris-sensus-ai"
-  summary: "Forensic pipeline automating fraud and legal risk detection on massive datasets (Zero-Shot NLP). Investigation time reduced from 3 weeks to 4 hours."
+  summary: "3 weeks of manual investigation on massive document corpora. Zero-Shot NLP pipeline (mDeBERTa-v3) automating legal risk detection across 10,000+ files. Analysis time cut to 4 hours (−95%)."
   tags: ["ai", "biz"]
 
 - name: "HR-Tech AI Screener"
-  logo: "/images/sections/projects/smart-screener.png" 
-  image: "/images/sections/projects/smart-screener.png" 
+  logo: "/images/sections/projects/smart-screener.png"
+  image: "/images/sections/projects/smart-screener.png"
   role: "AI Product Manager"
   timeline: "2024 - 2025"
   url: "https://smart-screener-ofk-zpgy6gg8dn56wvapifnxxc.streamlit.app/"
-  summary: "Intelligent recruiting assistant (RAG Architecture, LangChain/GPT-4o). Semantic resume analysis with Quality Gates and interview guide generation."
+  summary: "Time-consuming and inconsistent CV screening across recruiters. RAG assistant (LangChain · GPT-4o) semantically analyzing resumes, flagging inconsistencies and generating interview guides. Operational in 30 seconds on Streamlit."
   tags: ["ai"]
 
 - name: "B2B Predictive Lead Scoring"
@@ -49,23 +59,23 @@ projects:
   role: "ML Engineer / PM"
   timeline: "Dec 2025"
   url: "https://lead-scoring-portofolio-ofk.streamlit.app/"
-  summary: "Explainable AI scoring engine (XGBoost / SHAP) to prioritize customer acquisition, optimize the sales cycle, and reduce CAC."
+  summary: "All leads treated equally, sales effort diluted, CAC inflated. XGBoost/SHAP scoring engine automatically ranking leads by conversion probability. Deployed on Streamlit."
   tags: ["ai", "biz"]
 
-- name: "QualiStat"
-  logo: "/images/sections/projects/QualiStat-logo.png" # Remember to add an image
+- name: "QualiStat — Data Trust Audit System"
+  logo: "/images/sections/projects/QualiStat-logo.png"
   image: "/images/sections/projects/qualistat.png"
   role: "Data Governance Lead"
   timeline: "2025 - 2026"
   url: "https://github.com/oufoke/datatrust-audit-system"
-  summary: "Governance product enforcing strict Quality Gates (Power BI / DAX). Total security of public KPIs delivered to the IT department (Zero defects in production)."
+  summary: "Public KPIs delivered without quality control, exposing the organization to national reporting errors. Automatic Power BI/DAX Quality Gates across the entire production cycle. Zero defects in production over 12 months."
   tags: ["gov"]
 
-- name: "Map/GPS MOA"
-  logo: "/images/sections/projects/dataops-logo.png" # Remember to add an image
+- name: "DataBridge Ops — MAP/GPS MOA"
+  logo: "/images/sections/projects/dataops-logo.png"
   image: "/images/sections/projects/Dataops.png"
   role: "DataOps Architect"
   timeline: "2025"
   url: "https://github.com/oufoke/DataBridge-Ops"
-  summary: "DataOps foundation (Docs-as-Code) centralizing business rules. Ultra-secure CI/CD deployment to reduce technical debt and time-to-market."
+  summary: "Business rules siloed across teams, documentation debt blocking every system evolution. Docs-as-Code foundation (Docusaurus · CI/CD) centralizing rules as a single source of truth."
   tags: ["gov"]

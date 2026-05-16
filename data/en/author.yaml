@@ -1,25 +1,28 @@
-name: "Oumar Fodé KEBE"
-nickname: "Oumar"
-greeting: "Hi, I am"
-image: "images/author/oumar_pro.png"
-designation: "Senior Data Product Manager"
+# ══════════════════════════════════════════════════
+# data/en/author.yaml — punchlines mises à jour
+# ══════════════════════════════════════════════════
+ name: "Oumar Fodé KEBE"
+ nickname: "Oumar"
+ greeting: "Hi, I am"
+ image: "images/author/oumar_pro.png"
+ designation: "Senior Data Product Manager | AI & Data Governance"
 
-# Résumé court : Les punchlines qui s'affichent sous ton nom
-summary:
-  - "Data Transformation & Predictive AI Expert."
-  - "Strategic bridge between Tech and Business leadership."
-  - "Data Governance, Business Intelligence & Predictive Modeling."
-  - "Domains: PropTech, LegalTech, Supply Chain & Operations."
+ summary:
+   - "Mathematical Engineer · Data & AI · ISIFAR · 6 MVPs in production."
+   - "I turn complex data systems into actionable C-Level decision tools."
+   - "Zero defects in prod · Legal investigation 3 weeks → 4h · 1,000+ sites steered."
+   - "PropTech · LegalTech · Data Governance · Employment & Public Policy."
 
-contactInfo:
-  emails:
-    - oumarfodek@gmail.com
-  phone: "+33 6 99 85 31 18"
-  location: "Paris, France"
-socialLinks:
-  - name: linkedin
-    icon: "fab fa-linkedin"
-    url: "https://www.linkedin.com/in/oumarfodek/"
-  - name: github
-    icon: "fab fa-github"
-    url: "https://github.com/oufoke"
+ contactInfo:
+   emails:
+     - oumarfodek@gmail.com
+   phone: "+33 6 99 85 31 18"
+   location: "Paris, France"
+
+ socialLinks:
+   - name: linkedin
+     icon: "fab fa-linkedin"
+     url: "https://www.linkedin.com/in/oumarfodek/"
+   - name: github
+     icon: "fab fa-github"
+     url: "https://github.com/oufoke"
