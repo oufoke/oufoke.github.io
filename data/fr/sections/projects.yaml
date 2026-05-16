@@ -17,37 +17,22 @@ buttons:
 
 projects:
 
-# ── NOUVEAU PROJET PRIORITAIRE ────────────────────────────────────────────────
 - name: "OptIMMO — Boussole Décisionnelle Immobilier"
   logo: "/images/sections/projects/dataops-logo.png"
   image: "/images/sections/projects/Dataops.png"
   role: "Senior Data Product Manager"
   timeline: "2026"
   url: "https://github.com/oufoke"
-  summary: |
-    La direction immobilière de France Travail (DICN) pilotait 1 000+ sites sans outil
-    de comparaison SPSI vs réalisé, sur un BI vieillissant consulté 3 318 fois/mois
-    par 126 utilisateurs. Restructuration complète du tableau de bord Digdash OptIMMO
-    (279 rapports · 42 sources · 4 pôles thématiques), automatisation du pipeline
-    SAP RE-FX → Excel → Digdash (VBA, −4h/mois), et conception d'un module de
-    pilotage stratégique SPSI (5 indicateurs C-Level : écart budget/loyer, jalons,
-    m² SDP/SUB, VNC). Rédaction de l'EDB Data Lake complète (15 exigences) pour la
-    DSI. Résultat : zéro dépendance manuelle sur le cycle de production mensuel.
+  summary: "1 000+ sites immobiliers pilotés sans comparaison SPSI vs réalisé. Restructuration du BI Digdash (279 rapports · 42 sources), automatisation SAP → Digdash (−4h/mois), module C-Level SPSI. Résultat : zéro dépendance manuelle sur le cycle mensuel."
   tags: ["gov", "biz"]
 
-# ── PROJETS EXISTANTS RÉÉCRITES ───────────────────────────────────────────────
 - name: "Real Estate Data Control Tower"
   logo: "/images/sections/projects/prophet.png"
   image: "/images/sections/projects/prophet.png"
   role: "Senior Data Product Manager"
   timeline: "2026"
   url: "https://github.com/oufoke/Real-Estate-Data-Control-Tower"
-  summary: |
-    Les asset managers immobiliers manquent de visibilité sur leurs CAPEX/OPEX à
-    18 mois, prenant des décisions budgétaires à l'aveugle. Conception d'une tour
-    de contrôle prédictive (Time Series Prophet + Power BI) simulant les scénarios
-    d'investissement sur un portefeuille multi-sites. Réduction de l'incertitude
-    budgétaire de ±30% → pilotage proactif des arbitrages CAPEX/OPEX.
+  summary: "Décisions CAPEX/OPEX prises à l'aveugle faute de visibilité à 18 mois. Tour de contrôle prédictive (Prophet · Power BI) simulant les scénarios d'investissement multi-sites. Réduction de l'incertitude budgétaire de ±30%."
   tags: ["ai", "biz"]
 
 - name: "Juris Sensus AI"
@@ -56,12 +41,7 @@ projects:
   role: "Product Builder / AI Engineer"
   timeline: "2026"
   url: "https://github.com/oufoke/juris-sensus-ai"
-  summary: |
-    Les équipes juridiques et compliance passaient 3 semaines à analyser manuellement
-    des corpus massifs de documents pour détecter fraudes et risques légaux. Pipeline
-    forensique NLP (Zero-Shot Classification · mDeBERTa-v3) automatisant la détection
-    et le classement sémantique des risques sur 10 000+ fichiers hétérogènes.
-    Temps d'investigation réduit de 3 semaines à 4 heures (−95%).
+  summary: "3 semaines d'investigation manuelle sur des corpus massifs. Pipeline NLP Zero-Shot (mDeBERTa-v3) automatisant la détection de risques légaux sur 10 000+ fichiers. Temps d'analyse réduit à 4 heures (−95%)."
   tags: ["ai", "biz"]
 
 - name: "HR-Tech AI Screener"
@@ -70,12 +50,7 @@ projects:
   role: "AI Product Manager"
   timeline: "2024 - 2025"
   url: "https://smart-screener-ofk-zpgy6gg8dn56wvapifnxxc.streamlit.app/"
-  summary: |
-    Les recruteurs perdaient 6+ heures par semaine en lecture de CV sans garantie
-    de cohérence d'évaluation entre candidats. Assistant de recrutement intelligent
-    (Architecture RAG · LangChain · GPT-4o) analysant sémantiquement les CV,
-    détectant les incohérences via Quality Gates et générant des guides d'entretien
-    personnalisés. Déployé sur Streamlit, opérationnel en 30 secondes.
+  summary: "Évaluation de CV chronophage et incohérente entre recruteurs. Assistant RAG (LangChain · GPT-4o) analysant les CV, détectant les incohérences et générant des guides d'entretien. Opérationnel en 30 secondes sur Streamlit."
   tags: ["ai"]
 
 - name: "B2B Predictive Lead Scoring"
@@ -84,12 +59,7 @@ projects:
   role: "ML Engineer / PM"
   timeline: "Dec 2025"
   url: "https://lead-scoring-portofolio-ofk.streamlit.app/"
-  summary: |
-    Les équipes commerciales B2B traitaient tous leurs leads avec la même priorité,
-    diluant l'effort de vente et gonflant le CAC. Moteur de scoring IA explicable
-    (XGBoost · SHAP) priorisant automatiquement les leads par probabilité de
-    conversion. Modèle interprétable (SHAP) permettant aux commerciaux de comprendre
-    et d'agir sur les facteurs de scoring. Déployé sur Streamlit.
+  summary: "Tous les leads traités à égalité, effort de vente dilué, CAC gonflé. Moteur de scoring XGBoost/SHAP priorisant automatiquement les leads par probabilité de conversion. Déployé sur Streamlit."
   tags: ["ai", "biz"]
 
 - name: "QualiStat — Data Trust Audit System"
@@ -98,12 +68,7 @@ projects:
   role: "Data Governance Lead"
   timeline: "2025 - 2026"
   url: "https://github.com/oufoke/datatrust-audit-system"
-  summary: |
-    Les indicateurs statistiques publics étaient livrés à la DSI sans contrôle
-    qualité systématique, exposant l'organisation à des erreurs de reporting national.
-    Produit de gouvernance (Power BI · DAX avancé) imposant des Quality Gates stricts
-    à chaque cycle de production. Résultat : zéro défaut en production sur 12 mois,
-    100% des livraisons validées avant exposition publique.
+  summary: "Indicateurs publics livrés sans contrôle qualité, risque d'erreur de reporting national. Quality Gates Power BI/DAX automatiques sur tout le cycle de production. Zéro défaut en production sur 12 mois."
   tags: ["gov"]
 
 - name: "DataBridge Ops — MAP/GPS MOA"
@@ -112,11 +77,5 @@ projects:
   role: "DataOps Architect"
   timeline: "2025"
   url: "https://github.com/oufoke/DataBridge-Ops"
-  summary: |
-    Les équipes MOA documentaient les règles de gestion métier dans des silos
-    disparates, créant une dette documentaire freinant chaque évolution SI.
-    Socle DataOps (Docs-as-Code · Docusaurus) centralisant les règles de gestion
-    en source unique de vérité, déployé via CI/CD en environnement ultra-sécurisé.
-    Réduction du time-to-market sur les évolutions métier et suppression des
-    conflits de versions entre équipes MOA et DGA SI.
+  summary: "Règles métier documentées en silos, dette documentaire bloquant chaque évolution SI. Socle Docs-as-Code (Docusaurus · CI/CD) centralisant les règles en source unique de vérité."
   tags: ["gov"]
