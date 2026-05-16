@@ -6,7 +6,7 @@ section:
   showOnNavbar: true
   template: "sections/about.html"
 
-designation: "Data Product Manager"
+designation: "Senior Data Product Manager | AI & Data Governance"
 
 company:
   name: "France Travail"
@@ -17,25 +17,33 @@ resourceLinks:
   url: "files/Oumar_Fode_KEBE.pdf"
 
 summary: |
-  **I build bridges between the complexity of raw data and the clarity of strategic decision-making (C-Level).** I help large organizations (currently at France Travail) urbanize their systems and transition from reactive management to proactive, AI-driven steering.
+  **Trained as a Statistical Engineer, I turn complex data systems into deployable AI products — from institutional governance down to the last decision-making mile.**
 
-  ### 🎯 My Value Proposition
-  My Product Management approach aims to solve costly or complex business challenges through 3 core pillars:
-  * **Governance & DataOps:** Automating legacy data ingestion (SAP, proprietary systems), reducing technical debt, and ensuring flawless *Data Quality*.
-  * **Business Intelligence (BI):** Designing clear decision-making architectures that separate operational tracking from strategic steering (C-Level dashboards).
-  * **Forecasting & Applied AI:** Deploying predictive models (Time Series, NLP) to anticipate multi-million euro budgets, optimize investments (CapEx/OpEx), and mitigate legal/financial risks.
+  6 years steering national-scale data at France Travail (partnering with INSEE & DARES),
+  6 AI MVPs shipped to production (NLP, RAG, Time Series, Lead Scoring),
+  one goal: every executive decision backed by reliable data and an actionable model.
 
-  ### 🏗️ Domains & Expertise
-  * **Asset Management & Real Estate:** Budget modeling and cost anticipation for national-scale portfolios (1000+ sites).
-  * **Compliance & LegalTech:** NLP engines for massive semantic auditing (E-Discovery) and risk management.
-  * **Supply Chain & Operations:** Demand forecasting and ITSM automation.
+  ### 🎯 What I deliver
 
-  ### 🛠️ My Tech Stack
-  * **Product & Strategy:** OKRs, PRDs, MLOps Lifecycle, Solution Design.
-  * **Data Science:** Python, SQL, Prophet, NLP (Topic Modeling).
-  * **Data Viz:** Power BI, Digdash, Streamlit.
-  
-socialLinks:                             # ← commentaire séparé du summary
+  * **Governance & DataOps:** Zero defects in production over 12 months (QualiStat). SAP legacy pipeline automation eliminating 4h/month of manual processing (OptIMMO · France Travail DICN). Full Data Lake EDB (15 requirements) delivered for national IT migration.
+  * **BI & C-Level Steering:** Restructured BI dashboards (Digdash · Power BI) serving 126+ active users. Strategic SPSI steering module for national real estate portfolios (1,000+ sites).
+  * **Applied AI (NLP / GenAI / Forecasting):** Legal investigation cut from 3 weeks to 4 hours (Juris Sensus AI · Zero-Shot NLP). CAPEX/OPEX forecasting on multi-site real estate portfolios (Time Series Prophet). RAG architectures deployed on Streamlit.
+
+  ### 🏗️ Domains & Sectors
+
+  * **PropTech & Asset Management:** Budget modeling and steering of national real estate portfolios (SPSI · RE-FX · Tertiary Decree).
+  * **LegalTech & Compliance:** Forensic NLP engines for massive semantic auditing (E-Discovery · AI Act · GDPR).
+  * **Employment & Public Policy:** Production and industrialization of national strategic KPIs (datemploi · INSEE · DARES).
+
+  ### 🛠️ Stack
+
+  * **Product:** OKRs · PRD · MLOps Lifecycle · Backlog · Stakeholder Management
+  * **Data Science & AI:** Python · XGBoost · Prophet · NLP (mDeBERTa, RAG, Zero-Shot) · LangChain
+  * **Data Engineering:** SQL · SAS · VBA · SAP RE-FX · PySpark · REST API
+  * **BI & Viz:** Power BI · Advanced DAX · Digdash Studio · Streamlit
+  * **DevOps:** GitOps · CI/CD · Docs-as-Code · Docusaurus
+
+socialLinks:
 - name: "Email"
   icon: "fas fa-envelope"
   url: "mailto:oumarfodek@gmail.com"
@@ -63,16 +71,16 @@ badges:
   badge: "/files/data_scientist_professional_badge.png"
 
 - type: "soft-skill-indicator"
-  name: "Stratégie Produit & Discovery"
+  name: "Product Strategy & Discovery"
   percentage: 90
   color: "orange"
 
 - type: "soft-skill-indicator"
-  name: "Leadership Transverse"
+  name: "Cross-functional Leadership"
   percentage: 85
   color: "green"
 
 - type: "soft-skill-indicator"
-  name: "Architecture Data & IA"
-  percentage: 95
+  name: "Data & AI Architecture"
+  percentage: 80
   color: "blue"

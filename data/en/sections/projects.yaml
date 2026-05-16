@@ -16,31 +16,66 @@ buttons:
   filter: "biz"
 
 projects:
+
+# ── NEW PRIORITY PROJECT ──────────────────────────────────────────────────────
+- name: "OptIMMO — Real Estate Strategic Control Tower"
+  logo: "/images/sections/projects/dataops-logo.png"
+  image: "/images/sections/projects/Dataops.png"
+  role: "Senior Data Product Manager"
+  timeline: "2026"
+  url: "https://github.com/oufoke"
+  summary: |
+    France Travail's real estate division (DICN) managed 1,000+ sites with no tool
+    to compare strategic targets (SPSI) against actuals, on an aging BI platform
+    consulted 3,318 times/month by 126 active users. Full restructuring of the
+    Digdash OptIMMO dashboard (279 reports · 42 data sources · 4 thematic clusters),
+    automation of the SAP RE-FX → Excel → Digdash pipeline (VBA, −4h/month), and
+    design of a C-Level SPSI steering module (5 KPIs: budget/rent variance, milestones,
+    m² SDP/SUB, NCV). Full Data Lake EDB delivered to IT (15 requirements).
+    Outcome: zero manual dependency on the monthly production cycle.
+  tags: ["gov", "biz"]
+
+# ── EXISTING PROJECTS REWRITTEN ───────────────────────────────────────────────
 - name: "Real Estate Data Control Tower"
   logo: "/images/sections/projects/prophet.png"
   image: "/images/sections/projects/prophet.png"
   role: "Senior Data Product Manager"
   timeline: "2026"
   url: "https://github.com/oufoke/Real-Estate-Data-Control-Tower"
-  summary: "PropTech: Predictive control tower for real estate asset budget optimization. Capex/Opex forecasting via Time Series models."
+  summary: |
+    Real estate asset managers lack 18-month CAPEX/OPEX visibility, making budget
+    decisions blindly. Predictive control tower (Time Series Prophet + Power BI)
+    simulating investment scenarios across multi-site portfolios. Budget uncertainty
+    reduced by ±30% — enabling proactive CAPEX/OPEX arbitrage instead of
+    reactive damage control.
   tags: ["ai", "biz"]
 
 - name: "Juris Sensus AI"
-  logo: "/images/sections/projects/juris-sensus-showcase-logo.png" # Remember to add an image
+  logo: "/images/sections/projects/juris-sensus-showcase-logo.png"
   image: "/images/sections/projects/juris-sensus-showcase.png"
-  role: "Product Builder / Edge Computing"
+  role: "Product Builder / AI Engineer"
   timeline: "2026"
   url: "https://github.com/oufoke/juris-sensus-ai"
-  summary: "Forensic pipeline automating fraud and legal risk detection on massive datasets (Zero-Shot NLP). Investigation time reduced from 3 weeks to 4 hours."
+  summary: |
+    Legal and compliance teams spent 3 weeks manually reviewing massive document
+    corpora to detect fraud and legal risks — a process that didn't scale.
+    Forensic NLP pipeline (Zero-Shot Classification · mDeBERTa-v3) automating
+    semantic risk detection and classification across 10,000+ heterogeneous files.
+    Investigation time cut from 3 weeks to 4 hours (−95%).
   tags: ["ai", "biz"]
 
 - name: "HR-Tech AI Screener"
-  logo: "/images/sections/projects/smart-screener.png" 
-  image: "/images/sections/projects/smart-screener.png" 
+  logo: "/images/sections/projects/smart-screener.png"
+  image: "/images/sections/projects/smart-screener.png"
   role: "AI Product Manager"
   timeline: "2024 - 2025"
   url: "https://smart-screener-ofk-zpgy6gg8dn56wvapifnxxc.streamlit.app/"
-  summary: "Intelligent recruiting assistant (RAG Architecture, LangChain/GPT-4o). Semantic resume analysis with Quality Gates and interview guide generation."
+  summary: |
+    Recruiters spent 6+ hours per week reading resumes with no consistency
+    guarantee across candidates. Intelligent recruiting assistant (RAG Architecture ·
+    LangChain · GPT-4o) semantically analyzing resumes, flagging inconsistencies
+    via Quality Gates, and generating personalized interview guides.
+    Deployed on Streamlit — operational in 30 seconds.
   tags: ["ai"]
 
 - name: "B2B Predictive Lead Scoring"
@@ -49,23 +84,39 @@ projects:
   role: "ML Engineer / PM"
   timeline: "Dec 2025"
   url: "https://lead-scoring-portofolio-ofk.streamlit.app/"
-  summary: "Explainable AI scoring engine (XGBoost / SHAP) to prioritize customer acquisition, optimize the sales cycle, and reduce CAC."
+  summary: |
+    B2B sales teams treated all leads equally, diluting effort and inflating CAC.
+    Explainable AI scoring engine (XGBoost · SHAP) automatically ranking leads by
+    conversion probability. SHAP explainability layer lets sales reps understand
+    and act on scoring factors — not just trust a black box.
+    Deployed on Streamlit.
   tags: ["ai", "biz"]
 
-- name: "QualiStat"
-  logo: "/images/sections/projects/QualiStat-logo.png" # Remember to add an image
+- name: "QualiStat — Data Trust Audit System"
+  logo: "/images/sections/projects/QualiStat-logo.png"
   image: "/images/sections/projects/qualistat.png"
   role: "Data Governance Lead"
   timeline: "2025 - 2026"
   url: "https://github.com/oufoke/datatrust-audit-system"
-  summary: "Governance product enforcing strict Quality Gates (Power BI / DAX). Total security of public KPIs delivered to the IT department (Zero defects in production)."
+  summary: |
+    Public statistical KPIs were delivered to IT without systematic quality control,
+    exposing the organization to national reporting errors. Governance product
+    (Power BI · Advanced DAX) enforcing strict Quality Gates at every production
+    cycle. Result: zero defects in production over 12 months, 100% of deliveries
+    validated before public exposure.
   tags: ["gov"]
 
-- name: "Map/GPS MOA"
-  logo: "/images/sections/projects/dataops-logo.png" # Remember to add an image
+- name: "DataBridge Ops — MAP/GPS MOA"
+  logo: "/images/sections/projects/dataops-logo.png"
   image: "/images/sections/projects/Dataops.png"
   role: "DataOps Architect"
   timeline: "2025"
   url: "https://github.com/oufoke/DataBridge-Ops"
-  summary: "DataOps foundation (Docs-as-Code) centralizing business rules. Ultra-secure CI/CD deployment to reduce technical debt and time-to-market."
+  summary: |
+    MOA teams documented business rules in disconnected silos, creating a
+    documentation debt that blocked every system evolution. DataOps foundation
+    (Docs-as-Code · Docusaurus) centralizing business rules as a single source
+    of truth, deployed via CI/CD in an ultra-secure environment. Reduced
+    time-to-market on business rule changes and eliminated version conflicts
+    between MOA and IT engineering teams.
   tags: ["gov"]
