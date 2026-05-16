@@ -6,18 +6,18 @@ draft: false
 language: fr
 tags: ["DataOps", "Gouvernance", "Data Product Management", "Conduite du changement"]
 categories: ["Thought Leadership"]
-summary: "Après avoir observé et vécu plusieurs projets data en grande organisation, j'ai identifié un pattern récurrent : ce n'est jamais le code qui rate. C'est l'organisation autour du code."
+summary: "Ce n'est presque jamais le code le problème. C'est l'organisation autour du code."
 ---
 
 J'ai travaillé sur un projet data qui avait tout pour réussir.
 
 Un budget. Une équipe motivée. Une DSI impliquée. Des données disponibles. Un besoin métier réel.
 
-Et pourtant, les livrables n'arrivaient pas. Les tensions montaient entre la DSI et les équipes métier. Quelqu'un finissait toujours par porter le chapeau.
+Et pourtant, les livrables n'arrivaient pas conformes aux attentes du contrat d'interface entre la DSI et le métier. Les tensions montaient. Quelqu'un finissait toujours par porter le chapeau.
 
-Ce n'était pas un cas isolé. C'est un pattern que j'ai vu se reproduire, dans des configurations différentes, dans des organisations différentes. Et après plusieurs années à l'observer de l'intérieur — parfois en subissant les conséquences — j'ai compris pourquoi.
+C'est un pattern que j'ai vu confirmé, de par des témoignages d'experts lors de webinaires et conférences, dans des configurations différentes, dans des organisations différentes. Et après plusieurs années à travailler au cœur de projets data complexes, j'ai compris pourquoi.
 
-**Ce n'est jamais le code qui rate. C'est l'organisation autour du code.**
+**Ce n'est presque jamais le code, ni les programmes le problème. C'est l'organisation autour du code.**
 
 ---
 
@@ -27,7 +27,7 @@ L'équipe était constituée d'un chef de projet, d'un manager, d'un alternant, 
 
 Mais personne dans cette équipe n'avait de formation solide en **DataOps**. Personne ne savait vraiment faire du **product management appliqué à la data**. La **gouvernance qualité des données** était traitée comme un problème de la DSI, pas de l'équipe projet. Et la **conduite du changement** ? On verrait à la livraison.
 
-Résultat : les livrables étaient techniquement corrects mais inutilisables en production. Les indicateurs changeaient de définition entre deux sprints sans que personne ne le documente. La DSI recevait des données qu'elle ne pouvait pas industrialiser. Les équipes métier ne comprenaient pas ce qu'elles recevaient.
+Résultat : les livrables pouvaient être techniquement corrects mais inutilisables en production. Les indicateurs pouvaient changer de définition entre deux sprints sans que personne ne le documente. La DSI recevait des données difficiles à industrialiser. Les équipes métier questionnaient les délais, la DSI questionnait la qualité des spécifications — une méfiance mutuelle s'installait, sans que personne n'en soit responsable individuellement.
 
 Et quand la pression montait, il fallait un responsable.
 
@@ -57,11 +57,11 @@ Sans cette compétence, les équipes livrent des fonctionnalités que personne n
 
 ### 3. Gouvernance & qualité des données — le problème invisible jusqu'au jour où il explose
 
-La qualité des données est le sujet dont personne ne parle jusqu'à ce qu'un chiffre faux arrive en comité de direction.
+La qualité des données est le sujet dont personne ne parle jusqu'à ce qu'un chiffre faux arrive en comité de direction — ou pire, dans une publication publique.
 
-En l'absence de gouvernance claire, chaque équipe a sa propre définition des indicateurs. Les sources de données changent sans que les consommateurs en soient informés. Les anomalies s'accumulent silencieusement jusqu'à ce qu'un utilisateur final les détecte — trop tard, trop visiblement.
+Dans les configurations les plus courantes, chaque équipe a sa propre définition des indicateurs. Les sources de données changent sans que les consommateurs en soient informés. Les anomalies s'accumulent silencieusement jusqu'à ce qu'un utilisateur final les détecte — trop tard, trop visiblement.
 
-J'ai vu des projets où le même indicateur avait trois définitions différentes selon qui vous demandiez. Pas par mauvaise volonté. Par absence de processus.
+Des études sectorielles sur la gouvernance des données montrent que le même indicateur peut avoir jusqu'à trois définitions différentes selon l'équipe interrogée. Pas par mauvaise volonté. Par absence de processus formalisé.
 
 **Ce que ça aurait changé :** un dictionnaire de données maintenu, des Quality Gates automatiques bloquant toute livraison avec des anomalies détectées, un responsable de la donnée identifié pour chaque indicateur critique.
 
@@ -79,7 +79,7 @@ La résistance au changement dans les projets data n'est pas de la mauvaise volo
 
 ## Ce que j'ai mis en place ensuite
 
-Quand je suis revenu sur ce type de projet, après m'être formé entre temps, j'ai appliqué une approche différente.
+Après m'être formé sur ces sujets, j'ai appliqué une approche différente sur les projets suivants.
 
 **Docs-as-Code** : toute la documentation des règles de gestion métier versionnée comme du code, dans un dépôt partagé, avec un historique de modifications traçable. Plus de règles qui changent sans laisser de trace.
 
@@ -87,7 +87,7 @@ Quand je suis revenu sur ce type de projet, après m'être formé entre temps, j
 
 **MVP itératif** : on ne livre pas tout en une fois. On identifie les 20% de fonctionnalités qui couvrent 80% des besoins, on les livre, on mesure, on ajuste. Chaque sprint délivre quelque chose d'utilisable — pas une promesse de livraison future.
 
-**Ambassadeurs identifiés** : avant même la première livraison, on identifie les utilisateurs les plus actifs et les plus influents. Ils testent en avant-première. Ils remontent les problèmes. Ils deviennent les évangélistes internes.
+**Ambassadeurs identifiés** : avant même la première livraison, on identifie les utilisateurs les plus actifs et les plus influents. Ils testent en avant-première. Ils remontent les problèmes. Ils deviennent les relais internes.
 
 Les problèmes de livraison se sont espacés. Pas parce que le code était meilleur. Parce que l'organisation autour du code avait changé.
 
@@ -106,6 +106,5 @@ Si vous répondez non à plus de la moitié de ces questions, votre projet n'est
 
 ---
 
-*Oumar Fodé KEBE est Senior Data Product Manager, spécialisé en Gouvernance Data, BI et IA Appliquée. Il accompagne les organisations dans l'industrialisation de leurs systèmes data et le déploiement de produits IA actionnables.*
-
-*Découvrez ses projets : [oufoke.github.io](https://oufoke.github.io)*
+*Oumar Fodé KEBE — Mathématicien-Ingénieur Data, Senior Data Product Manager.*  
+*[oufoke.github.io](https://oufoke.github.io)*
