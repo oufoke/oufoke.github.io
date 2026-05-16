@@ -1,19 +1,24 @@
+# ══════════════════════════════════════════════════
+# data/fr/author.yaml — punchlines mises à jour
+# ══════════════════════════════════════════════════
 name: "Oumar Fodé KEBE"
 nickname: "Oumar"
 greeting: "Salut, je suis"
-
-
 image: "images/author/oumar_pro.png"
-designation: "Senior Data Product Manager"
+designation: "Senior Data Product Manager | IA & Gouvernance Data"
 
 
-# Résumé court : Les punchlines qui s'affichent sous ton nom
 summary:
-  - "Expert en Transformation Data & IA Prédictive."
-  - "Pont stratégique entre la Tech et le pilotage Business."
-  - "Gouvernance, Business Intelligence & Modèles Prédictifs."
-  - "Domaines : PropTech, LegalTech, Supply Chain & Opérations."
+  - "Mathématicien-Ingénieur Data & IA · ISIFAR · 6 MVPs en production."
+  - "Je transforme des systèmes data complexes en outils de décision C-Level."
+  - "Zéro défaut prod · Investigation légale 3 semaines → 4h · 1 000+ sites pilotés."
+  - "PropTech · LegalTech · Gouvernance Data · Emploi & Politiques Publiques."
 
+contactInfo:
+  emails:
+    - oumarfodek@gmail.com
+  phone: "+33 6 99 85 31 18"
+  location: "Paris, France"
 
 socialLinks:
   - name: linkedin
@@ -22,3 +27,5 @@ socialLinks:
   - name: github
     icon: "fab fa-github"
     url: "https://github.com/oufoke"
+
+

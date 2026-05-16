@@ -6,7 +6,7 @@ section:
   showOnNavbar: true
   template: "sections/about.html"
 
-designation: "Senior Data Product Manager"
+designation: "Senior Data Product Manager | IA & Gouvernance Data"
 
 company:
   name: "France Travail (Siège)"
@@ -17,25 +17,33 @@ resourceLinks:
   url: "files/Oumar_Fode_KEBE.pdf"
 
 summary: |
- **Je construis des ponts entre la complexité des données brutes et la clarté de la décision stratégique.** 
+  **Mathématicien-Ingénieur Data de formation, je transforme des systèmes data complexes en produits IA déployables — de la gouvernance institutionnelle jusqu'au dernier mile décisionnel.**
 
-  ### 🎯 Ma Proposition de Valeur
-  Mon approche de Product Manager vise à résoudre des problématiques métiers coûteuses ou complexes via 3 piliers :
-  * **Gouvernance & DataOps :** Automatiser l'ingestion de données legacy (SAP, systèmes propriétaires), réduire la dette technique et garantir une *Data Quality* irréprochable.
-  * **Business Intelligence (BI) :** Concevoir des architectures décisionnelles claires qui séparent le suivi opérationnel du pilotage stratégique (tableaux de bord).
-  * **Forecasting & IA Appliquée :** Déployer des modèles prédictifs (Time Series, NLP) pour anticiper les budgets, optimiser les investissements et réduire les risques légaux/financiers.
+  6 ans à piloter des données stratégiques à l'échelle nationale (France Travail · INSEE · DARES · URSSAF),
+  6 MVPs IA livrés en production (NLP, RAG, Time Series, Lead Scoring),
+  un seul objectif : que chaque décision de direction s'appuie sur une donnée fiable et un modèle actionnable.
 
-  ### 🏗️ Domaines d'Intervention & Expertises
-  * **Asset Management & Immobilier :** Modélisation budgétaire et anticipation des coûts sur des parcs à l'échelle nationale (1000+ sites).
-  * **Compliance & LegalTech :** Moteurs NLP pour l'audit sémantique massif (E-Discovery) et la gestion des risques.
-  * **Supply Chain & Opérations :** Prévision de la demande et automatisation ITSM.
+  ### 🎯 Ce que j'apporte concrètement
 
-  ### 🛠️ Ma Stack
-  * **Product & Stratégie :** OKRs, PRD, MLOps Lifecycle, Design de solutions.
-  * **Data Science :** Python, SQL, Prophet, NLP (Topic Modeling).
-  * **Data Viz :** PowerBI, Digdash, Streamlit.
-  
-socialLinks:                             # ← commentaire séparé du summary
+  * **Gouvernance & DataOps :** Zéro défaut en production sur 12 mois (QualiStat). Automatisation de pipelines SAP legacy éliminant 4h/mois de traitements manuels (Direction Immobilier France Travail). Rédaction d'EDB Data Lake pour migration SI nationale.
+  * **BI & Pilotage C-Level :** Restructuration de tableaux de bord BI (Digdash · Power BI) utilisés par 126+ utilisateurs actifs. Conception d'outils de pilotage et de décision stratégique pour la direction immobilière nationale (1 000+ sites).
+  * **IA Appliquée (NLP / GenAI / Forecasting) :** Investigation légale de 3 semaines ramenée à 4 heures (Juris Sensus AI · Zero-Shot NLP). Anticipation CAPEX/OPEX sur portefeuilles immobiliers multi-sites (Time Series Prophet). Architectures RAG déployées sur Streamlit.
+
+  ### 🏗️ Domaines & Secteurs
+
+  * **PropTech & Asset Management :** Modélisation budgétaire et pilotage de parcs immobiliers nationaux (SPSI · RE-FX · Décret Tertiaire).
+  * **LegalTech & Compliance :** Moteurs NLP forensiques pour audit sémantique massif (E-Discovery · AI Act · RGPD).
+  * **Emploi & Politiques Publiques :** Production et industrialisation d'indicateurs stratégiques diffusés au niveau national (datemploi · INSEE · DARES).
+
+  ### 🛠️ Stack
+
+  * **Product :** OKRs · PRD · MLOps Lifecycle · Backlog · Stakeholder Management
+  * **Data Science & IA :** Python · XGBoost · Prophet · NLP (mDeBERTa, RAG, Zero-Shot) · LangChain
+  * **Data Engineering :** SQL · SAS · VBA · SAP RE-FX · PySpark · API REST
+  * **BI & Viz :** Power BI · DAX avancé · Digdash Studio · Streamlit
+  * **DevOps :** GitOps · CI/CD · Docs-as-Code · Docusaurus
+
+socialLinks:
 - name: "Email"
   icon: "fas fa-envelope"
   url: "mailto:oumarfodek@gmail.com"
@@ -46,7 +54,6 @@ socialLinks:                             # ← commentaire séparé du summary
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/oumarfodek/"
 
-  
 badges:
 - type: "certification"
   name: "Data Product Manager (Sorbonne)"
@@ -64,16 +71,16 @@ badges:
   badge: "/files/data_scientist_professional_badge.png"
 
 - type: "soft-skill-indicator"
-  name: "Stratégie Produit & Discovery 80%"
-  percentage: 70
+  name: "Stratégie Produit & Discovery"
+  percentage: 90
   color: "orange"
 
 - type: "soft-skill-indicator"
-  name: "Leadership Transverse 80%"
-  percentage: 70
+  name: "Leadership Transverse"
+  percentage: 80
   color: "green"
 
 - type: "soft-skill-indicator"
-  name: "Architecture Data & IA 90%"
-  percentage: 60
+  name: "Architecture Data & IA"
+  percentage: 90
   color: "blue"

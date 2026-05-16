@@ -10,7 +10,7 @@
     {{ if hasPrefix .color "#" }}
         {{ $predefinedColor = false }}
     {{ end }}
-    {{ $pct := .percentage }}
+    {{ $pct := int .percentage }}
     {{ $rightProgress := $pct }}
     {{ $leftProgress := 0 }}
     {{ if ge $pct 50 }}

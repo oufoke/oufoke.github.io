@@ -1,27 +1,20 @@
-/* --- TEST DIAGNOSTIC (À supprimer quand tu vois la bordure) --- */
-body { border: 8px solid #2ecc71 !important; } /* Vert pour changer du rouge ! */
-
 /* --- AMÉLIORATION DU HERO SECTION --- */
-
 #home {
-    /* 1. On assombrit l'image de fond pour protéger le texte */
     .home-section {
         background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
                     url("/images/site/2bckoke.jpg") no-repeat center center !important;
         background-size: cover !important;
     }
 
-    /* 2. On change le texte en JAUNE OR ou BLANC PUR avec une ombre énorme */
     .home-heading {
         color: #ffffff !important; 
-        text-shadow: 0px 4px 15px rgba(0, 0, 0, 1) !important; /* Ombre noire profonde */
+        text-shadow: 0px 4px 15px rgba(0, 0, 0, 1) !important;
         font-weight: 800 !important;
     }
 
-    /* 3. On crée un "badge" sombre pour ton résumé (author.yaml) */
     .home-subheading {
         color: #f8f9fa !important;
-        background-color: rgba(0, 0, 0, 0.5) !important; /* Fond noir transparent */
+        background-color: rgba(0, 0, 0, 0.5) !important;
         padding: 12px 20px !important;
         border-radius: 10px !important;
         display: inline-block !important;
@@ -30,11 +23,12 @@ body { border: 8px solid #2ecc71 !important; } /* Vert pour changer du rouge ! *
         text-shadow: 1px 1px 3px black !important;
     }
 }
-/* --- CORRECTIF JAUGES CIRCULAIRES --- */
+
+/* --- JAUGES CIRCULAIRES --- */
 .circular-progress-left .circular-progress-bar {
-  animation-play-state: running !important;
+    animation-play-state: running !important;
 }
 
 .circular-progress-percentage-50-delay {
-  animation-delay: 1.8s !important;
+    animation-delay: 1.8s !important;
 }
