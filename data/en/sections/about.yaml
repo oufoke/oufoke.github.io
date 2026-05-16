@@ -9,7 +9,7 @@ section:
 designation: "Senior Data Product Manager | AI & Data Governance"
 
 company:
-  name: "France Travail"
+  name: "France Travail (Headquarters)"
   url: "https://www.francetravail.fr"
 
 resourceLinks:
@@ -17,16 +17,16 @@ resourceLinks:
   url: "files/Oumar_Fode_KEBE.pdf"
 
 summary: |
-  **Trained as a Statistical Engineer, I turn complex data systems into deployable AI products — from institutional governance down to the last decision-making mile.**
+  **Mathematical Data Engineer by training, I turn complex data systems into deployable AI products — from institutional governance down to the last decision-making mile.**
 
-  6 years steering national-scale data at France Travail (partnering with INSEE & DARES),
+  6 years steering national-scale data (France Travail · INSEE · DARES · URSSAF),
   6 AI MVPs shipped to production (NLP, RAG, Time Series, Lead Scoring),
   one goal: every executive decision backed by reliable data and an actionable model.
 
   ### 🎯 What I deliver
 
-  * **Governance & DataOps:** Zero defects in production over 12 months (QualiStat). SAP legacy pipeline automation eliminating 4h/month of manual processing (OptIMMO · France Travail DICN). Full Data Lake EDB (15 requirements) delivered for national IT migration.
-  * **BI & C-Level Steering:** Restructured BI dashboards (Digdash · Power BI) serving 126+ active users. Strategic SPSI steering module for national real estate portfolios (1,000+ sites).
+  * **Governance & DataOps:** Zero defects in production over 12 months (QualiStat). SAP legacy pipeline automation eliminating 4h/month of manual processing (France Travail Real Estate Division). Full Data Lake EDB delivered for national IT migration.
+  * **BI & C-Level Steering:** Restructured BI dashboards (Digdash · Power BI) serving 126+ active users. Strategic steering and decision tools for the national real estate division (1,000+ sites).
   * **Applied AI (NLP / GenAI / Forecasting):** Legal investigation cut from 3 weeks to 4 hours (Juris Sensus AI · Zero-Shot NLP). CAPEX/OPEX forecasting on multi-site real estate portfolios (Time Series Prophet). RAG architectures deployed on Streamlit.
 
   ### 🏗️ Domains & Sectors
@@ -77,10 +77,10 @@ badges:
 
 - type: "soft-skill-indicator"
   name: "Cross-functional Leadership"
-  percentage: 85
+  percentage: 80
   color: "green"
 
 - type: "soft-skill-indicator"
   name: "Data & AI Architecture"
-  percentage: 80
+  percentage: 90
   color: "blue"

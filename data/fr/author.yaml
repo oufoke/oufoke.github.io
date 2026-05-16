@@ -7,10 +7,9 @@ greeting: "Salut, je suis"
 image: "images/author/oumar_pro.png"
 designation: "Senior Data Product Manager | IA & Gouvernance Data"
 
-# Les 4 punchlines qui s'affichent en rotation sous ton nom
-# Logique : Formation → Méthode → Preuve → Domaines
+
 summary:
-  - "Ingénieur Statisticien · 6 MVPs IA déployés en production."
+  - "Mathématicien-Ingénieur Data & IA · ISIFAR · 6 MVPs en production."
   - "Je transforme des systèmes data complexes en outils de décision C-Level."
   - "Zéro défaut prod · Investigation légale 3 semaines → 4h · 1 000+ sites pilotés."
   - "PropTech · LegalTech · Gouvernance Data · Emploi & Politiques Publiques."
@@ -28,3 +27,5 @@ socialLinks:
   - name: github
     icon: "fab fa-github"
     url: "https://github.com/oufoke"
+
+

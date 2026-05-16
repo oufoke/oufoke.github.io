@@ -17,16 +17,16 @@ resourceLinks:
   url: "files/Oumar_Fode_KEBE.pdf"
 
 summary: |
-  **Ingénieur Statisticien de formation, je transforme des systèmes data complexes en produits IA déployables — de la gouvernance institutionnelle jusqu'au dernier mile décisionnel.**
+  **Mathématicien-Ingénieur Data de formation, je transforme des systèmes data complexes en produits IA déployables — de la gouvernance institutionnelle jusqu'au dernier mile décisionnel.**
 
-  6 ans à piloter des données stratégiques à l'échelle nationale (France Travail · INSEE · DARES),
+  6 ans à piloter des données stratégiques à l'échelle nationale (France Travail · INSEE · DARES · URSSAF),
   6 MVPs IA livrés en production (NLP, RAG, Time Series, Lead Scoring),
   un seul objectif : que chaque décision de direction s'appuie sur une donnée fiable et un modèle actionnable.
 
   ### 🎯 Ce que j'apporte concrètement
 
-  * **Gouvernance & DataOps :** Zéro défaut en production sur 12 mois (QualiStat). Automatisation de pipelines SAP legacy éliminant 4h/mois de traitements manuels (OptIMMO · DICN France Travail). Rédaction d'EDB Data Lake (15 exigences) pour migration SI nationale.
-  * **BI & Pilotage C-Level :** Restructuration de tableaux de bord BI (Digdash · Power BI) utilisés par 126+ utilisateurs actifs. Conception d'outils de pilotage stratégique SPSI pour directions immobilières nationales (1 000+ sites).
+  * **Gouvernance & DataOps :** Zéro défaut en production sur 12 mois (QualiStat). Automatisation de pipelines SAP legacy éliminant 4h/mois de traitements manuels (Direction Immobilier France Travail). Rédaction d'EDB Data Lake pour migration SI nationale.
+  * **BI & Pilotage C-Level :** Restructuration de tableaux de bord BI (Digdash · Power BI) utilisés par 126+ utilisateurs actifs. Conception d'outils de pilotage et de décision stratégique pour la direction immobilière nationale (1 000+ sites).
   * **IA Appliquée (NLP / GenAI / Forecasting) :** Investigation légale de 3 semaines ramenée à 4 heures (Juris Sensus AI · Zero-Shot NLP). Anticipation CAPEX/OPEX sur portefeuilles immobiliers multi-sites (Time Series Prophet). Architectures RAG déployées sur Streamlit.
 
   ### 🏗️ Domaines & Secteurs
@@ -77,10 +77,10 @@ badges:
 
 - type: "soft-skill-indicator"
   name: "Leadership Transverse"
-  percentage: 85
+  percentage: 80
   color: "green"
 
 - type: "soft-skill-indicator"
   name: "Architecture Data & IA"
-  percentage: 60
+  percentage: 90
   color: "blue"
