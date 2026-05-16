@@ -6,17 +6,19 @@ ignoreLogs:
 
 # ─── CONFIGURATION DES LANGUES ───────────────────────
 defaultContentLanguage: fr
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 
 languages:
   fr:
     languageName: Français
     weight: 1
+    contentDir: content/fr
     params:
       flag: "fr"
   en:
     languageName: English
     weight: 2
+    contentDir: content/en
     params:
       flag: "gb"
 
@@ -38,8 +40,6 @@ module:
     - source: static
       target: static
   mounts:
-  - source: content
-    target: content
   - source: assets
     target: assets
   - source: layouts

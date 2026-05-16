@@ -1,7 +1,9 @@
 ---
 title: "Pourquoi vos projets data ratent leur mise en production"
 date: 2026-05-15
+type: posts
 draft: false
+language: fr
 tags: ["DataOps", "Gouvernance", "Data Product Management", "Conduite du changement"]
 categories: ["Thought Leadership"]
 summary: "Après avoir observé et vécu plusieurs projets data en grande organisation, j'ai identifié un pattern récurrent : ce n'est jamais le code qui rate. C'est l'organisation autour du code."

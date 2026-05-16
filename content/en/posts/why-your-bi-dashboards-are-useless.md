@@ -1,108 +1,110 @@
 ---
-title: "Pourquoi vos tableaux de bord BI ne servent à rien — et comment en sortir"
+title: "Why your BI dashboards are useless — and how to fix it"
 date: 2026-05-15
 draft: false
+language: en
+type: posts
 tags: ["Business Intelligence", "DataOps", "Data Product Management", "Digdash", "Power BI"]
 categories: ["Thought Leadership"]
-summary: "3 318 consultations analysées, 279 rapports inventoriés, 126 utilisateurs actifs. Le verdict était sans appel : 10 pages concentraient 76,7% du trafic. Les autres existaient pour rien."
+summary: "3,318 sessions analyzed, 279 reports inventoried, 126 active users. The verdict was clear: 10 pages drove 76.7% of all traffic. The rest existed for nothing."
 ---
 
-Un tableau de bord BI, ça coûte cher à construire.
+A BI dashboard is expensive to build.
 
-Des semaines de développement. Des réunions de cadrage. Des allers-retours avec la DSI. Des formations utilisateurs. Un déploiement.
+Weeks of development. Scoping meetings. Back-and-forth with IT. User training. Deployment.
 
-Et pourtant, dans la plupart des organisations que j'ai observées, la majorité des rapports ne sont consultés que par leurs créateurs — le jour de la démonstration.
+And yet, in most organizations I've observed, the majority of reports are only opened by their creators — on demo day.
 
-Ce n'est pas un problème de technologie. Ce n'est pas un problème d'utilisateurs. C'est un problème de méthode.
-
----
-
-## Le diagnostic par les données
-
-Quand j'ai pris en charge la restructuration d'un tableau de bord BI utilisé par une direction nationale — 126 utilisateurs actifs, des dizaines de rapports accumulés depuis des années — ma première action n'a pas été d'ouvrir l'outil de développement.
-
-J'ai analysé les logs d'usage.
-
-**3 318 consultations sur 4 mois. 60 pages disponibles.**
-
-Le résultat était brutal : **10 pages concentraient 76,7% de tout le trafic**. Le reste — soit les trois quarts du catalogue — générait moins de 3 clics sur 4 mois.
-
-Des pages entières, développées et maintenues, que personne ne regardait.
-
-Ce n'est pas une anomalie. C'est la règle dans la plupart des environnements BI que j'ai croisés. On construit pour couvrir tous les cas d'usage théoriques. On finit avec un catalogue que personne ne navigue.
+This isn't a technology problem. It isn't a user problem. It's a method problem.
 
 ---
 
-## Pourquoi ça arrive
+## The data-driven diagnosis
 
-### On construit par l'offre, pas par la demande
+When I took over the restructuring of a BI dashboard used by a national division — 126 active users, dozens of reports accumulated over the years — my first move wasn't to open the development tool.
 
-La logique habituelle : on liste les données disponibles, on crée des rapports qui les exposent, on livre aux utilisateurs.
+I analyzed the usage logs.
 
-La bonne logique : on identifie les décisions que les utilisateurs doivent prendre, on remonte aux données qui les éclairent, on construit les vues qui facilitent ces décisions.
+**3,318 sessions over 4 months. 60 available pages.**
 
-Ce n'est pas une nuance. C'est un renversement complet de la démarche.
+The result was stark: **10 pages drove 76.7% of all traffic**. The rest — three quarters of the catalog — generated fewer than 3 clicks over 4 months.
 
-Quand on construit par l'offre, on livre des rapports exhaustifs que personne ne sait utiliser. Quand on construit par la demande, on livre des outils de décision que les gens ouvrent tous les matins.
+Entire pages, built and maintained, that no one looked at.
 
-### On ne sépare pas le pilotage opérationnel du pilotage stratégique
-
-Un opérateur qui suit ses indicateurs quotidiens n'a pas besoin du même tableau de bord qu'un directeur qui prend des décisions budgétaires à 6 mois.
-
-Pourtant, la plupart des BI que j'ai vus mélangent les deux. Le résultat : une interface surchargée que ni l'un ni l'autre n'utilise vraiment, parce qu'elle n'est optimisée pour aucun des deux.
-
-La règle simple : **un tableau de bord = une audience = une décision type**.
-
-### On ne mesure pas l'usage
-
-Si vous ne savez pas combien de fois chaque rapport est consulté, par qui, et à quelle fréquence — vous pilotez votre BI à l'aveugle.
-
-Vous continuez à maintenir des rapports inutilisés. Vous ne savez pas quelles vues sont critiques et lesquelles peuvent être supprimées. Vous ne pouvez pas prioriser vos évolutions par impact réel.
-
-L'analyse d'usage n'est pas un luxe. C'est le socle de toute démarche product management appliquée à la BI.
+This isn't an anomaly. It's the norm in most BI environments I've encountered. We build to cover all theoretical use cases. We end up with a catalog no one navigates.
 
 ---
 
-## Ce que j'ai fait concrètement
+## Why it happens
 
-### Étape 1 : l'audit par les données
+### Building by supply, not demand
 
-Avant de toucher quoi que ce soit, j'ai extrait et analysé 4 mois de logs d'usage. Identification du Top 10 (pages critiques à optimiser en priorité), du Flop 10 (pages à archiver), et des patterns d'usage par profil utilisateur.
+The usual logic: list available data → create reports → deliver to users.
 
-Ce travail a pris 2 jours. Il a orienté 3 mois de développement.
+The right logic: identify the decisions users need to make → trace back to the data that informs them → build the views that facilitate those decisions.
 
-### Étape 2 : la restructuration par usage réel
+This isn't a nuance. It's a complete reversal of the approach.
 
-À partir des données d'usage, j'ai reorganisé le catalogue en 4 pôles thématiques correspondant aux 4 grandes décisions que les utilisateurs devaient prendre — pas aux 4 grandes catégories de données disponibles.
+Building by supply produces exhaustive reports no one knows how to use. Building by demand produces decision tools people open every morning.
 
-Chaque pôle a un propriétaire métier identifié. Chaque rapport a une définition d'usage claire : qui l'utilise, à quelle fréquence, pour prendre quelle décision.
+### Mixing operational and strategic steering
 
-### Étape 3 : séparer l'opérationnel du stratégique
+An operator tracking daily KPIs doesn't need the same dashboard as a director making 6-month budget decisions.
 
-J'ai conçu un module distinct dédié au pilotage stratégique — avec 5 indicateurs C-Level uniquement, comparant les objectifs pluriannuels aux réalisations. Rien d'autre. Pas de drill-down. Pas de détail opérationnel.
+Yet most BI tools I've seen mix the two. The result: an overloaded interface that neither actually uses, because it's optimized for neither.
 
-Les décideurs ont un outil qui répond à leur question en 30 secondes. Les opérationnels ont leurs tableaux de bord détaillés. Les deux coexistent sans se polluer.
+The simple rule: **one dashboard = one audience = one decision type**.
 
-### Étape 4 : les ambassadeurs comme levier d'adoption
+### Not measuring usage
 
-Parmi les 126 utilisateurs actifs, j'ai identifié les 10 plus assidus — ceux qui consultaient le BI plusieurs fois par semaine. Je les ai impliqués en avant-première sur la nouvelle version.
+If you don't know how often each report is consulted, by whom, and at what frequency — you're steering your BI blind.
 
-Ils ont remonté les problèmes avant le déploiement général. Ils sont devenus les relais internes qui ont expliqué la nouvelle organisation à leurs collègues. L'adoption a été immédiate là où elle avait été laborieuse sur les versions précédentes.
+You keep maintaining unused reports. You don't know which views are critical and which can be removed. You can't prioritize your roadmap by real impact.
 
----
-
-## La question à se poser avant votre prochaine refonte BI
-
-Avant d'ajouter un nouveau rapport, avant de refondre votre interface, avant de migrer vers un nouvel outil — posez-vous une question :
-
-**Savez-vous quels rapports vos utilisateurs ont ouverts la semaine dernière ?**
-
-Si vous ne le savez pas, vous ne savez pas ce que vous construisez vraiment. Vous construisez pour vous — pas pour eux.
-
-L'analyse d'usage est la première étape. Tout le reste en découle.
+Usage analysis isn't a luxury. It's the foundation of any product management approach applied to BI.
 
 ---
 
-*Oumar Fodé KEBE est Senior Data Product Manager, spécialisé en Gouvernance Data, BI et IA Appliquée. Il accompagne les organisations dans l'industrialisation de leurs systèmes data et le déploiement de produits IA actionnables.*
+## What I did concretely
 
-*Découvrez ses projets : [oufoke.github.io](https://oufoke.github.io)*
+### Step 1: the data audit
+
+Before touching anything, I extracted and analyzed 4 months of usage logs. Identified the Top 10 (critical pages to optimize first), the Flop 10 (pages to archive), and usage patterns by user profile.
+
+This took 2 days. It guided 3 months of development.
+
+### Step 2: restructuring by real usage
+
+From the usage data, I reorganized the catalog into 4 thematic clusters corresponding to the 4 key decisions users needed to make — not to the 4 categories of available data.
+
+Each cluster has an identified business owner. Each report has a clear usage definition: who uses it, how often, to make which decision.
+
+### Step 3: separating operational from strategic
+
+I designed a separate module dedicated to strategic steering — with 5 C-Level indicators only, comparing multi-year targets against actuals. Nothing else. No drill-down. No operational detail.
+
+Decision-makers have a tool that answers their question in 30 seconds. Operational teams have their detailed dashboards. Both coexist without polluting each other.
+
+### Step 4: ambassadors as adoption leverage
+
+Among the 126 active users, I identified the 10 most assiduous — those who consulted the BI several times a week. I involved them early on the new version.
+
+They surfaced problems before general deployment. They became the internal relays who explained the new structure to their colleagues. Adoption was immediate where it had previously been laborious.
+
+---
+
+## The question to ask before your next BI overhaul
+
+Before adding a new report, before overhauling your interface, before migrating to a new tool — ask yourself one question:
+
+**Do you know which reports your users opened last week?**
+
+If you don't, you don't know what you're really building. You're building for yourself — not for them.
+
+Usage analysis is the first step. Everything else follows.
+
+---
+
+*Oumar Fodé KEBE is a Senior Data Product Manager, specialized in Data Governance, BI, and Applied AI. He helps organizations industrialize their data systems and deploy actionable AI products.*
+
+*Explore his projects: [oufoke.github.io](https://oufoke.github.io/en/)*

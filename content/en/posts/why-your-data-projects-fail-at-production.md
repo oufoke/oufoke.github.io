@@ -1,109 +1,111 @@
 ---
-title: "Pourquoi vos projets data ratent leur mise en production"
+title: "Why your data projects fail at production"
 date: 2026-05-15
 draft: false
-tags: ["DataOps", "Gouvernance", "Data Product Management", "Conduite du changement"]
+language: en
+type: posts
+tags: ["DataOps", "Governance", "Data Product Management", "Change Management"]
 categories: ["Thought Leadership"]
-summary: "Après avoir observé et vécu plusieurs projets data en grande organisation, j'ai identifié un pattern récurrent : ce n'est jamais le code qui rate. C'est l'organisation autour du code."
+summary: "After observing and living through several data projects in large organizations, I identified a recurring pattern: it's never the code that fails. It's the organization around the code."
 ---
 
-J'ai travaillé sur un projet data qui avait tout pour réussir.
+I've worked on a data project that had everything it needed to succeed.
 
-Un budget. Une équipe motivée. Une DSI impliquée. Des données disponibles. Un besoin métier réel.
+A budget. A motivated team. IT involvement. Available data. A real business need.
 
-Et pourtant, les livrables n'arrivaient pas. Les tensions montaient entre la DSI et les équipes métier. Quelqu'un finissait toujours par porter le chapeau.
+And yet, deliverables kept slipping. Tensions rose between IT and business teams. Someone always ended up taking the blame.
 
-Ce n'était pas un cas isolé. C'est un pattern que j'ai vu se reproduire, dans des configurations différentes, dans des organisations différentes. Et après plusieurs années à l'observer de l'intérieur — parfois en subissant les conséquences — j'ai compris pourquoi.
+This wasn't an isolated case. It's a pattern I've seen repeat itself across different configurations, different organizations. After years of observing it from the inside — sometimes bearing the consequences — I finally understood why.
 
-**Ce n'est jamais le code qui rate. C'est l'organisation autour du code.**
-
----
-
-## Le projet parfait sur le papier
-
-L'équipe était constituée d'un chef de projet, d'un manager, d'un alternant, et de quelques profils techniques. Les compétences individuelles étaient là. La bonne volonté aussi.
-
-Mais personne dans cette équipe n'avait de formation solide en **DataOps**. Personne ne savait vraiment faire du **product management appliqué à la data**. La **gouvernance qualité des données** était traitée comme un problème de la DSI, pas de l'équipe projet. Et la **conduite du changement** ? On verrait à la livraison.
-
-Résultat : les livrables étaient techniquement corrects mais inutilisables en production. Les indicateurs changeaient de définition entre deux sprints sans que personne ne le documente. La DSI recevait des données qu'elle ne pouvait pas industrialiser. Les équipes métier ne comprenaient pas ce qu'elles recevaient.
-
-Et quand la pression montait, il fallait un responsable.
+**It's never the code that fails. It's the organization around the code.**
 
 ---
 
-## Les 4 compétences que personne n'a pensé à inclure
+## The perfect project on paper
 
-### 1. DataOps — la mise en production n'est pas la fin, c'est le début
+The team had a project manager, a manager, an intern, and a few technical profiles. Individual skills were there. So was the goodwill.
 
-Dans beaucoup d'équipes data, la mise en production est traitée comme une ligne d'arrivée. On livre, on passe à autre chose.
+But no one on that team had solid training in **DataOps**. No one really knew how to do **data-specific product management**. **Data quality governance** was treated as IT's problem, not the project team's. And **change management**? We'd deal with that at delivery.
 
-En réalité, c'est le moment où tout commence. Un pipeline data en production doit être **observable, maintenable, reproductible**. Il doit survivre à l'absence de son créateur. Il doit pouvoir être modifié sans tout casser.
+Result: deliverables were technically correct but unusable in production. KPI definitions changed between sprints with no documentation. IT received data it couldn't industrialize. Business teams didn't understand what they were getting.
 
-Sans quelqu'un qui maîtrise les pratiques DataOps — versionnement, CI/CD, environnements séparés, tests automatisés — chaque mise à jour devient une opération à risque. Et chaque incident devient une crise.
-
-**Ce que ça aurait changé :** un environnement de test séparé de la production, des pipelines versionnés, des Quality Gates bloquantes avant chaque déploiement. Zéro livraison sans validation automatique.
-
-### 2. Data Product Management — savoir ce qu'on construit avant de le construire
-
-Un projet data sans product manager data, c'est une équipe qui construit ce que les développeurs comprennent du besoin métier — pas ce dont le métier a réellement besoin.
-
-Le Data PM n'est pas un chef de projet avec un tableur. C'est quelqu'un qui sait traduire un besoin business en spécification technique, définir des métriques de succès **avant** la livraison, prioriser un backlog par impact réel, et distinguer ce qui doit être livré vite de ce qui doit être fait bien.
-
-Sans cette compétence, les équipes livrent des fonctionnalités que personne n'utilise. Elles passent des mois sur des tableaux de bord que les décideurs ne regardent pas.
-
-**Ce que ça aurait changé :** une phase de discovery avec les vrais utilisateurs, un backlog priorisé par données d'usage, des métriques définies avant chaque sprint — pas après.
-
-### 3. Gouvernance & qualité des données — le problème invisible jusqu'au jour où il explose
-
-La qualité des données est le sujet dont personne ne parle jusqu'à ce qu'un chiffre faux arrive en comité de direction.
-
-En l'absence de gouvernance claire, chaque équipe a sa propre définition des indicateurs. Les sources de données changent sans que les consommateurs en soient informés. Les anomalies s'accumulent silencieusement jusqu'à ce qu'un utilisateur final les détecte — trop tard, trop visiblement.
-
-J'ai vu des projets où le même indicateur avait trois définitions différentes selon qui vous demandiez. Pas par mauvaise volonté. Par absence de processus.
-
-**Ce que ça aurait changé :** un dictionnaire de données maintenu, des Quality Gates automatiques bloquant toute livraison avec des anomalies détectées, un responsable de la donnée identifié pour chaque indicateur critique.
-
-### 4. Conduite du changement — les utilisateurs ne s'adaptent pas spontanément
-
-C'est la compétence la plus sous-estimée de toutes.
-
-Un outil data peut être techniquement parfait et être un échec complet si les utilisateurs ne comprennent pas pourquoi il remplace leur ancien process, comment il fonctionne, et ce qu'ils y gagnent.
-
-La résistance au changement dans les projets data n'est pas de la mauvaise volonté. C'est une réponse normale à un outil qu'on vous impose sans vous expliquer ni vous impliquer.
-
-**Ce que ça aurait changé :** identifier les ambassadeurs avant la livraison, organiser des sessions de test avec les vrais utilisateurs, documenter les cas d'usage concrets, prévoir une phase de transition — pas un basculement brutal.
+And when pressure mounted, someone had to take the blame.
 
 ---
 
-## Ce que j'ai mis en place ensuite
+## The 4 competencies no one thought to include
 
-Quand je suis revenu sur ce type de projet, après m'être formé entre temps, j'ai appliqué une approche différente.
+### 1. DataOps — production is not the finish line, it's the starting point
 
-**Docs-as-Code** : toute la documentation des règles de gestion métier versionnée comme du code, dans un dépôt partagé, avec un historique de modifications traçable. Plus de règles qui changent sans laisser de trace.
+In many data teams, going to production is treated as the finish line. You ship, you move on.
 
-**Quality Gates automatiques** : aucune donnée ne passe en production sans validation automatique des seuils de qualité définis en amont avec les équipes métier. Si un indicateur sort de sa plage normale, le pipeline s'arrête et alerte.
+In reality, it's when everything starts. A data pipeline in production must be **observable, maintainable, reproducible**. It must survive the absence of its creator. It must be modifiable without breaking everything.
 
-**MVP itératif** : on ne livre pas tout en une fois. On identifie les 20% de fonctionnalités qui couvrent 80% des besoins, on les livre, on mesure, on ajuste. Chaque sprint délivre quelque chose d'utilisable — pas une promesse de livraison future.
+Without someone who masters DataOps practices — versioning, CI/CD, separate environments, automated testing — every update becomes a risky operation. Every incident becomes a crisis.
 
-**Ambassadeurs identifiés** : avant même la première livraison, on identifie les utilisateurs les plus actifs et les plus influents. Ils testent en avant-première. Ils remontent les problèmes. Ils deviennent les évangélistes internes.
+**What it would have changed:** a test environment separate from production, versioned pipelines, blocking Quality Gates before every deployment. Zero delivery without automatic validation.
 
-Les problèmes de livraison se sont espacés. Pas parce que le code était meilleur. Parce que l'organisation autour du code avait changé.
+### 2. Data Product Management — knowing what you're building before you build it
+
+A data project without a data product manager is a team building what developers understood of the business need — not what the business actually needs.
+
+The Data PM is not a project manager with a spreadsheet. It's someone who can translate a business need into a technical specification, define success metrics **before** delivery, prioritize a backlog by real impact, and distinguish what must be shipped fast from what must be done well.
+
+Without this competency, teams ship features no one uses. They spend months on dashboards executives never open.
+
+**What it would have changed:** a discovery phase with real users, a backlog prioritized by usage data, metrics defined before each sprint — not after.
+
+### 3. Data Governance & Quality — the invisible problem until it explodes publicly
+
+Data quality is the topic no one discusses until a wrong number lands in an executive committee.
+
+Without clear governance, every team has its own definition of KPIs. Data sources change without notifying consumers. Anomalies accumulate silently until an end user detects them — too late, too visibly.
+
+I've seen projects where the same indicator had three different definitions depending on who you asked. Not out of bad intent. Out of absent process.
+
+**What it would have changed:** a maintained data dictionary, automatic Quality Gates blocking any delivery with detected anomalies, an identified data owner for each critical indicator.
+
+### 4. Change Management — users don't adapt spontaneously
+
+This is the most underestimated competency of all.
+
+A data tool can be technically perfect and be a complete failure if users don't understand why it replaces their old process, how it works, and what they gain.
+
+Resistance to change in data projects isn't bad will. It's a normal response to a tool imposed without explanation or involvement.
+
+**What it would have changed:** identify ambassadors before delivery, run test sessions with real users, document concrete use cases, plan a transition phase — not a brutal switch.
 
 ---
 
-## La checklist avant votre prochaine mise en production
+## What I put in place afterward
 
-Avant de démarrer votre prochain projet data, posez-vous ces questions :
+When I returned to this type of project — after training in the meantime — I applied a different approach.
 
-- **DataOps** : Avez-vous un environnement de test séparé de la production ? Vos pipelines sont-ils versionnés ? Avez-vous des tests automatisés ?
-- **Data PM** : Avez-vous défini les métriques de succès avant de commencer à coder ? Savez-vous qui sont vos utilisateurs prioritaires ?
-- **Gouvernance** : Avez-vous un dictionnaire de données ? Qui est responsable de chaque indicateur critique ? Vos Quality Gates sont-elles automatiques ou manuelles ?
-- **Conduite du changement** : Avez-vous identifié vos ambassadeurs ? Les utilisateurs finaux ont-ils été impliqués dans la définition du besoin ?
+**Docs-as-Code**: all business rule documentation versioned like code, in a shared repository, with a traceable change history. No more rules changing without leaving a trace.
 
-Si vous répondez non à plus de la moitié de ces questions, votre projet n'est pas en retard sur le code. Il est en retard sur l'organisation.
+**Automatic Quality Gates**: no data reaches production without automatic validation of quality thresholds defined upfront with business teams. If an indicator falls outside its normal range, the pipeline stops and alerts.
+
+**Iterative MVP**: we don't ship everything at once. We identify the 20% of features covering 80% of needs, ship them, measure, adjust. Every sprint delivers something usable — not a promise of future delivery.
+
+**Ambassadors identified**: before the first delivery, we identify the most active and influential users. They test first. They surface problems. They become internal evangelists.
+
+Delivery problems decreased. Not because the code was better. Because the organization around the code had changed.
 
 ---
 
-*Oumar Fodé KEBE est Senior Data Product Manager, spécialisé en Gouvernance Data, BI et IA Appliquée. Il accompagne les organisations dans l'industrialisation de leurs systèmes data et le déploiement de produits IA actionnables.*
+## The checklist before your next production release
 
-*Découvrez ses projets : [oufoke.github.io](https://oufoke.github.io)*
+Before starting your next data project, ask yourself:
+
+- **DataOps**: Do you have a test environment separate from production? Are your pipelines versioned? Do you have automated tests?
+- **Data PM**: Have you defined success metrics before starting to code? Do you know who your priority users are?
+- **Governance**: Do you have a data dictionary? Who is responsible for each critical indicator? Are your Quality Gates automatic or manual?
+- **Change Management**: Have you identified your ambassadors? Were end users involved in defining the need?
+
+If you answer no to more than half of these — your project isn't behind on code. It's behind on organization.
+
+---
+
+*Oumar Fodé KEBE is a Senior Data Product Manager, specialized in Data Governance, BI, and Applied AI. He helps organizations industrialize their data systems and deploy actionable AI products.*
+
+*Explore his projects: [oufoke.github.io](https://oufoke.github.io/en/)*

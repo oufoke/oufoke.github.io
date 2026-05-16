@@ -1,7 +1,9 @@
 ---
 title: "Pourquoi vos tableaux de bord BI ne servent à rien — et comment en sortir"
 date: 2026-05-15
+type: posts
 draft: false
+language: fr
 tags: ["Business Intelligence", "DataOps", "Data Product Management", "Digdash", "Power BI"]
 categories: ["Thought Leadership"]
 summary: "3 318 consultations analysées, 279 rapports inventoriés, 126 utilisateurs actifs. Le verdict était sans appel : 10 pages concentraient 76,7% du trafic. Les autres existaient pour rien."

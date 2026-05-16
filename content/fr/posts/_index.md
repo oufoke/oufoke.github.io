@@ -1,3 +1,4 @@
 ---
 title: "Articles"
+type: posts
 ---
