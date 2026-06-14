@@ -2,7 +2,7 @@ section:
   name: "À Propos"
   id: "about"
   enable: true
-  weight: 100
+  weight: 1
   showOnNavbar: true
   template: "sections/about.html"
 
