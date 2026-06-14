@@ -6,42 +6,42 @@ section:
   showOnNavbar: true
   template: "sections/about.html"
 
-designation: "Senior Data Product Manager | AI & Data Governance"
+designation: "Senior Data Product Manager | Applied AI & Data Governance"
 
 company:
-  name: "France Travail (Headquarters)"
+  name: "France Travail (HQ)"
   url: "https://www.francetravail.fr"
 
 resourceLinks:
-- title: "My CV (PDF)"
+- title: "Download my CV (PDF)"
   url: "files/Oumar_Fode_KEBE.pdf"
 
 summary: |
-  **Mathematical Data Engineer by training, I turn complex data systems into deployable AI products — from institutional governance down to the last decision-making mile.**
+  **Applied Mathematician turned Data Product Manager — I transform complex data systems into reliable decision-making products, from institutional governance to the last mile of executive decisions.**
 
-  6 years steering national-scale data (France Travail · INSEE · DARES · URSSAF),
-  6 AI MVPs shipped to production (NLP, RAG, Time Series, Lead Scoring),
-  one goal: every executive decision backed by reliable data and an actionable model.
+  6 years leading strategic data at national scale (France Travail · INSEE · DARES · URSSAF),
+  6 MVPs shipped in production (NLP, RAG, Time Series, Lead Scoring),
+  one goal: every executive decision backed by trusted data and an actionable model.
 
   ### 🎯 What I deliver
 
-  * **Governance & DataOps:** Zero defects in production over 12 months (QualiStat). SAP legacy pipeline automation eliminating 4h/month of manual processing (France Travail Real Estate Division). Full Data Lake EDB delivered for national IT migration.
-  * **BI & C-Level Steering:** Restructured BI dashboards (Digdash · Power BI) serving 126+ active users. Strategic steering and decision tools for the national real estate division (1,000+ sites).
-  * **Applied AI (NLP / GenAI / Forecasting):** Legal investigation cut from 3 weeks to 4 hours (Juris Sensus AI · Zero-Shot NLP). CAPEX/OPEX forecasting on multi-site real estate portfolios (Time Series Prophet). RAG architectures deployed on Streamlit.
+  * **Data Governance & DataOps :** Designed automated Quality Gate systems (QualiStat · Power BI/DAX) for national public indicator pipelines. Automated a SAP legacy pipeline — **3 days of monthly processing eliminated** (France Travail Real Estate Division). Authored full Data Lake technical requirements for national IS migration.
+  * **BI & Executive Dashboards :** Audited, redesigned and delivered Digdash/Power BI dashboards at national scale (126+ users · 1,000+ sites). Defined end-to-end target data production processes and decision architecture.
+  * **Applied AI (NLP / GenAI / Forecasting) :** Legal investigation reduced from 3 weeks to 4 hours (Juris Sensus AI · Zero-Shot NLP). CAPEX/OPEX forecasting on multi-site real estate portfolios (Time Series Prophet). RAG/LangChain architectures deployed on Streamlit.
 
   ### 🏗️ Domains & Sectors
 
-  * **PropTech & Asset Management:** Budget modeling and steering of national real estate portfolios (SPSI · RE-FX · Tertiary Decree).
-  * **LegalTech & Compliance:** Forensic NLP engines for massive semantic auditing (E-Discovery · AI Act · GDPR).
-  * **Employment & Public Policy:** Production and industrialization of national strategic KPIs (datemploi · INSEE · DARES).
+  * **PropTech & Asset Management :** Modelling and operational tracking of national real estate portfolios (SPSI · RE-FX · French Tertiary Decree).
+  * **LegalTech & Compliance :** Forensic NLP engines for large-scale semantic audit (E-Discovery · AI Act · GDPR).
+  * **Labour Market & Public Policy :** Production and industrialisation of strategic indicators published at national level (datemploi · INSEE · DARES).
 
   ### 🛠️ Stack
 
-  * **Product:** OKRs · PRD · MLOps Lifecycle · Backlog · Stakeholder Management
-  * **Data Science & AI:** Python · XGBoost · Prophet · NLP (mDeBERTa, RAG, Zero-Shot) · LangChain
-  * **Data Engineering:** SQL · SAS · VBA · SAP RE-FX · PySpark · REST API
-  * **BI & Viz:** Power BI · Advanced DAX · Digdash Studio · Streamlit
-  * **DevOps:** GitOps · CI/CD · Docs-as-Code · Docusaurus
+  * **Product :** OKRs · PRD · MLOps Lifecycle · Backlog · Stakeholder Management
+  * **Data Science & AI :** Python · XGBoost · Prophet · NLP (mDeBERTa, RAG, Zero-Shot) · LangChain
+  * **Data Engineering :** SQL · SAS · VBA · SAP RE-FX · PySpark · API REST
+  * **BI & Viz :** Power BI · DAX · Digdash Studio · Streamlit
+  * **DevOps :** GitOps · CI/CD · Docs-as-Code · Docusaurus
 
 socialLinks:
 - name: "Email"

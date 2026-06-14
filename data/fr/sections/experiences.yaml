@@ -11,30 +11,30 @@ experiences:
     url: "https://www.francetravail.fr"
     location: Paris, France
     logo: /images/sections/experiences/logo-ft.svg
-    overview: "Ingénieur Statisticien reconverti Data PM, j'industrialise des systèmes data à l'échelle nationale et je déploie des produits IA actionnables — de la gouvernance jusqu'à la décision C-Level."
+    overview: "6 ans à transformer des systèmes data complexes en produits décisionnels fiables — de la gouvernance institutionnelle à l'IA appliquée. Expert du delivery en environnement contraint : SI nationaux, données sensibles, interface DSI/Métier."
 
   positions:
 
-  - designation: Senior Data Product Manager — Transformation Data & BI Immobilier
+  - designation: Senior Data Product Manager — Pilotage Immobilier National
     start: Mai 2026
     end: Juillet 2026
     responsibilities:
-    - "**OptIMMO · Boussole Décisionnelle SPSI :** Product Owner du tableau de bord Digdash immobilier (126 utilisateurs actifs · 3 318 consultations/4 mois · 279 rapports · 42 sources de données). Restructuration en 4 pôles thématiques + conception d'un module de pilotage stratégique SPSI vs réalisé RE-FX (5 indicateurs C-Level : écart budget/loyer, jalons, m² SDP/SUB, VNC) pour la direction de la DICN (1 000+ sites nationaux)."
-    - "**Pipeline Automation SAP → Digdash :** Développement VBA d'un classeur Excel Maître centralisant 16 exports SAP RE-FX mensuels (3 macros procédurales). Élimination de 4h/mois de traitements manuels répétitifs. Méthodologie de validation locale en 6 étapes garantissant zéro risque sur les fichiers SharePoint de production."
-    - "**Architecture Data Lake :** Rédaction de l'Expression de Besoin DSI complète (15 exigences EX-01→EX-15) pour la migration SAP → Data Lake → Digdash. Architecture cible : 16 tables DIC_*, 5 vues SQL calculées, connecteur SQL natif Digdash. Planning de migration en 5 phases transmis aux équipes DSI."
+    - "**Refonte du pilotage immobilier national (France Travail) :** Audit complet du tableau de bord existant (analyse quantitative du trafic : 3 318 consultations · 126 users · 279 rapports) et identification des gaps avec les besoins décisionnels de la direction. Définition du processus cible de production des indicateurs et nouvelle architecture décisionnelle — 101 indicateurs structurés sur 4 dimensions (surfaces, budget, SPSI, loyers) couvrant 1 000+ sites nationaux et 20 Directions Régionales."
+    - "**Dashboard Digdash & Pilotage Stratégique :** Livraison du tableau de bord Digdash avec module de pilotage stratégique SPSI vs réalisé RE-FX (écarts projections/réel selon les axes définis par la direction). Carte de France interactive et cockpit d'arbitrage par pôle."
+    - "**Automatisation & Architecture cible :** Rédaction de l'EDB DSI pour l'automatisation du pipeline SAP → Digdash (15 exigences fonctionnelles, plan de migration en 5 phases). Déploiement d'une solution transitoire Excel — **3 jours de traitement mensuel supprimés** dans l'attente de la mise en production du processus cible."
 
-  - designation: Senior Data Product Manager (Gouvernance & Ops)
+  - designation: Senior Data Product Manager — Gouvernance & DataOps
     start: Mai 2025
     end: Avril 2026
     responsibilities:
-    - "**QualiStat · DataTrust Audit System :** Conception et déploiement d'un produit de gouvernance (Power BI / DAX avancé) imposant des Quality Gates stricts sur l'ensemble du cycle de production des indicateurs publics. Résultat : zéro défaut en production sur 12 mois consécutifs, 100% des livraisons validées avant exposition nationale (partenaires INSEE, DARES, portail datemploi)."
-    - "**Enterprise Knowledge Framework :** Déploiement d'un socle DataOps (Docusaurus · Docs-as-Code) en environnement ultra-sécurisé (DSI France Travail). Centralisation des règles de gestion métier en source unique de vérité. Réduction mesurable du time-to-market sur les évolutions SI et suppression des conflits de versions entre équipes MOA et DGA Tech."
-    - "**Product Leadership Transverse :** Alignement stratégique entre la Direction des Statistiques (DStat) et la DGA Tech sur 3 produits simultanés. Acculturation de 10+ chargés de Maîtrise d'Ouvrage aux workflows agiles (sprints, backlog, métriques de succès définies avant livraison)."
+    - "**QualiStat · DataTrust :** Conception et déploiement d'un système de gouvernance automatisé (Power BI / DAX) imposant des Quality Gates stricts sur le cycle de production des indicateurs publics nationaux (INSEE, DARES, datemploi). Livraisons validées avant toute exposition nationale."
+    - "**Enterprise Knowledge Framework :** Déploiement d'un socle DataOps (Docusaurus · Docs-as-Code) en environnement DSI sécurisé — source unique de vérité, suppression des conflits de versions MOA ↔ DGA Tech. Réduction mesurable du time-to-market sur les évolutions SI."
+    - "**Product Leadership Transverse :** Alignement stratégique entre la Direction des Statistiques et la DGA Tech sur 3 produits simultanés. Acculturation de 10+ chargés MOA aux workflows agiles (sprints, backlog, métriques de succès définies avant livraison)."
 
   - designation: Data Product Manager / Data Manager
     start: Février 2020
     end: Avril 2025
     responsibilities:
-    - "**Pilotage Production Nationale (Data Emploi) :** Orchestration et pilotage du planning de production des indicateurs stratégiques du marché du travail diffusés sur le portail national datemploi — périmètre : données couvrant l'ensemble du territoire français, mises à jour mensuelles à délai contraint imposé par les partenaires institutionnels."
-    - "**Industrialisation & Partenariats Institutionnels :** Conception et mise en place de programmes complexes (SQL, SAS) industrialisés par la DSI pour les partenaires stratégiques de l'État (INSEE, DARES, Ministère du Travail). Sécurisation des extractions massives sur le Fichier National des Allocataires (FNA) — périmètre : plusieurs millions de lignes, livraisons contractuelles à délai zéro."
-    - "**Performance & Médiation Technique :** Optimisation de pipelines SAS/SQL complexes réduisant les temps de traitement sur le FNA. Traduction systématique des enjeux métiers en spécifications techniques (cahiers des charges, recettes) garantissant le ROI des développements DSI. Interface unique entre les équipes statistiques et l'ingénierie sur 5 ans."
+    - "**Pilotage Production Nationale (Data Emploi) :** Pilotage stratégique du cycle de vie des indicateurs nationaux du marché du travail diffusés sur datemploi.francetravail.fr — coordination des partenaires institutionnels (INSEE, DARES, URSSAF, Ministère du Travail), arbitrages planning et priorisation des évolutions."
+    - "**Industrialisation & Partenariats Institutionnels :** Conception des programmes d'extraction complexes (SQL, SAS) industrialisés par la DSI pour les partenaires stratégiques de l'État. Sécurisation des flux data à grande échelle sur le Fichier National des Allocataires (FNA)."
+    - "**Interface DSI/Métier :** Traduction des enjeux métiers en décisions d'architecture et arbitrages techniques — de la spécification fonctionnelle jusqu'à la recette en production. Interface unique entre les équipes statistiques et la DSI sur 5 ans."

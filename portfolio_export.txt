@@ -1,0 +1,1815 @@
+=== EXPORT PORTFOLIO TOHA ===
+Date: ven. 22 mai 2026 14:51:54 CEST
+
+=============================
+CONFIGURATION HUGO
+=============================
+--- config.toml ---
+baseURL: "https://oufoke.github.io/portofolio-oumar/"
+languageCode: fr-fr
+title: "Oumar F. KEBE | Senior Data Product Manager | Expert IA & Gouvernance"
+theme: "toha"
+
+module:
+  mounts:
+  - source: static/files
+    target: static/files
+  - source: node_modules/flag-icons/flags
+    target: static/flags
+  - source: node_modules/@fontsource/mulish/files
+    target: static/files
+  - source: node_modules/katex/dist/fonts
+    target: static/fonts
+
+languages:
+  en:
+    contentDir: content/en
+    languageName: English
+    weight: 2
+  fr:
+    contentDir: content/fr
+    languageName: Français
+    weight: 1
+
+defaultContentLanguage: fr
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true 
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+enableEmoji: true
+
+params:
+  background: /images/site/light_back.png
+  darkBackground: /images/site/dark_back.png
+  logo:
+    main: /images/site/Untitled.png
+    inverted: /images/site/logo_ok_dark.png
+    favicon: /images/site/favicon_o.png
+
+  gitRepo: https://github.com/oufoke/portofolio-oumar
+  gitBranch: main
+  
+  topNavbar:
+    maxVisibleSections: 4
+  
+  features:
+    theme:
+      enable: false        # Désactivé pour stabiliser le site ce soir
+      services:
+        default: light     # Force le mode clair
+    portfolio:
+      enable: true
+    blog:
+      enable: false 
+    toc:
+      enable: true
+    tags:
+      enable: true
+    flags:
+      enable: true
+    newsletter:
+      enable: false
+
+  footer:
+    enable: true
+    template: footer.html
+    customText: "Note : Les opinions exprimées ici sont personnelles et n'engagent pas mon employeur."
+  analytics:
+      enable: true
+      services:
+        goatCounter:
+          code: oumarfodekebe
+
+menu:
+  main:
+    - identifier: about
+      name: "À Propos"
+      url: "/#about"
+      weight: 10
+    - identifier: experience
+      name: "Expériences"
+      url: "/#experience"
+      weight: 20
+    - identifier: projects
+      name: "Projets"
+      url: "/#projects"
+      weight: 30
+    - identifier: skills
+      name: "Expertises"
+      url: "/#skills"
+      weight: 40
+    - identifier: education
+      name: "Formation"
+      url: "/#education"
+      weight: 50
+    - identifier: accomplishments
+      name: "Certifications"
+      url: "/#accomplishments"
+      weight: 60
+
+imaging:
+  resampleFilter: Lanczos
+  quality: 100
+  hint: picture
+
+[languages.en]
+  contentDir = "content/en"
+  languageName = "English"
+  weight = 2
+
+--- hugo.yaml ---
+baseURL: "https://oufoke.github.io/"
+languageCode: fr-fr
+title: "Oumar Fodé KEBE | Portfolio"
+ignoreLogs:
+  - warning-goldmark-raw-html
+
+# ─── CONFIGURATION DES LANGUES ───────────────────────
+defaultContentLanguage: fr
+defaultContentLanguageInSubdir: false
+
+languages:
+  fr:
+    languageName: Français
+    weight: 1
+    contentDir: content/fr
+    params:
+      flag: "fr"
+  en:
+    languageName: English
+    weight: 2
+    contentDir: content/en
+    params:
+      flag: "gb"
+
+# ─── MODULES ET MONTAGES V4 ──────────────────────────
+module:
+  imports:
+  - path: github.com/hugo-toha/toha/v4
+    mounts:
+    - source: assets
+      target: assets
+    - source: layouts
+      target: layouts
+    - source: data
+      target: data
+    - source: i18n
+      target: i18n
+    - source: archetypes
+      target: archetypes
+    - source: static
+      target: static
+  mounts:
+  - source: assets
+    target: assets
+  - source: layouts
+    target: layouts
+  - source: static
+    target: static
+  - source: data
+    target: data
+  - source: i18n
+    target: i18n
+  - source: node_modules/flag-icons/flags
+    target: static/flags
+  - source: node_modules/@fontsource/mulish/files
+    target: static/files
+  - source: node_modules/katex/dist/fonts
+    target: static/fonts
+
+# ─── PARAMÈTRES ──────────────────────────────────────
+params:
+  background: "images/site/light_back.png"
+  darkBackground: "images/site/dark_back.png"
+
+  author:
+    name: "Oumar KEBE"
+    image: "images/author/oumar_pro.png"
+
+  features:
+    darkMode:
+      enable: true
+      defaultMode: "light"
+    language:
+      enable: true
+    flags:
+      enable: true
+    footer:
+      enable: true
+      navigation:
+        enable: true
+      contactMe:
+        enable: true
+    analytics:
+      enable: true
+      services:
+        goatCounter:
+          code: oufoke
+=============================
+DONNÉES PROFIL (data/)
+=============================
+--- ./data/en/author.yaml ---
+# ══════════════════════════════════════════════════
+# data/en/author.yaml — punchlines mises à jour
+# ══════════════════════════════════════════════════
+ name: "Oumar Fodé KEBE"
+ nickname: "Oumar"
+ greeting: "Hi, I am"
+ image: "images/author/oumar_pro.png"
+ designation: "Senior Data Product Manager | AI & Data Governance"
+
+ summary:
+   - "Mathematical Engineer · Data & AI · ISIFAR · 6 MVPs in production."
+   - "I turn complex data systems into actionable C-Level decision tools."
+   - "Zero defects in prod · Legal investigation 3 weeks → 4h · 1,000+ sites steered."
+   - "PropTech · LegalTech · Data Governance · Employment & Public Policy."
+
+ contactInfo:
+   emails:
+     - oumarfodek@gmail.com
+   phone: "+33 6 99 85 31 18"
+   location: "Paris, France"
+
+ socialLinks:
+   - name: linkedin
+     icon: "fab fa-linkedin"
+     url: "https://www.linkedin.com/in/oumarfodek/"
+   - name: github
+     icon: "fab fa-github"
+     url: "https://github.com/oufoke"
+--- ./data/en/sections/about.yaml ---
+section:
+  name: "About"
+  id: "about"
+  enable: true
+  weight: 100
+  showOnNavbar: true
+  template: "sections/about.html"
+
+designation: "Senior Data Product Manager | AI & Data Governance"
+
+company:
+  name: "France Travail (Headquarters)"
+  url: "https://www.francetravail.fr"
+
+resourceLinks:
+- title: "My CV (PDF)"
+  url: "files/Oumar_Fode_KEBE.pdf"
+
+summary: |
+  **Mathematical Data Engineer by training, I turn complex data systems into deployable AI products — from institutional governance down to the last decision-making mile.**
+
+  6 years steering national-scale data (France Travail · INSEE · DARES · URSSAF),
+  6 AI MVPs shipped to production (NLP, RAG, Time Series, Lead Scoring),
+  one goal: every executive decision backed by reliable data and an actionable model.
+
+  ### 🎯 What I deliver
+
+  * **Governance & DataOps:** Zero defects in production over 12 months (QualiStat). SAP legacy pipeline automation eliminating 4h/month of manual processing (France Travail Real Estate Division). Full Data Lake EDB delivered for national IT migration.
+  * **BI & C-Level Steering:** Restructured BI dashboards (Digdash · Power BI) serving 126+ active users. Strategic steering and decision tools for the national real estate division (1,000+ sites).
+  * **Applied AI (NLP / GenAI / Forecasting):** Legal investigation cut from 3 weeks to 4 hours (Juris Sensus AI · Zero-Shot NLP). CAPEX/OPEX forecasting on multi-site real estate portfolios (Time Series Prophet). RAG architectures deployed on Streamlit.
+
+  ### 🏗️ Domains & Sectors
+
+  * **PropTech & Asset Management:** Budget modeling and steering of national real estate portfolios (SPSI · RE-FX · Tertiary Decree).
+  * **LegalTech & Compliance:** Forensic NLP engines for massive semantic auditing (E-Discovery · AI Act · GDPR).
+  * **Employment & Public Policy:** Production and industrialization of national strategic KPIs (datemploi · INSEE · DARES).
+
+  ### 🛠️ Stack
+
+  * **Product:** OKRs · PRD · MLOps Lifecycle · Backlog · Stakeholder Management
+  * **Data Science & AI:** Python · XGBoost · Prophet · NLP (mDeBERTa, RAG, Zero-Shot) · LangChain
+  * **Data Engineering:** SQL · SAS · VBA · SAP RE-FX · PySpark · REST API
+  * **BI & Viz:** Power BI · Advanced DAX · Digdash Studio · Streamlit
+  * **DevOps:** GitOps · CI/CD · Docs-as-Code · Docusaurus
+
+socialLinks:
+- name: "Email"
+  icon: "fas fa-envelope"
+  url: "mailto:oumarfodek@gmail.com"
+- name: "Github"
+  icon: "fab fa-github"
+  url: "https://www.github.com/oufoke"
+- name: "LinkedIn"
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/oumarfodek/"
+
+badges:
+- type: "certification"
+  name: "Data Product Manager (Sorbonne)"
+  url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
+  badge: "/files/datascientestLogo.png"
+
+- type: "certification"
+  name: "AI Engineer Associate"
+  url: "https://www.datacamp.com/certificate/AEDS0013592331030"
+  badge: "/files/certification-ai-engineer-for-data-scientist-associate-badge.png"
+
+- type: "certification"
+  name: "Data Scientist Professional"
+  url: "https://www.datacamp.com/certificate/DS0027579108829"
+  badge: "/files/data_scientist_professional_badge.png"
+
+- type: "soft-skill-indicator"
+  name: "Product Strategy & Discovery"
+  percentage: 90
+  color: "orange"
+
+- type: "soft-skill-indicator"
+  name: "Cross-functional Leadership"
+  percentage: 80
+  color: "green"
+
+- type: "soft-skill-indicator"
+  name: "Data & AI Architecture"
+  percentage: 90
+  color: "blue"
+--- ./data/en/sections/accomplishments.yaml ---
+# section information
+section:
+  name: "Certifications & Accomplishments"
+  id: accomplishments
+  enable: true
+  weight: 70
+  showOnNavbar: true
+
+# Your accomplishments
+accomplishments:
+- name: "Data Product Manager"
+  timeline: "Nov. 2024"
+  organization:
+    name: "DataScientest (Sorbonne Accredited)"
+    url: https://datascientest.com/
+  courseOverview: "Mastering the end-to-end Data Product lifecycle: from Product Discovery to industrialization. Aligning business KPIs with technical metrics, backlog prioritization (RICE, MoSCoW), and fostering IT/Business relationships."
+  certificateURL: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
+
+- name: "AI Engineer for Data Scientists Associate"
+  timeline: "July 2025"
+  organization:
+    name: "DataCamp"
+    url: https://www.datacamp.com
+  courseOverview: "Advanced specialization in Generative AI. Ability to design RAG architectures, assess the technical feasibility of AI features, and master infrastructure costs related to LLMs. Ensures expert-level collaboration with Data Scientists."
+  certificateURL: "https://www.datacamp.com/certificate/AEDS0013592331030"
+
+- name: "Governance: GDPR, AI Ethics & AI Act"
+  timeline: "2024"
+  organization:
+    name: "DataScientest"
+    url: https://datascientest.com/
+  courseOverview: "Mastery of the European regulatory framework (AI Act, GDPR). A critical skill for legally securing AI products, designing audit engines (LegalTech), and ensuring the compliance of sensitive data flows."
+  certificateURL: "https://datascientest.com/"
+
+- name: "Data Quality & Architecture (PySpark, API)"
+  timeline: "Nov. 2024"
+  organization:
+    name: "DataScientest"
+    url: https://datascientest.com/
+  courseOverview: "Consolidation of expert certifications (Data Quality, ETL with PySpark, API Data Integration). Validates my expertise in implementing strict Quality Gates and securing massive data pipelines before business exposure."
+  certificateURL: "https://datascientest.com/"
+
+- name: "Data Scientist Professional"
+  timeline: "June 2023"
+  organization:
+    name: "DataCamp"
+    url: https://www.datacamp.com
+  courseOverview: "Validation of deep technical expertise in Machine Learning and statistics. As a PM, this allows me to be autonomous in Exploratory Data Analysis (EDA) to validate product hypotheses without systematically relying on engineering teams."
+  certificateURL: "https://www.datacamp.com/certificate/DS0027579108829"
+
+- name: "Data Engineer & Core Tech Stack (SQL/Python)"
+  timeline: "2023 - 2024"
+  organization:
+    name: "DataCamp / DataScientest"
+    url: https://www.datacamp.com
+  courseOverview: "Multiple technical certifications (Data Engineer Associate, SQL for Data Science, Python Data Associate). Deep understanding of infrastructure challenges (ETL/ELT) and execution of complex queries to audit product ROI."
+  certificateURL: "https://www.datacamp.com/certificate/DE0019334068921"
+--- ./data/en/sections/achievements.yaml ---
+section:
+  name: Achievements & Mindset
+  id: achievements
+  enable: true
+  weight: 40
+  showOnNavbar: true
+
+achievements:
+- image: images/sections/achievements/ekiden.jpg
+  title: Paris Ekiden 2025
+  summary: "5k relay marathon (30 min). Coordinating a relay means managing a chain of dependencies under pressure — exactly what I do when orchestrating a data delivery across MOA, IT, and executive teams."
+
+- image: images/sections/achievements/sinequanon.png
+  title: Sine Qua Non Run 2026
+  summary: "Purpose-driven 10k race (58 min). Holding pace over distance without letting discomfort dictate your output — the same discipline that lets me deliver complex products in constrained environments."
+
+- image: images/sections/achievements/piano-beatmaking.png
+  title: Piano & Beat Making
+  summary: "Learning piano and AI-assisted music production. Structuring a melody or a data pipeline takes the same skill: breaking a complex problem into manageable sequences, then assembling them into something that works."
+
+--- ./data/en/sections/education.yaml ---
+section:
+  name: Education
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 50
+  showOnNavbar: false
+
+degrees:
+- name: "Master's Degree - Statistical Engineering & Data Science (ISIFAR)"
+  icon: fa-graduation-cap
+  timeframe: 2016 - 2018
+  institution:
+    name: Université Paris Cité
+    url: "https://u-paris.fr/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+  summary: "Engineering-focused program specializing in statistics and computer science applied to finance and risk management."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Statistical Learning (Machine Learning)
+    - name: Python Programming & Intro to C#
+    - name: Data Science Project & Data Mining
+    - name: Insurance & Financial Mathematics
+    - name: Derivative Products- Modeling and Implementation
+    - name: Asset Management
+
+- name: "Master 1 - Mathematics, Modeling, Learning"
+  icon: fa-graduation-cap
+  timeframe: 2015 - 2016
+  institution:
+    name: Université Paris Cité (Paris Descartes)
+    url: "https://u-paris.fr/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+  summary: "Specialization in advanced probability and statistical modeling. Graduated with honors (Mention Assez-Bien)."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Time Series & Markov Chains
+    - name: Parameter Estimation & Parametric Testing
+    - name: Multivariate Linear Regression
+    - name: Constrained Optimization
+    - name: Discrete-Time Martingales & Convergence
+    - name: Variational Methods and PDE
+
+- name: "Engineering Cycle - Applied Mathematics and Scientific Computing"
+  icon: fa-university
+  timeframe: 2012 - 2015
+  institution:
+    name: Sup Galilée
+    url: "https://sup-galilee.univ-paris13.fr/"
+    logo: /images/sections/education/LOGO1.png
+  summary: "Mastery of mathematical and computational tools for industrial and financial modeling."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Numerical Analysis & Probability-Statistics
+    - name: Algorithms & Industrial Code Design
+    - name: Probabilistic Modeling (Finance, Banking, Insurance)
+    - name: Deterministic Modeling (Mechanics, Physics)
+    - name: Market Finance & Engineering Culture
+
+- name: "Classes Préparatoires aux Grandes Écoles (CPGE)"
+  icon: fa-school
+  timeframe: 2009 - 2012
+  institution:
+    name: Lycées Pierre d'Ailly & Jacques Decour
+    logo: /images/sections/education/logoLPASciences.png
+  summary: "PCSI / PC track (Physics, Chemistry, Mathematics)."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 0
+    courses: []
+--- ./data/en/sections/experiences.yaml ---
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 90
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: France Travail (Headquarters)
+    url: "https://www.francetravail.fr"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-ft.svg
+    overview: "Statistical Engineer turned Data PM — I industrialize national-scale data systems and ship actionable AI products, from governance infrastructure to C-Level decision tools."
+
+  positions:
+
+  - designation: Senior Data Product Manager — Real Estate Data & BI Transformation
+    start: May 2026
+    end: July 2026
+    responsibilities:
+    - "**OptIMMO · SPSI Strategic Control Tower:** Product Owner of the Digdash real estate BI dashboard (126 active users · 3,318 monthly sessions · 279 reports · 42 data sources). Full restructuring into 4 thematic clusters + design of a C-Level SPSI steering module comparing strategic targets vs. RE-FX actuals (5 KPIs: budget/rent variance, milestones, m² SDP/SUB, NCV) for the DICN division overseeing 1,000+ national sites."
+    - "**SAP → Digdash Pipeline Automation:** VBA development of a centralized Excel Master workbook consolidating 16 monthly SAP RE-FX exports (3 procedural macros). Eliminated 4h/month of manual processing. 6-step local validation methodology ensuring zero risk on SharePoint production files."
+    - "**Data Lake Architecture:** Authored the complete IT requirements document (15 requirements EX-01→EX-15) for the SAP → Data Lake → Digdash migration. Target architecture: 16 DIC_* tables, 5 computed SQL views, native Digdash SQL connector. 5-phase migration roadmap delivered to IT teams."
+
+  - designation: Senior Data Product Manager (Governance & Ops)
+    start: May 2025
+    end: April 2026
+    responsibilities:
+    - "**QualiStat · DataTrust Audit System:** Designed and deployed a governance product (Power BI / Advanced DAX) enforcing strict Quality Gates across the entire public KPI production cycle. Result: zero defects in production over 12 consecutive months, 100% of deliveries validated before national exposure (INSEE, DARES, datemploi portal)."
+    - "**Enterprise Knowledge Framework:** Deployed a DataOps foundation (Docusaurus · Docs-as-Code) in a highly secure IT environment. Centralized business rules as a single source of truth — measurably reducing time-to-market on system evolutions and eliminating version conflicts between MOA business teams and IT engineering."
+    - "**Cross-functional Product Leadership:** Strategic alignment across 3 simultaneous data products between the Statistics Directorate and IT Engineering. Upskilled 10+ business analysts on agile workflows (sprints, backlog prioritization, success metrics defined before delivery)."
+
+  - designation: Data Product Manager / Data Manager
+    start: February 2020
+    end: April 2025
+    responsibilities:
+    - "**National Production Steering (Data Emploi):** Orchestrated and managed the production schedule for national labor market KPIs published on the datemploi portal — covering the entire French territory, monthly release cycles under strict institutional deadlines set by state partners."
+    - "**Industrialization & Institutional Partnerships:** Designed and implemented complex SQL/SAS programs industrialized by IT for strategic state partners (INSEE, DARES, Ministry of Labor). Secured large-scale extractions on the National Claimant File (FNA) — scope: several million records, zero-delay contractual deliveries."
+    - "**Performance & Technical Mediation:** Optimized complex SAS/SQL pipelines reducing processing time on the FNA. Systematically translated business requirements into technical specifications (functional specs, acceptance testing), ensuring high ROI on IT developments. Single point of contact between statistical teams and engineering for 5 years."
+
+--- ./data/en/sections/featured-posts.yaml ---
+section:
+  name: Featured Posts # Title of section (default: "")
+  id: featured-posts # url id/slug of section *Required*
+  enable: false # Boolean to determine if this section is enabled (default: false)
+  weight: 7 # Order to display section in (default: alphabetical followed by weight)
+  showOnNavbar: false
+  hideTitle: false # Can optionally hide the title in sections (default: false)
+
+# posts to feature
+posts:
+  - markdown-sample
+  - shortcodes
+--- ./data/en/sections/projects.yaml ---
+section:
+  name: "Products & Case Studies"
+  id: "projects"
+  enable: true
+  weight: 60
+  showOnNavbar: true
+
+buttons:
+- name: "View All"
+  filter: "all"
+- name: "Artificial Intelligence (NLP/GenAI)"
+  filter: "ai"
+- name: "Governance & DataOps"
+  filter: "gov"
+- name: "Business Solutions (PropTech / LegalTech)"
+  filter: "biz"
+
+projects:
+
+- name: "OptIMMO — Real Estate Strategic Control Tower"
+  logo: "/images/sections/projects/dataops-logo.png"
+  image: "/images/sections/projects/Dataops.png"
+  role: "Senior Data Product Manager"
+  timeline: "2026"
+  url: "https://github.com/oufoke"
+  summary: "1,000+ real estate sites managed with no SPSI vs actuals comparison tool. Full Digdash BI restructuring (279 reports · 42 sources), SAP → Digdash automation (−4h/month), C-Level SPSI steering module. Result: zero manual dependency on the monthly production cycle."
+  tags: ["gov", "biz"]
+
+- name: "Real Estate Data Control Tower"
+  logo: "/images/sections/projects/prophet.png"
+  image: "/images/sections/projects/prophet.png"
+  role: "Senior Data Product Manager"
+  timeline: "2026"
+  url: "https://github.com/oufoke/Real-Estate-Data-Control-Tower"
+  summary: "CAPEX/OPEX decisions made blind due to lack of 18-month visibility. Predictive control tower (Prophet · Power BI) simulating investment scenarios across multi-site portfolios. Budget uncertainty reduced by ±30%."
+  tags: ["ai", "biz"]
+
+- name: "Juris Sensus AI"
+  logo: "/images/sections/projects/juris-sensus-showcase-logo.png"
+  image: "/images/sections/projects/juris-sensus-showcase.png"
+  role: "Product Builder / AI Engineer"
+  timeline: "2026"
+  url: "https://github.com/oufoke/juris-sensus-ai"
+  summary: "3 weeks of manual investigation on massive document corpora. Zero-Shot NLP pipeline (mDeBERTa-v3) automating legal risk detection across 10,000+ files. Analysis time cut to 4 hours (−95%)."
+  tags: ["ai", "biz"]
+
+- name: "HR-Tech AI Screener"
+  logo: "/images/sections/projects/smart-screener.png"
+  image: "/images/sections/projects/smart-screener.png"
+  role: "AI Product Manager"
+  timeline: "2024 - 2025"
+  url: "https://smart-screener-ofk-zpgy6gg8dn56wvapifnxxc.streamlit.app/"
+  summary: "Time-consuming and inconsistent CV screening across recruiters. RAG assistant (LangChain · GPT-4o) semantically analyzing resumes, flagging inconsistencies and generating interview guides. Operational in 30 seconds on Streamlit."
+  tags: ["ai"]
+
+- name: "B2B Predictive Lead Scoring"
+  logo: "/images/sections/projects/xgboost.png"
+  image: "/images/sections/projects/xgboost.png"
+  role: "ML Engineer / PM"
+  timeline: "Dec 2025"
+  url: "https://lead-scoring-portofolio-ofk.streamlit.app/"
+  summary: "All leads treated equally, sales effort diluted, CAC inflated. XGBoost/SHAP scoring engine automatically ranking leads by conversion probability. Deployed on Streamlit."
+  tags: ["ai", "biz"]
+
+- name: "QualiStat — Data Trust Audit System"
+  logo: "/images/sections/projects/QualiStat-logo.png"
+  image: "/images/sections/projects/qualistat.png"
+  role: "Data Governance Lead"
+  timeline: "2025 - 2026"
+  url: "https://github.com/oufoke/datatrust-audit-system"
+  summary: "Public KPIs delivered without quality control, exposing the organization to national reporting errors. Automatic Power BI/DAX Quality Gates across the entire production cycle. Zero defects in production over 12 months."
+  tags: ["gov"]
+
+- name: "DataBridge Ops — MAP/GPS MOA"
+  logo: "/images/sections/projects/dataops-logo.png"
+  image: "/images/sections/projects/Dataops.png"
+  role: "DataOps Architect"
+  timeline: "2025"
+  url: "https://github.com/oufoke/DataBridge-Ops"
+  summary: "Business rules siloed across teams, documentation debt blocking every system evolution. Docs-as-Code foundation (Docusaurus · CI/CD) centralizing rules as a single source of truth."
+  tags: ["gov"]
+--- ./data/en/sections/publications.yaml ---
+section:
+  name: Publications
+  id: publications
+  enable: false
+  weight: 6
+  showOnNavbar: false
+
+buttons: []
+publications: []
+
+--- ./data/en/sections/recent-posts.yaml ---
+section:
+  name: "Recent Posts"
+  id: "recent-posts"
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  template: sections/recent-posts.html
+
+--- ./data/en/sections/skills.yaml ---
+section:
+  name: "Strategic Expertise"
+  id: "skills"
+  enable: true
+  weight: 80
+  showOnNavbar: true
+
+skills:
+- name: "Product Strategy & C-Level Steering"
+  logo: "images/sections/skills/product.png"
+  summary: "Strategic alignment (IT/Business) and ROI-driven vision steering. OKR definition, complex PRD management, and translating business goals for engineering."
+
+- name: "Governance & DataOps"
+  logo: "images/sections/skills/governance.png"
+  summary: "Production industrialization (Docs-as-Code) and implementation of strict Quality Gates. Technical debt reduction on national-scale systems (SAP, Legacy)."
+
+- name: "Forecasting & Applied AI (NLP/GenAI)"
+  logo: "images/sections/skills/ai.png"
+  summary: "Deployment of predictive models (Time Series) and design of forensic NLP engines (LegalTech E-Discovery, RAG Architectures)."
+
+- name: "Data Science & Engineering (Python/ML)"
+  logo: "images/sections/skills/python.png"
+  summary: "Technical expertise (Python, XGBoost, Prophet) to prototype and industrialize Lead Scoring and budget forecasting solutions (PropTech)."
+
+- name: "Institutional Data Architecture (SQL/SAS)"
+  logo: "images/sections/skills/database.png"
+  summary: "Design and optimization of massive secure pipelines for IT industrialization and strategic state partners (INSEE, DARES)."
+
+- name: "Business Intelligence & Data Viz"
+  logo: "images/sections/skills/powerbi.png"
+  summary: "Design of decision-making architectures (Power BI, Advanced DAX, Streamlit) for executive strategic steering (C-Level) and operational tracking."
+
+- name: "Agile & MLOps Lifecycle"
+  logo: "images/sections/skills/agile.png"
+  summary: "Orchestration of production lifecycles (GitOps, CI/CD). Driving continuous improvement between business teams and IT engineering."
+--- ./data/en/site.yaml ---
+# Copyright Notice
+copyright: "© 2026 Oumar Fodé KEBE. All rights reserved."
+
+# A disclaimer notice for the footer. (Legal Shield)
+disclaimer: "The views, opinions, and projects presented on this site are strictly personal and do not reflect the views of my current or former employers. B2B case studies are rigorously anonymized for confidentiality purposes."
+
+# Meta description for your site (SEO Optimization).
+description: "Portfolio of Oumar Fodé KEBE — Senior Data Product Manager & Data/AI Strategy Expert. Explore my use cases in Governance, BI, and Predictive Modeling."
+
+# Specify OpenGraph Headers (LinkedIn/Twitter preview)
+openGraph:
+  title: "Oumar Fodé KEBE | Senior Data Product Manager"
+  type: website
+  description: "I build bridges between raw data complexity and strategic decision-making clarity (C-Level). Explore my projects."
+  image: "images/author/oumar_pro.png"
+  url: "https://oufoke.github.io/en/"
+--- ./data/fr/author.yaml ---
+# ══════════════════════════════════════════════════
+# data/fr/author.yaml — punchlines mises à jour
+# ══════════════════════════════════════════════════
+name: "Oumar Fodé KEBE"
+nickname: "Oumar"
+greeting: "Salut, je suis"
+image: "images/author/oumar_pro.png"
+designation: "Senior Data Product Manager | IA & Gouvernance Data"
+
+
+summary:
+  - "Mathématicien-Ingénieur Data & IA · ISIFAR · 6 MVPs en production."
+  - "Je transforme des systèmes data complexes en outils de décision C-Level."
+  - "Zéro défaut prod · Investigation légale 3 semaines → 4h · 1 000+ sites pilotés."
+  - "PropTech · LegalTech · Gouvernance Data · Emploi & Politiques Publiques."
+
+contactInfo:
+  emails:
+    - oumarfodek@gmail.com
+  phone: "+33 6 99 85 31 18"
+  location: "Paris, France"
+
+socialLinks:
+  - name: linkedin
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/oumarfodek/"
+  - name: github
+    icon: "fab fa-github"
+    url: "https://github.com/oufoke"
+
+
+
+--- ./data/fr/sections/about.yaml ---
+section:
+  name: "À Propos"
+  id: "about"
+  enable: true
+  weight: 100
+  showOnNavbar: true
+  template: "sections/about.html"
+
+designation: "Senior Data Product Manager | IA & Gouvernance Data"
+
+company:
+  name: "France Travail (Siège)"
+  url: "https://www.francetravail.fr"
+
+resourceLinks:
+- title: "Télécharger mon CV (PDF)"
+  url: "files/Oumar_Fode_KEBE.pdf"
+
+summary: |
+  **Mathématicien-Ingénieur Data de formation, je transforme des systèmes data complexes en produits IA déployables — de la gouvernance institutionnelle jusqu'au dernier mile décisionnel.**
+
+  6 ans à piloter des données stratégiques à l'échelle nationale (France Travail · INSEE · DARES · URSSAF),
+  6 MVPs IA livrés en production (NLP, RAG, Time Series, Lead Scoring),
+  un seul objectif : que chaque décision de direction s'appuie sur une donnée fiable et un modèle actionnable.
+
+  ### 🎯 Ce que j'apporte concrètement
+
+  * **Gouvernance & DataOps :** Zéro défaut en production sur 12 mois (QualiStat). Automatisation de pipelines SAP legacy éliminant 4h/mois de traitements manuels (Direction Immobilier France Travail). Rédaction d'EDB Data Lake pour migration SI nationale.
+  * **BI & Pilotage C-Level :** Restructuration de tableaux de bord BI (Digdash · Power BI) utilisés par 126+ utilisateurs actifs. Conception d'outils de pilotage et de décision stratégique pour la direction immobilière nationale (1 000+ sites).
+  * **IA Appliquée (NLP / GenAI / Forecasting) :** Investigation légale de 3 semaines ramenée à 4 heures (Juris Sensus AI · Zero-Shot NLP). Anticipation CAPEX/OPEX sur portefeuilles immobiliers multi-sites (Time Series Prophet). Architectures RAG déployées sur Streamlit.
+
+  ### 🏗️ Domaines & Secteurs
+
+  * **PropTech & Asset Management :** Modélisation budgétaire et pilotage de parcs immobiliers nationaux (SPSI · RE-FX · Décret Tertiaire).
+  * **LegalTech & Compliance :** Moteurs NLP forensiques pour audit sémantique massif (E-Discovery · AI Act · RGPD).
+  * **Emploi & Politiques Publiques :** Production et industrialisation d'indicateurs stratégiques diffusés au niveau national (datemploi · INSEE · DARES).
+
+  ### 🛠️ Stack
+
+  * **Product :** OKRs · PRD · MLOps Lifecycle · Backlog · Stakeholder Management
+  * **Data Science & IA :** Python · XGBoost · Prophet · NLP (mDeBERTa, RAG, Zero-Shot) · LangChain
+  * **Data Engineering :** SQL · SAS · VBA · SAP RE-FX · PySpark · API REST
+  * **BI & Viz :** Power BI · DAX avancé · Digdash Studio · Streamlit
+  * **DevOps :** GitOps · CI/CD · Docs-as-Code · Docusaurus
+
+socialLinks:
+- name: "Email"
+  icon: "fas fa-envelope"
+  url: "mailto:oumarfodek@gmail.com"
+- name: "Github"
+  icon: "fab fa-github"
+  url: "https://www.github.com/oufoke"
+- name: "LinkedIn"
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/oumarfodek/"
+
+badges:
+- type: "certification"
+  name: "Data Product Manager (Sorbonne)"
+  url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
+  badge: "/files/datascientestLogo.png"
+
+- type: "certification"
+  name: "AI Engineer Associate"
+  url: "https://www.datacamp.com/certificate/AEDS0013592331030"
+  badge: "/files/certification-ai-engineer-for-data-scientist-associate-badge.png"
+
+- type: "certification"
+  name: "Data Scientist Professional"
+  url: "https://www.datacamp.com/certificate/DS0027579108829"
+  badge: "/files/data_scientist_professional_badge.png"
+
+- type: "soft-skill-indicator"
+  name: "Stratégie Produit & Discovery"
+  percentage: 90
+  color: "orange"
+
+- type: "soft-skill-indicator"
+  name: "Leadership Transverse"
+  percentage: 80
+  color: "green"
+
+- type: "soft-skill-indicator"
+  name: "Architecture Data & IA"
+  percentage: 90
+  color: "blue"
+--- ./data/fr/sections/accomplishments.yaml ---
+# section information
+section:
+  name: Certifications & Réalisations
+  id: accomplishments
+  enable: true
+  weight: 70
+  showOnNavbar: true
+
+# Your accomplishments
+accomplishments:
+- name: "Data Product Manager"
+  timeline: "Nov. 2024"
+  organization:
+    name: "DataScientest (Certifié Mines ParisTech / Sorbonne)"
+    url: https://datascientest.com/
+  courseOverview: "Maîtrise du cycle de vie complet d'un produit Data : du Product Discovery à l'industrialisation. Alignement des KPIs business avec les métriques techniques, priorisation (RICE, MoSCoW) et animation de la relation entre les directions métiers et la DSI."
+  certificateURL: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
+
+- name: "AI Engineer for Data Scientists Associate"
+  timeline: "Juillet 2025"
+  organization:
+    name: "DataCamp"
+    url: https://www.datacamp.com
+  courseOverview: "Spécialisation avancée en IA Générative. Capacité à concevoir des architectures RAG, à évaluer la faisabilité technique des features IA, et à maîtriser les coûts d'infrastructure liés aux LLMs. Permet une collaboration experte avec les Data Scientists."
+  certificateURL: "https://www.datacamp.com/certificate/AEDS0013592331030"
+
+- name: "Gouvernance : RGPD, Éthique de l'IA et AI Act"
+  timeline: "2024"
+  organization:
+    name: "DataScientest"
+    url: https://datascientest.com/
+  courseOverview: "Maîtrise du cadre réglementaire européen (AI Act, RGPD). Compétence clé pour sécuriser juridiquement les produits IA, concevoir des moteurs d'audit (LegalTech) et garantir la conformité des flux de données sensibles (données publiques)."
+  certificateURL: "https://datascientest.com/"
+
+- name: "Data Quality & Architecture (PySpark, API)"
+  timeline: "Nov. 2024"
+  organization:
+    name: "DataScientest"
+    url: https://datascientest.com/
+  courseOverview: "Regroupement de certifications expertes (Data Quality, ETL avec PySpark, Intégration de données API). Garantit mon expertise dans la mise en place de Quality Gates stricts et la fiabilisation des flux de données massifs avant exposition métier."
+  certificateURL: "https://datascientest.com/"
+
+- name: "Data Scientist Professional"
+  timeline: "Juin 2023"
+  organization:
+    name: "DataCamp"
+    url: https://www.datacamp.com
+  courseOverview: "Validation d'une expertise technique profonde en Machine Learning et statistiques. En tant que PM, cela me permet d'être autonome sur l'exploration de données (EDA) pour valider des hypothèses produit sans solliciter systématiquement la DSI."
+  certificateURL: "https://www.datacamp.com/certificate/DS0027579108829"
+
+- name: "Data Engineer & Core Tech Stack (SQL/Python)"
+  timeline: "2023 - 2024"
+  organization:
+    name: "DataCamp / DataScientest"
+    url: https://www.datacamp.com
+  courseOverview: "Certifications techniques multiples (Data Engineer Associate, SQL for Data Science, Python Data Associate). Compréhension fine des enjeux d'infrastructure (ETL/ELT) et exécution de requêtes complexes pour auditer le ROI produit."
+  certificateURL: "https://www.datacamp.com/certificate/DE0019334068921"
+--- ./data/fr/sections/achievements.yaml ---
+section:
+  name: Réalisations & Mindset
+  id: achievements
+  enable: true
+  weight: 40
+  showOnNavbar: true
+
+achievements:
+- image: images/sections/achievements/ekiden.jpg
+  title: Ekiden de Paris 2025
+  summary: "Marathon en relais 5km (30 min). Coordonner un relais, c'est gérer une chaîne de dépendances sous pression — exactement ce que je fais quand j'orchestre une livraison data entre équipes MOA, DSI et direction."
+
+- image: images/sections/achievements/sinequanon.png
+  title: Sine Qua Non Run 2026
+  summary: "Course engagée 10km (58 min). Tenir un rythme sur la durée sans se laisser distancer par l'inconfort — la même discipline qui me permet de livrer des produits complexes en environnement contraint."
+
+- image: images/sections/achievements/piano-beatmaking.png
+  title: Piano & Beat Making
+  summary: "Apprentissage du piano et production musicale assistée par IA. Structurer une mélodie ou un pipeline data demande la même chose : décomposer un problème complexe en séquences maîtrisables, puis assembler."
+
+--- ./data/fr/sections/education.yaml ---
+section:
+  name: Formation
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 50
+  showOnNavbar: true
+
+degrees:
+- name: "Master 2 - Ingénierie Statistique et Data Science (ISIFAR)"
+  icon: fa-graduation-cap
+  timeframe: 2016 - 2018
+  institution:
+    name: Université Paris Cité
+    url: "https://u-paris.fr/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+  summary: "Formation d'ingénieur statisticien spécialisé dans les applications de la statistique et de l'informatique à la finance et à la gestion des risques."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Apprentissage statistique (Machine Learning)
+    - name: Programmation en Python & Initiation C#
+    - name: Projet Data Science & Data Mining
+    - name: Mathématiques de l'Assurance & Financières
+    - name: Produits dérivés- modélisation et implémentation
+    - name: Gestion d'actifs
+
+- name: "Master 1 - Mathématiques, Modélisation, Apprentissage"
+  icon: fa-graduation-cap
+  timeframe: 2015 - 2016
+  institution:
+    name: Université Paris Cité (Paris Descartes)
+    url: "https://u-paris.fr/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+  summary: "Spécialisation en probabilités avancées et modélisation statistique. Mention Assez-Bien."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Séries temporelles & Chaînes de Markov
+    - name: Estimation de paramètres & Tests paramétriques
+    - name: Régression linéaire multivariée
+    - name: Optimisation sous contrainte
+    - name: Martingales à temps discret & Convergence
+    - name: Méthodes variationnelles et EDP
+
+- name: "Cycle Ingénieur - Mathématiques Appliquées et Calcul Scientifique"
+  icon: fa-university
+  timeframe: 2012 - 2015
+  institution:
+    name: Sup Galilée
+    url: "https://sup-galilee.univ-paris13.fr/"
+    logo: /images/sections/education/LOGO1.png
+  summary: "Maîtrise des outils mathématiques et informatiques pour la modélisation industrielle et financière."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Analyse numérique & Probabilités-Statistiques
+    - name: Algorithmique & Conception de codes industriels
+    - name: Modélisation probabiliste (Finance, Banque, Assurance)
+    - name: Modélisation déterministe (Mécanique, Physique)
+    - name: Finance de marché & Culture de l'ingénieur
+
+- name: "Classes Préparatoires aux Grandes Écoles (CPGE)"
+  icon: fa-school
+  timeframe: 2009 - 2012
+  institution:
+    name: Lycées Pierre d'Ailly & Jacques Decour
+    logo: /images/sections/education/logoLPASciences.png
+  summary: "Filière PCSI / PC (Physique, Chimie, Mathématiques)."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 0
+    courses: []
+--- ./data/fr/sections/experiences.yaml ---
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 90
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: France Travail (Siège)
+    url: "https://www.francetravail.fr"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-ft.svg
+    overview: "Ingénieur Statisticien reconverti Data PM, j'industrialise des systèmes data à l'échelle nationale et je déploie des produits IA actionnables — de la gouvernance jusqu'à la décision C-Level."
+
+  positions:
+
+  - designation: Senior Data Product Manager — Transformation Data & BI Immobilier
+    start: Mai 2026
+    end: Juillet 2026
+    responsibilities:
+    - "**OptIMMO · Boussole Décisionnelle SPSI :** Product Owner du tableau de bord Digdash immobilier (126 utilisateurs actifs · 3 318 consultations/4 mois · 279 rapports · 42 sources de données). Restructuration en 4 pôles thématiques + conception d'un module de pilotage stratégique SPSI vs réalisé RE-FX (5 indicateurs C-Level : écart budget/loyer, jalons, m² SDP/SUB, VNC) pour la direction de la DICN (1 000+ sites nationaux)."
+    - "**Pipeline Automation SAP → Digdash :** Développement VBA d'un classeur Excel Maître centralisant 16 exports SAP RE-FX mensuels (3 macros procédurales). Élimination de 4h/mois de traitements manuels répétitifs. Méthodologie de validation locale en 6 étapes garantissant zéro risque sur les fichiers SharePoint de production."
+    - "**Architecture Data Lake :** Rédaction de l'Expression de Besoin DSI complète (15 exigences EX-01→EX-15) pour la migration SAP → Data Lake → Digdash. Architecture cible : 16 tables DIC_*, 5 vues SQL calculées, connecteur SQL natif Digdash. Planning de migration en 5 phases transmis aux équipes DSI."
+
+  - designation: Senior Data Product Manager (Gouvernance & Ops)
+    start: Mai 2025
+    end: Avril 2026
+    responsibilities:
+    - "**QualiStat · DataTrust Audit System :** Conception et déploiement d'un produit de gouvernance (Power BI / DAX avancé) imposant des Quality Gates stricts sur l'ensemble du cycle de production des indicateurs publics. Résultat : zéro défaut en production sur 12 mois consécutifs, 100% des livraisons validées avant exposition nationale (partenaires INSEE, DARES, portail datemploi)."
+    - "**Enterprise Knowledge Framework :** Déploiement d'un socle DataOps (Docusaurus · Docs-as-Code) en environnement ultra-sécurisé (DSI France Travail). Centralisation des règles de gestion métier en source unique de vérité. Réduction mesurable du time-to-market sur les évolutions SI et suppression des conflits de versions entre équipes MOA et DGA Tech."
+    - "**Product Leadership Transverse :** Alignement stratégique entre la Direction des Statistiques (DStat) et la DGA Tech sur 3 produits simultanés. Acculturation de 10+ chargés de Maîtrise d'Ouvrage aux workflows agiles (sprints, backlog, métriques de succès définies avant livraison)."
+
+  - designation: Data Product Manager / Data Manager
+    start: Février 2020
+    end: Avril 2025
+    responsibilities:
+    - "**Pilotage Production Nationale (Data Emploi) :** Orchestration et pilotage du planning de production des indicateurs stratégiques du marché du travail diffusés sur le portail national datemploi — périmètre : données couvrant l'ensemble du territoire français, mises à jour mensuelles à délai contraint imposé par les partenaires institutionnels."
+    - "**Industrialisation & Partenariats Institutionnels :** Conception et mise en place de programmes complexes (SQL, SAS) industrialisés par la DSI pour les partenaires stratégiques de l'État (INSEE, DARES, Ministère du Travail). Sécurisation des extractions massives sur le Fichier National des Allocataires (FNA) — périmètre : plusieurs millions de lignes, livraisons contractuelles à délai zéro."
+    - "**Performance & Médiation Technique :** Optimisation de pipelines SAS/SQL complexes réduisant les temps de traitement sur le FNA. Traduction systématique des enjeux métiers en spécifications techniques (cahiers des charges, recettes) garantissant le ROI des développements DSI. Interface unique entre les équipes statistiques et l'ingénierie sur 5 ans."
+
+--- ./data/fr/sections/projects.yaml ---
+section:
+  name: "Produits & Études de Cas"
+  id: "projects"
+  enable: true
+  weight: 60
+  showOnNavbar: true
+
+buttons:
+- name: "Tout voir"
+  filter: "all"
+- name: "Intelligence Artificielle (NLP/GenAI)"
+  filter: "ai"
+- name: "Gouvernance & DataOps"
+  filter: "gov"
+- name: "Solutions Métiers (PropTech / LegalTech)"
+  filter: "biz"
+
+projects:
+
+- name: "OptIMMO — Boussole Décisionnelle Immobilier"
+  logo: "/images/sections/projects/dataops-logo.png"
+  image: "/images/sections/projects/Dataops.png"
+  role: "Senior Data Product Manager"
+  timeline: "2026"
+  url: "https://github.com/oufoke"
+  summary: "1 000+ sites immobiliers pilotés sans comparaison SPSI vs réalisé. Restructuration du BI Digdash (279 rapports · 42 sources), automatisation SAP → Digdash (−4h/mois), module C-Level SPSI. Résultat : zéro dépendance manuelle sur le cycle mensuel."
+  tags: ["gov", "biz"]
+
+- name: "Real Estate Data Control Tower"
+  logo: "/images/sections/projects/prophet.png"
+  image: "/images/sections/projects/prophet.png"
+  role: "Senior Data Product Manager"
+  timeline: "2026"
+  url: "https://github.com/oufoke/Real-Estate-Data-Control-Tower"
+  summary: "Décisions CAPEX/OPEX prises à l'aveugle faute de visibilité à 18 mois. Tour de contrôle prédictive (Prophet · Power BI) simulant les scénarios d'investissement multi-sites. Réduction de l'incertitude budgétaire de ±30%."
+  tags: ["ai", "biz"]
+
+- name: "Juris Sensus AI"
+  logo: "/images/sections/projects/juris-sensus-showcase-logo.png"
+  image: "/images/sections/projects/juris-sensus-showcase.png"
+  role: "Product Builder / AI Engineer"
+  timeline: "2026"
+  url: "https://github.com/oufoke/juris-sensus-ai"
+  summary: "3 semaines d'investigation manuelle sur des corpus massifs. Pipeline NLP Zero-Shot (mDeBERTa-v3) automatisant la détection de risques légaux sur 10 000+ fichiers. Temps d'analyse réduit à 4 heures (−95%)."
+  tags: ["ai", "biz"]
+
+- name: "HR-Tech AI Screener"
+  logo: "/images/sections/projects/smart-screener.png"
+  image: "/images/sections/projects/smart-screener.png"
+  role: "AI Product Manager"
+  timeline: "2024 - 2025"
+  url: "https://smart-screener-ofk-zpgy6gg8dn56wvapifnxxc.streamlit.app/"
+  summary: "Évaluation de CV chronophage et incohérente entre recruteurs. Assistant RAG (LangChain · GPT-4o) analysant les CV, détectant les incohérences et générant des guides d'entretien. Opérationnel en 30 secondes sur Streamlit."
+  tags: ["ai"]
+
+- name: "B2B Predictive Lead Scoring"
+  logo: "/images/sections/projects/xgboost.png"
+  image: "/images/sections/projects/xgboost.png"
+  role: "ML Engineer / PM"
+  timeline: "Dec 2025"
+  url: "https://lead-scoring-portofolio-ofk.streamlit.app/"
+  summary: "Tous les leads traités à égalité, effort de vente dilué, CAC gonflé. Moteur de scoring XGBoost/SHAP priorisant automatiquement les leads par probabilité de conversion. Déployé sur Streamlit."
+  tags: ["ai", "biz"]
+
+- name: "QualiStat — Data Trust Audit System"
+  logo: "/images/sections/projects/QualiStat-logo.png"
+  image: "/images/sections/projects/qualistat.png"
+  role: "Data Governance Lead"
+  timeline: "2025 - 2026"
+  url: "https://github.com/oufoke/datatrust-audit-system"
+  summary: "Indicateurs publics livrés sans contrôle qualité, risque d'erreur de reporting national. Quality Gates Power BI/DAX automatiques sur tout le cycle de production. Zéro défaut en production sur 12 mois."
+  tags: ["gov"]
+
+- name: "DataBridge Ops — MAP/GPS MOA"
+  logo: "/images/sections/projects/dataops-logo.png"
+  image: "/images/sections/projects/Dataops.png"
+  role: "DataOps Architect"
+  timeline: "2025"
+  url: "https://github.com/oufoke/DataBridge-Ops"
+  summary: "Règles métier documentées en silos, dette documentaire bloquant chaque évolution SI. Socle Docs-as-Code (Docusaurus · CI/CD) centralisant les règles en source unique de vérité."
+  tags: ["gov"]
+--- ./data/fr/sections/recent-posts.yaml ---
+section:
+  name: "Articles Récents"
+  id: "recent-posts"
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  template: sections/recent-posts.html
+
+--- ./data/fr/sections/skills.yaml ---
+section:
+  name: "Expertises Stratégiques"
+  id: "skills"
+  enable: true
+  weight: 80
+  showOnNavbar: true
+
+skills:
+- name: "Stratégie Produit & Pilotage C-Level"
+  logo: "images/sections/skills/product.png"
+  summary: "Alignement stratégique (DSI/Métiers) et pilotage de la vision par le ROI. Définition d'OKRs, gestion de PRD complexes et traduction des enjeux pour l'ingénierie."
+
+- name: "Gouvernance & DataOps"
+  logo: "images/sections/skills/governance.png"
+  summary: "Industrialisation de la production (Docs-as-Code) et mise en place de Quality Gates. Réduction de la dette technique sur des SI nationaux (SAP, Legacy)."
+
+- name: "Forecasting & IA Appliquée (NLP/GenAI)"
+  logo: "images/sections/skills/ai.png"
+  summary: "Déploiement de modèles prédictifs (Time Series) et conception de moteurs NLP forensiques (LegalTech E-Discovery, Architectures RAG)."
+
+- name: "Data Science & Ingénierie (Python/ML)"
+  logo: "images/sections/skills/python.png"
+  summary: "Expertise technique (Python, XGBoost, Prophet) pour prototyper et industrialiser des solutions de Lead Scoring et de prévisions budgétaires (PropTech)."
+
+- name: "Architecture Data Institutionnelle (SQL/SAS)"
+  logo: "images/sections/skills/database.png"
+  summary: "Conception et optimisation de pipelines massifs sécurisés pour l'industrialisation DSI et les partenaires stratégiques de l'État (INSEE, DARES)."
+
+- name: "Business Intelligence & Data Viz"
+  logo: "images/sections/skills/powerbi.png"
+  summary: "Conception d'architectures décisionnelles (Power BI, DAX avancé, Streamlit) pour le pilotage stratégique (ComEx) et le suivi opérationnel."
+
+- name: "Agilité & MLOps Lifecycle"
+  logo: "images/sections/skills/agile.png"
+  summary: "Orchestration des cycles de production (GitOps, CI/CD). Animation de l'amélioration continue entre les équipes MOA et la DGA SI."
+--- ./data/fr/site.yaml ---
+# Copyright Notice
+copyright: "© 2026 Oumar Fodé KEBE. Tous droits réservés."
+
+# A disclaimer notice for the footer. (Le bouclier juridique)
+disclaimer: "Les vues, opinions et projets présentés sur ce site sont strictement personnels et ne sauraient engager la responsabilité de mes employeurs actuels ou passés. Les études de cas B2B sont rigoureusement anonymisées à des fins de confidentialité."
+
+# Meta description for your site (Optimisation SEO).
+description: "Portfolio de Oumar Fodé KEBE — Senior Data Product Manager & Expert en Stratégie Data et IA. Découvrez mes cas d'usage en Gouvernance, BI et Modélisation Prédictive."
+
+# Specify OpenGraph Headers (L'aperçu généré sur LinkedIn/Twitter)
+openGraph:
+  title: "Oumar Fodé KEBE | Senior Data Product Manager"
+  type: website
+  description: "Je construis des ponts entre la complexité des données brutes et la clarté de la décision stratégique (C-Level). Découvrez mes projets."
+  image: "images/author/oumar_pro.png"
+  url: "https://oufoke.github.io/"
+=============================
+CONTENU (content/)
+=============================
+--- ./content/en/about/index.md ---
+---
+title: "À Propos"
+weight: 100
+...
+---
+--- ./content/en/accomplishments/index.md ---
+---
+title: "Engagements & Activités"
+description: "Bénévolat, sport et vie associative."
+date: 2024-01-04
+draft: false
+weight: 50
+---
+Ajoutez ici vos activités extra-professionnelles.
+
+--- ./content/en/education/index.md ---
+---
+title: "Formation"
+description: "Mes diplômes"
+date: 2026-01-04
+draft: false
+weight: 60
+menu:
+  main:
+    weight: 60
+---
+Contenu pour la section Formation.
+
+--- ./content/en/experience/index.md ---
+---
+title: "Expériences"
+description: "Mon parcours professionnel"
+date: 2026-01-04
+draft: false
+weight: 30
+menu:
+  main:
+    weight: 30
+---
+Contenu pour la section Expériences.
+
+--- ./content/en/_index.md ---
+---
+title: "Mon Portfolio"
+---
+
+--- ./content/en/posts/_index.md ---
+---
+title: "Posts"
+type: posts
+---
+
+--- ./content/en/posts/why-your-bi-dashboards-are-useless.md ---
+---
+title: "Why your BI dashboards are useless — and how to fix it"
+date: 2026-05-15
+type: posts
+draft: false
+language: en
+hero: "images/sections/posts/Articles_BI.jpeg"
+tags: ["Business Intelligence", "DataOps", "Data Product Management", "Digdash", "Power BI"]
+categories: ["Thought Leadership"]
+summary: "3,318 sessions analyzed, 279 reports inventoried, 126 active users. The verdict: 10 pages drove 76.7% of all traffic. The rest existed for nothing."
+---
+
+A BI dashboard is expensive to build.
+
+Weeks of development. Scoping meetings. Back-and-forth with IT. User training. Deployment.
+
+And yet, in most environments I've been able to analyze, the majority of reports are only opened by their creators — on demo day.
+
+This isn't a technology problem. It isn't a user problem. It's a method problem.
+
+---
+
+## The data-driven diagnosis
+
+As part of a restructuring assignment on a BI dashboard used by a national division — 126 active users, dozens of reports accumulated over the years — my first move wasn't to open the development tool.
+
+I analyzed the usage logs.
+
+**3,318 sessions over 4 months. 60 available pages.**
+
+The verdict was clear: **10 pages drove 76.7% of all traffic**. The rest — three quarters of the catalog — generated fewer than 3 clicks over 4 months.
+
+Entire pages, built and maintained, that no one looked at.
+
+This isn't an anomaly. It's a recurring pattern in complex BI environments. We build to cover all theoretical use cases. We end up with a catalog no one navigates.
+
+---
+
+## Why it happens
+
+### Building by supply, not demand
+
+The usual logic: list available data → create reports → deliver to users.
+
+The right logic: identify the decisions users need to make → trace back to the data that informs them → build the views that facilitate those decisions.
+
+This isn't a nuance. It's a complete reversal of the approach.
+
+Building by supply produces exhaustive reports no one knows how to use. Building by demand produces decision tools people open every morning.
+
+### Mixing operational and strategic steering
+
+An operator tracking daily KPIs doesn't need the same dashboard as a director making 6-month budget decisions.
+
+Yet many BI environments mix the two. The result: an overloaded interface, optimized for no one.
+
+The simple rule: **one dashboard = one audience = one decision type**.
+
+### Not measuring usage
+
+If you don't know how often each report is consulted, by whom, and at what frequency — you're steering your BI blind.
+
+You keep maintaining unused reports. You don't know which views are critical and which can be archived. You can't prioritize your roadmap by real impact.
+
+Usage analysis isn't a luxury. It's the foundation of any product management approach applied to BI.
+
+---
+
+## What I did concretely
+
+### Step 1: the data audit
+
+Before touching anything, I extracted and analyzed 4 months of usage logs. Identified the Top 10 (critical pages to optimize first), the Flop 10 (pages to archive), and usage patterns by user profile.
+
+This took 2 days. It guided 3 months of development.
+
+### Step 2: restructuring by real usage
+
+From the usage data, I reorganized the catalog into 4 thematic clusters matching the 4 key decisions users actually needed to make — not the 4 categories of available data.
+
+Each cluster has an identified business owner. Each report has a clear usage definition: who uses it, how often, to make which decision.
+
+### Step 3: separating operational from strategic
+
+I designed a separate module dedicated to strategic steering — with 5 C-Level indicators only, comparing multi-year targets against actuals. Nothing else. No drill-down. No operational detail.
+
+Decision-makers have a tool that answers their question in 30 seconds. Operational teams have their detailed dashboards. Both coexist without interfering.
+
+### Step 4: ambassadors as adoption leverage
+
+Among the 126 active users, I identified the 10 most assiduous — those who consulted the BI several times a week. I involved them early on the new version.
+
+They surfaced problems before general deployment. They became the internal relays who explained the new structure to their colleagues. Adoption was immediate.
+
+---
+
+## The question to ask before your next BI overhaul
+
+Before adding a new report, before overhauling your interface, before migrating to a new tool — ask yourself one question:
+
+**Do you know which reports your users opened last week?**
+
+If you don't, you don't know what you're really building. You're building for yourself — not for them.
+
+Usage analysis is the first step. Everything else follows.
+
+---
+
+*Oumar Fodé KEBE — Mathematical Data Engineer, Senior Data Product Manager.*  
+*[oufoke.github.io/en/](https://oufoke.github.io/en/)*
+
+--- ./content/en/posts/why-your-data-projects-fail-at-production.md ---
+---
+title: "Why your data projects fail at production"
+date: 2026-05-15
+type: posts
+draft: false
+language: fr
+hero: "images/sections/posts/Article_projets.png"
+tags: ["DataOps", "Governance", "Data Product Management", "Change Management"]
+categories: ["Thought Leadership"]
+summary: "It's almost never the code. It's the organization around the code."
+---
+
+I've worked on a data project that had everything it needed to succeed.
+
+A budget. A motivated team. IT involvement. Available data. A real business need.
+
+And yet, deliverables weren't meeting the expectations of the interface contract between IT and business teams. Tensions rose. Someone always ended up taking the blame.
+
+This is a pattern I've seen confirmed through expert testimonials at webinars and conferences, across different configurations, different organizations. And after years of working at the heart of complex data projects, I came to understand why.
+
+**It's almost never the code, nor the programs that are the problem. It's the organization around the code.**
+
+---
+
+## The perfect project on paper
+
+The team had a project manager, a manager, an intern, and a few technical profiles. Individual skills were there. So was the goodwill.
+
+But no one on that team had solid training in **DataOps**. No one really knew how to do **data-specific product management**. **Data quality governance** was treated as IT's problem, not the project team's. And **change management**? We'd deal with that at delivery.
+
+Result: deliverables could be technically correct but unusable in production. KPI definitions could shift between sprints with no documentation. IT received data that was hard to industrialize. Business teams questioned delivery timelines, IT questioned the quality of specifications — a mutual distrust set in, without anyone being individually responsible.
+
+And when pressure mounted, someone had to take the blame.
+
+---
+
+## The 4 competencies no one thought to include
+
+### 1. DataOps — production is not the finish line, it's the starting point
+
+In many data teams, going to production is treated as the finish line. You ship, you move on.
+
+In reality, it's when everything starts. A data pipeline in production must be **observable, maintainable, reproducible**. It must survive the absence of its creator. It must be modifiable without breaking everything.
+
+Without someone who masters DataOps practices — versioning, CI/CD, separate environments, automated testing — every update becomes a risky operation. Every incident becomes a crisis.
+
+**What it would have changed:** a test environment separate from production, versioned pipelines, blocking Quality Gates before every deployment. Zero delivery without automatic validation.
+
+### 2. Data Product Management — knowing what you're building before you build it
+
+A data project without a data product manager is a team building what developers understood of the business need — not what the business actually needs.
+
+The Data PM isn't a project manager with a spreadsheet. It's someone who can translate a business need into a technical specification, define success metrics **before** delivery, prioritize a backlog by real impact, and distinguish what must be shipped fast from what must be done well.
+
+Without this competency, teams ship features no one uses. They spend months on dashboards executives never open.
+
+**What it would have changed:** a discovery phase with real users, a backlog prioritized by usage data, metrics defined before each sprint — not after.
+
+### 3. Data Governance & Quality — the invisible problem until it explodes publicly
+
+Data quality is the topic no one discusses until a wrong number lands in an executive committee — or worse, in a public report.
+
+In the most common configurations, every team has its own definition of KPIs. Data sources change without notifying consumers. Anomalies accumulate silently until an end user detects them — too late, too visibly.
+
+Industry studies on data governance show that the same indicator can have up to three different definitions depending on which team you ask. Not out of bad intent. Out of absent formal process.
+
+**What it would have changed:** a maintained data dictionary, automatic Quality Gates blocking any delivery with detected anomalies, an identified data owner for each critical indicator.
+
+### 4. Change Management — users don't adapt spontaneously
+
+This is the most underestimated competency of all.
+
+A data tool can be technically perfect and be a complete failure if users don't understand why it replaces their old process, how it works, and what they gain from it.
+
+Resistance to change in data projects isn't bad will. It's a normal response to a tool imposed without explanation or involvement.
+
+**What it would have changed:** identify ambassadors before delivery, run test sessions with real users, document concrete use cases, plan a transition phase — not a brutal switch.
+
+---
+
+## What I put in place afterward
+
+After training on these topics, I applied a different approach on subsequent projects.
+
+**Docs-as-Code**: all business rule documentation versioned like code, in a shared repository, with a traceable change history. No more rules changing without leaving a trace.
+
+**Automatic Quality Gates**: no data reaches production without automatic validation of quality thresholds defined upfront with business teams. If an indicator falls outside its normal range, the pipeline stops and alerts.
+
+**Iterative MVP**: we don't ship everything at once. We identify the 20% of features covering 80% of needs, ship them, measure, adjust. Every sprint delivers something usable — not a promise of future delivery.
+
+**Ambassadors identified**: before the first delivery, we identify the most active and influential users. They test first. They surface problems. They become internal relays.
+
+Delivery problems decreased. Not because the code was better. Because the organization around the code had changed.
+
+---
+
+## The checklist before your next production release
+
+Before starting your next data project, ask yourself:
+
+- **DataOps**: Do you have a test environment separate from production? Are your pipelines versioned? Do you have automated tests?
+- **Data PM**: Have you defined success metrics before starting to code? Do you know who your priority users are?
+- **Governance**: Do you have a data dictionary? Who is responsible for each critical indicator? Are your Quality Gates automatic or manual?
+- **Change Management**: Have you identified your ambassadors? Were end users involved in defining the need?
+
+If you answer no to more than half of these — your project isn't behind on code. It's behind on organization.
+
+---
+
+*Oumar Fodé KEBE — Mathematical Data Engineer, Senior Data Product Manager.*  
+*[oufoke.github.io/en/](https://oufoke.github.io/en/)*
+
+--- ./content/en/projects/index.md ---
+---
+title: "Mes Projets Data"
+description: "Projets personnels et analyses techniques."
+date: 2024-01-04
+draft: false
+weight: 40
+---
+Ajoutez ici vos projets GitHub, analyses Python ou tableaux de bord.
+
+--- ./content/en/skills/index.md ---
+---
+title: "Compétences"
+weight: 20
+...
+---
+--- ./content/fr/about/index.md ---
+---
+section:
+  name: "À propos"
+  id: "about"
+  enable: true
+  weight: 10
+  showOnNavbar: true
+---
+EOF
+--- ./content/fr/accomplishments/index.md ---
+---
+section:
+  name: "Accomplissements"
+  id: "accomplishments"
+  enable: true
+  weight: 60
+  showOnNavbar: false
+---
+
+--- ./content/fr/education/index.md ---
+---
+section:
+  name: "Formation"
+  id: "education"
+  enable: true
+  weight: 50
+  showOnNavbar: true
+---
+
+--- ./content/fr/experience/index.md ---
+---
+section:
+  name: "Expériences"
+  id: "experiences"
+  enable: true
+  weight: 30
+  showOnNavbar: true
+---
+
+--- ./content/fr/_index.md ---
+---
+title: "Mon Portfolio"
+---
+
+--- ./content/fr/posts/_index.md ---
+---
+title: "Articles"
+type: posts
+---
+
+--- ./content/fr/posts/pourquoi-vos-projets-data-ratent-mise-en-prod.md ---
+---
+title: "Pourquoi vos projets data ratent leur mise en production"
+date: 2026-05-15
+type: posts
+draft: false
+language: fr
+hero: "images/sections/posts/Article_projets.png"
+tags: ["DataOps", "Gouvernance", "Data Product Management", "Conduite du changement"]
+categories: ["Thought Leadership"]
+summary: "Ce n'est presque jamais le code le problème. C'est l'organisation autour du code."
+---
+
+J'ai travaillé sur un projet data qui avait tout pour réussir.
+
+Un budget. Une équipe motivée. Une DSI impliquée. Des données disponibles. Un besoin métier réel.
+
+Et pourtant, les livrables n'arrivaient pas conformes aux attentes du contrat d'interface entre la DSI et le métier. Les tensions montaient. Quelqu'un finissait toujours par porter le chapeau.
+
+C'est un pattern que j'ai vu confirmé, de par des témoignages d'experts lors de webinaires et conférences, dans des configurations différentes, dans des organisations différentes. Et après plusieurs années à travailler au cœur de projets data complexes, j'ai compris pourquoi.
+
+**Ce n'est presque jamais le code, ni les programmes le problème. C'est l'organisation autour du code.**
+
+---
+
+## Le projet parfait sur le papier
+
+L'équipe était constituée d'un chef de projet, d'un manager, d'un alternant, et de quelques profils techniques. Les compétences individuelles étaient là. La bonne volonté aussi.
+
+Mais personne dans cette équipe n'avait de formation solide en **DataOps**. Personne ne savait vraiment faire du **product management appliqué à la data**. La **gouvernance qualité des données** était traitée comme un problème de la DSI, pas de l'équipe projet. Et la **conduite du changement** ? On verrait à la livraison.
+
+Résultat : les livrables pouvaient être techniquement corrects mais inutilisables en production. Les indicateurs pouvaient changer de définition entre deux sprints sans que personne ne le documente. La DSI recevait des données difficiles à industrialiser. Les équipes métier questionnaient les délais, la DSI questionnait la qualité des spécifications — une méfiance mutuelle s'installait, sans que personne n'en soit responsable individuellement.
+
+Et quand la pression montait, il fallait un responsable.
+
+---
+
+## Les 4 compétences que personne n'a pensé à inclure
+
+### 1. DataOps — la mise en production n'est pas la fin, c'est le début
+
+Dans beaucoup d'équipes data, la mise en production est traitée comme une ligne d'arrivée. On livre, on passe à autre chose.
+
+En réalité, c'est le moment où tout commence. Un pipeline data en production doit être **observable, maintenable, reproductible**. Il doit survivre à l'absence de son créateur. Il doit pouvoir être modifié sans tout casser.
+
+Sans quelqu'un qui maîtrise les pratiques DataOps — versionnement, CI/CD, environnements séparés, tests automatisés — chaque mise à jour devient une opération à risque. Et chaque incident devient une crise.
+
+**Ce que ça aurait changé :** un environnement de test séparé de la production, des pipelines versionnés, des Quality Gates bloquantes avant chaque déploiement. Zéro livraison sans validation automatique.
+
+### 2. Data Product Management — savoir ce qu'on construit avant de le construire
+
+Un projet data sans product manager data, c'est une équipe qui construit ce que les développeurs comprennent du besoin métier — pas ce dont le métier a réellement besoin.
+
+Le Data PM n'est pas un chef de projet avec un tableur. C'est quelqu'un qui sait traduire un besoin business en spécification technique, définir des métriques de succès **avant** la livraison, prioriser un backlog par impact réel, et distinguer ce qui doit être livré vite de ce qui doit être fait bien.
+
+Sans cette compétence, les équipes livrent des fonctionnalités que personne n'utilise. Elles passent des mois sur des tableaux de bord que les décideurs ne regardent pas.
+
+**Ce que ça aurait changé :** une phase de discovery avec les vrais utilisateurs, un backlog priorisé par données d'usage, des métriques définies avant chaque sprint — pas après.
+
+### 3. Gouvernance & qualité des données — le problème invisible jusqu'au jour où il explose
+
+La qualité des données est le sujet dont personne ne parle jusqu'à ce qu'un chiffre faux arrive en comité de direction — ou pire, dans une publication publique.
+
+Dans les configurations les plus courantes, chaque équipe a sa propre définition des indicateurs. Les sources de données changent sans que les consommateurs en soient informés. Les anomalies s'accumulent silencieusement jusqu'à ce qu'un utilisateur final les détecte — trop tard, trop visiblement.
+
+Des études sectorielles sur la gouvernance des données montrent que le même indicateur peut avoir jusqu'à trois définitions différentes selon l'équipe interrogée. Pas par mauvaise volonté. Par absence de processus formalisé.
+
+**Ce que ça aurait changé :** un dictionnaire de données maintenu, des Quality Gates automatiques bloquant toute livraison avec des anomalies détectées, un responsable de la donnée identifié pour chaque indicateur critique.
+
+### 4. Conduite du changement — les utilisateurs ne s'adaptent pas spontanément
+
+C'est la compétence la plus sous-estimée de toutes.
+
+Un outil data peut être techniquement parfait et être un échec complet si les utilisateurs ne comprennent pas pourquoi il remplace leur ancien process, comment il fonctionne, et ce qu'ils y gagnent.
+
+La résistance au changement dans les projets data n'est pas de la mauvaise volonté. C'est une réponse normale à un outil qu'on vous impose sans vous expliquer ni vous impliquer.
+
+**Ce que ça aurait changé :** identifier les ambassadeurs avant la livraison, organiser des sessions de test avec les vrais utilisateurs, documenter les cas d'usage concrets, prévoir une phase de transition — pas un basculement brutal.
+
+---
+
+## Ce que j'ai mis en place ensuite
+
+Après m'être formé sur ces sujets, j'ai appliqué une approche différente sur les projets suivants.
+
+**Docs-as-Code** : toute la documentation des règles de gestion métier versionnée comme du code, dans un dépôt partagé, avec un historique de modifications traçable. Plus de règles qui changent sans laisser de trace.
+
+**Quality Gates automatiques** : aucune donnée ne passe en production sans validation automatique des seuils de qualité définis en amont avec les équipes métier. Si un indicateur sort de sa plage normale, le pipeline s'arrête et alerte.
+
+**MVP itératif** : on ne livre pas tout en une fois. On identifie les 20% de fonctionnalités qui couvrent 80% des besoins, on les livre, on mesure, on ajuste. Chaque sprint délivre quelque chose d'utilisable — pas une promesse de livraison future.
+
+**Ambassadeurs identifiés** : avant même la première livraison, on identifie les utilisateurs les plus actifs et les plus influents. Ils testent en avant-première. Ils remontent les problèmes. Ils deviennent les relais internes.
+
+Les problèmes de livraison se sont espacés. Pas parce que le code était meilleur. Parce que l'organisation autour du code avait changé.
+
+---
+
+## La checklist avant votre prochaine mise en production
+
+Avant de démarrer votre prochain projet data, posez-vous ces questions :
+
+- **DataOps** : Avez-vous un environnement de test séparé de la production ? Vos pipelines sont-ils versionnés ? Avez-vous des tests automatisés ?
+- **Data PM** : Avez-vous défini les métriques de succès avant de commencer à coder ? Savez-vous qui sont vos utilisateurs prioritaires ?
+- **Gouvernance** : Avez-vous un dictionnaire de données ? Qui est responsable de chaque indicateur critique ? Vos Quality Gates sont-elles automatiques ou manuelles ?
+- **Conduite du changement** : Avez-vous identifié vos ambassadeurs ? Les utilisateurs finaux ont-ils été impliqués dans la définition du besoin ?
+
+Si vous répondez non à plus de la moitié de ces questions, votre projet n'est pas en retard sur le code. Il est en retard sur l'organisation.
+
+---
+
+*Oumar Fodé KEBE — Mathématicien-Ingénieur Data, Senior Data Product Manager.*  
+*[oufoke.github.io](https://oufoke.github.io)*
+--- ./content/fr/posts/pourquoi-vos-tableaux-de-bord-bi-ne-servent-a-rien.md ---
+---
+title: "Pourquoi vos tableaux de bord BI ne servent à rien — et comment en sortir"
+date: 2026-05-15
+type: posts
+draft: false
+language: fr
+hero: "images/sections/posts/Articles_BI.jpeg"
+tags: ["Business Intelligence", "DataOps", "Data Product Management", "Digdash", "Power BI"]
+categories: ["Thought Leadership"]
+summary: "3 318 consultations analysées, 279 rapports inventoriés, 126 utilisateurs actifs. Le verdict : 10 pages concentraient 76,7% du trafic. Les autres existaient pour rien."
+---
+
+Un tableau de bord BI, ça coûte cher à construire.
+
+Des semaines de développement. Des réunions de cadrage. Des allers-retours avec la DSI. Des formations utilisateurs. Un déploiement.
+
+Et pourtant, dans la plupart des environnements que j'ai pu analyser, la majorité des rapports ne sont consultés que par leurs créateurs — le jour de la démonstration.
+
+Ce n'est pas un problème de technologie. Ce n'est pas un problème d'utilisateurs. C'est un problème de méthode.
+
+---
+
+## Le diagnostic par les données
+
+Dans le cadre d'une mission de restructuration d'un tableau de bord BI utilisé par une direction nationale — 126 utilisateurs actifs, des dizaines de rapports accumulés depuis des années — ma première action n'a pas été d'ouvrir l'outil de développement.
+
+J'ai analysé les logs d'usage.
+
+**3 318 consultations sur 4 mois. 60 pages disponibles.**
+
+Le résultat était sans appel : **10 pages concentraient 76,7% de tout le trafic**. Le reste — soit les trois quarts du catalogue — générait moins de 3 clics sur 4 mois.
+
+Des pages entières, développées et maintenues, que personne ne regardait.
+
+Ce n'est pas une anomalie. C'est un pattern récurrent dans les environnements BI complexes. On construit pour couvrir tous les cas d'usage théoriques. On finit avec un catalogue que personne ne navigue.
+
+---
+
+## Pourquoi ça arrive
+
+### On construit par l'offre, pas par la demande
+
+La logique habituelle : on liste les données disponibles, on crée des rapports qui les exposent, on livre aux utilisateurs.
+
+La bonne logique : on identifie les décisions que les utilisateurs doivent prendre, on remonte aux données qui les éclairent, on construit les vues qui facilitent ces décisions.
+
+Ce n'est pas une nuance. C'est un renversement complet de la démarche.
+
+Quand on construit par l'offre, on livre des rapports exhaustifs que personne ne sait utiliser. Quand on construit par la demande, on livre des outils de décision que les gens ouvrent tous les matins.
+
+### On ne sépare pas le pilotage opérationnel du pilotage stratégique
+
+Un opérateur qui suit ses indicateurs quotidiens n'a pas besoin du même tableau de bord qu'un directeur qui prend des décisions budgétaires à 6 mois.
+
+Pourtant, beaucoup d'environnements BI mélangent les deux. Le résultat : une interface surchargée, optimisée pour personne.
+
+La règle simple : **un tableau de bord = une audience = une décision type**.
+
+### On ne mesure pas l'usage
+
+Si vous ne savez pas combien de fois chaque rapport est consulté, par qui, et à quelle fréquence — vous pilotez votre BI à l'aveugle.
+
+Vous continuez à maintenir des rapports inutilisés. Vous ne savez pas quelles vues sont critiques et lesquelles peuvent être archivées. Vous ne pouvez pas prioriser vos évolutions par impact réel.
+
+L'analyse d'usage n'est pas un luxe. C'est le socle de toute démarche product management appliquée à la BI.
+
+---
+
+## Ce que j'ai fait concrètement
+
+### Étape 1 : l'audit par les données
+
+Avant de toucher quoi que ce soit, j'ai extrait et analysé 4 mois de logs d'usage. Identification du Top 10 (pages critiques à optimiser en priorité), du Flop 10 (pages à archiver), et des patterns d'usage par profil utilisateur.
+
+Ce travail a pris 2 jours. Il a orienté 3 mois de développement.
+
+### Étape 2 : la restructuration par usage réel
+
+À partir des données d'usage, j'ai réorganisé le catalogue en 4 pôles thématiques correspondant aux 4 grandes décisions que les utilisateurs devaient prendre — pas aux 4 grandes catégories de données disponibles.
+
+Chaque pôle a un propriétaire métier identifié. Chaque rapport a une définition d'usage claire : qui l'utilise, à quelle fréquence, pour prendre quelle décision.
+
+### Étape 3 : séparer l'opérationnel du stratégique
+
+J'ai conçu un module distinct dédié au pilotage stratégique — avec 5 indicateurs C-Level uniquement, comparant les objectifs pluriannuels aux réalisations. Rien d'autre. Pas de drill-down. Pas de détail opérationnel.
+
+Les décideurs ont un outil qui répond à leur question en 30 secondes. Les opérationnels ont leurs tableaux de bord détaillés. Les deux coexistent sans se polluer.
+
+### Étape 4 : les ambassadeurs comme levier d'adoption
+
+Parmi les 126 utilisateurs actifs, j'ai identifié les 10 plus assidus — ceux qui consultaient le BI plusieurs fois par semaine. Je les ai impliqués en avant-première sur la nouvelle version.
+
+Ils ont remonté les problèmes avant le déploiement général. Ils sont devenus les relais internes qui ont expliqué la nouvelle organisation à leurs collègues. L'adoption a été immédiate.
+
+---
+
+## La question à se poser avant votre prochaine refonte BI
+
+Avant d'ajouter un nouveau rapport, avant de refondre votre interface, avant de migrer vers un nouvel outil — posez-vous une question :
+
+**Savez-vous quels rapports vos utilisateurs ont ouverts la semaine dernière ?**
+
+Si vous ne le savez pas, vous ne savez pas ce que vous construisez vraiment. Vous construisez pour vous — pas pour eux.
+
+L'analyse d'usage est la première étape. Tout le reste en découle.
+
+---
+
+*Oumar Fodé KEBE — Mathématicien-Ingénieur Data, Senior Data Product Manager.*  
+*[oufoke.github.io](https://oufoke.github.io)*
+--- ./content/fr/projects/index.md ---
+---
+section:
+  name: "Projets"
+  id: "projects"
+  enable: true
+  weight: 40
+  showOnNavbar: true
+---
+
+--- ./content/fr/skills/index.md ---
+---
+section:
+  name: "Compétences"
+  id: "skills"
+  enable: true
+  weight: 20
+  showOnNavbar: true
+---
+
+=============================
+RÉSUMÉ
+=============================
+Fichiers indexés :
+./archetypes/default.md
+./config.toml
+./content/en/about/index.md
+./content/en/accomplishments/index.md
+./content/en/education/index.md
+./content/en/experience/index.md
+./content/en/_index.md
+./content/en/posts/_index.md
+./content/en/posts/why-your-bi-dashboards-are-useless.md
+./content/en/posts/why-your-data-projects-fail-at-production.md
+./content/en/projects/index.md
+./content/en/skills/index.md
+./content/fr/about/index.md
+./content/fr/accomplishments/index.md
+./content/fr/education/index.md
+./content/fr/experience/index.md
+./content/fr/_index.md
+./content/fr/posts/_index.md
+./content/fr/posts/pourquoi-vos-projets-data-ratent-mise-en-prod.md
+./content/fr/posts/pourquoi-vos-tableaux-de-bord-bi-ne-servent-a-rien.md
+./content/fr/projects/index.md
+./content/fr/skills/index.md
+./data/en/author.yaml
+./data/en/sections/about.yaml
+./data/en/sections/accomplishments.yaml
+./data/en/sections/achievements.yaml
+./data/en/sections/education.yaml
+./data/en/sections/experiences.yaml
+./data/en/sections/featured-posts.yaml
+./data/en/sections/projects.yaml
+./data/en/sections/publications.yaml
+./data/en/sections/recent-posts.yaml
+./data/en/sections/skills.yaml
+./data/en/site.yaml
+./data/fr/author.yaml
+./data/fr/sections/about.yaml
+./data/fr/sections/accomplishments.yaml
+./data/fr/sections/achievements.yaml
+./data/fr/sections/education.yaml
+./data/fr/sections/experiences.yaml
+./data/fr/sections/projects.yaml
+./data/fr/sections/recent-posts.yaml
+./data/fr/sections/skills.yaml
+./data/fr/site.yaml
+./.github/dependabot.yml
+./.github/.kodiak.toml
+./.github/workflows/gh-pages.yml
+./.github/workflows/merge-to-main.yml
+./.github/workflows/pull-request.yml
+./.gitlab-ci.yml
+./hugo.yaml
+./mise.toml
+./netlify.toml
+./README.md
