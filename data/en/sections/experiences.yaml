@@ -1,5 +1,5 @@
 section:
-  name: Experiences
+  name: Experience
   id: experiences
   enable: true
   weight: 90
@@ -7,34 +7,34 @@ section:
 
 experiences:
 - company:
-    name: France Travail (Headquarters)
+    name: France Travail (HQ)
     url: "https://www.francetravail.fr"
     location: Paris, France
     logo: /images/sections/experiences/logo-ft.svg
-    overview: "Statistical Engineer turned Data PM — I industrialize national-scale data systems and ship actionable AI products, from governance infrastructure to C-Level decision tools."
+    overview: "6 years transforming complex data systems into reliable decision-making products — from institutional data governance to applied AI. Expert at delivering in constrained environments: national information systems, sensitive data, IT/Business interface."
 
   positions:
 
-  - designation: Senior Data Product Manager — Real Estate Data & BI Transformation
+  - designation: Senior Data Product Manager — National Real Estate Analytics
     start: May 2026
     end: July 2026
     responsibilities:
-    - "**OptIMMO · SPSI Strategic Control Tower:** Product Owner of the Digdash real estate BI dashboard (126 active users · 3,318 monthly sessions · 279 reports · 42 data sources). Full restructuring into 4 thematic clusters + design of a C-Level SPSI steering module comparing strategic targets vs. RE-FX actuals (5 KPIs: budget/rent variance, milestones, m² SDP/SUB, NCV) for the DICN division overseeing 1,000+ national sites."
-    - "**SAP → Digdash Pipeline Automation:** VBA development of a centralized Excel Master workbook consolidating 16 monthly SAP RE-FX exports (3 procedural macros). Eliminated 4h/month of manual processing. 6-step local validation methodology ensuring zero risk on SharePoint production files."
-    - "**Data Lake Architecture:** Authored the complete IT requirements document (15 requirements EX-01→EX-15) for the SAP → Data Lake → Digdash migration. Target architecture: 16 DIC_* tables, 5 computed SQL views, native Digdash SQL connector. 5-phase migration roadmap delivered to IT teams."
+    - "**National Real Estate Dashboard (France Travail) :** Full audit of the existing dashboard (quantitative traffic analysis: 3,318 views · 126 users · 279 reports) and gap assessment against management decision needs. Defined the target data production process and new BI architecture — 101 indicators across 4 dimensions (floor space, budget, SPSI, leases) covering 1,000+ national sites and 20 Regional Directorates."
+    - "**Digdash Dashboard & Strategic Tracking :** Delivered the Digdash dashboard with a strategic SPSI vs. actual RE-FX tracking module (projection/actual gaps across dimensions defined by management). Interactive France map and arbitration cockpit by domain."
+    - "**Automation & Target Architecture :** Authored the DSI technical requirements document for SAP → Digdash automation (15 functional requirements, 5-phase migration plan). Deployed an interim Excel pipeline — **3 days of monthly manual processing eliminated** pending DSI implementation of the target process."
 
-  - designation: Senior Data Product Manager (Governance & Ops)
+  - designation: Senior Data Product Manager — Governance & DataOps
     start: May 2025
     end: April 2026
     responsibilities:
-    - "**QualiStat · DataTrust Audit System:** Designed and deployed a governance product (Power BI / Advanced DAX) enforcing strict Quality Gates across the entire public KPI production cycle. Result: zero defects in production over 12 consecutive months, 100% of deliveries validated before national exposure (INSEE, DARES, datemploi portal)."
-    - "**Enterprise Knowledge Framework:** Deployed a DataOps foundation (Docusaurus · Docs-as-Code) in a highly secure IT environment. Centralized business rules as a single source of truth — measurably reducing time-to-market on system evolutions and eliminating version conflicts between MOA business teams and IT engineering."
-    - "**Cross-functional Product Leadership:** Strategic alignment across 3 simultaneous data products between the Statistics Directorate and IT Engineering. Upskilled 10+ business analysts on agile workflows (sprints, backlog prioritization, success metrics defined before delivery)."
+    - "**QualiStat · DataTrust :** Designed and deployed an automated data governance system (Power BI / DAX) enforcing strict Quality Gates across the full production cycle of national public indicators (INSEE, DARES, datemploi). All deliveries validated before national exposure."
+    - "**Enterprise Knowledge Framework :** Deployed a DataOps foundation (Docusaurus · Docs-as-Code) in a secured IT environment — single source of truth, eliminated version conflicts between business and tech teams. Measurable reduction in time-to-market for IS evolutions."
+    - "**Cross-functional Product Leadership :** Strategic alignment between the Statistics Department and DGA Tech across 3 simultaneous products. Coached 10+ business analysts on agile workflows (sprints, backlog, success metrics defined before delivery)."
 
   - designation: Data Product Manager / Data Manager
     start: February 2020
     end: April 2025
     responsibilities:
-    - "**National Production Steering (Data Emploi):** Orchestrated and managed the production schedule for national labor market KPIs published on the datemploi portal — covering the entire French territory, monthly release cycles under strict institutional deadlines set by state partners."
-    - "**Industrialization & Institutional Partnerships:** Designed and implemented complex SQL/SAS programs industrialized by IT for strategic state partners (INSEE, DARES, Ministry of Labor). Secured large-scale extractions on the National Claimant File (FNA) — scope: several million records, zero-delay contractual deliveries."
-    - "**Performance & Technical Mediation:** Optimized complex SAS/SQL pipelines reducing processing time on the FNA. Systematically translated business requirements into technical specifications (functional specs, acceptance testing), ensuring high ROI on IT developments. Single point of contact between statistical teams and engineering for 5 years."
+    - "**National Production Management (Data Emploi) :** Strategic ownership of the national labour market indicator lifecycle published on datemploi.francetravail.fr — coordination with institutional partners (INSEE, DARES, URSSAF, Ministry of Labour), planning arbitration and roadmap prioritisation."
+    - "**Industrialisation & Institutional Partnerships :** Designed complex extraction programmes (SQL, SAS) industrialised by the IT department for strategic State partners. Secured large-scale data flows on the National Beneficiary File (FNA)."
+    - "**IT/Business Interface :** Translated business needs into architecture decisions and technical trade-offs — from functional specification through to production sign-off. Single interface between statistics teams and IT over 5 years."
