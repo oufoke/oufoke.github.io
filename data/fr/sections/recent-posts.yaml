@@ -2,6 +2,6 @@ section:
   name: "Articles Récents"
   id: "recent-posts"
   enable: true
-  weight: 5
+  weight: 10
   showOnNavbar: true
   template: sections/recent-posts.html
