@@ -3,7 +3,7 @@ section:
   name: Certifications & Réalisations
   id: accomplishments
   enable: true
-  weight: 70
+  weight: 40
   showOnNavbar: true
 
 # Your accomplishments

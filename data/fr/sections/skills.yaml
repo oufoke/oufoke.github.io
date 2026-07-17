@@ -2,7 +2,7 @@ section:
   name: "Expertises Stratégiques"
   id: "skills"
   enable: true
-  weight: 80
+  weight: 30
   showOnNavbar: true
 
 skills:

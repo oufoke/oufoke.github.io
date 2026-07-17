@@ -2,7 +2,7 @@ section:
   name: Réalisations & Mindset
   id: achievements
   enable: true
-  weight: 40
+  weight: 70
   showOnNavbar: true
 
 achievements:
