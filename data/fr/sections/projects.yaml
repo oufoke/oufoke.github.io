@@ -2,7 +2,7 @@ section:
   name: "Produits & Études de Cas"
   id: "projects"
   enable: true
-  weight: 50
+  weight: 60
   showOnNavbar: true
 
 buttons:

@@ -3,7 +3,7 @@ section:
   id: education
   template: sections/education.html
   enable: true
-  weight: 60
+  weight: 50
   showOnNavbar: true
 
 degrees:
