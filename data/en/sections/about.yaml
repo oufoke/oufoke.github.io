@@ -6,42 +6,44 @@ section:
   showOnNavbar: true
   template: "sections/about.html"
 
-designation: "Senior Data Product Manager | Applied AI & Data Governance"
+designation: "Senior Data Product Manager | AI & Data Governance"
 
 company:
-  name: "France Travail (HQ)"
+  name: "France Travail (Headquarters)"
   url: "https://www.francetravail.fr"
 
 resourceLinks:
-- title: "Download my CV (PDF)"
+- title: "Download my resume (PDF)"
   url: "files/Oumar_Fode_KEBE.pdf"
 
 summary: |
-  **Applied Mathematician turned Data Product Manager — I transform complex data systems into reliable decision-making products, from institutional governance to the last mile of executive decisions.**
+  **Mathematician and data engineer by training, I turn complex data systems into deployable decision products — from institutional governance all the way to the last decision-making mile.**
 
-  6 years leading strategic data at national scale (France Travail · INSEE · DARES · URSSAF),
-  6 MVPs shipped in production (NLP, RAG, Time Series, Lead Scoring),
-  one goal: every executive decision backed by trusted data and an actionable model.
+  6 years steering France Travail's strategic data at national scale — integrating INSEE and URSSAF reference data, and delivering our indicators to the French State's institutional partners (DARES, Ministry of Labour).
 
-  ### 🎯 What I deliver
+  6 products shipped: 2 public applications live online, 3 systems deployed in professional environments, 1 NLP engine validated on a real corpus.
 
-  * **Data Governance & DataOps :** Designed automated Quality Gate systems (QualiStat · Power BI/DAX) for national public indicator pipelines. Automated a SAP legacy pipeline — **3 days of monthly processing eliminated** (France Travail Real Estate Division). Authored full Data Lake technical requirements for national IS migration.
-  * **BI & Executive Dashboards :** Audited, redesigned and delivered Digdash/Power BI dashboards at national scale (126+ users · 1,000+ sites). Defined end-to-end target data production processes and decision architecture.
-  * **Applied AI (NLP / GenAI / Forecasting) :** Legal investigation reduced from 3 weeks to 4 hours (Juris Sensus AI · Zero-Shot NLP). CAPEX/OPEX forecasting on multi-site real estate portfolios (Time Series Prophet). RAG/LangChain architectures deployed on Streamlit.
+  One goal: that every leadership decision rests on trustworthy data and an actionable model.
+
+  ### 🎯 What I bring, concretely
+
+  * **Governance & DataOps:** Design of automated Quality Gate systems (QualiStat · Power BI/DAX) across national public indicator pipelines. At the Real Estate Division: a fully manual monthly production cycle — **3 days** spanning SAP extraction, cross-file re-keying, Digdash loading and controls. I shipped a master workbook removing the entire re-keying step (**half a day per month**, plus the data-entry error risk) and authored the IT requirements document — 15 requirements, a 5-phase migration — to automate the pipeline end to end.
+  * **BI & C-Level Steering:** Quantitative audit of the real estate reporting estate — 3,318 views, 126 users over one quarter. Finding: **23 pages carried 90% of all traffic**, the rest of the estate carried 10%. Restructured into 101 indicators across 4 dimensions, for the national real estate division (1,000+ sites, 20 Regional Directorates).
+  * **Applied AI (NLP / GenAI):** Juris Sensus AI — a Zero-Shot NLP pipeline processing **3,609 documents in under 4 hours**, running 100% locally on 16 GB (confidentiality constraint, zero API calls). RAG architectures deployed on Streamlit.
 
   ### 🏗️ Domains & Sectors
 
-  * **PropTech & Asset Management :** Modelling and operational tracking of national real estate portfolios (SPSI · RE-FX · French Tertiary Decree).
-  * **LegalTech & Compliance :** Forensic NLP engines for large-scale semantic audit (E-Discovery · AI Act · GDPR).
-  * **Labour Market & Public Policy :** Production and industrialisation of strategic indicators published at national level (datemploi · INSEE · DARES).
+  * **PropTech & Asset Management:** Decision steering for a national real estate portfolio (SPSI · SAP RE-FX · French Tertiary Decree) — 1,000+ sites, forecast-vs-actual arbitration module.
+  * **LegalTech & Compliance:** Forensic NLP engines for large-scale semantic audit (E-Discovery · EU AI Act · GDPR).
+  * **Employment & Public Policy:** Production and industrialisation of strategic indicators published nationally (datemploi), interfacing with INSEE, DARES and URSSAF.
 
   ### 🛠️ Stack
 
-  * **Product :** OKRs · PRD · MLOps Lifecycle · Backlog · Stakeholder Management
-  * **Data Science & AI :** Python · XGBoost · Prophet · NLP (mDeBERTa, RAG, Zero-Shot) · LangChain
-  * **Data Engineering :** SQL · SAS · VBA · SAP RE-FX · PySpark · API REST
-  * **BI & Viz :** Power BI · DAX · Digdash Studio · Streamlit
-  * **DevOps :** GitOps · CI/CD · Docs-as-Code · Docusaurus
+  * **Product:** OKRs · PRD · MLOps Lifecycle · Backlog · Stakeholder Management
+  * **Data Science & AI:** Python · XGBoost · Prophet · NLP (mDeBERTa, RAG, Zero-Shot) · LangChain
+  * **Data Engineering:** SQL · SAS · VBA · SAP RE-FX · PySpark · REST API
+  * **BI & Viz:** Power BI · Advanced DAX · Digdash Studio · Streamlit
+  * **DevOps:** GitOps · CI/CD · Docs-as-Code · Docusaurus
 
 socialLinks:
 - name: "Email"

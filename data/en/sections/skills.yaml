@@ -8,28 +8,28 @@ section:
 skills:
 - name: "Product Strategy & C-Level Steering"
   logo: "images/sections/skills/product.png"
-  summary: "Strategic alignment (IT/Business) and ROI-driven vision steering. OKR definition, complex PRD management, and translating business goals for engineering."
+  summary: "Strategic alignment between IT and business, steering the vision by decision value. OKR definition, complex PRD ownership, and translating business stakes for engineering."
 
 - name: "Governance & DataOps"
   logo: "images/sections/skills/governance.png"
-  summary: "Production industrialization (Docs-as-Code) and implementation of strict Quality Gates. Technical debt reduction on national-scale systems (SAP, Legacy)."
+  summary: "Industrialising production (Docs-as-Code) and standing up Quality Gates. Reducing technical and documentation debt across national information systems (SAP, legacy)."
 
-- name: "Forecasting & Applied AI (NLP/GenAI)"
+- name: "Applied AI (NLP / GenAI)"
   logo: "images/sections/skills/ai.png"
-  summary: "Deployment of predictive models (Time Series) and design of forensic NLP engines (LegalTech E-Discovery, RAG Architectures)."
+  summary: "Building forensic NLP engines with sovereign execution (LegalTech E-Discovery, Zero-Shot) and RAG architectures. Judging when embedding AI is actually worth it — and when it isn't."
 
 - name: "Data Science & Engineering (Python/ML)"
   logo: "images/sections/skills/python.png"
-  summary: "Technical expertise (Python, XGBoost, Prophet) to prototype and industrialize Lead Scoring and budget forecasting solutions (PropTech)."
+  summary: "Hands-on technical depth (Python, XGBoost, Prophet, SHAP) to prototype and validate scoring, forecasting and explainable AI solutions end to end."
 
 - name: "Institutional Data Architecture (SQL/SAS)"
   logo: "images/sections/skills/database.png"
-  summary: "Design and optimization of massive secure pipelines for IT industrialization and strategic state partners (INSEE, DARES)."
+  summary: "Designing and optimising secure large-scale pipelines for IT industrialisation and the French State's institutional partners (INSEE, DARES, URSSAF)."
 
 - name: "Business Intelligence & Data Viz"
   logo: "images/sections/skills/powerbi.png"
-  summary: "Design of decision-making architectures (Power BI, Advanced DAX, Streamlit) for executive strategic steering (C-Level) and operational tracking."
+  summary: "Auditing reporting estates and designing BI architectures (Power BI, advanced DAX, Digdash, Streamlit) for strategic steering and operational follow-up."
 
-- name: "Agile & MLOps Lifecycle"
+- name: "Agility & Production Lifecycle"
   logo: "images/sections/skills/agile.png"
-  summary: "Orchestration of production lifecycles (GitOps, CI/CD). Driving continuous improvement between business teams and IT engineering."
+  summary: "Orchestrating production cycles (GitOps, CI/CD). Driving continuous improvement between business analysis teams and the IT directorate."
